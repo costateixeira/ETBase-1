@@ -7,12 +7,9 @@
 ![QA hints](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2FWorldHealthOrganization.github.io%2Fsmart-ig-empty%2Fqa.json&query=%24.hints&logoColor=yellow&label=QA%20hints&color=yellow)
 <!--/badges-->
 
-# WHO SMART GUIDELINES - EMPTY IG
+# WHO SMART GUIDELINES - ET Base IG
 
-This is an empty framework, to be used to create SMART Implementation Guides.
-
-Please see these [instructions](https://smart.who.int/ig-starter-kit/ig_setup.html#github-setup)
-
+http://build.fhir.org/ig/costateixeira/ETBase
 
 ## Changes and feedback
 
