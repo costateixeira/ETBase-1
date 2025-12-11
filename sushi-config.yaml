@@ -17,7 +17,16 @@ publisher:
   url: http://moh.gov.et
   # email: test@example.org
 
+fhirVersion: 4.0.1
 dependencies:
+  # SMART Base dependency is required for DAK scripts
+  smart.who.int.base#1.0.0: {}
+  # Optional: add other dependencies as needed
+  hl7.fhir.r4.core#4.0.1: {}
+  hl7.terminology.r4#7.0.0: {}
+  hl7.fhir.uv.tools.r4#0.8.0: {}
+  hl7.fhir.uv.extensions.r4#5.2.0: {}
+FSHOnly: false
 
 meta:
   profile:
