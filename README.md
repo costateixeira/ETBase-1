@@ -9,7 +9,7 @@
 
 # WHO SMART GUIDELINES - ET Base IG
 
-#http://build.fhir.org/ig/costateixeira/ETBase
+<!--http://build.fhir.org/ig/costateixeira/ETBase -->
 
 CI Build: 
    * http://build.fhir.org/ig/MoH-Ethiopia/ETBase
