@@ -11,6 +11,10 @@
 
 http://build.fhir.org/ig/costateixeira/ETBase
 
+CI Build: 
+   * http://build.fhir.org/ig/MoH-Ethiopia/ETBase
+   * http://MoH-Ethiopia.github.io/ETBase
+
 ## Changes and feedback
 
 Feedback and issues about this empty framework can be submitted via the [issues](issues) page, and will be incorporated into subsequent releases.
