@@ -23,21 +23,23 @@ Description: "etc etc etc"
 * identifier ^slicing.description = "Slice based on identifier systems"
 
 * identifier contains nationalIdentifier 0..1
-
 * identifier[nationalIdentifier].system = "http://id.gov.et/nationalidentifier"
 
-
-
 * birthDate 0..1
-
 * birthDate.extension contains DoBEstimated named dobEstimated 0..1
-
 
 * gender 0..1 MS
 * gender from ETGenderVS (required)
 
+* telecom 0..* 
+* telecom.system = #phone
+* telecom.use = #mobile
+
 * maritalStatus 0..1
-* maritalStatus from http://hl7.org/fhir/ValueSet/marital-status (required)
 * maritalStatus from ETMaritalStatusVS (required)
-* educationLevel 0..1
-* educationLevel from ETLevelofEducationVS (required)
+
+* extension contains EducationStatusExtension named education 0..1
+* extension[education].valueCodeableConcept from EducationStatusVS (required)
+
+* extension contains Occupation named Occupation 0..1
+* extension[Occupation].valueCodeableConcept from OccupationVS (required)
