@@ -1,8 +1,8 @@
-id: fhir.et
-canonical: http://fhir.et/standards/fhir/base
+id: et.fhir.core
+canonical: http://fhir.et/core
 name: IGET
-title: Ethiopian HIV IG
-description: This is Ethiopian HIV SMART Guidelines Implementation Guides
+title: Ethiopia Base Implementation Guide
+description: Implementation Guide to be used as abase for Implementation Guides in Ethiopia
 status: draft # draft | active | retired | unknown
 experimental: false
 version: 0.1.0
@@ -13,8 +13,8 @@ releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | re
 license: CC-BY-SA-3.0-IGO # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: WHO
-  url: http://fhir.et
+  name: MOH Ethiopia
+  url: http://moh.gov.et
   # email: test@example.org
 
 dependencies:
@@ -44,7 +44,7 @@ dependencies:
 
 meta:
   profile:
-    - http://smart.who.int/base/StructureDefinition/SGImplementationGuide
+    - http://fhir.et/base/StructureDefinition/SGImplementationGuide
 
 pages:
   index.md:
