@@ -24,7 +24,7 @@ Description: "etc etc etc"
 * identifier[nationalIdentifier].system = "http://id.gov.et/nationalidentifier"
 
 * identifier contains mrn 0..1 
-* identifier[mrn].system = "http://moh.gov.et/emr/"
+* identifier[mrn].system = "http://moh.gov.et/emr"
 * identifier[mrn].value 1..1
 
 * birthDate 0..1
