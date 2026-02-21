@@ -1,5 +1,5 @@
-Extension: ReportingHierarchyExtension
-Id: reporting-hierarchy
+Extension: ReportingHierarchyIdExtension
+Id: reporting-hierarchy-id
 
 * ^context.type = #element
 * ^context.expression = "Location"
