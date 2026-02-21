@@ -1,18 +1,37 @@
 Extension: FacilityInformationExtension
 Id: facility-information
 Title: "Facility Information"
-Description: "General descriptive and classification information about the facility."
 
 * ^context.type = #element
 * ^context.expression = "Location"
 
 * extension contains
-    facilityType 0..1 and
-    ownership 0..1 and
-    level 0..1 and
-    catchmentPopulation 0..1
+    facilityOwnersName 0..1 MS and
+    closedDate 0..1 MS and
+    suspensionStartDate 0..1 MS and
+    suspensionEndDate 0..1 MS and
+    settlement 0..1 MS and
+    yearOpened 0..1 MS and
+    yearLastRenewed 0..1 MS and
+    ownership 0..1 MS and
+    catchmentPopulation 0..1 MS and
+    isPrimaryHealthCareUnit 0..1 MS
 
-* extension[facilityType].value[x] only CodeableConcept
+* extension[facilityOwnersName].value[x] only string
+
+* extension[closedDate].value[x] only date
+* extension[suspensionStartDate].value[x] only date
+* extension[suspensionEndDate].value[x] only date
+
+* extension[settlement].value[x] only CodeableConcept
+* extension[settlement].valueCodeableConcept from SettlementValueSet (required)
+
 * extension[ownership].value[x] only CodeableConcept
-* extension[level].value[x] only CodeableConcept
-* extension[catchmentPopulation].value[x] only positiveInt
+* extension[ownership].valueCodeableConcept from OwnershipValueSet (required)
+
+* extension[yearOpened].value[x] only date
+* extension[yearLastRenewed].value[x] only date
+
+* extension[catchmentPopulation].value[x] only integer
+
+* extension[isPrimaryHealthCareUnit].value[x] only boolean

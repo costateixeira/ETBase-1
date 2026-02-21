@@ -2,7 +2,7 @@ CodeSystem: EthiopianHealthcareServiceType
 Id: et-healthcare-service-type
 Title: "Ethiopian Healthcare Service Type"
 Description: "National classification of clinical, diagnostic, public health, emergency, and support services offered at health facilities in Ethiopia."
-* ^url = "http://moh.gov.et/fhir/CodeSystem/ethiopian-healthcare-service-type"
+* ^url = "https://mfrv2.moh.gov.et/ethiopian-healthcare-service-type"
 * ^status = #active
 * ^content = #complete
 * ^caseSensitive = false
