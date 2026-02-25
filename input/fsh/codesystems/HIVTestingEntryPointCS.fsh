@@ -5,8 +5,5 @@ Description: "Defines entry points for HIV Testing Services"
 
 * ^url = "http://moh.gov.et/fhir/CodeSystem/hiv-testing-entry-point"
 
-* #opd "Outpatient Department"
-* #ipd "Inpatient Department"
-* #tb-clinic "TB Clinic"
-* #anc "ANC Clinic"
-* #community "Community"
+* #Community-level-testing "Community-level testing"
+* #Facility-level-testing "Facility-level testing"

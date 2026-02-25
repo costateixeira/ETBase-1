@@ -6,4 +6,4 @@ Title: "Facility Entry Point"
 * ^context.expression = "Encounter"
 
 * value[x] only CodeableConcept
-* valueCodeableConcept from HIVTestingEntryPointVS (required)
+* valueCodeableConcept from facilityEntryPointVS (required)
