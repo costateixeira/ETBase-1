@@ -45,7 +45,7 @@ Description: "Physical service delivery locations registered in the Ethiopian MF
 * managingOrganization 1..1 MS
 * managingOrganization only Reference(EthiopianMfrOrganization)
 * partOf 0..1 MS
-* partOf ^type[0].profile = "http://hl7.org/fhir/StructureDefinition/Location"
+* partOf only Reference(Location)
 * telecom 0..*
 
 * physicalType 0..1
