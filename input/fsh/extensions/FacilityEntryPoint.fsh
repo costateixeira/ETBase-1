@@ -1,7 +1,7 @@
 Extension: FacilityEntryPoint
 Id: facility-entry-point
 Title: "Facility Entry Point"
-* ^url = "http://moh.gov.et/fhir/StructureDefinition/facility-entry-point"
+* ^url = "http://fhir.et/StructureDefinition/facility-entry-point"
 * ^context.type = #element
 * ^context.expression = "Encounter"
 

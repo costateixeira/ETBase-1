@@ -1,6 +1,6 @@
 CodeSystem: OrganizationAffiliationRoleCS
 Id: org-affiliation-role
-* ^url = "http://moh.gov.et/fhir/CodeSystem/org-affiliation-role"
+* ^url = "http://fhir.et/CodeSystem/org-affiliation-role"
 * ^status = #active
 
 * #self-reference "Self Reference"

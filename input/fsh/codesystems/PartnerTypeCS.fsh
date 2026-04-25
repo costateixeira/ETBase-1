@@ -2,7 +2,7 @@ CodeSystem: PartnerTypeCS
 Id: partner-type-cs
 Title: "Partner Type Code System"
 
-* ^url = "http://moh.gov.et/fhir/CodeSystem/partner-type"
+* ^url = "http://fhir.et/CodeSystem/partner-type"
 
 * #biological-child "Biological child"
 * #Siblings "Siblings"

@@ -3,7 +3,7 @@ Id: facility-entry-point-cs
 Title: "HIV Testing for facility entry point CodeSystem"
 Description: "Defines entry points for facility entry point"
 
-* ^url = "http://moh.gov.et/fhir/CodeSystem/facility-entry-point"
+* ^url = "http://fhir.et/CodeSystem/facility-entry-point"
 
 * #Provider-initiated-tested "Provider-initiated tested in a clinic or emergency facility"
 * #ANC-clinic "Antenatal care clinic"

@@ -1,5 +1,5 @@
 ValueSet: CommunicationTypeValueSet
 Id: communication-type-valueset
 Title: "Communication Type Value Set"
-* ^url = "http://moh.gov.et/fhir/ValueSet/communication-type"
+* ^url = "http://fhir.et/ValueSet/communication-type"
 * include codes from system CommunicationTypeCodeSystem
