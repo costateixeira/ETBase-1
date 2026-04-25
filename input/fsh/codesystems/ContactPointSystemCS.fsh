@@ -9,4 +9,4 @@ Id: prefered-contact-cs
 
 * #sms "SMS"
 * #phone "Phone"
-* #email "email"
+* #email "email" //Not in L2
