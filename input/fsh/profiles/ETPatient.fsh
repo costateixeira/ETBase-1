@@ -1,7 +1,7 @@
 Profile: ETPatient
 Parent: Patient
 Title: "Ethiopian patient profile"
-Description: "etc etc etc"
+Description: "This profile represents a standard Ethiopian patient, applicable across all use cases and health information systems."
 
 * name 0..1
   * given 0..1
