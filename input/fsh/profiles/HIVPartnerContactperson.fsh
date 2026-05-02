@@ -1,10 +1,12 @@
-Profile: HIVPartnerContact
+Profile: HIVPartnerContactperson
 Parent: RelatedPerson
 Id: hiv-partner-contact
 Title: "HIV Partner / Contact Person"
 Description: "Represents a partner or contact identified during HIV testing services"
 
 * patient 1..1 MS
+* patient only Reference(HIVPatient)
+
 * relationship 1..1 MS
 * relationship from PartnerContactTypeVS (required)
 
