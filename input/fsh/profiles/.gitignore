@@ -1,1 +1,31 @@
-# empty .gitignore just ensure the folder is tracked by Git. This can be removed once the folder contains other files.
+Profile: HIVTestingStrategyObservation
+Parent: Observation
+Id: hiv-testing-strategy
+Title: "HIV Testing Strategy Results"
+
+* status 1..1
+* status = #final
+
+* code 1..1
+* code.text = "HIV testing strategy results"
+
+* subject 1..1
+* subject only Reference(Patient)
+
+* component contains
+    assay1 0..1 and
+    assay2 0..1 and
+    assay3 0..1 and
+    assay1Repeat 0..1
+
+* component[assay1].value[x] only CodeableConcept
+* component[assay1].valueCodeableConcept from HIVAssayResultVS
+
+* component[assay2].value[x] only CodeableConcept
+* component[assay2].valueCodeableConcept from HIVAssayResultVS
+
+* component[assay3].value[x] only CodeableConcept
+* component[assay3].valueCodeableConcept from HIVAssayResultVS
+
+* component[assay1Repeat].value[x] only CodeableConcept
+* component[assay1Repeat].valueCodeableConcept from HIVAssayResultVS

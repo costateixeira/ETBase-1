@@ -15,7 +15,7 @@ Description: "HIV status of the client's partner"
 * effectiveDateTime 1..1 MS
 
 * value[x] only CodeableConcept
-* valueCodeableConcept from PartnerHIVStatusVS (required)
+* valueCodeableConcept from HIVStatusVS (required)
 
 * encounter 0..1 MS
 * encounter only Reference(Encounter)
