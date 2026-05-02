@@ -1,0 +1,7 @@
+CodeSystem: SyphilisTestResultCS
+Id: syphilis-test-result-cs
+Title: "Syphilis Test Result Codes"
+
+* #POSITIVE "Positive"
+* #NEGATIVE "Negative"
+* #INCONCLUSIVE "Inconclusive"
