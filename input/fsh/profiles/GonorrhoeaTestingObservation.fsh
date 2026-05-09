@@ -59,8 +59,5 @@ Description: "Captures gonorrhoea test date, specimen type, test result, treatme
 * component[testResult].valueCodeableConcept from GonorrhoeaTestResultVS (required)
 
 
-//# -----------------------------
-// Treatment Start Date
-// -----------------------------
 * component[treatmentStartDate].code.text = "Gonorrhoea treatment start date"
 * component[treatmentStartDate].valueDateTime 0..1
