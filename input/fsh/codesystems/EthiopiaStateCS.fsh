@@ -1,10 +1,10 @@
 CodeSystem: EthiopiaStateCS
-Id: Ethiopian-state
+Id: ethiopian-states
 
 * ^title = "Ethiopia State / Region CodeSystem"
 * ^description = "Administrative states and city administrations of Ethiopia"
 * ^status = #active
-* ^url = "http://fhir.et/CodeSystem/ethiopian-states"
+* ^url = "http://fhir.et/core/CodeSystem/ethiopian-states"
 * ^content = #complete
 
 * #OR "Oromia"
