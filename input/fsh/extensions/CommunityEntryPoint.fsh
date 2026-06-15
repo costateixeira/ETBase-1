@@ -6,4 +6,4 @@ Title: "Community Entry Point"
 * ^context.expression = "Encounter"
 
 * value[x] only CodeableConcept
-* valueCodeableConcept from communityEntryPointVS (required)
+* valueCodeableConcept from CommunityEntryPointValueSet (required)

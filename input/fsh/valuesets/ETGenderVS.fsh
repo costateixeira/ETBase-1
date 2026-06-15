@@ -1,6 +1,6 @@
 ValueSet: ETGenderVS
-Id: et-gender-vs
-Title: "Ethiopia Gender ValueSet"
-Description: "A ValueSet containing only male and female genders"
-
-* include codes from system http://hl7.org/fhir/administrative-gender where code in ("#male","#female")
+Id: gender-vs
+Title: "Ethiopian Patient Gender values"
+Description: "Patient Gender...."
+* http://hl7.org/fhir/administrative-gender#male  "Male"
+* http://hl7.org/fhir/administrative-gender#female  "Female"

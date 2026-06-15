@@ -6,4 +6,4 @@ Title: "Facility Entry Point"
 * ^context.expression = "Encounter"
 
 * value[x] only CodeableConcept
-* valueCodeableConcept from facilityEntryPointVS (required)
+* valueCodeableConcept from http://fhir.et/ValueSet/facility-entry-point-vs (required)
