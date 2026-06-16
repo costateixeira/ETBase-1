@@ -2,6 +2,7 @@ CodeSystem: HIVAdherenceCS
 Id: hiv-adherence-cs
 Title: "HIV ART Adherence Code System"
 Description: "Codes representing the client's adherence to ART treatment"
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 

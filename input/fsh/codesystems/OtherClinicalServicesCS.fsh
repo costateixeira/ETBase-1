@@ -3,6 +3,7 @@ Id: other-clinical-services-cs
 Title: "Other Clinical Services Offered"
 Description: "Other clinical services offered to the client"
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 

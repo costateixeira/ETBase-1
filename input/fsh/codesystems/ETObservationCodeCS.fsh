@@ -3,6 +3,7 @@ Id: et-observation-code-cs
 Title: "Ethiopia Observation Code CodeSystem"
 Description: "Interim local Observation.code concepts for Ethiopia-specific observations that currently lack a correct or tx-resolvable LOINC code. These SHOULD be mapped to proper LOINC codes when available (see REMEDIATION-REPORT.md)."
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 

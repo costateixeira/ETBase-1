@@ -3,6 +3,7 @@ Id: hiv-condition-cs
 Title: "HIV Condition Code System"
 Description: "Clinical HIV-related conditions and diagnoses"
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 

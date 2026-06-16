@@ -1,6 +1,7 @@
 CodeSystem: ContactPointSystemCS
 Id: prefered-contact-cs
 
+* insert CSMeta
 * ^title = "Prefered contact CodeSystem"
 * ^description = "CodeSystem representing the Prefered Contact"
 * ^status = #active

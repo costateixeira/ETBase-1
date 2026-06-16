@@ -1,6 +1,7 @@
 CodeSystem: EthiopiaStateCS
 Id: ethiopian-states
 
+* insert CSMeta
 * ^title = "Ethiopia State / Region CodeSystem"
 * ^description = "Administrative states and city administrations of Ethiopia"
 * ^status = #active

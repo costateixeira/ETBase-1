@@ -3,6 +3,7 @@ Id: observation-component-specify-cs
 Title: "Observation Component Specify CodeSystem"
 Description: "Codes identifying free-text 'specify' Observation.component slices (e.g. other / point-of-care test type), used as the slice discriminator value."
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 

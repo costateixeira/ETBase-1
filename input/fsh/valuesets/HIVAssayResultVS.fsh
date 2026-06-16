@@ -3,5 +3,6 @@ Id: hiv-assay-result-vs
 Title: "HIV Assay Result"
 Description: "Allowed HIV assay results"
 
+* insert VSMeta
 * ^status = #active
 * include codes from system HIVAssayResultCS

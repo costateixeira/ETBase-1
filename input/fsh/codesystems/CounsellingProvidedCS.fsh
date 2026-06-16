@@ -3,6 +3,7 @@ Id: counselling-provided-cs
 Title: "Counselling Provided"
 Description: "Types of counselling provided to client"
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 
