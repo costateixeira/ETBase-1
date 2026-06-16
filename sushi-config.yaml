@@ -1,6 +1,6 @@
 id: et.fhir.core
 canonical: http://fhir.et/core
-name: IGET
+name: ETBase
 title: Ethiopia Base Implementation Guide
 description: Implementation Guide to be used as abase for Implementation Guides in Ethiopia
 status: active # draft | active | retired | unknown

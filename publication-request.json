@@ -1,7 +1,7 @@
 {
   "package-id": "et.fhir.core",
   "version": "0.9.0",
-  "path": "http://moh.gov.et/standards/fhir/base/0.9.0",
+  "path": "http://fhir.et/gov/core/0.9.0",
   "milestone": true,
   "status": "qa-preview",
   "sequence": "Releases",
