@@ -1,0 +1,15 @@
+{
+  "package-id": "et.fhir.core",
+  "version": "0.9.0",
+  "path": "http://moh.gov.et/standards/fhir/base/0.9.0",
+  "milestone": true,
+  "status": "qa-preview",
+  "sequence": "Releases",
+  "first": true,
+  "title": "Ethiopia Base Implementation Guide",
+  "ci-build": "https://moh-ethiopia.github.io/ETBase/",
+  "category": "National Base",
+  "introduction": "Implementation Guide to be used as a base for Implementation Guides in Ethiopia.",
+  "desc": "First milestone release (0.9.0) of the Ethiopia Base Implementation Guide.",
+  "descmd": "First milestone release (0.9.0) of the Ethiopia Base Implementation Guide."
+}
