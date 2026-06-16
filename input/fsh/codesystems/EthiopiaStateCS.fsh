@@ -6,6 +6,8 @@ Id: ethiopian-states
 * ^status = #active
 // * ^url = "http://fhir.et/core/CodeSystem/ethiopian-states"
 * ^content = #complete
+* ^experimental = false
+* ^caseSensitive = true
 
 * #OR "Oromia"
 * #AM "Amhara"

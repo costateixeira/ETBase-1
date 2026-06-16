@@ -6,6 +6,8 @@ Id: education-status-cs
 * ^status = #active
 // * ^url = "http://fhir.et/core/CodeSystem/education-status"
 * ^content = #complete
+* ^experimental = false
+* ^caseSensitive = true
 
 * #noedun "No formal education"
 * #canReadWrite "Can read and write"

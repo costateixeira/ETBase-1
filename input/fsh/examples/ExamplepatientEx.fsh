@@ -51,11 +51,11 @@ Description: "Example instance conforming to the Ethiopian Patient profile"
 // Education (Extension)
 // ----------------------------
 
-* extension[EducationStatusExtension].valueCodeableConcept = http://fhir.et/CodeSystem/education-status#secondary "Secondary school"
+* extension[EducationStatusExtension].valueCodeableConcept = http://fhir.et/core/CodeSystem/education-status-cs#secondary "Secondary school"
 // ----------------------------
 // Occupation (Extension)
 // ----------------------------
-* extension[Occupation].valueCodeableConcept = http://fhir.et/CodeSystem/occupation#emp "Employeed"
+* extension[Occupation].valueCodeableConcept = http://fhir.et/core/CodeSystem/occupation#emp "Employed"
 
 // ----------------------------
 // Telecom

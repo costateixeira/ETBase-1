@@ -20,16 +20,17 @@ Description: "This profile represents a standard Ethiopian patient, applicable a
 * identifier ^slicing.ordered = false
 * identifier ^slicing.description = "Slice based on identifier systems"
 
-* identifier contains nationalIdentifier 0..1 
+* identifier contains nationalIdentifier 0..1 and 
+    mrn 0..1 and
+    healthID 0..1 
 * identifier[nationalIdentifier].system = "http://id.gov.et/nationalidentifier"
+* identifier[nationalIdentifier].value 1..1
 
-* identifier contains mrn 0..1 
 * identifier[mrn].system = "http://moh.gov.et/emr"
 * identifier[mrn].value 1..1
 
-* identifier contains healthID 0..1 
-* identifier[mrn].system = "http://moh.gov.et/emr"
-* identifier[mrn].value 1..1
+* identifier[healthID].system = "http://moh.gov.et/healthid"
+* identifier[healthID].value 1..1
 
 * birthDate 0..1
 * birthDate.extension contains DoBEstimated named dobEstimated 0..1

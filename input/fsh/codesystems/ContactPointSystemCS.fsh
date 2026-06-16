@@ -6,6 +6,8 @@ Id: prefered-contact-cs
 * ^status = #active
 // * ^url = "http://fhir.et/core/CodeSystem/preferedcontact"
 * ^content = #complete
+* ^experimental = false
+* ^caseSensitive = true
 
 * #sms "SMS"
 * #phone "Phone"
