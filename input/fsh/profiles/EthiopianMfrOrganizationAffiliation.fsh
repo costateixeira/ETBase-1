@@ -2,7 +2,7 @@ Profile: EthiopianMfrOrganizationAffiliation
 Parent: OrganizationAffiliation
 Id: ethiopian-mfr-organization-affiliation
 
-* ^url = "https://fhir-mfr.moh.gov.et/fhir/StructureDefinition/ethiopia-mfr-organization-affiliation"
+//* ^url = "https://fhir-mfr.moh.gov.et/fhir/StructureDefinition/ethiopia-mfr-organization-affiliation"
 * ^status = #active
 
 * active 1..1 MS

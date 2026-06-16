@@ -10,5 +10,5 @@ Usage: #example
 
 * valueCodeableConcept = HSVTestTypeCS#other "Other"
 
-* component[otherSpecify].code.text = "Other HSV test type (specify)"
+* component[otherSpecify].code = ObservationComponentSpecifyCS#other-specify
 * component[otherSpecify].valueString = "Experimental HSV molecular assay"

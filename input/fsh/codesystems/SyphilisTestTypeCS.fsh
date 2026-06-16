@@ -3,6 +3,7 @@ Id: syphilis-test-type-cs
 Title: "Syphilis Test Type Code System"
 Description: "Codes for syphilis test types"
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 

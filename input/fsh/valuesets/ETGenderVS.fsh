@@ -1,6 +1,9 @@
+
 ValueSet: ETGenderVS
 Id: gender-vs
-Title: "Ethiopian Patient Sex values"
+Title: "Ethiopian Patient Gender values"
 Description: "Patient Gender...."
+* ^experimental = false
+
 * http://hl7.org/fhir/administrative-gender#male  "Male"
 * http://hl7.org/fhir/administrative-gender#female  "Female"

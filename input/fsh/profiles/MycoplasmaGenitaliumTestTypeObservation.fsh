@@ -41,7 +41,7 @@ Description: "Type of Mycoplasma genitalium test performed"
 // Other test specify
 // ========================================
 
-* component[otherSpecify].code.text = "Other Mycoplasma genitalium test type (specify)"
+* component[otherSpecify].code = ObservationComponentSpecifyCS#other-specify
 
 * component[otherSpecify].value[x] 1..1
 * component[otherSpecify].value[x] only string
@@ -50,7 +50,7 @@ Description: "Type of Mycoplasma genitalium test performed"
 // Other STI test specify
 // ========================================
 
-* component[otherSTITestSpecify].code.text = "Test type for other STI tested for (specify)"
+* component[otherSTITestSpecify].code = ObservationComponentSpecifyCS#other-sti-test-specify
 
 * component[otherSTITestSpecify].value[x] 1..1
 * component[otherSTITestSpecify].value[x] only string

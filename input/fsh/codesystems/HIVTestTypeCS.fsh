@@ -3,6 +3,7 @@ Id: hiv-test-type-cs
 Title: "HIV Test Type Codes"
 Description: "Types of HIV tests"
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 
