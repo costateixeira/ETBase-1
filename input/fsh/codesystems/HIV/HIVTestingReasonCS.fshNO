@@ -1,6 +1,7 @@
 CodeSystem: HIVTestingReasonCS
 Id: hiv-testing-reason-cs
 Title: "HIV Testing Reason CodeSystem"
+Description: "Code system of HIV Testing Reason codes."
 
 * ^url = "http://fhir.et/core/CodeSystem/hiv-testing-reason"
 

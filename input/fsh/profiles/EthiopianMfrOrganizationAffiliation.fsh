@@ -1,6 +1,8 @@
 Profile: EthiopianMfrOrganizationAffiliation
 Parent: OrganizationAffiliation
 Id: ethiopian-mfr-organization-affiliation
+Title: "Ethiopian MFR Organization Affiliation"
+Description: "A relationship between organizations registered in the Ethiopian Master Facility Registry (MFR), describing the role, locations, and services involved in the affiliation."
 
 //* ^url = "https://fhir-mfr.moh.gov.et/fhir/StructureDefinition/ethiopia-mfr-organization-affiliation"
 * ^status = #active

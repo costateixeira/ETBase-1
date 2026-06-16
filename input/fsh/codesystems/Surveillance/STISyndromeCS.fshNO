@@ -1,6 +1,7 @@
 CodeSystem: STISyndromeCS
 Id: sti-syndrome-cs
 Title: "Syndrome/STI Codes"
+Description: "Code system of Syndrome/STI codes."
 
 * #URETHRAL_DISCHARGE "Urethral discharge syndrome"
 * #VAGINAL_DISCHARGE "Vaginal discharge syndrome"

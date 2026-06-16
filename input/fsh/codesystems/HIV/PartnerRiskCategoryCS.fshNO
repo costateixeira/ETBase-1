@@ -1,6 +1,7 @@
 CodeSystem: PartnerRiskCategoryCS
 Id: partner-risk-category-cs
 Title: "Partner High Risk Category Codes"
+Description: "Code system of Partner High Risk Category codes."
 
 * #sex-worker "Client's partner is a sex worker"
 * #pwid "Client's partner is a person who injects drugs"

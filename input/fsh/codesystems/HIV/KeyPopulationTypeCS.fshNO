@@ -1,6 +1,7 @@
 CodeSystem: KeyPopulationTypeCS
 Id: key-population-type-cs
 Title: "Key Population Type Codes"
+Description: "Code system of Key Population Type codes."
 
 * #sex-worker "Sex worker"
 * #pwid "People who inject drugs"

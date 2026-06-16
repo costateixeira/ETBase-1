@@ -2,6 +2,7 @@ Profile: HIVTestingEncounter
 Parent: Encounter
 Id: hiv-testing-encounter
 Title: "HIV Testing Services Encounter"
+Description: "HIV Testing Services Encounter."
 
 * status 1..1 MS
 /*planned → visit scheduled

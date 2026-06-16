@@ -1,6 +1,8 @@
 Profile: EthiopianMfrOrganization
 Parent: Organization
 Id: ethiopian-mfr-organization
+Title: "Ethiopian MFR Organization"
+Description: "An organization (health facility or administrative body) registered in the Ethiopian Master Facility Registry (MFR), including its MFR and license identifiers, contacts, and parent organization."
 
 //* ^url = "https://fhir-mfr.moh.gov.et/fhir/StructureDefinition/ethiopia-mfr-organization"
 * ^status = #active

@@ -21,6 +21,6 @@ In addition to the above, we have provided format-specific _definitions_:
 
     All examples used in this Implementation Guide:
 
-* [XML](examples.xml.zip)
-* [JSON](examples.json.zip)
-* [TTL](examples.ttl.zip)
+* [XML](../examples.xml.zip)
+* [JSON](../examples.json.zip)
+* [TTL](../examples.ttl.zip)

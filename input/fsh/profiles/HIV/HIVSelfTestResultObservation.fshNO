@@ -2,6 +2,7 @@ Profile: HIVSelfTestResultObservation
 Parent: Observation
 Id: hiv-self-test-result
 Title: "HIV Self-test Result"
+Description: "HIV Self-test Result profile."
 
 * status 1..1 MS
 

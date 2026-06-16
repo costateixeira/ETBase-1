@@ -2,6 +2,8 @@ Alias: $ReportingHierarchyVS = https://fhir-mfr.moh.gov.et/fhir/ValueSet/Reporti
 
 Extension: ReportingHierarchyExtension
 Id: reporting-hierarchy-extension
+Title: "Reporting Hierarchy"
+Description: "Captures a level within the administrative reporting hierarchy together with the organization responsible at that level."
 
 * extension contains
     level 1..1 and

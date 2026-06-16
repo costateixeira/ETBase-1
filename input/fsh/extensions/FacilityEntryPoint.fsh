@@ -1,7 +1,8 @@
 Extension: FacilityEntryPoint
 Id: facility-entry-point
 Title: "Facility Entry Point"
-* ^url = "http://fhir.et/StructureDefinition/facility-entry-point"
+Description: "Point of entry within a health facility through which a client accessed services during an encounter."
+// * ^url = "http://fhir.et/StructureDefinition/facility-entry-point"
 * ^context.type = #element
 * ^context.expression = "Encounter"
 
