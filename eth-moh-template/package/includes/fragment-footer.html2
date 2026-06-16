@@ -1,8 +1,0 @@
-<div id="container" style="color: #ffffff; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-  <div>
-    Links: 
-    <a style="color: #ffffff" href="{{site.data.info.assets}}toc.html">Table of Contents</a> |
-    <a style="color: #ffffff" href="qa.html">QA Report</a>
-    <img style="border-style: none;" alt="CC0" src="cc0.png"/>
-  </div>
-</div>
