@@ -29,7 +29,7 @@ Description: "Type of syphilis test performed"
 
 * component contains otherSpecify 0..1
 
-* component[otherSpecify].code.text = "Other syphilis test type (specify)"
+* component[otherSpecify].code = ObservationComponentSpecifyCS#other-specify
 
 * component[otherSpecify].value[x] 1..1
 * component[otherSpecify].value[x] only string

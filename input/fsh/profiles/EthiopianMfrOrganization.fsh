@@ -2,7 +2,6 @@ Profile: EthiopianMfrOrganization
 Parent: Organization
 Id: ethiopian-mfr-organization
 
-* ^url = "https://fhir-mfr.moh.gov.et/fhir/StructureDefinition/ethiopia-mfr-organization"
 * ^status = #active
 * ^version = "1.0.0"
 

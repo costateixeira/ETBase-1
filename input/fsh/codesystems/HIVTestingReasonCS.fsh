@@ -2,8 +2,6 @@ CodeSystem: HIVTestingReasonCS
 Id: hiv-testing-reason-cs
 Title: "HIV Testing Reason CodeSystem"
 
-* ^url = "http://fhir.et/core/CodeSystem/hiv-testing-reason"
-
 * #First-time-HIV-test "First-time HIV test"
 * #Retesting-for-HIV "Retesting for HIV"
 * #verfication-on-discordant "Verification when discordant results happen"

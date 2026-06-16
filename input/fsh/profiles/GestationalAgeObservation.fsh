@@ -7,7 +7,7 @@ Description: "Gestational age in weeks (and optionally days)"
 * status 1..1 MS
 
 * code 1..1 MS
-* code = http://loinc.org#11884-4 "Gestational age"
+* code = http://loinc.org#11884-4 "Gestational age Estimated"
 
 * subject 1..1 MS
 * subject only Reference(HIVPatient)

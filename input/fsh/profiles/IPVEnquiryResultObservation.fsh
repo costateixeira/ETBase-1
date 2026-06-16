@@ -26,7 +26,7 @@ Description: "Outcome of intimate partner violence enquiry"
 //# 🔴 STEP 2: define slice
 * component contains otherSpecify 0..1
 
-* component[otherSpecify].code = http://loinc.org#other-specify
+* component[otherSpecify].code = ObservationComponentSpecifyCS#other-specify
 * component[otherSpecify].value[x] only string
 * component[otherSpecify].valueString 1..1
 

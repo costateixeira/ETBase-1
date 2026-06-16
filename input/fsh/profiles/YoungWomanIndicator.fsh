@@ -7,7 +7,7 @@ Description: "Indicates whether the client is a young woman"
 * status 1..1 MS
 
 * code 1..1 MS
-* code = http://loinc.org#LA22851-7 "Age group"
+* code = ETObservationCodeCS#young-woman "Young woman indicator"
 
 * subject 1..1 MS
 * subject only Reference(HIVPatient)

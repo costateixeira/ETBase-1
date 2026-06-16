@@ -10,8 +10,8 @@ Usage: #example
 
 * valueCodeableConcept = NeisseriaGonorrhoeaeTestTypeCS#poc-test "POC Test"
 
-* component[pocTestSpecify].code.text = "POC Test for Neisseria gonorrhoeae (specify)"
+* component[pocTestSpecify].code = ObservationComponentSpecifyCS#poc-test-specify
 * component[pocTestSpecify].valueString = "GeneXpert CT/NG"
 
-* component[otherSpecify].code.text = "Other Neisseria gonorrhoeae test type (specify)"
+* component[otherSpecify].code = ObservationComponentSpecifyCS#other-specify
 * component[otherSpecify].valueString = "Experimental assay"

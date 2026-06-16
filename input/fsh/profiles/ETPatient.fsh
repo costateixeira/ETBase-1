@@ -27,9 +27,9 @@ Description: "This profile represents a standard Ethiopian patient, applicable a
 * identifier[mrn].system = "http://moh.gov.et/emr"
 * identifier[mrn].value 1..1
 
-* identifier contains healthID 0..1 
-* identifier[mrn].system = "http://moh.gov.et/emr"
-* identifier[mrn].value 1..1
+* identifier contains healthID 0..1
+* identifier[healthID].system = "http://moh.gov.et/healthid"
+* identifier[healthID].value 1..1
 
 * birthDate 0..1
 * birthDate.extension contains DoBEstimated named dobEstimated 0..1

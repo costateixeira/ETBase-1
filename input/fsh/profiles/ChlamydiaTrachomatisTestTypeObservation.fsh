@@ -41,7 +41,7 @@ Description: "Type of Chlamydia trachomatis test performed"
 // Other test specify
 // ========================================
 
-* component[otherSpecify].code.text = "Other test for Chlamydia (specify)"
+* component[otherSpecify].code = ObservationComponentSpecifyCS#other-specify
 
 * component[otherSpecify].value[x] 1..1
 * component[otherSpecify].value[x] only string
@@ -50,7 +50,7 @@ Description: "Type of Chlamydia trachomatis test performed"
 // POC test specify
 // ========================================
 
-* component[pocTestSpecify].code.text = "POC Test type for Chlamydia test (specify)"
+* component[pocTestSpecify].code = ObservationComponentSpecifyCS#poc-test-specify
 
 * component[pocTestSpecify].value[x] 1..1
 * component[pocTestSpecify].value[x] only string

@@ -39,7 +39,7 @@ Description: "Type of Herpes simplex virus (HSV) test performed"
 // Other specify
 // ========================================
 
-* component[otherSpecify].code.text = "Other HSV test type (specify)"
+* component[otherSpecify].code = ObservationComponentSpecifyCS#other-specify
 
 * component[otherSpecify].value[x] 1..1
 * component[otherSpecify].value[x] only string
