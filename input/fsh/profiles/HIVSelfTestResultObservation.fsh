@@ -6,7 +6,7 @@ Title: "HIV Self-test Result"
 * status 1..1 MS
 
 * code 1..1 MS
-* code = http://loinc.org#73761-5 "HIV self-test result"
+* code = ETObservationCodeCS#hiv-self-test-result "HIV self-test result"
 
 * subject 1..1 MS
 * subject only Reference(HIVPatient)

@@ -7,7 +7,7 @@ Description: "Indicates whether the client is an adolescent girl"
 * status 1..1 MS
 
 * code 1..1 MS
-* code = http://loinc.org#LA22851-7 "Adolescent"
+* code = ETObservationCodeCS#adolescent-girl "Adolescent girl indicator"
 
 * subject 1..1 MS
 * subject only Reference(HIVPatient)

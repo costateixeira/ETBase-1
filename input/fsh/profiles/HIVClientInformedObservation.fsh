@@ -8,7 +8,7 @@ Description: "Indicates whether the client has been informed of their HIV test r
 * status = #final (exactly)
 
 * code 1..1
-* code = http://loinc.org#LA9039-7 "Patient informed of test result" (exactly)
+* code = ETObservationCodeCS#hiv-client-informed "Client informed of HIV test result" (exactly)
 
 * subject 1..1
 

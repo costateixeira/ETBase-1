@@ -3,6 +3,7 @@ Id: chlamydia-trachomatis-test-type-cs
 Title: "Chlamydia trachomatis Test Type Code System"
 Description: "Codes for Chlamydia trachomatis test types"
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 

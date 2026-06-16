@@ -1,8 +1,9 @@
 CodeSystem: OtherClinicalServicesCS
 Id: other-clinical-services-cs
-Title: "Other Clinical Services Offered"
+Title: "Other Clinical Services Offered CodeSystem"
 Description: "Other clinical services offered to the client"
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 

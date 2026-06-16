@@ -7,7 +7,7 @@ Description: "Indicates whether the client reported having used an HIV self-test
 * status 1..1 MS
 
 * code 1..1 MS
-* code = http://loinc.org#95270-0 "History of HIV self-testing"
+* code = ETObservationCodeCS#hiv-self-test-history "History of HIV self-testing"
 
 * subject 1..1 MS
 * subject only Reference(HIVPatient)

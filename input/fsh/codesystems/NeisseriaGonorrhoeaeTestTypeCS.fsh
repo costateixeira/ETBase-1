@@ -3,6 +3,7 @@ Id: neisseria-gonorrhoeae-test-type-cs
 Title: "Neisseria gonorrhoeae Test Type Code System"
 Description: "Codes for Neisseria gonorrhoeae test types"
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 

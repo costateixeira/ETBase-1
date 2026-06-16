@@ -3,6 +3,7 @@ Id: syphilis-confirmatory-test-type-cs
 Title: "Confirmatory Syphilis Test Type CodeSystem"
 Description: "Codes for confirmatory syphilis test types"
 
+* insert CSMeta
 * #treponemal "Treponemal"
 * #non-treponemal "Non-treponemal"
 * #poc "POC Test"

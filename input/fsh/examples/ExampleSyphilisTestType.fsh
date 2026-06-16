@@ -10,5 +10,5 @@ Usage: #example
 
 * valueCodeableConcept = SyphilisTestTypeCS#other "Other"
 
-* component[otherSpecify].code.text = "Other syphilis test type (specify)"
+* component[otherSpecify].code = ObservationComponentSpecifyCS#other-specify
 * component[otherSpecify].valueString = "Experimental PCR assay"

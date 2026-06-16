@@ -1,17 +1,17 @@
 id: et.fhir.core
 canonical: http://fhir.et/core
-name: IGET
+name: ETBase
 title: Ethiopia Base Implementation Guide
 description: Implementation Guide to be used as abase for Implementation Guides in Ethiopia
-status: draft # draft | active | retired | unknown
+status: active # draft | active | retired | unknown
 experimental: false
-version: 0.1.0
+version: 0.9.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 #fhirVersion: 4.3.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2023+
-releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
-license: CC-BY-SA-3.0-IGO # https://www.hl7.org/fhir/valueset-spdx-license.html
-jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+copyrightYear: 2025+
+releaseLabel: qa-preview # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+license: CC-BY-SA-4.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#231 "Ethiopia (ETH)" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: MOH Ethiopia
   url: http://moh.gov.et
@@ -42,9 +42,9 @@ dependencies:
   #   version: current
   #   reason: This IG uses SMART base clinical capabilities
 
-meta:
-  profile:
-    - http://fhir.et/base/StructureDefinition/SGImplementationGuide
+# meta:
+#   profile:
+#     - http://smart.who.int/base/StructureDefinition/SGImplementationGuide
 
 pages:
   index.md:

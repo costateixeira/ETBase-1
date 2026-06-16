@@ -41,7 +41,7 @@ Description: "Type of Trichomonas vaginalis test performed"
 // Other specify
 // ========================================
 
-* component[otherSpecify].code.text = "Other Trichomonas vaginalis test type (specify)"
+* component[otherSpecify].code = ObservationComponentSpecifyCS#other-specify
 
 * component[otherSpecify].value[x] 1..1
 * component[otherSpecify].value[x] only string
@@ -50,7 +50,7 @@ Description: "Type of Trichomonas vaginalis test performed"
 // POC test specify
 // ========================================
 
-* component[pocTestSpecify].code.text = "POC Test type for Trichomonas vaginalis test (specify)"
+* component[pocTestSpecify].code = ObservationComponentSpecifyCS#poc-test-specify
 
 * component[pocTestSpecify].value[x] 1..1
 * component[pocTestSpecify].value[x] only string

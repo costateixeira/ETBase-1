@@ -7,7 +7,7 @@ Description: "Indicates whether the client is reported to have had suspected exp
 * status 1..1 MS
 
 * code 1..1 MS
-* code = http://loinc.org#73718-5 "HIV exposure history"
+* code = ETObservationCodeCS#suspected-hiv-exposure "Suspected HIV exposure"
 
 * subject 1..1 MS
 * subject only Reference(HIVPatient)
