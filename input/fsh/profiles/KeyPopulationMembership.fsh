@@ -7,7 +7,7 @@ Description: "Indicates whether the client is a member of a key population with 
 * status 1..1 MS
 
 * code 1..1 MS
-* code = http://loinc.org#LAXXXX "Key population membership" // placeholder if no exact LOINC is used
+* code = ETObservationCodeCS#key-population-membership "Key population membership"
 
 * subject 1..1 MS
 * subject only Reference(HIVPatient)

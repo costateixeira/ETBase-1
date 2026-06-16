@@ -7,7 +7,7 @@ Description: "HIV status of the client's partner"
 * status 1..1 MS
 
 * code 1..1 MS
-* code = http://loinc.org#55233-1 "HIV status"
+* code = ETObservationCodeCS#partner-hiv-status "Partner HIV status"
 
 * subject 1..1 MS
 * subject only Reference(HIVPatient)

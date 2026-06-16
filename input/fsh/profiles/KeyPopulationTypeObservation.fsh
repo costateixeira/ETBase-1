@@ -7,7 +7,7 @@ Description: "Specifies the type of key population the client belongs to"
 * status 1..1 MS
 
 * code 1..1 MS
-* code = http://loinc.org#76437-3 "Risk factors for HIV"
+* code = ETObservationCodeCS#key-population-type "Key population member type"
 
 * subject 1..1 MS
 * subject only Reference(HIVPatient)

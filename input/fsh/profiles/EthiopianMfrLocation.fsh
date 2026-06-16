@@ -4,7 +4,6 @@ Id: ethiopian-mfr-location
 Title: "Ethiopian Master Facility Registry Location"
 Description: "Physical service delivery locations registered in the Ethiopian MFR."
 
-* ^url = "https://fhir-mfr.moh.gov.et/fhir/StructureDefinition/ethiopia-mfr-location"
 * ^status = #active
 * ^version = "1.0.0"
 
