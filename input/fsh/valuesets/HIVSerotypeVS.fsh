@@ -1,6 +1,6 @@
 ValueSet: HIVSerotypeVS
 Id: hiv-serotype-vs
-Title: "HIV Serotype"
+Title: "HIV Serotype ValueSet"
 Description: "HIV serotype classification"
 
 * insert VSMeta

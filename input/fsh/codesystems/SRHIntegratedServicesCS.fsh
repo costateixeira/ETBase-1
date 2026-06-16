@@ -1,6 +1,6 @@
 CodeSystem: SRHIntegratedServicesCS
 Id: srh-integrated-services-cs
-Title: "Sexual and Reproductive Health Integrated Services"
+Title: "Sexual and Reproductive Health Integrated Services CodeSystem"
 Description: "Types of SRH integrated services provided"
 
 * insert CSMeta

@@ -1,6 +1,6 @@
 CodeSystem: HIVPreventionServicesCS
 Id: hiv-prevention-services-cs
-Title: "HIV Prevention Services and Referrals"
+Title: "HIV Prevention Services and Referrals CodeSystem"
 Description: "Prevention services offered and referrals provided"
 
 * insert CSMeta
