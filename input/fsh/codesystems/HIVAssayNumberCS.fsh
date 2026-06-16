@@ -3,6 +3,7 @@ Id: hiv-assay-number-cs
 Title: "HIV Assay Number"
 Description: "Assay sequence in HIV testing strategy"
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 

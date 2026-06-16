@@ -3,6 +3,7 @@ Id: hsv-test-type-cs
 Title: "Herpes Simplex Virus Test Type Code System"
 Description: "Codes for Herpes simplex virus (HSV) test types"
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 

@@ -2,6 +2,7 @@ ValueSet: ETMaritalStatusVS
 Id: marital-status-vs 
 Title: "Ethiopian Patient Marital Status values"
 Description: "Patient Marital Status...."
+* insert VSMeta
 * http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#D  "Divorced"
 * http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#M  "Married"
 * http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#W  "Widowed"

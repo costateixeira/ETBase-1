@@ -3,6 +3,7 @@ Id: hiv-serotype-cs
 Title: "HIV Serotype Codes"
 Description: "Codes for HIV-1 and HIV-2"
 
+* insert CSMeta
 * ^status = #active
 * ^content = #complete
 
