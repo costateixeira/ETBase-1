@@ -42,9 +42,9 @@ dependencies:
   #   version: current
   #   reason: This IG uses SMART base clinical capabilities
 
-meta:
-  profile:
-    - http://smart.who.int/base/StructureDefinition/SGImplementationGuide
+# meta:
+#   profile:
+#     - http://smart.who.int/base/StructureDefinition/SGImplementationGuide
 
 pages:
   index.md:
