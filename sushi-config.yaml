@@ -1,5 +1,6 @@
 id: et.fhir.core
 canonical: http://fhir.et/core
+url: http://fhir.et/core/ImplementationGuide/et.fhir.core
 name: ETBase
 title: Ethiopia Base Implementation Guide
 description: Implementation Guide to be used as abase for Implementation Guides in Ethiopia
