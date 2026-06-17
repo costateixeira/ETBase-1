@@ -9,6 +9,10 @@
   "title": "Ethiopia Base Implementation Guide",
   "ci-build": "https://moh-ethiopia.github.io/ETBase/",
   "category": "National Base",
+  "registry-description": "Base national implementation guide for Ethiopia",
+  "registry-country": "et",
+  "registry-authority": "MOH Ethiopia",
+  "registry-reason": "First publication of the Ethiopia Base Implementation Guide",
   "introduction": "Implementation Guide to be used as a base for Implementation Guides in Ethiopia.",
   "desc": "First milestone release (0.9.0) of the Ethiopia Base Implementation Guide.",
   "descmd": "First milestone release (0.9.0) of the Ethiopia Base Implementation Guide."
