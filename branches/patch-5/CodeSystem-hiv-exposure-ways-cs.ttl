@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/hiv-exposure-ways-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hiv-exposure-ways-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hiv-exposure-ways-cs</b></p><a name=\"hiv-exposure-ways-cs\"> </a><a name=\"hchiv-exposure-ways-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-exposure-ways-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sexual<a name=\"hiv-exposure-ways-cs-sexual\"> </a></td><td>Sexual exposure</td></tr><tr><td style=\"white-space:nowrap\">injecting-drugs<a name=\"hiv-exposure-ways-cs-injecting-drugs\"> </a></td><td>Injected drugs</td></tr><tr><td style=\"white-space:nowrap\">mother-to-child<a name=\"hiv-exposure-ways-cs-mother-to-child\"> </a></td><td>Mother-to-child transmission</td></tr><tr><td style=\"white-space:nowrap\">blood-transfusion<a name=\"hiv-exposure-ways-cs-blood-transfusion\"> </a></td><td>Received blood or blood product transfusion or transplant</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/hiv-exposure-ways-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "HIVExposureWaysCS"] ; # 
+  fhir:title [ fhir:v "HIV Exposure Ways CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-16T12:37:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes representing possible HIV exposure routes"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "sexual" ] ;
+     fhir:display [ fhir:v "Sexual exposure" ]
+  ] [
+     fhir:code [ fhir:v "injecting-drugs" ] ;
+     fhir:display [ fhir:v "Injected drugs" ]
+  ] [
+     fhir:code [ fhir:v "mother-to-child" ] ;
+     fhir:display [ fhir:v "Mother-to-child transmission" ]
+  ] [
+     fhir:code [ fhir:v "blood-transfusion" ] ;
+     fhir:display [ fhir:v "Received blood or blood product transfusion or transplant" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

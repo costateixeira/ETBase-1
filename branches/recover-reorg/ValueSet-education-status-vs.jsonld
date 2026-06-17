@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "http://fhir.et/core/ValueSet-education-status-vs.jsonld",
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "fhir:CodeSystem": {
+      "@type": "@id"
+    },
+    "cs": "http://fhir.et/core/CodeSystem-education-status"
+  },
+  "@id": "http://fhir.et/core/ValueSet-education-status-vs.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-06-16T15:27:58.062640Z",
+  "@graph": [
+    {
+      "id": "#noedun",
+      "name": "No formal education"
+    },
+    {
+      "id": "#canReadWrite",
+      "name": "Can read and write"
+    },
+    {
+      "id": "#primary",
+      "name": "Primary school"
+    },
+    {
+      "id": "#secondary",
+      "name": "Secondary school"
+    },
+    {
+      "id": "#higher",
+      "name": "Higher education"
+    }
+  ],
+  "fhir:CodeSystem": "cs"
+}

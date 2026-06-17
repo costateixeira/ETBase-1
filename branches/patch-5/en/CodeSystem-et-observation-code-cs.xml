@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="et-observation-code-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem et-observation-code-cs</b></p><a name="et-observation-code-cs"> </a><a name="hcet-observation-code-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/et-observation-code-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">adolescent-girl<a name="et-observation-code-cs-adolescent-girl"> </a></td><td>Adolescent girl indicator</td></tr><tr><td style="white-space:nowrap">young-woman<a name="et-observation-code-cs-young-woman"> </a></td><td>Young woman indicator</td></tr><tr><td style="white-space:nowrap">hiv-client-informed<a name="et-observation-code-cs-hiv-client-informed"> </a></td><td>Client informed of HIV test result</td></tr><tr><td style="white-space:nowrap">hiv-self-test-history<a name="et-observation-code-cs-hiv-self-test-history"> </a></td><td>History of HIV self-testing</td></tr><tr><td style="white-space:nowrap">hiv-self-test-result<a name="et-observation-code-cs-hiv-self-test-result"> </a></td><td>HIV self-test result</td></tr><tr><td style="white-space:nowrap">suspected-hiv-exposure<a name="et-observation-code-cs-suspected-hiv-exposure"> </a></td><td>Suspected HIV exposure</td></tr><tr><td style="white-space:nowrap">key-population-membership<a name="et-observation-code-cs-key-population-membership"> </a></td><td>Key population membership</td></tr><tr><td style="white-space:nowrap">key-population-type<a name="et-observation-code-cs-key-population-type"> </a></td><td>Key population member type</td></tr><tr><td style="white-space:nowrap">partner-risk-category<a name="et-observation-code-cs-partner-risk-category"> </a></td><td>Partner high-risk population category</td></tr><tr><td style="white-space:nowrap">partner-hiv-status<a name="et-observation-code-cs-partner-hiv-status"> </a></td><td>Partner HIV status</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/et-observation-code-cs"/>
+  <version value="0.9.0"/>
+  <name value="ETObservationCodeCS"/>
+  <title value="Ethiopia Observation Code CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Interim local Observation.code concepts for Ethiopia-specific observations that currently lack a correct or tx-resolvable LOINC code. These SHOULD be mapped to proper LOINC codes when available (see REMEDIATION-REPORT.md)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="10"/>
+  <concept>
+    <code value="adolescent-girl"/>
+    <display value="Adolescent girl indicator"/>
+  </concept>
+  <concept>
+    <code value="young-woman"/>
+    <display value="Young woman indicator"/>
+  </concept>
+  <concept>
+    <code value="hiv-client-informed"/>
+    <display value="Client informed of HIV test result"/>
+  </concept>
+  <concept>
+    <code value="hiv-self-test-history"/>
+    <display value="History of HIV self-testing"/>
+  </concept>
+  <concept>
+    <code value="hiv-self-test-result"/>
+    <display value="HIV self-test result"/>
+  </concept>
+  <concept>
+    <code value="suspected-hiv-exposure"/>
+    <display value="Suspected HIV exposure"/>
+  </concept>
+  <concept>
+    <code value="key-population-membership"/>
+    <display value="Key population membership"/>
+  </concept>
+  <concept>
+    <code value="key-population-type"/>
+    <display value="Key population member type"/>
+  </concept>
+  <concept>
+    <code value="partner-risk-category"/>
+    <display value="Partner high-risk population category"/>
+  </concept>
+  <concept>
+    <code value="partner-hiv-status"/>
+    <display value="Partner HIV status"/>
+  </concept>
+</CodeSystem>

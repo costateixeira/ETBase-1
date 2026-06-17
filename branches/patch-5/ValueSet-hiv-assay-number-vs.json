@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "hiv-assay-number-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet hiv-assay-number-vs</b></p><a name=\"hiv-assay-number-vs\"> </a><a name=\"hchiv-assay-number-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-hiv-assay-number-cs.html\"><code>http://fhir.et/core/CodeSystem/hiv-assay-number-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.9.0</span></li></ul></div>"
+  },
+  "url" : "http://fhir.et/core/ValueSet/hiv-assay-number-vs",
+  "version" : "0.9.0",
+  "name" : "HIVAssayNumberVS",
+  "title" : "HIV Assay Number ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Permitted assay numbers in HIV testing strategy",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.et/core/CodeSystem/hiv-assay-number-cs"
+    }]
+  }
+}

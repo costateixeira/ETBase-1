@@ -1,0 +1,642 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "ecd1fd37-7650-4dc1-97be-42c515bdca1d",
+  "meta" : {
+    "lastUpdated" : "2026-06-16T15:24:47.577+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://fhir.et/core/ValueSet/EthiopiaStateVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-ethiopian-states.html\">codesystem Ethiopia State / Region CodeSystem v0.9.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.et/core/CodeSystem/ethiopian-states|0.9.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 14 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-OR\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-OR\">OR</a></td><td>Oromia</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;OR&quot;, &quot;display&quot;: &quot;Oromia&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;OR&quot;&gt;&lt;display value=&quot;Oromia&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-AM\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-AM\">AM</a></td><td>Amhara</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AM&quot;, &quot;display&quot;: &quot;Amhara&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AM&quot;&gt;&lt;display value=&quot;Amhara&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-TI\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-TI\">TI</a></td><td>Tigray</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;TI&quot;, &quot;display&quot;: &quot;Tigray&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;TI&quot;&gt;&lt;display value=&quot;Tigray&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-SO\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-SO\">SO</a></td><td>Somali</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SO&quot;, &quot;display&quot;: &quot;Somali&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SO&quot;&gt;&lt;display value=&quot;Somali&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-AF\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-AF\">AF</a></td><td>Afar</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AF&quot;, &quot;display&quot;: &quot;Afar&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AF&quot;&gt;&lt;display value=&quot;Afar&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-SD\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-SD\">SD</a></td><td>Sidama</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SD&quot;, &quot;display&quot;: &quot;Sidama&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SD&quot;&gt;&lt;display value=&quot;Sidama&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-SE\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-SE\">SE</a></td><td>South Ethiopia</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SE&quot;, &quot;display&quot;: &quot;South Ethiopia&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SE&quot;&gt;&lt;display value=&quot;South Ethiopia&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-SW\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-SW\">SW</a></td><td>Southwest Ethiopia</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SW&quot;, &quot;display&quot;: &quot;Southwest Ethiopia&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SW&quot;&gt;&lt;display value=&quot;Southwest Ethiopia&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-AA\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-AA\">AA</a></td><td>Addis Ababa</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AA&quot;, &quot;display&quot;: &quot;Addis Ababa&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AA&quot;&gt;&lt;display value=&quot;Addis Ababa&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-DD\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-DD\">DD</a></td><td>Dire Dawa</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;DD&quot;, &quot;display&quot;: &quot;Dire Dawa&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;DD&quot;&gt;&lt;display value=&quot;Dire Dawa&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-GA\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-GA\">GA</a></td><td>Gambella</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;GA&quot;, &quot;display&quot;: &quot;Gambella&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;GA&quot;&gt;&lt;display value=&quot;Gambella&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-BG\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-BG\">BG</a></td><td>Benishangul Gumuz</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;BG&quot;, &quot;display&quot;: &quot;Benishangul Gumuz&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;BG&quot;&gt;&lt;display value=&quot;Benishangul Gumuz&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-HA\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-HA\">HA</a></td><td>Harari</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;HA&quot;, &quot;display&quot;: &quot;Harari&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;HA&quot;&gt;&lt;display value=&quot;Harari&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-CE\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-CE\">CE</a></td><td>Central Ethiopia</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;CE&quot;, &quot;display&quot;: &quot;Central Ethiopia&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;CE&quot;&gt;&lt;display value=&quot;Central Ethiopia&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.et/core/ValueSet/EthiopiaStateVS",
+      "version" : "0.9.0",
+      "name" : "EthiopiaStateVS",
+      "title" : "Ethiopia State / Region ValueSet",
+      "status" : "active",
+      "date" : "2026-06-16T15:24:47+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "231",
+          "display" : "Ethiopia (ETH)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:e4bae9e6-5aca-437f-909a-6ff5aa1db6d0",
+        "timestamp" : "2026-06-16T15:26:58+00:00",
+        "total" : 14,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.et/core/CodeSystem/ethiopian-states|0.9.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "OR",
+          "display" : "Oromia"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "AM",
+          "display" : "Amhara"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "TI",
+          "display" : "Tigray"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "SO",
+          "display" : "Somali"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "AF",
+          "display" : "Afar"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "SD",
+          "display" : "Sidama"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "SE",
+          "display" : "South Ethiopia"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "SW",
+          "display" : "Southwest Ethiopia"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "AA",
+          "display" : "Addis Ababa"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "DD",
+          "display" : "Dire Dawa"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "GA",
+          "display" : "Gambella"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "BG",
+          "display" : "Benishangul Gumuz"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "HA",
+          "display" : "Harari"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "CE",
+          "display" : "Central Ethiopia"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.et/core/ValueSet/EthiopiaStateVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-ethiopian-states.html\">codesystem Ethiopia State / Region CodeSystem v0.9.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.et/core/CodeSystem/ethiopian-states|0.9.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 14 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-OR\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-OR\">OR</a></td><td>Oromia</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;OR&quot;, &quot;display&quot;: &quot;Oromia&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;OR&quot;&gt;&lt;display value=&quot;Oromia&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-AM\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-AM\">AM</a></td><td>Amhara</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AM&quot;, &quot;display&quot;: &quot;Amhara&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AM&quot;&gt;&lt;display value=&quot;Amhara&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-TI\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-TI\">TI</a></td><td>Tigray</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;TI&quot;, &quot;display&quot;: &quot;Tigray&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;TI&quot;&gt;&lt;display value=&quot;Tigray&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-SO\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-SO\">SO</a></td><td>Somali</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SO&quot;, &quot;display&quot;: &quot;Somali&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SO&quot;&gt;&lt;display value=&quot;Somali&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-AF\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-AF\">AF</a></td><td>Afar</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AF&quot;, &quot;display&quot;: &quot;Afar&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AF&quot;&gt;&lt;display value=&quot;Afar&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-SD\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-SD\">SD</a></td><td>Sidama</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SD&quot;, &quot;display&quot;: &quot;Sidama&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SD&quot;&gt;&lt;display value=&quot;Sidama&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-SE\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-SE\">SE</a></td><td>South Ethiopia</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SE&quot;, &quot;display&quot;: &quot;South Ethiopia&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SE&quot;&gt;&lt;display value=&quot;South Ethiopia&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-SW\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-SW\">SW</a></td><td>Southwest Ethiopia</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SW&quot;, &quot;display&quot;: &quot;Southwest Ethiopia&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SW&quot;&gt;&lt;display value=&quot;Southwest Ethiopia&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-AA\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-AA\">AA</a></td><td>Addis Ababa</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AA&quot;, &quot;display&quot;: &quot;Addis Ababa&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AA&quot;&gt;&lt;display value=&quot;Addis Ababa&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-DD\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-DD\">DD</a></td><td>Dire Dawa</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;DD&quot;, &quot;display&quot;: &quot;Dire Dawa&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;DD&quot;&gt;&lt;display value=&quot;Dire Dawa&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-GA\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-GA\">GA</a></td><td>Gambella</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;GA&quot;, &quot;display&quot;: &quot;Gambella&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;GA&quot;&gt;&lt;display value=&quot;Gambella&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-BG\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-BG\">BG</a></td><td>Benishangul Gumuz</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;BG&quot;, &quot;display&quot;: &quot;Benishangul Gumuz&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;BG&quot;&gt;&lt;display value=&quot;Benishangul Gumuz&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-HA\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-HA\">HA</a></td><td>Harari</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;HA&quot;, &quot;display&quot;: &quot;Harari&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;HA&quot;&gt;&lt;display value=&quot;Harari&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/ethiopian-states-CE\"> </a><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-ethiopian-states.html#ethiopian-states-CE\">CE</a></td><td>Central Ethiopia</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;CE&quot;, &quot;display&quot;: &quot;Central Ethiopia&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;CE&quot;&gt;&lt;display value=&quot;Central Ethiopia&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.et/core/ValueSet/EthiopiaStateVS",
+      "version" : "0.9.0",
+      "name" : "EthiopiaStateVS",
+      "title" : "Ethiopia State / Region ValueSet",
+      "status" : "active",
+      "date" : "2026-06-16T15:24:47+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "231",
+          "display" : "Ethiopia (ETH)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:e4bae9e6-5aca-437f-909a-6ff5aa1db6d0",
+        "timestamp" : "2026-06-16T15:26:58+00:00",
+        "total" : 14,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.et/core/CodeSystem/ethiopian-states|0.9.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "OR",
+          "display" : "Oromia"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "AM",
+          "display" : "Amhara"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "TI",
+          "display" : "Tigray"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "SO",
+          "display" : "Somali"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "AF",
+          "display" : "Afar"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "SD",
+          "display" : "Sidama"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "SE",
+          "display" : "South Ethiopia"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "SW",
+          "display" : "Southwest Ethiopia"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "AA",
+          "display" : "Addis Ababa"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "DD",
+          "display" : "Dire Dawa"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "GA",
+          "display" : "Gambella"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "BG",
+          "display" : "Benishangul Gumuz"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "HA",
+          "display" : "Harari"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+          "code" : "CE",
+          "display" : "Central Ethiopia"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.et/core/ValueSet/education-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-education-status-cs.html\">codesystem Ethiopia Education Status CodeSystem v0.9.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.et/core/CodeSystem/education-status|0.9.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/education-status-noedun\"> </a><code>http://fhir.et/core/CodeSystem/education-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-education-status-cs.html#education-status-cs-noedun\">noedun</a></td><td>No formal education</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;noedun&quot;, &quot;display&quot;: &quot;No formal education&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;noedun&quot;&gt;&lt;display value=&quot;No formal education&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/education-status-canReadWrite\"> </a><code>http://fhir.et/core/CodeSystem/education-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-education-status-cs.html#education-status-cs-canReadWrite\">canReadWrite</a></td><td>Can read and write</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;canReadWrite&quot;, &quot;display&quot;: &quot;Can read and write&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;canReadWrite&quot;&gt;&lt;display value=&quot;Can read and write&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/education-status-primary\"> </a><code>http://fhir.et/core/CodeSystem/education-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-education-status-cs.html#education-status-cs-primary\">primary</a></td><td>Primary school</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;primary&quot;, &quot;display&quot;: &quot;Primary school&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;primary&quot;&gt;&lt;display value=&quot;Primary school&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/education-status-secondary\"> </a><code>http://fhir.et/core/CodeSystem/education-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-education-status-cs.html#education-status-cs-secondary\">secondary</a></td><td>Secondary school</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;secondary&quot;, &quot;display&quot;: &quot;Secondary school&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;secondary&quot;&gt;&lt;display value=&quot;Secondary school&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/education-status-higher\"> </a><code>http://fhir.et/core/CodeSystem/education-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-education-status-cs.html#education-status-cs-higher\">higher</a></td><td>Higher education</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;higher&quot;, &quot;display&quot;: &quot;Higher education&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;higher&quot;&gt;&lt;display value=&quot;Higher education&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.et/core/ValueSet/education-status-vs",
+      "version" : "0.9.0",
+      "name" : "EducationStatusVS",
+      "title" : "Ethiopia Education Status ValueSet",
+      "status" : "active",
+      "date" : "2026-06-16T15:24:47+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "231",
+          "display" : "Ethiopia (ETH)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:aed04f62-3afc-4fca-a970-7f3bf3de6b06",
+        "timestamp" : "2026-06-16T15:26:59+00:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.et/core/CodeSystem/education-status|0.9.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.et/core/CodeSystem/education-status",
+          "code" : "noedun",
+          "display" : "No formal education"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/education-status",
+          "code" : "canReadWrite",
+          "display" : "Can read and write"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/education-status",
+          "code" : "primary",
+          "display" : "Primary school"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/education-status",
+          "code" : "secondary",
+          "display" : "Secondary school"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/education-status",
+          "code" : "higher",
+          "display" : "Higher education"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.et/core/ValueSet/education-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-education-status-cs.html\">codesystem Ethiopia Education Status CodeSystem v0.9.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.et/core/CodeSystem/education-status|0.9.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/education-status-noedun\"> </a><code>http://fhir.et/core/CodeSystem/education-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-education-status-cs.html#education-status-cs-noedun\">noedun</a></td><td>No formal education</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;noedun&quot;, &quot;display&quot;: &quot;No formal education&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;noedun&quot;&gt;&lt;display value=&quot;No formal education&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/education-status-canReadWrite\"> </a><code>http://fhir.et/core/CodeSystem/education-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-education-status-cs.html#education-status-cs-canReadWrite\">canReadWrite</a></td><td>Can read and write</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;canReadWrite&quot;, &quot;display&quot;: &quot;Can read and write&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;canReadWrite&quot;&gt;&lt;display value=&quot;Can read and write&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/education-status-primary\"> </a><code>http://fhir.et/core/CodeSystem/education-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-education-status-cs.html#education-status-cs-primary\">primary</a></td><td>Primary school</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;primary&quot;, &quot;display&quot;: &quot;Primary school&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;primary&quot;&gt;&lt;display value=&quot;Primary school&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/education-status-secondary\"> </a><code>http://fhir.et/core/CodeSystem/education-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-education-status-cs.html#education-status-cs-secondary\">secondary</a></td><td>Secondary school</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;secondary&quot;, &quot;display&quot;: &quot;Secondary school&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;secondary&quot;&gt;&lt;display value=&quot;Secondary school&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/education-status-higher\"> </a><code>http://fhir.et/core/CodeSystem/education-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-education-status-cs.html#education-status-cs-higher\">higher</a></td><td>Higher education</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;higher&quot;, &quot;display&quot;: &quot;Higher education&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;higher&quot;&gt;&lt;display value=&quot;Higher education&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.et/core/ValueSet/education-status-vs",
+      "version" : "0.9.0",
+      "name" : "EducationStatusVS",
+      "title" : "Ethiopia Education Status ValueSet",
+      "status" : "active",
+      "date" : "2026-06-16T15:24:47+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "231",
+          "display" : "Ethiopia (ETH)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:aed04f62-3afc-4fca-a970-7f3bf3de6b06",
+        "timestamp" : "2026-06-16T15:26:59+00:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.et/core/CodeSystem/education-status|0.9.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.et/core/CodeSystem/education-status",
+          "code" : "noedun",
+          "display" : "No formal education"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/education-status",
+          "code" : "canReadWrite",
+          "display" : "Can read and write"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/education-status",
+          "code" : "primary",
+          "display" : "Primary school"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/education-status",
+          "code" : "secondary",
+          "display" : "Secondary school"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/education-status",
+          "code" : "higher",
+          "display" : "Higher education"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.et/core/ValueSet/gender-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>Male</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>Female</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.et/core/ValueSet/gender-vs",
+      "version" : "0.9.0",
+      "name" : "ETGenderVS",
+      "title" : "Ethiopian Patient Gender values",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-06-16T15:24:47+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "231",
+          "display" : "Ethiopia (ETH)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:34ea26af-ab1a-4ea8-a5cf-0a07c039b83c",
+        "timestamp" : "2026-06-16T15:26:58+00:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Male"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Female"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.et/core/ValueSet/gender-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/administrative-gender|4.0.1\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-male\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male\">male</a></td><td>Male</td><td>Male.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/administrative-gender-female\"> </a><code>http://hl7.org/fhir/administrative-gender</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female\">female</a></td><td>Female</td><td>Female.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.et/core/ValueSet/gender-vs",
+      "version" : "0.9.0",
+      "name" : "ETGenderVS",
+      "title" : "Ethiopian Patient Gender values",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-06-16T15:24:47+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "231",
+          "display" : "Ethiopia (ETH)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:34ea26af-ab1a-4ea8-a5cf-0a07c039b83c",
+        "timestamp" : "2026-06-16T15:26:58+00:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/administrative-gender|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "male",
+          "display" : "Male"
+        },
+        {
+          "system" : "http://hl7.org/fhir/administrative-gender",
+          "code" : "female",
+          "display" : "Female"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.et/core/ValueSet/preferred-contact-method-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-prefered-contact-cs.html\">codesystem Prefered contact CodeSystem v0.9.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.et/core/CodeSystem/preferedcontact|0.9.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/preferedcontact-sms\"> </a><code>http://fhir.et/core/CodeSystem/preferedcontact</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-prefered-contact-cs.html#prefered-contact-cs-sms\">sms</a></td><td>SMS</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;sms&quot;, &quot;display&quot;: &quot;SMS&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;sms&quot;&gt;&lt;display value=&quot;SMS&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/preferedcontact-phone\"> </a><code>http://fhir.et/core/CodeSystem/preferedcontact</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-prefered-contact-cs.html#prefered-contact-cs-phone\">phone</a></td><td>Phone</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;phone&quot;, &quot;display&quot;: &quot;Phone&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;phone&quot;&gt;&lt;display value=&quot;Phone&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/preferedcontact-email\"> </a><code>http://fhir.et/core/CodeSystem/preferedcontact</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-prefered-contact-cs.html#prefered-contact-cs-email\">email</a></td><td>email</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;email&quot;, &quot;display&quot;: &quot;email&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;email&quot;&gt;&lt;display value=&quot;email&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.et/core/ValueSet/preferred-contact-method-vs",
+      "version" : "0.9.0",
+      "name" : "PreferredContactMethodVS",
+      "title" : "Preferred Contact Method Value Set",
+      "status" : "active",
+      "date" : "2026-06-16T15:24:47+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "231",
+          "display" : "Ethiopia (ETH)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:4709f90c-cca0-412b-b3d8-2004156d612c",
+        "timestamp" : "2026-06-16T15:27:05+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.et/core/CodeSystem/preferedcontact|0.9.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.et/core/CodeSystem/preferedcontact",
+          "code" : "sms",
+          "display" : "SMS"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/preferedcontact",
+          "code" : "phone",
+          "display" : "Phone"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/preferedcontact",
+          "code" : "email",
+          "display" : "email"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.et/core/ValueSet/preferred-contact-method-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-prefered-contact-cs.html\">codesystem Prefered contact CodeSystem v0.9.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://fhir.et/core/CodeSystem/preferedcontact|0.9.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/preferedcontact-sms\"> </a><code>http://fhir.et/core/CodeSystem/preferedcontact</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-prefered-contact-cs.html#prefered-contact-cs-sms\">sms</a></td><td>SMS</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;sms&quot;, &quot;display&quot;: &quot;SMS&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;sms&quot;&gt;&lt;display value=&quot;SMS&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/preferedcontact-phone\"> </a><code>http://fhir.et/core/CodeSystem/preferedcontact</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-prefered-contact-cs.html#prefered-contact-cs-phone\">phone</a></td><td>Phone</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;phone&quot;, &quot;display&quot;: &quot;Phone&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;phone&quot;&gt;&lt;display value=&quot;Phone&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://fhir.et/core/CodeSystem/preferedcontact-email\"> </a><code>http://fhir.et/core/CodeSystem/preferedcontact</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-prefered-contact-cs.html#prefered-contact-cs-email\">email</a></td><td>email</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;email&quot;, &quot;display&quot;: &quot;email&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/preferedcontact&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;email&quot;&gt;&lt;display value=&quot;email&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.et/core/ValueSet/preferred-contact-method-vs",
+      "version" : "0.9.0",
+      "name" : "PreferredContactMethodVS",
+      "title" : "Preferred Contact Method Value Set",
+      "status" : "active",
+      "date" : "2026-06-16T15:24:47+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "231",
+          "display" : "Ethiopia (ETH)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:4709f90c-cca0-412b-b3d8-2004156d612c",
+        "timestamp" : "2026-06-16T15:27:05+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://fhir.et/core/CodeSystem/preferedcontact|0.9.0"
+        }],
+        "contains" : [{
+          "system" : "http://fhir.et/core/CodeSystem/preferedcontact",
+          "code" : "sms",
+          "display" : "SMS"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/preferedcontact",
+          "code" : "phone",
+          "display" : "Phone"
+        },
+        {
+          "system" : "http://fhir.et/core/CodeSystem/preferedcontact",
+          "code" : "email",
+          "display" : "email"
+        }]
+      }
+    }
+  }]
+}

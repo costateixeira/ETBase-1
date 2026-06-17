@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="key-population-type-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem key-population-type-cs</b></p><a name="key-population-type-cs"> </a><a name="hckey-population-type-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/key-population-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sex-worker<a name="key-population-type-cs-sex-worker"> </a></td><td>Sex worker</td></tr><tr><td style="white-space:nowrap">pwid<a name="key-population-type-cs-pwid"> </a></td><td>People who inject drugs</td></tr><tr><td style="white-space:nowrap">prisoner<a name="key-population-type-cs-prisoner"> </a></td><td>Prisoner</td></tr><tr><td style="white-space:nowrap">widowed<a name="key-population-type-cs-widowed"> </a></td><td>Client is widowed</td></tr><tr><td style="white-space:nowrap">divorced<a name="key-population-type-cs-divorced"> </a></td><td>Client is divorced</td></tr><tr><td style="white-space:nowrap">truckdriver<a name="key-population-type-cs-truckdriver"> </a></td><td>Long distance truck drivers</td></tr><tr><td style="white-space:nowrap">Dailylabourer<a name="key-population-type-cs-Dailylabourer"> </a></td><td>Daily labourers</td></tr><tr><td style="white-space:nowrap">humanitarinsettings<a name="key-population-type-cs-humanitarinsettings"> </a></td><td>People in humanitarina settigns</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/key-population-type-cs"/>
+  <version value="0.9.0"/>
+  <name value="KeyPopulationTypeCS"/>
+  <title value="Key Population Type Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="sex-worker"/>
+    <display value="Sex worker"/>
+  </concept>
+  <concept>
+    <code value="pwid"/>
+    <display value="People who inject drugs"/>
+  </concept>
+  <concept>
+    <code value="prisoner"/>
+    <display value="Prisoner"/>
+  </concept>
+  <concept>
+    <code value="widowed"/>
+    <display value="Client is widowed"/>
+  </concept>
+  <concept>
+    <code value="divorced"/>
+    <display value="Client is divorced"/>
+  </concept>
+  <concept>
+    <code value="truckdriver"/>
+    <display value="Long distance truck drivers"/>
+  </concept>
+  <concept>
+    <code value="Dailylabourer"/>
+    <display value="Daily labourers"/>
+  </concept>
+  <concept>
+    <code value="humanitarinsettings"/>
+    <display value="People in humanitarina settigns"/>
+  </concept>
+</CodeSystem>

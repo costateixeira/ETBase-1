@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "hiv-exposure-ways-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hiv-exposure-ways-cs</b></p><a name=\"hiv-exposure-ways-cs\"> </a><a name=\"hchiv-exposure-ways-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-exposure-ways-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sexual<a name=\"hiv-exposure-ways-cs-sexual\"> </a></td><td>Sexual exposure</td></tr><tr><td style=\"white-space:nowrap\">injecting-drugs<a name=\"hiv-exposure-ways-cs-injecting-drugs\"> </a></td><td>Injected drugs</td></tr><tr><td style=\"white-space:nowrap\">mother-to-child<a name=\"hiv-exposure-ways-cs-mother-to-child\"> </a></td><td>Mother-to-child transmission</td></tr><tr><td style=\"white-space:nowrap\">blood-transfusion<a name=\"hiv-exposure-ways-cs-blood-transfusion\"> </a></td><td>Received blood or blood product transfusion or transplant</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/hiv-exposure-ways-cs",
+  "version" : "0.9.0",
+  "name" : "HIVExposureWaysCS",
+  "title" : "HIV Exposure Ways CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Codes representing possible HIV exposure routes",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "sexual",
+    "display" : "Sexual exposure"
+  },
+  {
+    "code" : "injecting-drugs",
+    "display" : "Injected drugs"
+  },
+  {
+    "code" : "mother-to-child",
+    "display" : "Mother-to-child transmission"
+  },
+  {
+    "code" : "blood-transfusion",
+    "display" : "Received blood or blood product transfusion or transplant"
+  }]
+}

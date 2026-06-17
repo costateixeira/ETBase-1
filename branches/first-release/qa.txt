@@ -1,0 +1,113 @@
+ETBase : Validation Results
+=========================================
+
+err = 0, warn = 37, info = 11
+IG Publisher Version: 2.2.9
+Generated Wed Jun 17 09:03:25 UTC 2026. FHIR version 4.0.1 for et.fhir.core#0.9.0 (canonical = http://fhir.et/core)
+ Build Errors : 0 / 2 / 0
+ /work/fsh-generated/resources/CodeSystem-education-status-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-ethiopian-states : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-occupation : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-prefered-contact-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/ImplementationGuide-et.fhir.core : 0 / 0 / 1
+ /work/fsh-generated/resources/Patient-ETpatientEx : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-ETPatient : 0 / 0 / 9
+ /work/fsh-generated/resources/StructureDefinition-address-kebele : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-address-ketenagott : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-address-zone : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-created-date : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-dob-estimated : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-education-status-extension : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-ethiopian-mfr-location : 0 / 5 / 2
+ /work/fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization : 0 / 8 / 1
+ /work/fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization-affiliation : 0 / 3 / 1
+ /work/fsh-generated/resources/StructureDefinition-facility-entry-point : 0 / 3 / 1
+ /work/fsh-generated/resources/StructureDefinition-grandfathers-family-name : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-occupation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-preferred-contact-method : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-reporting-hierarchy-extension : 0 / 4 / 1
+ /work/fsh-generated/resources/StructureDefinition-reporting-hierarchy-id-extension : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-EthiopiaStateVS : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-education-status-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-gender-vs : 0 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-marital-status-vs : 0 / 1 / 2
+ /work/fsh-generated/resources/ValueSet-occupation-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-preferred-contact-method-vs : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-education-status-cs.json ==
+== fsh-generated/resources/CodeSystem-ethiopian-states.json ==
+== fsh-generated/resources/CodeSystem-occupation.json ==
+== fsh-generated/resources/CodeSystem-prefered-contact-cs.json ==
+== fsh-generated/resources/ImplementationGuide-et.fhir.core.json ==
+== fsh-generated/resources/Patient-ETpatientEx.json ==
+WARNING: Patient/ETpatientEx: Patient.identifier[0].system: No definition could be found for URL value 'http://id.gov.et/nationalidentifier'
+WARNING: Patient/ETpatientEx: Patient.identifier[1].system: No definition could be found for URL value 'http://moh.gov.et/emr'
+== fsh-generated/resources/StructureDefinition-ETPatient.json ==
+INFORMATION: StructureDefinition.snapshot.element[58].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/humanname-fathers-family to 5.3.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.1.0 (hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0), 5.3.0 (hl7.fhir.uv.extensions.r4#5.3.0), 5.3.0-ballot-tc1 (hl7.fhir.uv.extensions.r4#5.3.0-ballot-tc1)
+INFORMATION: StructureDefinition.differential.element[18].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/humanname-fathers-family to 5.3.0 from choices of 1.0.0 (hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.1.0 (hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0), 5.3.0 (hl7.fhir.uv.extensions.r4#5.3.0), 5.3.0-ballot-tc1 (hl7.fhir.uv.extensions.r4#5.3.0-ballot-tc1)
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.snapshot.element[60].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.differential.element[21].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.snapshot.element[65].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-address-kebele.json ==
+== fsh-generated/resources/StructureDefinition-address-ketenagott.json ==
+== fsh-generated/resources/StructureDefinition-address-zone.json ==
+== fsh-generated/resources/StructureDefinition-created-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/created-date'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-dob-estimated.json ==
+== fsh-generated/resources/StructureDefinition-education-status-extension.json ==
+WARNING: StructureDefinition/education-status-extension: StructureDefinition.context[0]: Review the extension type for education-status-extension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-ethiopian-mfr-location.json ==
+INFORMATION: StructureDefinition.snapshot.element[41].binding.valueSet: Pinned the version of http://terminology.hl7.org/ValueSet/v2-0116 to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#6.0.2), 3.0.0 (hl7.terminology.r4#7.2.0)
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.snapshot.element[46].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/FacilityType'
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.snapshot.element[49].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/location-physical-type'
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.differential.element[21].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/FacilityType'
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.differential.element[24].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/location-physical-type'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/ethiopian-mfr-location'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization.json ==
+WARNING: Ethiopian MFR Organization.telecom.telecom.Organization.contact.telecom.use: Binding https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use could not be located
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.snapshot.element[46].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.snapshot.element[54].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.snapshot.element[62].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.differential.element[17].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/ethiopian-mfr-organization'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization-affiliation.json ==
+WARNING: StructureDefinition/ethiopian-mfr-organization-affiliation: StructureDefinition.snapshot.element[15].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/OrganizationAffiliationRole'
+WARNING: StructureDefinition/ethiopian-mfr-organization-affiliation: StructureDefinition.differential.element[5].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/OrganizationAffiliationRole'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/ethiopian-mfr-organization-affiliation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-facility-entry-point.json ==
+WARNING: StructureDefinition/facility-entry-point: StructureDefinition.snapshot.element[4].binding.valueSet: A definition could not be found for Canonical URL 'http://fhir.et/ValueSet/facility-entry-point-vs'
+WARNING: StructureDefinition/facility-entry-point: StructureDefinition.differential.element[3].binding.valueSet: A definition could not be found for Canonical URL 'http://fhir.et/ValueSet/facility-entry-point-vs'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/facility-entry-point'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-grandfathers-family-name.json ==
+== fsh-generated/resources/StructureDefinition-occupation.json ==
+WARNING: StructureDefinition/occupation: StructureDefinition.context[0]: Review the extension type for occupation: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-preferred-contact-method.json ==
+WARNING: StructureDefinition/preferred-contact-method: StructureDefinition.context[0]: Review the extension type for preferred-contact-method: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/preferred-contact-method'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-reporting-hierarchy-extension.json ==
+WARNING: StructureDefinition/reporting-hierarchy-extension: StructureDefinition.snapshot.element[7].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/ReportingHierarchy'
+WARNING: StructureDefinition/reporting-hierarchy-extension: StructureDefinition.differential.element[5].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/ReportingHierarchy'
+WARNING: StructureDefinition/reporting-hierarchy-extension: StructureDefinition.context[0]: Review the extension type for reporting-hierarchy-extension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/reporting-hierarchy-extension'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-reporting-hierarchy-id-extension.json ==
+WARNING: StructureDefinition/reporting-hierarchy-id-extension: StructureDefinition.context[0]: Review the extension type for reporting-hierarchy-id-extension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/reporting-hierarchy-id-extension'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/ValueSet-EthiopiaStateVS.json ==
+WARNING: ValueSet/EthiopiaStateVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-education-status-vs.json ==
+WARNING: ValueSet/education-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-gender-vs.json ==
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://hl7.org/fhir/administrative-gender to 4.0.1 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.0.0 (hl7.fhir.uv.xver-r5.r4#0.1.0)
+== fsh-generated/resources/ValueSet-marital-status-vs.json ==
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-MaritalStatus to 4.0.0 from choices of 2.1.0 (hl7.fhir.uv.xver-r5.r4#0.1.0), 3.0.0 (hl7.terminology.r4#6.0.2), 4.0.0 (hl7.terminology.r4#7.2.0)
+WARNING: ValueSet/marital-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-occupation-vs.json ==
+WARNING: ValueSet/occupation-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-preferred-contact-method-vs.json ==
+WARNING: ValueSet/preferred-contact-method-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

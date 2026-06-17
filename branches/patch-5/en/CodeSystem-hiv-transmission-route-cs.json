@@ -1,0 +1,49 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "hiv-transmission-route-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hiv-transmission-route-cs</b></p><a name=\"hiv-transmission-route-cs\"> </a><a name=\"hchiv-transmission-route-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-transmission-route-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sexual<a name=\"hiv-transmission-route-cs-sexual\"> </a></td><td>Sexual transmission</td></tr><tr><td style=\"white-space:nowrap\">needle<a name=\"hiv-transmission-route-cs-needle\"> </a></td><td>Transmission through sharing of needles and syringes</td></tr><tr><td style=\"white-space:nowrap\">mtct<a name=\"hiv-transmission-route-cs-mtct\"> </a></td><td>Mother-to-child transmission</td></tr><tr><td style=\"white-space:nowrap\">blood<a name=\"hiv-transmission-route-cs-blood\"> </a></td><td>Transmission through blood transfusion</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/hiv-transmission-route-cs",
+  "version" : "0.9.0",
+  "name" : "HIVTransmissionRouteCS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "sexual",
+    "display" : "Sexual transmission"
+  },
+  {
+    "code" : "needle",
+    "display" : "Transmission through sharing of needles and syringes"
+  },
+  {
+    "code" : "mtct",
+    "display" : "Mother-to-child transmission"
+  },
+  {
+    "code" : "blood",
+    "display" : "Transmission through blood transfusion"
+  }]
+}

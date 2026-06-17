@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="prefered-contact-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem prefered-contact-cs</b></p><a name="prefered-contact-cs"> </a><a name="hcprefered-contact-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/prefered-contact-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sms<a name="prefered-contact-cs-sms"> </a></td><td>SMS</td></tr><tr><td style="white-space:nowrap">phone<a name="prefered-contact-cs-phone"> </a></td><td>Phone</td></tr><tr><td style="white-space:nowrap">email<a name="prefered-contact-cs-email"> </a></td><td>email</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/prefered-contact-cs"/>
+  <version value="0.9.0"/>
+  <name value="ContactPointSystemCS"/>
+  <title value="Prefered contact CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-17T04:40:34+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="CodeSystem representing the Prefered Contact"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="sms"/>
+    <display value="SMS"/>
+  </concept>
+  <concept>
+    <code value="phone"/>
+    <display value="Phone"/>
+  </concept>
+  <concept>
+    <code value="email"/>
+    <display value="email"/>
+  </concept>
+</CodeSystem>

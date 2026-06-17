@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="hiv-serotype-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem hiv-serotype-cs</b></p><a name="hiv-serotype-cs"> </a><a name="hchiv-serotype-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-serotype-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">HIV1<a name="hiv-serotype-cs-HIV1"> </a></td><td>HIV-1</td></tr><tr><td style="white-space:nowrap">HIV2<a name="hiv-serotype-cs-HIV2"> </a></td><td>HIV-2</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/hiv-serotype-cs"/>
+  <version value="0.9.0"/>
+  <name value="HIVSerotypeCS"/>
+  <title value="HIV Serotype Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Codes for HIV-1 and HIV-2"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="HIV1"/>
+    <display value="HIV-1"/>
+  </concept>
+  <concept>
+    <code value="HIV2"/>
+    <display value="HIV-2"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,45 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "hiv-test-result-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hiv-test-result-cs</b></p><a name=\"hiv-test-result-cs\"> </a><a name=\"hchiv-test-result-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-test-result-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">positive<a name=\"hiv-test-result-cs-positive\"> </a></td><td>HIV-positive</td></tr><tr><td style=\"white-space:nowrap\">negative<a name=\"hiv-test-result-cs-negative\"> </a></td><td>HIV-negative</td></tr><tr><td style=\"white-space:nowrap\">inconclusive<a name=\"hiv-test-result-cs-inconclusive\"> </a></td><td>HIV-inconclusive</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/hiv-test-result-cs",
+  "version" : "0.9.0",
+  "name" : "HIVTestResultCS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "positive",
+    "display" : "HIV-positive"
+  },
+  {
+    "code" : "negative",
+    "display" : "HIV-negative"
+  },
+  {
+    "code" : "inconclusive",
+    "display" : "HIV-inconclusive"
+  }]
+}

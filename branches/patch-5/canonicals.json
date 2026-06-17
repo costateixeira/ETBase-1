@@ -1,0 +1,1526 @@
+[{
+  "id" : "chlamydia-trachomatis-test-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/chlamydia-trachomatis-test-type-cs",
+  "version" : "0.9.0",
+  "name" : "ChlamydiaTrachomatisTestTypeCS"
+},
+{
+  "id" : "community-entry-point-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/community-entry-point-cs",
+  "version" : "0.9.0",
+  "name" : "CommunityEntryPointCS"
+},
+{
+  "id" : "counselling-provided-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/counselling-provided-cs",
+  "version" : "0.9.0",
+  "name" : "CounsellingProvidedCS"
+},
+{
+  "id" : "education-status-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/education-status-cs",
+  "version" : "0.9.0",
+  "name" : "EducationStatusCS"
+},
+{
+  "id" : "et-observation-code-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/et-observation-code-cs",
+  "version" : "0.9.0",
+  "name" : "ETObservationCodeCS"
+},
+{
+  "id" : "ethiopian-states",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+  "version" : "0.9.0",
+  "name" : "EthiopiaStateCS"
+},
+{
+  "id" : "exposure-source-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/exposure-source-cs",
+  "version" : "0.9.0",
+  "name" : "ExposureSourceCS"
+},
+{
+  "id" : "facility-entry-point-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/facility-entry-point-cs",
+  "version" : "0.9.0",
+  "name" : "FacilityEntryPointCS"
+},
+{
+  "id" : "follow-up-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/follow-up-type-cs",
+  "version" : "0.9.0",
+  "name" : "FollowUpTypeCS"
+},
+{
+  "id" : "gonorrhoea-specimen-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/gonorrhoea-specimen-type-cs",
+  "version" : "0.9.0",
+  "name" : "GonorrhoeaSpecimenTypeCS"
+},
+{
+  "id" : "gonorrhoea-test-result-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/gonorrhoea-test-result-cs",
+  "version" : "0.9.0",
+  "name" : "GonorrhoeaTestResultCS"
+},
+{
+  "id" : "hiv-adherence-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-adherence-cs",
+  "version" : "0.9.0",
+  "name" : "HIVAdherenceCS"
+},
+{
+  "id" : "hiv-assay-number-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-assay-number-cs",
+  "version" : "0.9.0",
+  "name" : "HIVAssayNumberCS"
+},
+{
+  "id" : "hiv-assay-result-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-assay-result-cs",
+  "version" : "0.9.0",
+  "name" : "HIVAssayResultCS"
+},
+{
+  "id" : "hiv-condition-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-condition-cs",
+  "version" : "0.9.0",
+  "name" : "HIVConditionCS"
+},
+{
+  "id" : "hiv-exposure-ways-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-exposure-ways-cs",
+  "version" : "0.9.0",
+  "name" : "HIVExposureWaysCS"
+},
+{
+  "id" : "hiv-prevention-services-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-prevention-services-cs",
+  "version" : "0.9.0",
+  "name" : "HIVPreventionServicesCS"
+},
+{
+  "id" : "hiv-self-test-result-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-self-test-result-cs",
+  "version" : "0.9.0",
+  "name" : "HIVSelfTestResultCS"
+},
+{
+  "id" : "hiv-serotype-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-serotype-cs",
+  "version" : "0.9.0",
+  "name" : "HIVSerotypeCS"
+},
+{
+  "id" : "hiv-status-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-status-cs",
+  "version" : "0.9.0",
+  "name" : "HIVStatusCS"
+},
+{
+  "id" : "hiv-test-result-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-test-result-cs",
+  "version" : "0.9.0",
+  "name" : "HIVTestResultCS"
+},
+{
+  "id" : "hiv-test-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-test-type-cs",
+  "version" : "0.9.0",
+  "name" : "HIVTestTypeCS"
+},
+{
+  "id" : "hiv-testing-entry-point-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-testing-entry-point-cs",
+  "version" : "0.9.0",
+  "name" : "HIVTestingEntryPointCS"
+},
+{
+  "id" : "hiv-testing-reason-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-testing-reason-cs",
+  "version" : "0.9.0",
+  "name" : "HIVTestingReasonCS"
+},
+{
+  "id" : "hiv-transmission-route-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hiv-transmission-route-cs",
+  "version" : "0.9.0",
+  "name" : "HIVTransmissionRouteCS"
+},
+{
+  "id" : "hsv-test-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hsv-test-type-cs",
+  "version" : "0.9.0",
+  "name" : "HSVTestTypeCS"
+},
+{
+  "id" : "hts-service-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/hts-service-cs",
+  "version" : "0.9.0",
+  "name" : "HTSServiceCS"
+},
+{
+  "id" : "ipv-enquiry-result-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/ipv-enquiry-result-cs",
+  "version" : "0.9.0",
+  "name" : "IPVEnquiryResultCS"
+},
+{
+  "id" : "key-population-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/key-population-type-cs",
+  "version" : "0.9.0",
+  "name" : "KeyPopulationTypeCS"
+},
+{
+  "id" : "mycoplasma-genitalium-test-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/mycoplasma-genitalium-test-type-cs",
+  "version" : "0.9.0",
+  "name" : "MycoplasmaGenitaliumTestTypeCS"
+},
+{
+  "id" : "neisseria-gonorrhoeae-test-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/neisseria-gonorrhoeae-test-type-cs",
+  "version" : "0.9.0",
+  "name" : "NeisseriaGonorrhoeaeTestTypeCS"
+},
+{
+  "id" : "observation-component-specify-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/observation-component-specify-cs",
+  "version" : "0.9.0",
+  "name" : "ObservationComponentSpecifyCS"
+},
+{
+  "id" : "occupation-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/occupation-cs",
+  "version" : "0.9.0",
+  "name" : "OccupationCS"
+},
+{
+  "id" : "other-clinical-services-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/other-clinical-services-cs",
+  "version" : "0.9.0",
+  "name" : "OtherClinicalServicesCS"
+},
+{
+  "id" : "other-support-services-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/other-support-services-cs",
+  "version" : "0.9.0",
+  "name" : "OtherSupportServicesCS"
+},
+{
+  "id" : "partner-contact-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/partner-contact-type-cs",
+  "version" : "0.9.0",
+  "name" : "PartnerContactTypeCS"
+},
+{
+  "id" : "partner-hiv-status-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/partner-hiv-status-cs",
+  "version" : "0.9.0",
+  "name" : "PartnerHIVStatusCS"
+},
+{
+  "id" : "partner-risk-category-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/partner-risk-category-cs",
+  "version" : "0.9.0",
+  "name" : "PartnerRiskCategoryCS"
+},
+{
+  "id" : "partner-services-referral-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/partner-services-referral-cs",
+  "version" : "0.9.0",
+  "name" : "PartnerServicesReferralCS"
+},
+{
+  "id" : "prefered-contact-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/prefered-contact-cs",
+  "version" : "0.9.0",
+  "name" : "ContactPointSystemCS"
+},
+{
+  "id" : "prep-dosing-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/prep-dosing-type-cs",
+  "version" : "0.9.0",
+  "name" : "PrEPDosingTypeCS"
+},
+{
+  "id" : "prep-visit-interval-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/prep-visit-interval-cs",
+  "version" : "0.9.0",
+  "name" : "PrepVisitIntervalCS"
+},
+{
+  "id" : "prep-visit-reason-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/prep-visit-reason-cs",
+  "version" : "0.9.0",
+  "name" : "PrepVisitReasonCS"
+},
+{
+  "id" : "srh-integrated-services-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/srh-integrated-services-cs",
+  "version" : "0.9.0",
+  "name" : "SRHIntegratedServicesCS"
+},
+{
+  "id" : "sti-result-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/sti-result-cs",
+  "version" : "0.9.0",
+  "name" : "STIResultCS"
+},
+{
+  "id" : "sti-syndrome-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/sti-syndrome-cs",
+  "version" : "0.9.0",
+  "name" : "STISyndromeCS"
+},
+{
+  "id" : "sti-test-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/sti-test-type-cs",
+  "version" : "0.9.0",
+  "name" : "STITestTypeCS"
+},
+{
+  "id" : "syphilis-confirmatory-test-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/syphilis-confirmatory-test-type-cs",
+  "version" : "0.9.0",
+  "name" : "SyphilisConfirmatoryTestTypeCS"
+},
+{
+  "id" : "syphilis-test-result-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/syphilis-test-result-cs",
+  "version" : "0.9.0",
+  "name" : "SyphilisTestResultCS"
+},
+{
+  "id" : "syphilis-test-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/syphilis-test-type-cs",
+  "version" : "0.9.0",
+  "name" : "SyphilisTestTypeCS"
+},
+{
+  "id" : "trichomonas-vaginalis-test-type-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/trichomonas-vaginalis-test-type-cs",
+  "version" : "0.9.0",
+  "name" : "TrichomonasVaginalisTestTypeCS"
+},
+{
+  "id" : "vmmc-adverse-event-severity-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/vmmc-adverse-event-severity-cs",
+  "version" : "0.9.0",
+  "name" : "VMMCAdverseEventSeverityCS"
+},
+{
+  "id" : "vmmc-adverse-event-timing-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/vmmc-adverse-event-timing-cs",
+  "version" : "0.9.0",
+  "name" : "VMMCAdverseEventTimingCS"
+},
+{
+  "id" : "et.fhir.core",
+  "type" : "ImplementationGuide",
+  "url" : "http://fhir.et/core/ImplementationGuide/et.fhir.core",
+  "version" : "0.9.0",
+  "name" : "ETBase"
+},
+{
+  "id" : "ETPatient",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/ETPatient",
+  "version" : "0.9.0",
+  "name" : "ETPatient"
+},
+{
+  "id" : "FPFollowUpMsgConsent",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/FPFollowUpMsgConsent",
+  "version" : "0.9.0",
+  "name" : "FPFollowUpMsgConsent"
+},
+{
+  "id" : "HIVPatient",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/HIVPatient",
+  "version" : "0.9.0",
+  "name" : "HIVPatient"
+},
+{
+  "id" : "address-kebele",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/address-kebele",
+  "version" : "0.9.0",
+  "name" : "AddressKebeleExtension"
+},
+{
+  "id" : "address-ketenagott",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/address-ketenagott",
+  "version" : "0.9.0",
+  "name" : "AddressKetenaGottExtension"
+},
+{
+  "id" : "address-zone",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/address-zone",
+  "version" : "0.9.0",
+  "name" : "AddressZoneExtension"
+},
+{
+  "id" : "adolescent-girl-indicator",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/adolescent-girl-indicator",
+  "version" : "0.9.0",
+  "name" : "AdolescentGirlIndicator"
+},
+{
+  "id" : "art-start-date",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/art-start-date",
+  "version" : "0.9.0",
+  "name" : "ARTStartMedicationStatement"
+},
+{
+  "id" : "cachment-area",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/cachment-area",
+  "version" : "0.9.0",
+  "name" : "CatchmentArea"
+},
+{
+  "id" : "chlamydia-trachomatis-test-type-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/chlamydia-trachomatis-test-type-observation",
+  "version" : "0.9.0",
+  "name" : "ChlamydiaTrachomatisTestTypeObservation"
+},
+{
+  "id" : "community-entry-point",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/community-entry-point",
+  "version" : "0.9.0",
+  "name" : "CommunityEntryPoint"
+},
+{
+  "id" : "confirmatory-sti-test-result-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/confirmatory-sti-test-result-observation",
+  "version" : "0.9.0",
+  "name" : "ConfirmatorySTITestResultObservation"
+},
+{
+  "id" : "confirmatory-syphilis-test-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/confirmatory-syphilis-test-observation",
+  "version" : "0.9.0",
+  "name" : "ConfirmatorySyphilisTestObservation"
+},
+{
+  "id" : "confirmed-site",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/confirmed-site",
+  "version" : "0.9.0",
+  "name" : "ConfirmedSite"
+},
+{
+  "id" : "consent-to-be-contacted",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/consent-to-be-contacted",
+  "version" : "0.9.0",
+  "name" : "ConsentToBeContacted"
+},
+{
+  "id" : "counselling-provided",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/counselling-provided",
+  "version" : "0.9.0",
+  "name" : "CounsellingProvidedObservation"
+},
+{
+  "id" : "created-date",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/created-date",
+  "version" : "0.9.0",
+  "name" : "CreatedDateExtension"
+},
+{
+  "id" : "currently-on-prep",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/currently-on-prep",
+  "version" : "0.9.0",
+  "name" : "CurrentlyOnPrEP"
+},
+{
+  "id" : "dob-estimated",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/dob-estimated",
+  "version" : "0.9.0",
+  "name" : "DoBEstimated"
+},
+{
+  "id" : "education-status-extension",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/education-status-extension",
+  "version" : "0.9.0",
+  "name" : "EducationStatusExtension"
+},
+{
+  "id" : "ethiopian-mfr-location",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/ethiopian-mfr-location",
+  "version" : "0.9.0",
+  "name" : "EthiopianMfrLocation"
+},
+{
+  "id" : "ethiopian-mfr-organization",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/ethiopian-mfr-organization",
+  "version" : "0.9.0",
+  "name" : "EthiopianMfrOrganization"
+},
+{
+  "id" : "ethiopian-mfr-organization-affiliation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/ethiopian-mfr-organization-affiliation",
+  "version" : "0.9.0",
+  "name" : "EthiopianMfrOrganizationAffiliation"
+},
+{
+  "id" : "expected-delivery-date",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/expected-delivery-date",
+  "version" : "0.9.0",
+  "name" : "ExpectedDeliveryDateObservation"
+},
+{
+  "id" : "exposure-source-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/exposure-source-observation",
+  "version" : "0.9.0",
+  "name" : "ExposureSourceObservation"
+},
+{
+  "id" : "facility-entry-point",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/facility-entry-point",
+  "version" : "0.9.0",
+  "name" : "FacilityEntryPoint"
+},
+{
+  "id" : "follow-up-type-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/follow-up-type-observation",
+  "version" : "0.9.0",
+  "name" : "FollowUpTypeObservation"
+},
+{
+  "id" : "gestational-age-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/gestational-age-observation",
+  "version" : "0.9.0",
+  "name" : "GestationalAgeObservation"
+},
+{
+  "id" : "gonorrhoea-testing-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/gonorrhoea-testing-observation",
+  "version" : "0.9.0",
+  "name" : "GonorrhoeaTestingObservation"
+},
+{
+  "id" : "grandfathers-family-name",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/grandfathers-family-name",
+  "version" : "0.9.0",
+  "name" : "GrandfathersName"
+},
+{
+  "id" : "hiv-adherence",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-adherence",
+  "version" : "0.9.0",
+  "name" : "HIVAdherenceObservation"
+},
+{
+  "id" : "hiv-art-medication-request",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-art-medication-request",
+  "version" : "0.9.0",
+  "name" : "HIVARTMedicationRequest"
+},
+{
+  "id" : "hiv-assay-number-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-assay-number-observation",
+  "version" : "0.9.0",
+  "name" : "HIVAssayNumberObservation"
+},
+{
+  "id" : "hiv-careplan",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-careplan",
+  "version" : "0.9.0",
+  "name" : "HIVCarePlan"
+},
+{
+  "id" : "hiv-cd4",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-cd4",
+  "version" : "0.9.0",
+  "name" : "HIVCD4Observation"
+},
+{
+  "id" : "hiv-client-informed-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-client-informed-observation",
+  "version" : "0.9.0",
+  "name" : "HIVClientInformedObservation"
+},
+{
+  "id" : "hiv-condition",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-condition",
+  "version" : "0.9.0",
+  "name" : "HIVCondition"
+},
+{
+  "id" : "hiv-consent",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-consent",
+  "version" : "0.9.0",
+  "name" : "HIVConsent"
+},
+{
+  "id" : "hiv-diagnosis-date",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-diagnosis-date",
+  "version" : "0.9.0",
+  "name" : "HIVDiagnosisDateObservation"
+},
+{
+  "id" : "hiv-diagnosis-facility-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-diagnosis-facility-observation",
+  "version" : "0.9.0",
+  "name" : "HIVDiagnosisFacilityObservation"
+},
+{
+  "id" : "hiv-encounter",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-encounter",
+  "version" : "0.9.0",
+  "name" : "HIVEncounter"
+},
+{
+  "id" : "hiv-exposure-datetime",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-exposure-datetime",
+  "version" : "0.9.0",
+  "name" : "HIVExposureDateTime"
+},
+{
+  "id" : "hiv-exposure-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-exposure-observation",
+  "version" : "0.9.0",
+  "name" : "HIVExposureObservation"
+},
+{
+  "id" : "hiv-first-positive-test-date",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-first-positive-test-date",
+  "version" : "0.9.0",
+  "name" : "HIVFirstPositiveTestDateObservation"
+},
+{
+  "id" : "hiv-followup-appointment",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-followup-appointment",
+  "version" : "0.9.0",
+  "name" : "HIVFollowUpAppointment"
+},
+{
+  "id" : "hiv-hts-request",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-hts-request",
+  "version" : "0.9.0",
+  "name" : "HIVTestingServiceRequest"
+},
+{
+  "id" : "hiv-lab-report",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-lab-report",
+  "version" : "0.9.0",
+  "name" : "HIVLabReport"
+},
+{
+  "id" : "hiv-library",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-library",
+  "version" : "0.9.0",
+  "name" : "HIVLibrary"
+},
+{
+  "id" : "hiv-measure",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-measure",
+  "version" : "0.9.0",
+  "name" : "HIVMeasure"
+},
+{
+  "id" : "hiv-partner-contact",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-partner-contact",
+  "version" : "0.9.0",
+  "name" : "HIVPartnerContactperson"
+},
+{
+  "id" : "hiv-positive-confirmed-date",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-positive-confirmed-date",
+  "version" : "0.9.0",
+  "name" : "HIVPositiveConfirmedDateObservation"
+},
+{
+  "id" : "hiv-positive-confirmed-site",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-positive-confirmed-site",
+  "version" : "0.9.0",
+  "name" : "HIVPositiveConfirmedSiteObservation"
+},
+{
+  "id" : "hiv-prevention-services",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-prevention-services",
+  "version" : "0.9.0",
+  "name" : "HIVPreventionServicesObservation"
+},
+{
+  "id" : "hiv-retest-risk-assessment",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-retest-risk-assessment",
+  "version" : "0.9.0",
+  "name" : "HIVRetestAndRiskAssessmentObservation"
+},
+{
+  "id" : "hiv-self-test-history",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-self-test-history",
+  "version" : "0.9.0",
+  "name" : "HIVSelfTestHistory"
+},
+{
+  "id" : "hiv-self-test-result",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-self-test-result",
+  "version" : "0.9.0",
+  "name" : "HIVSelfTestResultObservation"
+},
+{
+  "id" : "hiv-serotype-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-serotype-observation",
+  "version" : "0.9.0",
+  "name" : "HIVSerotypeObservation"
+},
+{
+  "id" : "hiv-status",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-status",
+  "version" : "0.9.0",
+  "name" : "HIVStatusObservation"
+},
+{
+  "id" : "hiv-test-conducted-boolean",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-test-conducted-boolean",
+  "version" : "0.9.0",
+  "name" : "HIVTestConductedObservation"
+},
+{
+  "id" : "hiv-test-ordered-boolean",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-test-ordered-boolean",
+  "version" : "0.9.0",
+  "name" : "HIVTestOrderedObservation"
+},
+{
+  "id" : "hiv-test-result",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-test-result",
+  "version" : "0.9.0",
+  "name" : "HIVTestResult"
+},
+{
+  "id" : "hiv-test-result-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-test-result-observation",
+  "version" : "0.9.0",
+  "name" : "HIVTestResultObservation"
+},
+{
+  "id" : "hiv-test-sent-date",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-test-sent-date",
+  "version" : "0.9.0",
+  "name" : "HIVTestSentDateObservation"
+},
+{
+  "id" : "hiv-test-type-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-test-type-observation",
+  "version" : "0.9.0",
+  "name" : "HIVTestTypeObservation"
+},
+{
+  "id" : "hiv-testing-encounter",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-testing-encounter",
+  "version" : "0.9.0",
+  "name" : "HIVTestingEncounter"
+},
+{
+  "id" : "hiv-transmission-route",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hiv-transmission-route",
+  "version" : "0.9.0",
+  "name" : "HIVTransmissionRouteObservation"
+},
+{
+  "id" : "hsv-test-type-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/hsv-test-type-observation",
+  "version" : "0.9.0",
+  "name" : "HSVTestTypeObservation"
+},
+{
+  "id" : "infant-breastfeeding-status",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/infant-breastfeeding-status",
+  "version" : "0.9.0",
+  "name" : "InfantBreastfeedingStatus"
+},
+{
+  "id" : "ipv-clinical-enquiry",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/ipv-clinical-enquiry",
+  "version" : "0.9.0",
+  "name" : "IPVClinicalEnquiryObservation"
+},
+{
+  "id" : "ipv-enquiry-result",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/ipv-enquiry-result",
+  "version" : "0.9.0",
+  "name" : "IPVEnquiryResultObservation"
+},
+{
+  "id" : "key-population-membership",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/key-population-membership",
+  "version" : "0.9.0",
+  "name" : "KeyPopulationMembership"
+},
+{
+  "id" : "key-population-type",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/key-population-type",
+  "version" : "0.9.0",
+  "name" : "KeyPopulationTypeObservation"
+},
+{
+  "id" : "mycoplasma-genitalium-test-type-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/mycoplasma-genitalium-test-type-observation",
+  "version" : "0.9.0",
+  "name" : "MycoplasmaGenitaliumTestTypeObservation"
+},
+{
+  "id" : "neisseria-gonorrhoeae-test-type-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/neisseria-gonorrhoeae-test-type-observation",
+  "version" : "0.9.0",
+  "name" : "NeisseriaGonorrhoeaeTestTypeObservation"
+},
+{
+  "id" : "occupation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/occupation",
+  "version" : "0.9.0",
+  "name" : "Occupation"
+},
+{
+  "id" : "offered-vps-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/offered-vps-observation",
+  "version" : "0.9.0",
+  "name" : "OfferedVoluntaryPartnerServicesObservation"
+},
+{
+  "id" : "other-clinical-services",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/other-clinical-services",
+  "version" : "0.9.0",
+  "name" : "OtherClinicalServicesObservation"
+},
+{
+  "id" : "other-support-services",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/other-support-services",
+  "version" : "0.9.0",
+  "name" : "OtherSupportServicesObservation"
+},
+{
+  "id" : "partner-contacts-count",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-contacts-count",
+  "version" : "0.9.0",
+  "name" : "PartnerContactsCountObservation"
+},
+{
+  "id" : "partner-hiv-status",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-hiv-status",
+  "version" : "0.9.0",
+  "name" : "PartnerHIVStatusObservation"
+},
+{
+  "id" : "partner-hiv-test-conducted",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-hiv-test-conducted",
+  "version" : "0.9.0",
+  "name" : "PartnerHIVTestConductedObservation"
+},
+{
+  "id" : "partner-hiv-test-date",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-hiv-test-date",
+  "version" : "0.9.0",
+  "name" : "PartnerHIVTestDateObservation"
+},
+{
+  "id" : "partner-hiv-test-ordered",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-hiv-test-ordered",
+  "version" : "0.9.0",
+  "name" : "PartnerHIVTestOrderedObservation"
+},
+{
+  "id" : "partner-hiv-test-result",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-hiv-test-result",
+  "version" : "0.9.0",
+  "name" : "PartnerHIVTestResultObservation"
+},
+{
+  "id" : "partner-notification-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-notification-observation",
+  "version" : "0.9.0",
+  "name" : "PartnerNotificationObservation"
+},
+{
+  "id" : "partner-on-art",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-on-art",
+  "version" : "0.9.0",
+  "name" : "PartnerOnARTObservation"
+},
+{
+  "id" : "partner-risk-category",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-risk-category",
+  "version" : "0.9.0",
+  "name" : "PartnerRiskCategoryObservation"
+},
+{
+  "id" : "partner-services-accepted",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-services-accepted",
+  "version" : "0.9.0",
+  "name" : "PartnerServicesAcceptedObservation"
+},
+{
+  "id" : "partner-services-offered",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-services-offered",
+  "version" : "0.9.0",
+  "name" : "PartnerServicesOfferedObservation"
+},
+{
+  "id" : "partner-services-referral",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-services-referral",
+  "version" : "0.9.0",
+  "name" : "PartnerServicesReferral"
+},
+{
+  "id" : "partner-viral-suppression",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/partner-viral-suppression",
+  "version" : "0.9.0",
+  "name" : "PartnerViralSuppressionObservation"
+},
+{
+  "id" : "preferred-contact-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/preferred-contact-method",
+  "version" : "0.9.0",
+  "name" : "PreferredContactMethod"
+},
+{
+  "id" : "pregnancy-status-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/pregnancy-status-observation",
+  "version" : "0.9.0",
+  "name" : "PregnancyStatusObservation"
+},
+{
+  "id" : "prep-dosing-type",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/prep-dosing-type",
+  "version" : "0.9.0",
+  "name" : "PrEPDosingType"
+},
+{
+  "id" : "prep-encounter",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/prep-encounter",
+  "version" : "0.9.0",
+  "name" : "PrepEncounter"
+},
+{
+  "id" : "prep-visit-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/prep-visit-observation",
+  "version" : "0.9.0",
+  "name" : "PrepVisitObservation"
+},
+{
+  "id" : "prep-visit-reason",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/prep-visit-reason",
+  "version" : "0.9.0",
+  "name" : "PrepVisitReason"
+},
+{
+  "id" : "reporting-hierarchy-extension",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/reporting-hierarchy-extension",
+  "version" : "0.9.0",
+  "name" : "ReportingHierarchyExtension"
+},
+{
+  "id" : "reporting-hierarchy-id-extension",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/reporting-hierarchy-id-extension",
+  "version" : "0.9.0",
+  "name" : "ReportingHierarchyIdExtension"
+},
+{
+  "id" : "srh-integrated-services",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/srh-integrated-services",
+  "version" : "0.9.0",
+  "name" : "SRHIntegratedServicesObservation"
+},
+{
+  "id" : "sti-result-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/sti-result-observation",
+  "version" : "0.9.0",
+  "name" : "STIResultObservation"
+},
+{
+  "id" : "sti-syndrome-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/sti-syndrome-observation",
+  "version" : "0.9.0",
+  "name" : "STISyndromeObservation"
+},
+{
+  "id" : "sti-testing-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/sti-testing-observation",
+  "version" : "0.9.0",
+  "name" : "STITestingObservation"
+},
+{
+  "id" : "suspected-hiv-exposure",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/suspected-hiv-exposure",
+  "version" : "0.9.0",
+  "name" : "SuspectedHIVExposure"
+},
+{
+  "id" : "suspected-hiv-exposure-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/suspected-hiv-exposure-observation",
+  "version" : "0.9.0",
+  "name" : "SuspectedHIVExposureObservation"
+},
+{
+  "id" : "syphilis-test-type-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/syphilis-test-type-observation",
+  "version" : "0.9.0",
+  "name" : "SyphilisTestTypeObservation"
+},
+{
+  "id" : "syphilis-testing-treatment-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/syphilis-testing-treatment-observation",
+  "version" : "0.9.0",
+  "name" : "SyphilisTestingAndTreatmentObservation"
+},
+{
+  "id" : "trichomonas-vaginalis-test-type-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/trichomonas-vaginalis-test-type-observation",
+  "version" : "0.9.0",
+  "name" : "TrichomonasVaginalisTestTypeObservation"
+},
+{
+  "id" : "vmmc-adverse-event-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/vmmc-adverse-event-observation",
+  "version" : "0.9.0",
+  "name" : "VMMCAdverseEventObservation"
+},
+{
+  "id" : "vmmc-procedure-date-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/vmmc-procedure-date-observation",
+  "version" : "0.9.0",
+  "name" : "VMMCProcedureDateObservation"
+},
+{
+  "id" : "vmmc-procedure-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/vmmc-procedure-observation",
+  "version" : "0.9.0",
+  "name" : "VMMCProcedureObservation"
+},
+{
+  "id" : "young-woman-indicator",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/young-woman-indicator",
+  "version" : "0.9.0",
+  "name" : "YoungWomanIndicator"
+},
+{
+  "id" : "EthiopiaStateVS",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/EthiopiaStateVS",
+  "version" : "0.9.0",
+  "name" : "EthiopiaStateVS"
+},
+{
+  "id" : "chlamydia-trachomatis-test-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/chlamydia-trachomatis-test-type-vs",
+  "version" : "0.9.0",
+  "name" : "ChlamydiaTrachomatisTestTypeVS"
+},
+{
+  "id" : "community-entry-point-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/community-entry-point-vs",
+  "version" : "0.9.0",
+  "name" : "CommunityEntryPointValueSet"
+},
+{
+  "id" : "counselling-provided-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/counselling-provided-vs",
+  "version" : "0.9.0",
+  "name" : "CounsellingProvidedVS"
+},
+{
+  "id" : "education-status-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/education-status-vs",
+  "version" : "0.9.0",
+  "name" : "EducationStatusVS"
+},
+{
+  "id" : "exposure-source-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/exposure-source-vs",
+  "version" : "0.9.0",
+  "name" : "ExposureSourceVS"
+},
+{
+  "id" : "facility-entry-point-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/facility-entry-point-vs",
+  "version" : "0.9.0",
+  "name" : "FacilityEntryPointVS"
+},
+{
+  "id" : "follow-up-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/follow-up-type-vs",
+  "version" : "0.9.0",
+  "name" : "FollowUpTypeVS"
+},
+{
+  "id" : "gender-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/gender-vs",
+  "version" : "0.9.0",
+  "name" : "ETGenderVS"
+},
+{
+  "id" : "gonorrhoea-specimen-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/gonorrhoea-specimen-type-vs",
+  "version" : "0.9.0",
+  "name" : "GonorrhoeaSpecimenTypeVS"
+},
+{
+  "id" : "gonorrhoea-test-result-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/gonorrhoea-test-result-vs",
+  "version" : "0.9.0",
+  "name" : "GonorrhoeaTestResultVS"
+},
+{
+  "id" : "hiv-adherence-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-adherence-vs",
+  "version" : "0.9.0",
+  "name" : "AdherenceVS"
+},
+{
+  "id" : "hiv-assay-number-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-assay-number-vs",
+  "version" : "0.9.0",
+  "name" : "HIVAssayNumberVS"
+},
+{
+  "id" : "hiv-assay-result-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-assay-result-vs",
+  "version" : "0.9.0",
+  "name" : "HIVAssayResultVS"
+},
+{
+  "id" : "hiv-condition-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-condition-vs",
+  "version" : "0.9.0",
+  "name" : "HIVConditionVS"
+},
+{
+  "id" : "hiv-exposure-ways-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-exposure-ways-vs",
+  "version" : "0.9.0",
+  "name" : "HIVExposureWaysVS"
+},
+{
+  "id" : "hiv-prevention-services-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-prevention-services-vs",
+  "version" : "0.9.0",
+  "name" : "HIVPreventionServicesVS"
+},
+{
+  "id" : "hiv-self-test-result-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-self-test-result-vs",
+  "version" : "0.9.0",
+  "name" : "HIVSelfTestResultVS"
+},
+{
+  "id" : "hiv-serotype-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-serotype-vs",
+  "version" : "0.9.0",
+  "name" : "HIVSerotypeVS"
+},
+{
+  "id" : "hiv-status-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-status-vs",
+  "version" : "0.9.0",
+  "name" : "HIVStatusVS"
+},
+{
+  "id" : "hiv-test-result-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-test-result-vs",
+  "version" : "0.9.0",
+  "name" : "HIVTestResultVS"
+},
+{
+  "id" : "hiv-test-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-test-type-vs",
+  "version" : "0.9.0",
+  "name" : "HIVTestTypeVS"
+},
+{
+  "id" : "hiv-testing-entry-point-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-testing-entry-point-vs",
+  "version" : "0.9.0",
+  "name" : "HIVTestingEntryPointVS"
+},
+{
+  "id" : "hiv-testing-reason-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-testing-reason-vs",
+  "version" : "0.9.0",
+  "name" : "HIVTestingReasonVS"
+},
+{
+  "id" : "hiv-transmission-route-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hiv-transmission-route-vs",
+  "version" : "0.9.0",
+  "name" : "HIVTransmissionRouteVS"
+},
+{
+  "id" : "hsv-test-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hsv-test-type-vs",
+  "version" : "0.9.0",
+  "name" : "HSVTestTypeVS"
+},
+{
+  "id" : "hts-service-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/hts-service-vs",
+  "version" : "0.9.0",
+  "name" : "HTSServiceVS"
+},
+{
+  "id" : "ipv-enquiry-result-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/ipv-enquiry-result-vs",
+  "version" : "0.9.0",
+  "name" : "IPVEnquiryResultVS"
+},
+{
+  "id" : "key-population-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/key-population-type-vs",
+  "version" : "0.9.0",
+  "name" : "KeyPopulationTypeVS"
+},
+{
+  "id" : "marital-status-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/marital-status-vs",
+  "version" : "0.9.0",
+  "name" : "ETMaritalStatusVS"
+},
+{
+  "id" : "mycoplasma-genitalium-test-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/mycoplasma-genitalium-test-type-vs",
+  "version" : "0.9.0",
+  "name" : "MycoplasmaGenitaliumTestTypeVS"
+},
+{
+  "id" : "neisseria-gonorrhoeae-test-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/neisseria-gonorrhoeae-test-type-vs",
+  "version" : "0.9.0",
+  "name" : "NeisseriaGonorrhoeaeTestTypeVS"
+},
+{
+  "id" : "occupation-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/occupation-vs",
+  "version" : "0.9.0",
+  "name" : "OccupationVS"
+},
+{
+  "id" : "other-clinical-services-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/other-clinical-services-vs",
+  "version" : "0.9.0",
+  "name" : "OtherClinicalServicesVS"
+},
+{
+  "id" : "other-support-services-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/other-support-services-vs",
+  "version" : "0.9.0",
+  "name" : "OtherSupportServicesVS"
+},
+{
+  "id" : "partner-contact-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/partner-contact-type-vs",
+  "version" : "0.9.0",
+  "name" : "PartnerContactTypeVS"
+},
+{
+  "id" : "partner-risk-category-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/partner-risk-category-vs",
+  "version" : "0.9.0",
+  "name" : "PartnerRiskCategoryVS"
+},
+{
+  "id" : "partner-services-referral-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/partner-services-referral-vs",
+  "version" : "0.9.0",
+  "name" : "PartnerServicesReferralVS"
+},
+{
+  "id" : "preferred-contact-method-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/preferred-contact-method-vs",
+  "version" : "0.9.0",
+  "name" : "PreferredContactMethodVS"
+},
+{
+  "id" : "prep-dosing-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/prep-dosing-type-vs",
+  "version" : "0.9.0",
+  "name" : "PrEPDosingTypeVS"
+},
+{
+  "id" : "prep-visit-interval-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/prep-visit-interval-vs",
+  "version" : "0.9.0",
+  "name" : "PrepVisitIntervalVS"
+},
+{
+  "id" : "prep-visit-reason-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/prep-visit-reason-vs",
+  "version" : "0.9.0",
+  "name" : "PrepVisitReasonVS"
+},
+{
+  "id" : "srh-integrated-services-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/srh-integrated-services-vs",
+  "version" : "0.9.0",
+  "name" : "SRHIntegratedServicesVS"
+},
+{
+  "id" : "sti-result-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/sti-result-vs",
+  "version" : "0.9.0",
+  "name" : "STIResultVS"
+},
+{
+  "id" : "sti-syndrome-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/sti-syndrome-vs",
+  "version" : "0.9.0",
+  "name" : "STISyndromeVS"
+},
+{
+  "id" : "sti-test-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/sti-test-type-vs",
+  "version" : "0.9.0",
+  "name" : "STITestTypeVS"
+},
+{
+  "id" : "syphilis-confirmatory-test-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/syphilis-confirmatory-test-type-vs",
+  "version" : "0.9.0",
+  "name" : "SyphilisConfirmatoryTestTypeVS"
+},
+{
+  "id" : "syphilis-test-result-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/syphilis-test-result-vs",
+  "version" : "0.9.0",
+  "name" : "SyphilisTestResultVS"
+},
+{
+  "id" : "syphilis-test-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/syphilis-test-type-vs",
+  "version" : "0.9.0",
+  "name" : "SyphilisTestTypeVS"
+},
+{
+  "id" : "trichomonas-vaginalis-test-type-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/trichomonas-vaginalis-test-type-vs",
+  "version" : "0.9.0",
+  "name" : "TrichomonasVaginalisTestTypeVS"
+},
+{
+  "id" : "vmmc-adverse-event-severity-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/vmmc-adverse-event-severity-vs",
+  "version" : "0.9.0",
+  "name" : "VMMCAdverseEventSeverityVS"
+},
+{
+  "id" : "vmmc-adverse-event-timing-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/vmmc-adverse-event-timing-vs",
+  "version" : "0.9.0",
+  "name" : "VMMCAdverseEventTimingVS"
+}]

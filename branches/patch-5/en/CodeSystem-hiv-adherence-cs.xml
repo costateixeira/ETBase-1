@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="hiv-adherence-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem hiv-adherence-cs</b></p><a name="hiv-adherence-cs"> </a><a name="hchiv-adherence-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-adherence-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">good<a name="hiv-adherence-cs-good"> </a></td><td>Good adherence</td><td>Client took &gt;=95% of prescribed doses</td></tr><tr><td style="white-space:nowrap">fair<a name="hiv-adherence-cs-fair"> </a></td><td>Fair adherence</td><td>Client took 85%–94% of prescribed doses</td></tr><tr><td style="white-space:nowrap">poor<a name="hiv-adherence-cs-poor"> </a></td><td>Poor adherence</td><td>Client took &lt;85% of prescribed doses</td></tr><tr><td style="white-space:nowrap">missed-dose<a name="hiv-adherence-cs-missed-dose"> </a></td><td>Missed dose</td><td>Client missed one or more doses</td></tr><tr><td style="white-space:nowrap">interrupted<a name="hiv-adherence-cs-interrupted"> </a></td><td>Treatment interrupted</td><td>Treatment was interrupted for a defined period</td></tr><tr><td style="white-space:nowrap">not-assessed<a name="hiv-adherence-cs-not-assessed"> </a></td><td>Not assessed</td><td>Adherence was not assessed during the visit</td></tr><tr><td style="white-space:nowrap">unknown<a name="hiv-adherence-cs-unknown"> </a></td><td>Unknown</td><td>Adherence status is unknown</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/hiv-adherence-cs"/>
+  <version value="0.9.0"/>
+  <name value="HIVAdherenceCS"/>
+  <title value="HIV ART Adherence Code System"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Codes representing the client's adherence to ART treatment"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="good"/>
+    <display value="Good adherence"/>
+    <definition value="Client took &gt;=95% of prescribed doses"/>
+  </concept>
+  <concept>
+    <code value="fair"/>
+    <display value="Fair adherence"/>
+    <definition value="Client took 85%–94% of prescribed doses"/>
+  </concept>
+  <concept>
+    <code value="poor"/>
+    <display value="Poor adherence"/>
+    <definition value="Client took &lt;85% of prescribed doses"/>
+  </concept>
+  <concept>
+    <code value="missed-dose"/>
+    <display value="Missed dose"/>
+    <definition value="Client missed one or more doses"/>
+  </concept>
+  <concept>
+    <code value="interrupted"/>
+    <display value="Treatment interrupted"/>
+    <definition value="Treatment was interrupted for a defined period"/>
+  </concept>
+  <concept>
+    <code value="not-assessed"/>
+    <display value="Not assessed"/>
+    <definition value="Adherence was not assessed during the visit"/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+    <definition value="Adherence status is unknown"/>
+  </concept>
+</CodeSystem>

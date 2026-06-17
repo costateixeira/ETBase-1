@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="gender-vs"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet gender-vs</b></p><a name="gender-vs"> </a><a name="hcgender-vs"> </a><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a><span title="Version is explicitly stated to be 4.0.1"> version &#x1F4CD;4.0.1</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a></td><td>Male</td><td>Male.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a></td><td>Female</td><td>Female.</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://fhir.et/core/ValueSet/gender-vs"/>
+  <version value="0.9.0"/>
+  <name value="ETGenderVS"/>
+  <title value="Ethiopian Patient Gender values"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-17T09:00:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Patient Gender...."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/administrative-gender"/>
+      <version value="4.0.1"/>
+      <concept>
+        <code value="male"/>
+        <display value="Male"/>
+      </concept>
+      <concept>
+        <code value="female"/>
+        <display value="Female"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

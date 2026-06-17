@@ -1,0 +1,105 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "hiv-condition-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hiv-condition-cs</b></p><a name=\"hiv-condition-cs\"> </a><a name=\"hchiv-condition-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-condition-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">hiv-positive<a name=\"hiv-condition-cs-hiv-positive\"> </a></td><td>HIV Positive</td><td>Confirmed HIV infection</td></tr><tr><td style=\"white-space:nowrap\">hiv-negative<a name=\"hiv-condition-cs-hiv-negative\"> </a></td><td>HIV Negative</td><td>Confirmed HIV negative status</td></tr><tr><td style=\"white-space:nowrap\">hiv-exposed<a name=\"hiv-condition-cs-hiv-exposed\"> </a></td><td>HIV Exposed</td><td>Person exposed to HIV</td></tr><tr><td style=\"white-space:nowrap\">acute-hiv-infection<a name=\"hiv-condition-cs-acute-hiv-infection\"> </a></td><td>Acute HIV Infection</td><td>Acute or primary HIV infection</td></tr><tr><td style=\"white-space:nowrap\">advanced-hiv-disease<a name=\"hiv-condition-cs-advanced-hiv-disease\"> </a></td><td>Advanced HIV Disease</td><td>Advanced HIV disease according to WHO criteria</td></tr><tr><td style=\"white-space:nowrap\">aids<a name=\"hiv-condition-cs-aids\"> </a></td><td>AIDS</td><td>Acquired Immunodeficiency Syndrome</td></tr><tr><td style=\"white-space:nowrap\">art-eligible<a name=\"hiv-condition-cs-art-eligible\"> </a></td><td>Eligible for ART</td><td>Client meets criteria for ART initiation</td></tr><tr><td style=\"white-space:nowrap\">on-art<a name=\"hiv-condition-cs-on-art\"> </a></td><td>On ART</td><td>Client currently receiving antiretroviral therapy</td></tr><tr><td style=\"white-space:nowrap\">art-interrupted<a name=\"hiv-condition-cs-art-interrupted\"> </a></td><td>ART Interrupted</td><td>ART treatment interrupted</td></tr><tr><td style=\"white-space:nowrap\">lost-to-followup<a name=\"hiv-condition-cs-lost-to-followup\"> </a></td><td>Lost to Follow-up</td><td>Client missed care and follow-up requirements</td></tr><tr><td style=\"white-space:nowrap\">transferred-in<a name=\"hiv-condition-cs-transferred-in\"> </a></td><td>Transferred In</td><td>Client transferred from another facility</td></tr><tr><td style=\"white-space:nowrap\">transferred-out<a name=\"hiv-condition-cs-transferred-out\"> </a></td><td>Transferred Out</td><td>Client transferred to another facility</td></tr><tr><td style=\"white-space:nowrap\">deceased<a name=\"hiv-condition-cs-deceased\"> </a></td><td>Deceased</td><td>Client died</td></tr><tr><td style=\"white-space:nowrap\">unknown-status<a name=\"hiv-condition-cs-unknown-status\"> </a></td><td>Unknown HIV Status</td><td>HIV status is not known</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/hiv-condition-cs",
+  "version" : "0.9.0",
+  "name" : "HIVConditionCS",
+  "title" : "HIV Condition Code System",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Clinical HIV-related conditions and diagnoses",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 14,
+  "concept" : [{
+    "code" : "hiv-positive",
+    "display" : "HIV Positive",
+    "definition" : "Confirmed HIV infection"
+  },
+  {
+    "code" : "hiv-negative",
+    "display" : "HIV Negative",
+    "definition" : "Confirmed HIV negative status"
+  },
+  {
+    "code" : "hiv-exposed",
+    "display" : "HIV Exposed",
+    "definition" : "Person exposed to HIV"
+  },
+  {
+    "code" : "acute-hiv-infection",
+    "display" : "Acute HIV Infection",
+    "definition" : "Acute or primary HIV infection"
+  },
+  {
+    "code" : "advanced-hiv-disease",
+    "display" : "Advanced HIV Disease",
+    "definition" : "Advanced HIV disease according to WHO criteria"
+  },
+  {
+    "code" : "aids",
+    "display" : "AIDS",
+    "definition" : "Acquired Immunodeficiency Syndrome"
+  },
+  {
+    "code" : "art-eligible",
+    "display" : "Eligible for ART",
+    "definition" : "Client meets criteria for ART initiation"
+  },
+  {
+    "code" : "on-art",
+    "display" : "On ART",
+    "definition" : "Client currently receiving antiretroviral therapy"
+  },
+  {
+    "code" : "art-interrupted",
+    "display" : "ART Interrupted",
+    "definition" : "ART treatment interrupted"
+  },
+  {
+    "code" : "lost-to-followup",
+    "display" : "Lost to Follow-up",
+    "definition" : "Client missed care and follow-up requirements"
+  },
+  {
+    "code" : "transferred-in",
+    "display" : "Transferred In",
+    "definition" : "Client transferred from another facility"
+  },
+  {
+    "code" : "transferred-out",
+    "display" : "Transferred Out",
+    "definition" : "Client transferred to another facility"
+  },
+  {
+    "code" : "deceased",
+    "display" : "Deceased",
+    "definition" : "Client died"
+  },
+  {
+    "code" : "unknown-status",
+    "display" : "Unknown HIV Status",
+    "definition" : "HIV status is not known"
+  }]
+}

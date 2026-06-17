@@ -1,0 +1,34 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.et/core/CodeSystem/education-status-cs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "EducationStatusCS",
+    "title" : "Ethiopia Education Status CodeSystem",
+    "description" : "CodeSystem representing the educational status categories used in Ethiopia"
+  },
+  {
+    "url" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "EthiopiaStateCS",
+    "title" : "Ethiopia State / Region CodeSystem",
+    "description" : "Administrative states and city administrations of Ethiopia"
+  },
+  {
+    "url" : "http://fhir.et/core/CodeSystem/occupation",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "OccupationCS",
+    "title" : "Ethiopia Occupation CodeSystem",
+    "description" : "CodeSystem representing the occupation categories used in Ethiopia"
+  },
+  {
+    "url" : "http://fhir.et/core/CodeSystem/prefered-contact-cs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "ContactPointSystemCS",
+    "title" : "Prefered contact CodeSystem",
+    "description" : "CodeSystem representing the Prefered Contact"
+  }]
+}

@@ -1,0 +1,58 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "other-clinical-services-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem other-clinical-services-cs</b></p><a name=\"other-clinical-services-cs\"> </a><a name=\"hcother-clinical-services-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/other-clinical-services-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">vaccination<a name=\"other-clinical-services-cs-vaccination\"> </a></td><td>Assessment and provision of vaccinations</td></tr><tr><td style=\"white-space:nowrap\">hbv-hcv<a name=\"other-clinical-services-cs-hbv-hcv\"> </a></td><td>Hepatitis B (HBV) and hepatitis C virus (HCV) testing and treatment provided</td></tr><tr><td style=\"white-space:nowrap\">cotrimoxazole<a name=\"other-clinical-services-cs-cotrimoxazole\"> </a></td><td>Co-trimoxazole chemoprophylaxis to prevent Pneumocystis carinii pneumonia</td></tr><tr><td style=\"white-space:nowrap\">tb-screening<a name=\"other-clinical-services-cs-tb-screening\"> </a></td><td>Intensified TB case finding and linkage to TB treatment provided</td></tr><tr><td style=\"white-space:nowrap\">ipt<a name=\"other-clinical-services-cs-ipt\"> </a></td><td>Provision of isoniazid preventive therapy if person does not have TB</td></tr><tr><td style=\"white-space:nowrap\">malaria<a name=\"other-clinical-services-cs-malaria\"> </a></td><td>Malaria prevention (such as bed nets and prophylaxis), depending on epidemiology</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/other-clinical-services-cs",
+  "version" : "0.9.0",
+  "name" : "OtherClinicalServicesCS",
+  "title" : "Other Clinical Services Offered CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Other clinical services offered to the client",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "vaccination",
+    "display" : "Assessment and provision of vaccinations"
+  },
+  {
+    "code" : "hbv-hcv",
+    "display" : "Hepatitis B (HBV) and hepatitis C virus (HCV) testing and treatment provided"
+  },
+  {
+    "code" : "cotrimoxazole",
+    "display" : "Co-trimoxazole chemoprophylaxis to prevent Pneumocystis carinii pneumonia"
+  },
+  {
+    "code" : "tb-screening",
+    "display" : "Intensified TB case finding and linkage to TB treatment provided"
+  },
+  {
+    "code" : "ipt",
+    "display" : "Provision of isoniazid preventive therapy if person does not have TB"
+  },
+  {
+    "code" : "malaria",
+    "display" : "Malaria prevention (such as bed nets and prophylaxis), depending on epidemiology"
+  }]
+}

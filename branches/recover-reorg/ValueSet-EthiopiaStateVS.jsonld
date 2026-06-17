@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "http://fhir.et/core/ValueSet-EthiopiaStateVS.jsonld",
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "fhir:CodeSystem": {
+      "@type": "@id"
+    },
+    "cs": "http://fhir.et/core/CodeSystem-ethiopian-states"
+  },
+  "@id": "http://fhir.et/core/ValueSet-EthiopiaStateVS.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-06-16T15:27:58.061443Z",
+  "@graph": [
+    {
+      "id": "#OR",
+      "name": "Oromia"
+    },
+    {
+      "id": "#AM",
+      "name": "Amhara"
+    },
+    {
+      "id": "#TI",
+      "name": "Tigray"
+    },
+    {
+      "id": "#SO",
+      "name": "Somali"
+    },
+    {
+      "id": "#AF",
+      "name": "Afar"
+    },
+    {
+      "id": "#SD",
+      "name": "Sidama"
+    },
+    {
+      "id": "#SE",
+      "name": "South Ethiopia"
+    },
+    {
+      "id": "#SW",
+      "name": "Southwest Ethiopia"
+    },
+    {
+      "id": "#AA",
+      "name": "Addis Ababa"
+    },
+    {
+      "id": "#DD",
+      "name": "Dire Dawa"
+    },
+    {
+      "id": "#GA",
+      "name": "Gambella"
+    },
+    {
+      "id": "#BG",
+      "name": "Benishangul Gumuz"
+    },
+    {
+      "id": "#HA",
+      "name": "Harari"
+    },
+    {
+      "id": "#CE",
+      "name": "Central Ethiopia"
+    }
+  ],
+  "fhir:CodeSystem": "cs"
+}

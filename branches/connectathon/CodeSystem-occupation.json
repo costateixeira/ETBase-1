@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "occupation",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem occupation</b></p><a name=\"occupation\"> </a><a name=\"hcoccupation\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/occupation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">emp<a name=\"occupation-emp\"> </a></td><td>Employed</td></tr><tr><td style=\"white-space:nowrap\">Unemp<a name=\"occupation-Unemp\"> </a></td><td>Unemployed</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"occupation-other\"> </a></td><td>Other (Specify)</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/occupation",
+  "version" : "0.9.0",
+  "name" : "OccupationCS",
+  "title" : "Ethiopia Occupation CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-17T04:40:34+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "CodeSystem representing the occupation categories used in Ethiopia",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "emp",
+    "display" : "Employed"
+  },
+  {
+    "code" : "Unemp",
+    "display" : "Unemployed"
+  },
+  {
+    "code" : "other",
+    "display" : "Other (Specify)"
+  }]
+}

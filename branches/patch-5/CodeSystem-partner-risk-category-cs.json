@@ -1,0 +1,45 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "partner-risk-category-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem partner-risk-category-cs</b></p><a name=\"partner-risk-category-cs\"> </a><a name=\"hcpartner-risk-category-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/partner-risk-category-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sex-worker<a name=\"partner-risk-category-cs-sex-worker\"> </a></td><td>Client's partner is a sex worker</td></tr><tr><td style=\"white-space:nowrap\">pwid<a name=\"partner-risk-category-cs-pwid\"> </a></td><td>Client's partner is a person who injects drugs</td></tr><tr><td style=\"white-space:nowrap\">prison<a name=\"partner-risk-category-cs-prison\"> </a></td><td>Client's partner lives in a prison or other closed setting</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/partner-risk-category-cs",
+  "version" : "0.9.0",
+  "name" : "PartnerRiskCategoryCS",
+  "title" : "Partner High Risk Category Codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "sex-worker",
+    "display" : "Client's partner is a sex worker"
+  },
+  {
+    "code" : "pwid",
+    "display" : "Client's partner is a person who injects drugs"
+  },
+  {
+    "code" : "prison",
+    "display" : "Client's partner lives in a prison or other closed setting"
+  }]
+}

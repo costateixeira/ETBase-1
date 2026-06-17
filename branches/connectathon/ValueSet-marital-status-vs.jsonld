@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "http://fhir.et/core/ValueSet-marital-status-vs.jsonld",
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "fhir:CodeSystem": {
+      "@type": "@id"
+    },
+    "cs": "http://terminology.hl7.org/CodeSystem-v3-MaritalStatus"
+  },
+  "@id": "http://fhir.et/core/ValueSet-marital-status-vs.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-06-17T04:44:01.291649Z",
+  "@graph": [
+    {
+      "id": "#D",
+      "name": "Divorced"
+    },
+    {
+      "id": "#M",
+      "name": "Married"
+    },
+    {
+      "id": "#W",
+      "name": "Widowed"
+    },
+    {
+      "id": "#U",
+      "name": "Unmarried"
+    }
+  ],
+  "fhir:CodeSystem": "cs"
+}

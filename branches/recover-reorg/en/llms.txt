@@ -1,0 +1,85 @@
+# et.fhir.core#0.9.0: Ethiopia Base Implementation Guide(en)
+
+## Pages
+
+* [Home](index.md)
+* [User Scenarios](scenarios.md)
+* [Data Dictionary](dictionary.md)
+* [Non-functional Requirements](non-functional-requirements.md)
+* [Business Processes](business-processes.md)
+* [Indicators and Measures](indicators-measures.md)
+* [Downloads](downloads.md)
+* [Data Models and Exchange](data-models-and-exchange.md)
+* [Trust Domains](trust_domain.md)
+* [Codings](codings.md)
+* [Business Requirements](business-requirements.md)
+* [Indices](indices.md)
+* [System Actors](system-actors.md)
+* [Testing](testing.md)
+* [Generic Personas](personas.md)
+* [Reference Implementations](reference-implementations.md)
+* [Dependencies](dependencies.md)
+* [Artifact Index](artifacts.md)
+* [Sequence Diagrams](sequence-diagrams.md)
+* [Functional Requirements](functional-requirements.md)
+* [Adapting Guidelines for Country use](adapting.md)
+* [Test Data](test-data.md)
+* [DAK API Documentation Hub](dak-api.md)
+* [Decision-support logic](decision-logic.md)
+* [License](license.md)
+* [Transactions](transactions.md)
+* [Deployment](deployment.md)
+* [Changes](changes.md)
+* [Mappings](maps.md)
+* [References](references.md)
+* [Security and Privacy Considerations](security-privacy.md)
+* [Indicator and Performance Metrics](indicators.md)
+* [Concepts](concepts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Ethiopia Education Status CodeSystem](CodeSystem-education-status-cs.md)
+* [Ethiopia State / Region CodeSystem](CodeSystem-ethiopian-states.md)
+* [Ethiopia Occupation CodeSystem](CodeSystem-occupation-cs.md)
+* [Prefered contact CodeSystem](CodeSystem-prefered-contact-cs.md)
+
+### ValueSets
+
+* [Ethiopia State / Region ValueSet](ValueSet-EthiopiaStateVS.md)
+* [Ethiopia Education Status ValueSet](ValueSet-education-status-vs.md)
+* [Ethiopian Patient Gender values](ValueSet-gender-vs.md)
+* [Ethiopian Patient Marital Status values](ValueSet-marital-status-vs.md)
+* [Ethiopia Occupation ValueSet](ValueSet-occupation-vs.md)
+* [Preferred Contact Method Value Set](ValueSet-preferred-contact-method-vs.md)
+
+### Resource Profiles
+
+* [Ethiopian patient profile](StructureDefinition-ETPatient.md)
+* [Ethiopian Master Facility Registry Location](StructureDefinition-ethiopian-mfr-location.md)
+* [EthiopianMfrOrganizationAffiliation](StructureDefinition-ethiopian-mfr-organization-affiliation.md)
+* [EthiopianMfrOrganization](StructureDefinition-ethiopian-mfr-organization.md)
+
+### Extensions
+
+* [Address Kebele](StructureDefinition-address-kebele.md)
+* [Address Ketena/Gott](StructureDefinition-address-ketenagott.md)
+* [Address Zone](StructureDefinition-address-zone.md)
+* [Facility Created Date](StructureDefinition-created-date.md)
+* [Date of Birth Estimated](StructureDefinition-dob-estimated.md)
+* [Educational Status](StructureDefinition-education-status-extension.md)
+* [Facility Entry Point](StructureDefinition-facility-entry-point.md)
+* [Grandfather's Family Name](StructureDefinition-grandfathers-family-name.md)
+* [Occupation Extension](StructureDefinition-occupation.md)
+* [Preferred Contact Method](StructureDefinition-preferred-contact-method.md)
+* [ReportingHierarchyExtension](StructureDefinition-reporting-hierarchy-extension.md)
+* [Reporting Hierarchy ID](StructureDefinition-reporting-hierarchy-id-extension.md)
+
+### ImplementationGuides
+
+* [Ethiopia Base Implementation Guide](ImplementationGuide-et.fhir.core.md)
+
+### Examples
+
+* [ETpatientEx (Patient)](Patient-ETpatientEx.md)

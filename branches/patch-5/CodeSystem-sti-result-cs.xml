@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="sti-result-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem sti-result-cs</b></p><a name="sti-result-cs"> </a><a name="hcsti-result-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/sti-result-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">positive<a name="sti-result-cs-positive"> </a></td><td>Positive</td></tr><tr><td style="white-space:nowrap">negative<a name="sti-result-cs-negative"> </a></td><td>Negative</td></tr><tr><td style="white-space:nowrap">inconclusive<a name="sti-result-cs-inconclusive"> </a></td><td>Inconclusive</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/sti-result-cs"/>
+  <version value="0.9.0"/>
+  <name value="STIResultCS"/>
+  <title value="STI Test Result CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Codes for STI test results"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="positive"/>
+    <display value="Positive"/>
+  </concept>
+  <concept>
+    <code value="negative"/>
+    <display value="Negative"/>
+  </concept>
+  <concept>
+    <code value="inconclusive"/>
+    <display value="Inconclusive"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,7 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://fhir.et/core/CodeSystem/education-status-cs,0.9.0,active,,EducationStatusCS,Ethiopia Education Status CodeSystem,"CodeSystem representing the educational status categories used in Ethiopia","ValueSet/education-status-vs"
+http://fhir.et/core/CodeSystem/ethiopian-states,0.9.0,active,,EthiopiaStateCS,Ethiopia State / Region CodeSystem,"Administrative states and city administrations of Ethiopia","ValueSet/EthiopiaStateVS"
+http://fhir.et/core/CodeSystem/occupation,0.9.0,active,,OccupationCS,Ethiopia Occupation CodeSystem,"CodeSystem representing the occupation categories used in Ethiopia","ValueSet/occupation-vs"
+http://fhir.et/core/CodeSystem/prefered-contact-cs,0.9.0,active,,ContactPointSystemCS,Prefered contact CodeSystem,"CodeSystem representing the Prefered Contact","ValueSet/preferred-contact-method-vs"
+http://hl7.org/fhir/administrative-gender,4.0.1,active,"2.16.840.1.113883.4.642.4.2",AdministrativeGender,AdministrativeGender,"The gender of a person used for administrative purposes.","ValueSet/gender-vs"
+http://terminology.hl7.org/CodeSystem/v3-MaritalStatus,4.0.0,active,"2.16.840.1.113883.5.2",MaritalStatus,MaritalStatus,"\* \* \* No description supplied \* \* \*    *Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.    *Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.","ValueSet/marital-status-vs"

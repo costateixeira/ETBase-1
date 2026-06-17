@@ -1,0 +1,43 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "mycoplasma-genitalium-test-type-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mycoplasma-genitalium-test-type-cs</b></p><a name=\"mycoplasma-genitalium-test-type-cs\"> </a><a name=\"hcmycoplasma-genitalium-test-type-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/mycoplasma-genitalium-test-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">naat<a name=\"mycoplasma-genitalium-test-type-cs-naat\"> </a></td><td>NAAT</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"mycoplasma-genitalium-test-type-cs-other\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/mycoplasma-genitalium-test-type-cs",
+  "version" : "0.9.0",
+  "name" : "MycoplasmaGenitaliumTestTypeCS",
+  "title" : "Mycoplasma genitalium Test Type Code System",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Codes for Mycoplasma genitalium test types",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "naat",
+    "display" : "NAAT"
+  },
+  {
+    "code" : "other",
+    "display" : "Other"
+  }]
+}

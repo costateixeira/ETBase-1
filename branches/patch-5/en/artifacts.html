@@ -1,0 +1,3074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Artifact Index - Ethiopia Base Implementation Guide v0.9.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/et-moh.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script type="text/javascript" src="assets/js/prism.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5.1"}
+    h3,h4,h5,h6{--heading-prefix:"5.1.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+<!-- Left logo - typically the publisher's logo - project or affiliate -->
+        <div id="project-nav">
+          <a id="project-logo" no-external="true" href="https://www.xt-ehr.eu/">
+            <img height="61" alt="Project home" src="assets/images/logo-transp.png"/>
+          </a>
+        </div>
+
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+<!--
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="70" alt="FHIR website" src="assets/images/fire.png"/> </a>
+        </div>
+-->
+<!-- search icon - if you want -->
+<!--
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+-->
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Ethiopia Base Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.9.0 - qa-preview
+
+
+
+  Ethiopia (ETH)
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Home
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Summary</a>
+      </li>
+      <li>
+        <a href="changes.html">Changes</a>
+      </li>
+      <li>
+        <a href="dependencies.html">Dependencies</a>
+      </li>
+      <li>
+        <a href="references.html">References</a>
+      </li>
+      <li>
+        <a href="adapting.html">Adapting Guidelines for Country use</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Business Requirements
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="concepts.html">Concepts</a>
+      </li>
+      <li>
+        <a href="personas.html">Generic Personas</a>
+      </li>
+      <li>
+        <a href="scenarios.html">User Scenarios</a>
+      </li>
+      <li>
+        <a href="business-processes.html">Business Processes</a>
+      </li>
+      <li>
+        <a href="dictionary.html">Data Dictionary</a>
+      </li>
+      <li>
+        <a href="decision-logic.html">Decision-support Logic</a>
+      </li>
+      <li>
+        <a href="indicators.html">Indicator and Performance Metrics</a>
+      </li>
+      <li>
+        <a href="functional-requirements.html">Functional Requirements</a>
+      </li>
+      <li>
+        <a href="non-functional-requirements.html">Non-functional Requirements</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Data Models and Exchange
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="system-actors.html">System Actors</a>
+      </li>
+      <li>
+        <a href="sequence-diagrams.html">Sequence Diagrams</a>
+      </li>
+      <li>
+        <a href="transactions.html">Transactions</a>
+      </li>
+      <li>
+        <a href="indicators-measures.html">Indicators and Measures</a>
+      </li>
+      <li>
+        <a href="codings.html">Codings</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Deployment
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="security-privacy.html">Security and Privacy Considerations</a>
+      </li>
+      <li>
+        <a href="testing.html">Testing</a>
+      </li>
+      <li>
+        <a href="test-data.html">Test Data</a>
+      </li>
+      <li>
+        <a href="reference-implementations.html">Reference Implementations</a>
+      </li>
+      <li>
+        <a href="trust_domain.html">Trust Domains</a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Indices
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Artifact Index</a>
+      </li>
+      <li>
+        <a href="maps.html">Mappings</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='indices.html'><b>Indices</b></a></li><li><b>Artifact Index</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Ethiopia Base Implementation Guide, published by MOH Ethiopia. This guide is not an authorized publication; it is the continuous build for version 0.9.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/costateixeira/ETBase-1/tree/patch-5'>https://github.com/costateixeira/ETBase-1/tree/patch-5</a> and changes regularly. See the <a href='http://fhir.et/core/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifact Index</h2>
+  
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     class="markdown-toc"
+     data-fhir="generated">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     data-fhir="generated">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Resource Profiles </h3>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-art-start-date.html"
+                  title="StructureDefinition/art-start-date">
+                  <span title="StructureDefinition/art-start-date">ART Start Date
+</span>
+               </a>
+            </td>
+            <td>
+<p>Date when antiretroviral therapy was initiated</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-services-accepted.html"
+                  title="StructureDefinition/partner-services-accepted">
+                  <span title="StructureDefinition/partner-services-accepted">Accepted social network-based/partner services
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the client accepted partner or social network-based services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-adolescent-girl-indicator.html"
+                  title="StructureDefinition/adolescent-girl-indicator">
+                  <span title="StructureDefinition/adolescent-girl-indicator">Adolescent Girl Indicator
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the client is an adolescent girl</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-chlamydia-trachomatis-test-type-observation.html"
+                  title="StructureDefinition/chlamydia-trachomatis-test-type-observation">
+                  <span title="StructureDefinition/chlamydia-trachomatis-test-type-observation">Chlamydia trachomatis Test Type Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Type of Chlamydia trachomatis test performed</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ipv-clinical-enquiry.html"
+                  title="StructureDefinition/ipv-clinical-enquiry">
+                  <span title="StructureDefinition/ipv-clinical-enquiry">Clinical Enquiry for Intimate Partner Violence (IPV)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether clinical enquiry for intimate partner violence (IPV) was conducted</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-confirmatory-sti-test-result-observation.html"
+                  title="StructureDefinition/confirmatory-sti-test-result-observation">
+                  <span title="StructureDefinition/confirmatory-sti-test-result-observation">Confirmatory STI Test Result Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Captures confirmatory STI result and treatment details</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-confirmatory-syphilis-test-observation.html"
+                  title="StructureDefinition/confirmatory-syphilis-test-observation">
+                  <span title="StructureDefinition/confirmatory-syphilis-test-observation">Confirmatory Syphilis Test Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Captures syphilis confirmatory test type and related details</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-counselling-provided.html"
+                  title="StructureDefinition/counselling-provided">
+                  <span title="StructureDefinition/counselling-provided">Counselling Provided
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates types of counselling provided to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-contacts-count.html"
+                  title="StructureDefinition/partner-contacts-count">
+                  <span title="StructureDefinition/partner-contacts-count">Count of contacts or partners given for social network/partner services
+</span>
+               </a>
+            </td>
+            <td>
+<p>Number of contacts or partners elicited for partner notification or social network-based services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-currently-on-prep.html"
+                  title="StructureDefinition/currently-on-prep">
+                  <span title="StructureDefinition/currently-on-prep">CurrentlyOnPrEP
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-sent-date.html"
+                  title="StructureDefinition/hiv-test-sent-date">
+                  <span title="StructureDefinition/hiv-test-sent-date">Date HIV Test Sent
+</span>
+               </a>
+            </td>
+            <td>
+<p>Date when the HIV test specimen was sent to the laboratory</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-first-positive-test-date.html"
+                  title="StructureDefinition/hiv-first-positive-test-date">
+                  <span title="StructureDefinition/hiv-first-positive-test-date">Date of First HIV Positive Test
+</span>
+               </a>
+            </td>
+            <td>
+<p>Date of first positive test indicative of HIV diagnosis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ethiopian-mfr-location.html"
+                  title="StructureDefinition/ethiopian-mfr-location">
+                  <span title="StructureDefinition/ethiopian-mfr-location">Ethiopian Master Facility Registry Location
+</span>
+               </a>
+            </td>
+            <td>
+<p>Physical service delivery locations registered in the Ethiopian MFR.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ETPatient.html"
+                  title="StructureDefinition/ETPatient">
+                  <span title="StructureDefinition/ETPatient">Ethiopian patient profile
+</span>
+               </a>
+            </td>
+            <td>
+<p>This profile represents a standard Ethiopian patient, applicable across all use cases and health information systems.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ethiopian-mfr-organization.html"
+                  title="StructureDefinition/ethiopian-mfr-organization">
+                  <span title="StructureDefinition/ethiopian-mfr-organization">EthiopianMfrOrganization
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ethiopian-mfr-organization-affiliation.html"
+                  title="StructureDefinition/ethiopian-mfr-organization-affiliation">
+                  <span title="StructureDefinition/ethiopian-mfr-organization-affiliation">EthiopianMfrOrganizationAffiliation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-expected-delivery-date.html"
+                  title="StructureDefinition/expected-delivery-date">
+                  <span title="StructureDefinition/expected-delivery-date">Expected Date of Delivery (EDD)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Estimated date when the patient is expected to deliver</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-exposure-source-observation.html"
+                  title="StructureDefinition/exposure-source-observation">
+                  <span title="StructureDefinition/exposure-source-observation">ExposureSourceObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-gestational-age-observation.html"
+                  title="StructureDefinition/gestational-age-observation">
+                  <span title="StructureDefinition/gestational-age-observation">Gestational Age
+</span>
+               </a>
+            </td>
+            <td>
+<p>Gestational age in weeks (and optionally days)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-gonorrhoea-testing-observation.html"
+                  title="StructureDefinition/gonorrhoea-testing-observation">
+                  <span title="StructureDefinition/gonorrhoea-testing-observation">Gonorrhoea Testing and Treatment
+</span>
+               </a>
+            </td>
+            <td>
+<p>Captures gonorrhoea test date, specimen type, test result, treatment start date, and other specimen specification</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-assay-number-observation.html"
+                  title="StructureDefinition/hiv-assay-number-observation">
+                  <span title="StructureDefinition/hiv-assay-number-observation">HIV Assay Number
+</span>
+               </a>
+            </td>
+            <td>
+<p>Assay number used in HIV testing strategy</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-client-informed-observation.html"
+                  title="StructureDefinition/hiv-client-informed-observation">
+                  <span title="StructureDefinition/hiv-client-informed-observation">HIV Client Informed of Result
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the client has been informed of their HIV test result.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-diagnosis-date.html"
+                  title="StructureDefinition/hiv-diagnosis-date">
+                  <span title="StructureDefinition/hiv-diagnosis-date">HIV Diagnosis Date
+</span>
+               </a>
+            </td>
+            <td>
+<p>Date when HIV diagnosis was established</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-diagnosis-facility-observation.html"
+                  title="StructureDefinition/hiv-diagnosis-facility-observation">
+                  <span title="StructureDefinition/hiv-diagnosis-facility-observation">HIV Diagnosis Facility
+</span>
+               </a>
+            </td>
+            <td>
+<p>Facility where the client received an HIV-positive diagnosis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-exposure-observation.html"
+                  title="StructureDefinition/hiv-exposure-observation">
+                  <span title="StructureDefinition/hiv-exposure-observation">HIV Exposure Ways Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Records ways in which the client was exposed to HIV</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-partner-contact.html"
+                  title="StructureDefinition/hiv-partner-contact">
+                  <span title="StructureDefinition/hiv-partner-contact">HIV Partner / Contact Person
+</span>
+               </a>
+            </td>
+            <td>
+<p>Represents a partner or contact identified during HIV testing services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-HIVPatient.html"
+                  title="StructureDefinition/HIVPatient">
+                  <span title="StructureDefinition/HIVPatient">HIV Program Patient
+</span>
+               </a>
+            </td>
+            <td>
+<p>Patient profile for individuals enrolled in the national HIV program</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-retest-risk-assessment.html"
+                  title="StructureDefinition/hiv-retest-risk-assessment">
+                  <span title="StructureDefinition/hiv-retest-risk-assessment">HIV Retest and Risk Assessment
+</span>
+               </a>
+            </td>
+            <td>
+<p>Captures whether HIV retesting prior to ART initiation was conducted and whether the client is at elevated risk for HIV acquisition</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-self-test-result.html"
+                  title="StructureDefinition/hiv-self-test-result">
+                  <span title="StructureDefinition/hiv-self-test-result">HIV Self-test Result
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-serotype-observation.html"
+                  title="StructureDefinition/hiv-serotype-observation">
+                  <span title="StructureDefinition/hiv-serotype-observation">HIV Serotype
+</span>
+               </a>
+            </td>
+            <td>
+<p>Type of HIV infection (HIV-1 or HIV-2)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-conducted-boolean.html"
+                  title="StructureDefinition/hiv-test-conducted-boolean">
+                  <span title="StructureDefinition/hiv-test-conducted-boolean">HIV Test Conducted (Boolean)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether an HIV test was conducted</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-ordered-boolean.html"
+                  title="StructureDefinition/hiv-test-ordered-boolean">
+                  <span title="StructureDefinition/hiv-test-ordered-boolean">HIV Test Ordered (Boolean)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether an HIV test was ordered</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-type-observation.html"
+                  title="StructureDefinition/hiv-test-type-observation">
+                  <span title="StructureDefinition/hiv-test-type-observation">HIV Test Type
+</span>
+               </a>
+            </td>
+            <td>
+<p>Type of HIV test performed</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-testing-encounter.html"
+                  title="StructureDefinition/hiv-testing-encounter">
+                  <span title="StructureDefinition/hiv-testing-encounter">HIV Testing Services Encounter
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-art-medication-request.html"
+                  title="StructureDefinition/hiv-art-medication-request">
+                  <span title="StructureDefinition/hiv-art-medication-request">HIVARTMedicationRequest
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-adherence.html"
+                  title="StructureDefinition/hiv-adherence">
+                  <span title="StructureDefinition/hiv-adherence">HIVAdherenceObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-cd4.html"
+                  title="StructureDefinition/hiv-cd4">
+                  <span title="StructureDefinition/hiv-cd4">HIVCD4Observation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-careplan.html"
+                  title="StructureDefinition/hiv-careplan">
+                  <span title="StructureDefinition/hiv-careplan">HIVCarePlan
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-condition.html"
+                  title="StructureDefinition/hiv-condition">
+                  <span title="StructureDefinition/hiv-condition">HIVCondition
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-consent.html"
+                  title="StructureDefinition/hiv-consent">
+                  <span title="StructureDefinition/hiv-consent">HIVConsent
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-encounter.html"
+                  title="StructureDefinition/hiv-encounter">
+                  <span title="StructureDefinition/hiv-encounter">HIVEncounter
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-exposure-datetime.html"
+                  title="StructureDefinition/hiv-exposure-datetime">
+                  <span title="StructureDefinition/hiv-exposure-datetime">HIVExposureDateTime
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-followup-appointment.html"
+                  title="StructureDefinition/hiv-followup-appointment">
+                  <span title="StructureDefinition/hiv-followup-appointment">HIVFollowUpAppointment
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-lab-report.html"
+                  title="StructureDefinition/hiv-lab-report">
+                  <span title="StructureDefinition/hiv-lab-report">HIVLabReport
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-library.html"
+                  title="StructureDefinition/hiv-library">
+                  <span title="StructureDefinition/hiv-library">HIVLibrary
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-measure.html"
+                  title="StructureDefinition/hiv-measure">
+                  <span title="StructureDefinition/hiv-measure">HIVMeasure
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-positive-confirmed-date.html"
+                  title="StructureDefinition/hiv-positive-confirmed-date">
+                  <span title="StructureDefinition/hiv-positive-confirmed-date">HIVPositiveConfirmedDateObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-positive-confirmed-site.html"
+                  title="StructureDefinition/hiv-positive-confirmed-site">
+                  <span title="StructureDefinition/hiv-positive-confirmed-site">HIVPositiveConfirmedSiteObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-status.html"
+                  title="StructureDefinition/hiv-status">
+                  <span title="StructureDefinition/hiv-status">HIVStatusObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-result.html"
+                  title="StructureDefinition/hiv-test-result">
+                  <span title="StructureDefinition/hiv-test-result">HIVTestResult
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-test-result-observation.html"
+                  title="StructureDefinition/hiv-test-result-observation">
+                  <span title="StructureDefinition/hiv-test-result-observation">HIVTestResultObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-hts-request.html"
+                  title="StructureDefinition/hiv-hts-request">
+                  <span title="StructureDefinition/hiv-hts-request">HIVTestingServiceRequest
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-transmission-route.html"
+                  title="StructureDefinition/hiv-transmission-route">
+                  <span title="StructureDefinition/hiv-transmission-route">HIVTransmissionRouteObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hsv-test-type-observation.html"
+                  title="StructureDefinition/hsv-test-type-observation">
+                  <span title="StructureDefinition/hsv-test-type-observation">Herpes Simplex Virus (HSV) Test Type Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Type of Herpes simplex virus (HSV) test performed</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-self-test-history.html"
+                  title="StructureDefinition/hiv-self-test-history">
+                  <span title="StructureDefinition/hiv-self-test-history">History of HIV Self-Testing
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the client reported having used an HIV self-test before</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-ipv-enquiry-result.html"
+                  title="StructureDefinition/ipv-enquiry-result">
+                  <span title="StructureDefinition/ipv-enquiry-result">IPV Enquiry Result
+</span>
+               </a>
+            </td>
+            <td>
+<p>Outcome of intimate partner violence enquiry</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-infant-breastfeeding-status.html"
+                  title="StructureDefinition/infant-breastfeeding-status">
+                  <span title="StructureDefinition/infant-breastfeeding-status">Infant Breastfeeding Status
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the infant is currently being breastfed by the mother</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-key-population-type.html"
+                  title="StructureDefinition/key-population-type">
+                  <span title="StructureDefinition/key-population-type">Key Population Member Type
+</span>
+               </a>
+            </td>
+            <td>
+<p>Specifies the type of key population the client belongs to</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-key-population-membership.html"
+                  title="StructureDefinition/key-population-membership">
+                  <span title="StructureDefinition/key-population-membership">Key Population Membership
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the client is a member of a key population with increased risk of HIV</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-mycoplasma-genitalium-test-type-observation.html"
+                  title="StructureDefinition/mycoplasma-genitalium-test-type-observation">
+                  <span title="StructureDefinition/mycoplasma-genitalium-test-type-observation">Mycoplasma genitalium Test Type Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Type of Mycoplasma genitalium test performed</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-neisseria-gonorrhoeae-test-type-observation.html"
+                  title="StructureDefinition/neisseria-gonorrhoeae-test-type-observation">
+                  <span title="StructureDefinition/neisseria-gonorrhoeae-test-type-observation">Neisseria gonorrhoeae Test Type Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Type of Neisseria gonorrhoeae test performed</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-offered-vps-observation.html"
+                  title="StructureDefinition/offered-vps-observation">
+                  <span title="StructureDefinition/offered-vps-observation">Offered Voluntary Partner Services
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether voluntary partner services were offered</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-services-offered.html"
+                  title="StructureDefinition/partner-services-offered">
+                  <span title="StructureDefinition/partner-services-offered">Offered social network-based/partner services
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether partner or social network-based services were offered</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-other-clinical-services.html"
+                  title="StructureDefinition/other-clinical-services">
+                  <span title="StructureDefinition/other-clinical-services">Other Clinical Services Offered
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates other clinical services offered to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-other-support-services.html"
+                  title="StructureDefinition/other-support-services">
+                  <span title="StructureDefinition/other-support-services">Other Support Services
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates other support services provided to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-hiv-status.html"
+                  title="StructureDefinition/partner-hiv-status">
+                  <span title="StructureDefinition/partner-hiv-status">Partner HIV Status
+</span>
+               </a>
+            </td>
+            <td>
+<p>HIV status of the client's partner</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-risk-category.html"
+                  title="StructureDefinition/partner-risk-category">
+                  <span title="StructureDefinition/partner-risk-category">Partner High Risk Population Category
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the client's partner belongs to a high-risk population</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-notification-observation.html"
+                  title="StructureDefinition/partner-notification-observation">
+                  <span title="StructureDefinition/partner-notification-observation">Partner Notification and Disclosure Status
+</span>
+               </a>
+            </td>
+            <td>
+<p>Captures HIV status disclosure and notification planning for partner services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-hiv-test-conducted.html"
+                  title="StructureDefinition/partner-hiv-test-conducted">
+                  <span title="StructureDefinition/partner-hiv-test-conducted">PartnerHIVTestConductedObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-hiv-test-date.html"
+                  title="StructureDefinition/partner-hiv-test-date">
+                  <span title="StructureDefinition/partner-hiv-test-date">PartnerHIVTestDateObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-hiv-test-ordered.html"
+                  title="StructureDefinition/partner-hiv-test-ordered">
+                  <span title="StructureDefinition/partner-hiv-test-ordered">PartnerHIVTestOrderedObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-hiv-test-result.html"
+                  title="StructureDefinition/partner-hiv-test-result">
+                  <span title="StructureDefinition/partner-hiv-test-result">PartnerHIVTestResultObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-on-art.html"
+                  title="StructureDefinition/partner-on-art">
+                  <span title="StructureDefinition/partner-on-art">PartnerOnARTObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-viral-suppression.html"
+                  title="StructureDefinition/partner-viral-suppression">
+                  <span title="StructureDefinition/partner-viral-suppression">PartnerViralSuppressionObservation
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-prep-encounter.html"
+                  title="StructureDefinition/prep-encounter">
+                  <span title="StructureDefinition/prep-encounter">PrEP Encounter
+</span>
+               </a>
+            </td>
+            <td>
+<p>Encounter profile for PrEP/PEP services.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-prep-visit-observation.html"
+                  title="StructureDefinition/prep-visit-observation">
+                  <span title="StructureDefinition/prep-visit-observation">PrEP Visit Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates attendance of a scheduled PrEP visit by interval.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-prep-dosing-type.html"
+                  title="StructureDefinition/prep-dosing-type">
+                  <span title="StructureDefinition/prep-dosing-type">PrEPDosingType
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-pregnancy-status-observation.html"
+                  title="StructureDefinition/pregnancy-status-observation">
+                  <span title="StructureDefinition/pregnancy-status-observation">Pregnancy Status (Boolean)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the client is currently pregnant</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-hiv-prevention-services.html"
+                  title="StructureDefinition/hiv-prevention-services">
+                  <span title="StructureDefinition/hiv-prevention-services">Prevention Services Offered and Referrals
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates HIV prevention services offered and referrals provided to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-sti-result-observation.html"
+                  title="StructureDefinition/sti-result-observation">
+                  <span title="StructureDefinition/sti-result-observation">STI Test Result Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Observation for STI test result with confirmatory test date</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-sti-testing-observation.html"
+                  title="StructureDefinition/sti-testing-observation">
+                  <span title="StructureDefinition/sti-testing-observation">STI Testing and Diagnosis
+</span>
+               </a>
+            </td>
+            <td>
+<p>Captures whether any STI syndrome was diagnosed, date of STI test, and STI(s) tested for</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-srh-integrated-services.html"
+                  title="StructureDefinition/srh-integrated-services">
+                  <span title="StructureDefinition/srh-integrated-services">Sexual and Reproductive Health Integrated Services
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates SRH integrated services provided to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-suspected-hiv-exposure.html"
+                  title="StructureDefinition/suspected-hiv-exposure">
+                  <span title="StructureDefinition/suspected-hiv-exposure">Suspected HIV Exposure (Boolean)
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the client is reported to have had suspected exposure to HIV</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-suspected-hiv-exposure-observation.html"
+                  title="StructureDefinition/suspected-hiv-exposure-observation">
+                  <span title="StructureDefinition/suspected-hiv-exposure-observation">Suspected HIV Exposure Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates contact with and suspected exposure to HIV.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-sti-syndrome-observation.html"
+                  title="StructureDefinition/sti-syndrome-observation">
+                  <span title="StructureDefinition/sti-syndrome-observation">Syndrome/STI Diagnosed
+</span>
+               </a>
+            </td>
+            <td>
+<p>Captures the syndrome or STI diagnosed, including option to specify other conditions</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-syphilis-test-type-observation.html"
+                  title="StructureDefinition/syphilis-test-type-observation">
+                  <span title="StructureDefinition/syphilis-test-type-observation">Syphilis Test Type Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Type of syphilis test performed</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-syphilis-testing-treatment-observation.html"
+                  title="StructureDefinition/syphilis-testing-treatment-observation">
+                  <span title="StructureDefinition/syphilis-testing-treatment-observation">Syphilis Testing and Treatment
+</span>
+               </a>
+            </td>
+            <td>
+<p>Captures syphilis test date, test result, and treatment initiation date</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-trichomonas-vaginalis-test-type-observation.html"
+                  title="StructureDefinition/trichomonas-vaginalis-test-type-observation">
+                  <span title="StructureDefinition/trichomonas-vaginalis-test-type-observation">Trichomonas vaginalis Test Type Observation
+</span>
+               </a>
+            </td>
+            <td>
+<p>Type of Trichomonas vaginalis test performed</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-follow-up-type-observation.html"
+                  title="StructureDefinition/follow-up-type-observation">
+                  <span title="StructureDefinition/follow-up-type-observation">Type of Follow-Up
+</span>
+               </a>
+            </td>
+            <td>
+<p>Captures follow-up type, recommended date, scheduled appointment date/time, and additional details</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-vmmc-adverse-event-observation.html"
+                  title="StructureDefinition/vmmc-adverse-event-observation">
+                  <span title="StructureDefinition/vmmc-adverse-event-observation">VMMC Adverse Events
+</span>
+               </a>
+            </td>
+            <td>
+<p>Captures adverse events following VMMC, including severity, timing, seriousness, and date</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-vmmc-procedure-observation.html"
+                  title="StructureDefinition/vmmc-procedure-observation">
+                  <span title="StructureDefinition/vmmc-procedure-observation">VMMC Procedure
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether Voluntary Medical Male Circumcision (VMMC) procedure was performed</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-vmmc-procedure-date-observation.html"
+                  title="StructureDefinition/vmmc-procedure-date-observation">
+                  <span title="StructureDefinition/vmmc-procedure-date-observation">VMMC Procedure Date
+</span>
+               </a>
+            </td>
+            <td>
+<p>Captures the date/time when the VMMC procedure was performed</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-young-woman-indicator.html"
+                  title="StructureDefinition/young-woman-indicator">
+                  <span title="StructureDefinition/young-woman-indicator">Young Woman Indicator
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the client is a young woman</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
+   <h3>Structures: Extension Definitions </h3>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-address-kebele.html"
+                  title="StructureDefinition/address-kebele">
+                  <span title="StructureDefinition/address-kebele">Address Kebele
+</span>
+               </a>
+            </td>
+            <td>
+<p>Administrative sub-district (Kebele) within a Woreda.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-address-ketenagott.html"
+                  title="StructureDefinition/address-ketenagott">
+                  <span title="StructureDefinition/address-ketenagott">Address Ketena/Gott
+</span>
+               </a>
+            </td>
+            <td>
+<p>Administrative subdivision within a Kebele, also called Ketena or Gott.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-address-zone.html"
+                  title="StructureDefinition/address-zone">
+                  <span title="StructureDefinition/address-zone">Address Zone
+</span>
+               </a>
+            </td>
+            <td>
+<p>Administrative zone within a state or region.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-community-entry-point.html"
+                  title="StructureDefinition/community-entry-point">
+                  <span title="StructureDefinition/community-entry-point">Community Entry Point
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-confirmed-site.html"
+                  title="StructureDefinition/confirmed-site">
+                  <span title="StructureDefinition/confirmed-site">ConfirmedSite
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-FPFollowUpMsgConsent.html"
+                  title="StructureDefinition/FPFollowUpMsgConsent">
+                  <span title="StructureDefinition/FPFollowUpMsgConsent">Consent to Receive Family Planning Follow-up Messages
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the client consents to receive SMS or other messages for family planning follow-up</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-consent-to-be-contacted.html"
+                  title="StructureDefinition/consent-to-be-contacted">
+                  <span title="StructureDefinition/consent-to-be-contacted">Consent to be Contacted
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the patient consents to be contacted for follow-up or program communication</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-dob-estimated.html"
+                  title="StructureDefinition/dob-estimated">
+                  <span title="StructureDefinition/dob-estimated">Date of Birth Estimated
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the date of birth is estimated rather than exact.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-education-status-extension.html"
+                  title="StructureDefinition/education-status-extension">
+                  <span title="StructureDefinition/education-status-extension">Educational Status
+</span>
+               </a>
+            </td>
+            <td>
+<p>Extension to record the educational status of the patient</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-created-date.html"
+                  title="StructureDefinition/created-date">
+                  <span title="StructureDefinition/created-date">Facility Created Date
+</span>
+               </a>
+            </td>
+            <td>
+<p>Date the facility was registered or created in the Ethiopian Master Facility Registry.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-facility-entry-point.html"
+                  title="StructureDefinition/facility-entry-point">
+                  <span title="StructureDefinition/facility-entry-point">Facility Entry Point
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-grandfathers-family-name.html"
+                  title="StructureDefinition/grandfathers-family-name">
+                  <span title="StructureDefinition/grandfathers-family-name">Grandfather's Family Name
+</span>
+               </a>
+            </td>
+            <td>
+<p>The family name of the person's grandfather.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-occupation.html"
+                  title="StructureDefinition/occupation">
+                  <span title="StructureDefinition/occupation">Occupation Extension
+</span>
+               </a>
+            </td>
+            <td>
+<p>Extension to record the occupation of the patient</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-preferred-contact-method.html"
+                  title="StructureDefinition/preferred-contact-method">
+                  <span title="StructureDefinition/preferred-contact-method">Preferred Contact Method
+</span>
+               </a>
+            </td>
+            <td>
+<p>Patient’s preferred communication channel.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-prep-visit-reason.html"
+                  title="StructureDefinition/prep-visit-reason">
+                  <span title="StructureDefinition/prep-visit-reason">Reason for PrEP Visit
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-partner-services-referral.html"
+                  title="StructureDefinition/partner-services-referral">
+                  <span title="StructureDefinition/partner-services-referral">Referred through partner services
+</span>
+               </a>
+            </td>
+            <td>
+<p>Indicates whether the client was referred through partner services and the type of referral</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-reporting-hierarchy-id-extension.html"
+                  title="StructureDefinition/reporting-hierarchy-id-extension">
+                  <span title="StructureDefinition/reporting-hierarchy-id-extension">Reporting Hierarchy ID
+</span>
+               </a>
+            </td>
+            <td>
+<p>Identifier for reporting hierarchy</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-reporting-hierarchy-extension.html"
+                  title="StructureDefinition/reporting-hierarchy-extension">
+                  <span title="StructureDefinition/reporting-hierarchy-extension">ReportingHierarchyExtension
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-cachment-area.html"
+                  title="StructureDefinition/cachment-area">
+                  <span title="StructureDefinition/cachment-area">cachment Area
+</span>
+               </a>
+            </td>
+            <td>
+<p>Catchment area of the HIV patient (such as villages, districts, etc)</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-adherence-vs.html" title="ValueSet/hiv-adherence-vs">
+                  <span title="ValueSet/hiv-adherence-vs">ART Adherence Value Set
+</span>
+               </a>
+            </td>
+            <td>
+<p>Value set for documenting ART adherence</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-chlamydia-trachomatis-test-type-vs.html"
+                  title="ValueSet/chlamydia-trachomatis-test-type-vs">
+                  <span title="ValueSet/chlamydia-trachomatis-test-type-vs">Chlamydia trachomatis Test Type Value Set
+</span>
+               </a>
+            </td>
+            <td>
+<p>Allowed values for Chlamydia trachomatis test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-syphilis-confirmatory-test-type-vs.html"
+                  title="ValueSet/syphilis-confirmatory-test-type-vs">
+                  <span title="ValueSet/syphilis-confirmatory-test-type-vs">Confirmatory Syphilis Test Type ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>Value set for confirmatory syphilis test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-counselling-provided-vs.html"
+                  title="ValueSet/counselling-provided-vs">
+                  <span title="ValueSet/counselling-provided-vs">Counselling Provided ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-education-status-vs.html"
+                  title="ValueSet/education-status-vs">
+                  <span title="ValueSet/education-status-vs">Ethiopia Education Status ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>ValueSet containing all education status codes used in Ethiopia</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-occupation-vs.html" title="ValueSet/occupation-vs">
+                  <span title="ValueSet/occupation-vs">Ethiopia Occupation ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>ValueSet containing all occupation codes used in Ethiopia</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-EthiopiaStateVS.html" title="ValueSet/EthiopiaStateVS">
+                  <span title="ValueSet/EthiopiaStateVS">Ethiopia State / Region ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>Allowed list of Ethiopian states and city administrations.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-gender-vs.html" title="ValueSet/gender-vs">
+                  <span title="ValueSet/gender-vs">Ethiopian Patient Gender values
+</span>
+               </a>
+            </td>
+            <td>
+<p>Patient Gender….</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-marital-status-vs.html"
+                  title="ValueSet/marital-status-vs">
+                  <span title="ValueSet/marital-status-vs">Ethiopian Patient Marital Status values
+</span>
+               </a>
+            </td>
+            <td>
+<p>Patient Marital Status….</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-facility-entry-point-vs.html"
+                  title="ValueSet/facility-entry-point-vs">
+                  <span title="ValueSet/facility-entry-point-vs">Facility Entry Point ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>ValueSet for facility entry points</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-follow-up-type-vs.html"
+                  title="ValueSet/follow-up-type-vs">
+                  <span title="ValueSet/follow-up-type-vs">Follow-Up Types
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-gonorrhoea-specimen-type-vs.html"
+                  title="ValueSet/gonorrhoea-specimen-type-vs">
+                  <span title="ValueSet/gonorrhoea-specimen-type-vs">Gonorrhoea Specimen Type
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-gonorrhoea-test-result-vs.html"
+                  title="ValueSet/gonorrhoea-test-result-vs">
+                  <span title="ValueSet/gonorrhoea-test-result-vs">Gonorrhoea Test Result
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-assay-number-vs.html"
+                  title="ValueSet/hiv-assay-number-vs">
+                  <span title="ValueSet/hiv-assay-number-vs">HIV Assay Number ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>Permitted assay numbers in HIV testing strategy</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-assay-result-vs.html"
+                  title="ValueSet/hiv-assay-result-vs">
+                  <span title="ValueSet/hiv-assay-result-vs">HIV Assay Result ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>Allowed HIV assay results</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-condition-vs.html" title="ValueSet/hiv-condition-vs">
+                  <span title="ValueSet/hiv-condition-vs">HIV Condition Value Set
+</span>
+               </a>
+            </td>
+            <td>
+<p>Value set representing HIV-related conditions and statuses</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-prevention-services-vs.html"
+                  title="ValueSet/hiv-prevention-services-vs">
+                  <span title="ValueSet/hiv-prevention-services-vs">HIV Prevention Services and Referrals ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-self-test-result-vs.html"
+                  title="ValueSet/hiv-self-test-result-vs">
+                  <span title="ValueSet/hiv-self-test-result-vs">HIV Self-test Result ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-serotype-vs.html" title="ValueSet/hiv-serotype-vs">
+                  <span title="ValueSet/hiv-serotype-vs">HIV Serotype ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>HIV serotype classification</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-test-type-vs.html" title="ValueSet/hiv-test-type-vs">
+                  <span title="ValueSet/hiv-test-type-vs">HIV Test Type ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>Permitted HIV test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-testing-entry-point-vs.html"
+                  title="ValueSet/hiv-testing-entry-point-vs">
+                  <span title="ValueSet/hiv-testing-entry-point-vs">HIV Testing Entry Point ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>ValueSet of HIV Testing Service entry points</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-testing-reason-vs.html"
+                  title="ValueSet/hiv-testing-reason-vs">
+                  <span title="ValueSet/hiv-testing-reason-vs">HIV Testing Reason ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>Reasons for HIV testing</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-status-vs.html" title="ValueSet/hiv-status-vs">
+                  <span title="ValueSet/hiv-status-vs">HIVStatusVS
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-test-result-vs.html"
+                  title="ValueSet/hiv-test-result-vs">
+                  <span title="ValueSet/hiv-test-result-vs">HIVTestResultVS
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-transmission-route-vs.html"
+                  title="ValueSet/hiv-transmission-route-vs">
+                  <span title="ValueSet/hiv-transmission-route-vs">HIVTransmissionRouteVS
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hts-service-vs.html" title="ValueSet/hts-service-vs">
+                  <span title="ValueSet/hts-service-vs">HTS Service Types ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>Value set for HTS service delivery types.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hsv-test-type-vs.html" title="ValueSet/hsv-test-type-vs">
+                  <span title="ValueSet/hsv-test-type-vs">Herpes Simplex Virus Test Type Value Set
+</span>
+               </a>
+            </td>
+            <td>
+<p>Allowed values for Herpes simplex virus (HSV) test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-ipv-enquiry-result-vs.html"
+                  title="ValueSet/ipv-enquiry-result-vs">
+                  <span title="ValueSet/ipv-enquiry-result-vs">IPV Enquiry Result ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-key-population-type-vs.html"
+                  title="ValueSet/key-population-type-vs">
+                  <span title="ValueSet/key-population-type-vs">Key Population Type ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-mycoplasma-genitalium-test-type-vs.html"
+                  title="ValueSet/mycoplasma-genitalium-test-type-vs">
+                  <span title="ValueSet/mycoplasma-genitalium-test-type-vs">Mycoplasma genitalium Test Type Value Set
+</span>
+               </a>
+            </td>
+            <td>
+<p>Allowed values for Mycoplasma genitalium test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-neisseria-gonorrhoeae-test-type-vs.html"
+                  title="ValueSet/neisseria-gonorrhoeae-test-type-vs">
+                  <span title="ValueSet/neisseria-gonorrhoeae-test-type-vs">Neisseria gonorrhoeae Test Type Value Set
+</span>
+               </a>
+            </td>
+            <td>
+<p>Allowed values for Neisseria gonorrhoeae test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-other-clinical-services-vs.html"
+                  title="ValueSet/other-clinical-services-vs">
+                  <span title="ValueSet/other-clinical-services-vs">Other Clinical Services Offered ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-other-support-services-vs.html"
+                  title="ValueSet/other-support-services-vs">
+                  <span title="ValueSet/other-support-services-vs">Other Support Services ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-partner-contact-type-vs.html"
+                  title="ValueSet/partner-contact-type-vs">
+                  <span title="ValueSet/partner-contact-type-vs">Partner Contact Type ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-partner-risk-category-vs.html"
+                  title="ValueSet/partner-risk-category-vs">
+                  <span title="ValueSet/partner-risk-category-vs">Partner High Risk Category ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-partner-services-referral-vs.html"
+                  title="ValueSet/partner-services-referral-vs">
+                  <span title="ValueSet/partner-services-referral-vs">Partner Services Referral ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-prep-dosing-type-vs.html"
+                  title="ValueSet/prep-dosing-type-vs">
+                  <span title="ValueSet/prep-dosing-type-vs">PrEP Dosing Type ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-prep-visit-interval-vs.html"
+                  title="ValueSet/prep-visit-interval-vs">
+                  <span title="ValueSet/prep-visit-interval-vs">PrEP Visit Interval ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-prep-visit-reason-vs.html"
+                  title="ValueSet/prep-visit-reason-vs">
+                  <span title="ValueSet/prep-visit-reason-vs">PrEP Visit Reason ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-preferred-contact-method-vs.html"
+                  title="ValueSet/preferred-contact-method-vs">
+                  <span title="ValueSet/preferred-contact-method-vs">Preferred Contact Method Value Set
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-sti-result-vs.html" title="ValueSet/sti-result-vs">
+                  <span title="ValueSet/sti-result-vs">STI Test Result ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>Value set for STI test results</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-sti-test-type-vs.html" title="ValueSet/sti-test-type-vs">
+                  <span title="ValueSet/sti-test-type-vs">STI Tested For
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-srh-integrated-services-vs.html"
+                  title="ValueSet/srh-integrated-services-vs">
+                  <span title="ValueSet/srh-integrated-services-vs">Sexual and Reproductive Health Integrated Services ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-exposure-source-vs.html"
+                  title="ValueSet/exposure-source-vs">
+                  <span title="ValueSet/exposure-source-vs">Source of Exposure ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-sti-syndrome-vs.html" title="ValueSet/sti-syndrome-vs">
+                  <span title="ValueSet/sti-syndrome-vs">Syndrome/STI Diagnosed ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-syphilis-test-result-vs.html"
+                  title="ValueSet/syphilis-test-result-vs">
+                  <span title="ValueSet/syphilis-test-result-vs">Syphilis Test Result
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-syphilis-test-type-vs.html"
+                  title="ValueSet/syphilis-test-type-vs">
+                  <span title="ValueSet/syphilis-test-type-vs">Syphilis Test Type Value Set
+</span>
+               </a>
+            </td>
+            <td>
+<p>Allowed syphilis test type values</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-vmmc-adverse-event-timing-vs.html"
+                  title="ValueSet/vmmc-adverse-event-timing-vs">
+                  <span title="ValueSet/vmmc-adverse-event-timing-vs">Timing of VMMC Adverse Event
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-trichomonas-vaginalis-test-type-vs.html"
+                  title="ValueSet/trichomonas-vaginalis-test-type-vs">
+                  <span title="ValueSet/trichomonas-vaginalis-test-type-vs">Trichomonas vaginalis Test Type Value Set
+</span>
+               </a>
+            </td>
+            <td>
+<p>Allowed values for Trichomonas vaginalis test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-vmmc-adverse-event-severity-vs.html"
+                  title="ValueSet/vmmc-adverse-event-severity-vs">
+                  <span title="ValueSet/vmmc-adverse-event-severity-vs">VMMC Adverse Event Severity
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-hiv-exposure-ways-vs.html"
+                  title="ValueSet/hiv-exposure-ways-vs">
+                  <span title="ValueSet/hiv-exposure-ways-vs">Ways of HIV Exposure
+</span>
+               </a>
+            </td>
+            <td>
+<p>Ways in which the client was exposed to HIV</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-community-entry-point-vs.html"
+                  title="ValueSet/community-entry-point-vs">
+                  <span title="ValueSet/community-entry-point-vs">community Entry Point ValueSet
+</span>
+               </a>
+            </td>
+            <td>
+<p>ValueSet for community entry points</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="4"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-chlamydia-trachomatis-test-type-cs.html"
+                  title="CodeSystem/chlamydia-trachomatis-test-type-cs">
+                  <span title="CodeSystem/chlamydia-trachomatis-test-type-cs">Chlamydia trachomatis Test Type Code System
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes for Chlamydia trachomatis test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-syphilis-confirmatory-test-type-cs.html"
+                  title="CodeSystem/syphilis-confirmatory-test-type-cs">
+                  <span title="CodeSystem/syphilis-confirmatory-test-type-cs">Confirmatory Syphilis Test Type CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes for confirmatory syphilis test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-counselling-provided-cs.html"
+                  title="CodeSystem/counselling-provided-cs">
+                  <span title="CodeSystem/counselling-provided-cs">Counselling Provided CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Types of counselling provided to client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-education-status-cs.html"
+                  title="CodeSystem/education-status-cs">
+                  <span title="CodeSystem/education-status-cs">Ethiopia Education Status CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>CodeSystem representing the educational status categories used in Ethiopia</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-et-observation-code-cs.html"
+                  title="CodeSystem/et-observation-code-cs">
+                  <span title="CodeSystem/et-observation-code-cs">Ethiopia Observation Code CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Interim local Observation.code concepts for Ethiopia-specific observations that currently lack a correct or tx-resolvable LOINC code. These SHOULD be mapped to proper LOINC codes when available (see REMEDIATION-REPORT.md).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-occupation-cs.html" title="CodeSystem/occupation-cs">
+                  <span title="CodeSystem/occupation-cs">Ethiopia Occupation CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>CodeSystem representing the occupation categories used in Ethiopia</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ethiopian-states.html"
+                  title="CodeSystem/ethiopian-states">
+                  <span title="CodeSystem/ethiopian-states">Ethiopia State / Region CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Administrative states and city administrations of Ethiopia</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-exposure-source-cs.html"
+                  title="CodeSystem/exposure-source-cs">
+                  <span title="CodeSystem/exposure-source-cs">ExposureSourceCS
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-follow-up-type-cs.html"
+                  title="CodeSystem/follow-up-type-cs">
+                  <span title="CodeSystem/follow-up-type-cs">Follow-Up Type Codes
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-gonorrhoea-specimen-type-cs.html"
+                  title="CodeSystem/gonorrhoea-specimen-type-cs">
+                  <span title="CodeSystem/gonorrhoea-specimen-type-cs">Gonorrhoea Specimen Types
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-gonorrhoea-test-result-cs.html"
+                  title="CodeSystem/gonorrhoea-test-result-cs">
+                  <span title="CodeSystem/gonorrhoea-test-result-cs">Gonorrhoea Test Result Codes
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-adherence-cs.html"
+                  title="CodeSystem/hiv-adherence-cs">
+                  <span title="CodeSystem/hiv-adherence-cs">HIV ART Adherence Code System
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes representing the client's adherence to ART treatment</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-assay-number-cs.html"
+                  title="CodeSystem/hiv-assay-number-cs">
+                  <span title="CodeSystem/hiv-assay-number-cs">HIV Assay Number CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Assay sequence in HIV testing strategy</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-assay-result-cs.html"
+                  title="CodeSystem/hiv-assay-result-cs">
+                  <span title="CodeSystem/hiv-assay-result-cs">HIV Assay Result CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Result of HIV assay</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-condition-cs.html"
+                  title="CodeSystem/hiv-condition-cs">
+                  <span title="CodeSystem/hiv-condition-cs">HIV Condition Code System
+</span>
+               </a>
+            </td>
+            <td>
+<p>Clinical HIV-related conditions and diagnoses</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-exposure-ways-cs.html"
+                  title="CodeSystem/hiv-exposure-ways-cs">
+                  <span title="CodeSystem/hiv-exposure-ways-cs">HIV Exposure Ways CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes representing possible HIV exposure routes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-prevention-services-cs.html"
+                  title="CodeSystem/hiv-prevention-services-cs">
+                  <span title="CodeSystem/hiv-prevention-services-cs">HIV Prevention Services and Referrals CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Prevention services offered and referrals provided</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-self-test-result-cs.html"
+                  title="CodeSystem/hiv-self-test-result-cs">
+                  <span title="CodeSystem/hiv-self-test-result-cs">HIV Self-test Result Codes
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-serotype-cs.html"
+                  title="CodeSystem/hiv-serotype-cs">
+                  <span title="CodeSystem/hiv-serotype-cs">HIV Serotype Codes
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes for HIV-1 and HIV-2</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-test-type-cs.html"
+                  title="CodeSystem/hiv-test-type-cs">
+                  <span title="CodeSystem/hiv-test-type-cs">HIV Test Type Codes
+</span>
+               </a>
+            </td>
+            <td>
+<p>Types of HIV tests</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-testing-entry-point-cs.html"
+                  title="CodeSystem/hiv-testing-entry-point-cs">
+                  <span title="CodeSystem/hiv-testing-entry-point-cs">HIV Testing Entry Point CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Defines entry points for HIV Testing Services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-testing-reason-cs.html"
+                  title="CodeSystem/hiv-testing-reason-cs">
+                  <span title="CodeSystem/hiv-testing-reason-cs">HIV Testing Reason CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-community-entry-point-cs.html"
+                  title="CodeSystem/community-entry-point-cs">
+                  <span title="CodeSystem/community-entry-point-cs">HIV Testing for community entry point CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Defines entry points for community entry point</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-facility-entry-point-cs.html"
+                  title="CodeSystem/facility-entry-point-cs">
+                  <span title="CodeSystem/facility-entry-point-cs">HIV Testing for facility entry point CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Defines entry points for facility entry point</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-status-cs.html" title="CodeSystem/hiv-status-cs">
+                  <span title="CodeSystem/hiv-status-cs">HIVStatusCS
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-test-result-cs.html"
+                  title="CodeSystem/hiv-test-result-cs">
+                  <span title="CodeSystem/hiv-test-result-cs">HIVTestResultCS
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hiv-transmission-route-cs.html"
+                  title="CodeSystem/hiv-transmission-route-cs">
+                  <span title="CodeSystem/hiv-transmission-route-cs">HIVTransmissionRouteCS
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hts-service-cs.html" title="CodeSystem/hts-service-cs">
+                  <span title="CodeSystem/hts-service-cs">HTS Service CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes for HIV Testing Services (HTS) service types.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-hsv-test-type-cs.html"
+                  title="CodeSystem/hsv-test-type-cs">
+                  <span title="CodeSystem/hsv-test-type-cs">Herpes Simplex Virus Test Type Code System
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes for Herpes simplex virus (HSV) test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-ipv-enquiry-result-cs.html"
+                  title="CodeSystem/ipv-enquiry-result-cs">
+                  <span title="CodeSystem/ipv-enquiry-result-cs">IPV Enquiry Result CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Results of intimate partner violence enquiry</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-key-population-type-cs.html"
+                  title="CodeSystem/key-population-type-cs">
+                  <span title="CodeSystem/key-population-type-cs">Key Population Type Codes
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-mycoplasma-genitalium-test-type-cs.html"
+                  title="CodeSystem/mycoplasma-genitalium-test-type-cs">
+                  <span title="CodeSystem/mycoplasma-genitalium-test-type-cs">Mycoplasma genitalium Test Type Code System
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes for Mycoplasma genitalium test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-neisseria-gonorrhoeae-test-type-cs.html"
+                  title="CodeSystem/neisseria-gonorrhoeae-test-type-cs">
+                  <span title="CodeSystem/neisseria-gonorrhoeae-test-type-cs">Neisseria gonorrhoeae Test Type Code System
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes for Neisseria gonorrhoeae test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-observation-component-specify-cs.html"
+                  title="CodeSystem/observation-component-specify-cs">
+                  <span title="CodeSystem/observation-component-specify-cs">Observation Component Specify CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes identifying free-text 'specify' Observation.component slices (e.g. other / point-of-care test type), used as the slice discriminator value.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-other-clinical-services-cs.html"
+                  title="CodeSystem/other-clinical-services-cs">
+                  <span title="CodeSystem/other-clinical-services-cs">Other Clinical Services Offered CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Other clinical services offered to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-other-support-services-cs.html"
+                  title="CodeSystem/other-support-services-cs">
+                  <span title="CodeSystem/other-support-services-cs">Other Support Services CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Support services provided to the client</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-partner-contact-type-cs.html"
+                  title="CodeSystem/partner-contact-type-cs">
+                  <span title="CodeSystem/partner-contact-type-cs">Partner Contact Type Codes
+</span>
+               </a>
+            </td>
+            <td>
+<p>Types of contacts or partners for partner services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-partner-hiv-status-cs.html"
+                  title="CodeSystem/partner-hiv-status-cs">
+                  <span title="CodeSystem/partner-hiv-status-cs">Partner HIV Status Codes
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-partner-risk-category-cs.html"
+                  title="CodeSystem/partner-risk-category-cs">
+                  <span title="CodeSystem/partner-risk-category-cs">Partner High Risk Category Codes
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-partner-services-referral-cs.html"
+                  title="CodeSystem/partner-services-referral-cs">
+                  <span title="CodeSystem/partner-services-referral-cs">Partner Services Referral Codes
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes for referral through partner services</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-prep-dosing-type-cs.html"
+                  title="CodeSystem/prep-dosing-type-cs">
+                  <span title="CodeSystem/prep-dosing-type-cs">PrEP Dosing Type CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-prep-visit-interval-cs.html"
+                  title="CodeSystem/prep-visit-interval-cs">
+                  <span title="CodeSystem/prep-visit-interval-cs">PrEP Visit Interval CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Represents scheduled PrEP visit intervals.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-prep-visit-reason-cs.html"
+                  title="CodeSystem/prep-visit-reason-cs">
+                  <span title="CodeSystem/prep-visit-reason-cs">PrEP Visit Reason CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes representing reasons for PrEP/PEP visits.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-prefered-contact-cs.html"
+                  title="CodeSystem/prefered-contact-cs">
+                  <span title="CodeSystem/prefered-contact-cs">Prefered contact CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>CodeSystem representing the Prefered Contact</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-sti-result-cs.html" title="CodeSystem/sti-result-cs">
+                  <span title="CodeSystem/sti-result-cs">STI Test Result CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes for STI test results</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-sti-test-type-cs.html"
+                  title="CodeSystem/sti-test-type-cs">
+                  <span title="CodeSystem/sti-test-type-cs">STI Test Types
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-srh-integrated-services-cs.html"
+                  title="CodeSystem/srh-integrated-services-cs">
+                  <span title="CodeSystem/srh-integrated-services-cs">Sexual and Reproductive Health Integrated Services CodeSystem
+</span>
+               </a>
+            </td>
+            <td>
+<p>Types of SRH integrated services provided</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-sti-syndrome-cs.html"
+                  title="CodeSystem/sti-syndrome-cs">
+                  <span title="CodeSystem/sti-syndrome-cs">Syndrome/STI Codes
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-syphilis-test-result-cs.html"
+                  title="CodeSystem/syphilis-test-result-cs">
+                  <span title="CodeSystem/syphilis-test-result-cs">Syphilis Test Result Codes
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-syphilis-test-type-cs.html"
+                  title="CodeSystem/syphilis-test-type-cs">
+                  <span title="CodeSystem/syphilis-test-type-cs">Syphilis Test Type Code System
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes for syphilis test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-vmmc-adverse-event-timing-cs.html"
+                  title="CodeSystem/vmmc-adverse-event-timing-cs">
+                  <span title="CodeSystem/vmmc-adverse-event-timing-cs">Timing of Adverse Event
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-trichomonas-vaginalis-test-type-cs.html"
+                  title="CodeSystem/trichomonas-vaginalis-test-type-cs">
+                  <span title="CodeSystem/trichomonas-vaginalis-test-type-cs">Trichomonas vaginalis Test Type Code System
+</span>
+               </a>
+            </td>
+            <td>
+<p>Codes for Trichomonas vaginalis test types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-vmmc-adverse-event-severity-cs.html"
+                  title="CodeSystem/vmmc-adverse-event-severity-cs">
+                  <span title="CodeSystem/vmmc-adverse-event-severity-cs">VMMC Adverse Event Severity Codes
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="5"> </a>
+   <h3>Example: Example Instances </h3>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-ETpatientEx.html" title="Patient/ETpatientEx">
+                  <span title="Patient/ETpatientEx">Example Ethiopian Patient
+</span>
+               </a>
+            </td>
+            <td>
+<p>Example instance conforming to the Ethiopian Patient profile</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-ExampleChlamydiaTrachomatisTestType.html"
+                  title="Observation/ExampleChlamydiaTrachomatisTestType">
+                  <span title="Observation/ExampleChlamydiaTrachomatisTestType">ExampleChlamydiaTrachomatisTestType
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-ExampleHSVTestType.html"
+                  title="Observation/ExampleHSVTestType">
+                  <span title="Observation/ExampleHSVTestType">ExampleHSVTestType
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-ExampleMycoplasmaGenitaliumTestType.html"
+                  title="Observation/ExampleMycoplasmaGenitaliumTestType">
+                  <span title="Observation/ExampleMycoplasmaGenitaliumTestType">ExampleMycoplasmaGenitaliumTestType
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-ExampleNeisseriaGonorrhoeaeTestType.html"
+                  title="Observation/ExampleNeisseriaGonorrhoeaeTestType">
+                  <span title="Observation/ExampleNeisseriaGonorrhoeaeTestType">ExampleNeisseriaGonorrhoeaeTestType
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-ExampleSyphilisTestType.html"
+                  title="Observation/ExampleSyphilisTestType">
+                  <span title="Observation/ExampleSyphilisTestType">ExampleSyphilisTestType
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-ExampleTrichomonasVaginalisTestType.html"
+                  title="Observation/ExampleTrichomonasVaginalisTestType">
+                  <span title="Observation/ExampleTrichomonasVaginalisTestType">ExampleTrichomonasVaginalisTestType
+</span>
+               </a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script type="text/javascript" src="assets/js/togglechanges.js"> </script>
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://moh.gov.et">MOH Ethiopia</a>.  
+          Package et.fhir.core#0.9.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-06-16 12:37:00 +0000">
+    2026-06-16
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

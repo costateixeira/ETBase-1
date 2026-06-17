@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="occupation-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem occupation-cs</b></p><a name="occupation-cs"> </a><a name="hcoccupation-cs"> </a><p>This  code system <code>http://fhir.et/core/CodeSystem/occupation-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">emp<a name="occupation-cs-emp"> </a></td><td>Employeed</td></tr><tr><td style="white-space:nowrap">Unemp<a name="occupation-cs-Unemp"> </a></td><td>Unemployed</td></tr><tr><td style="white-space:nowrap">other<a name="occupation-cs-other"> </a></td><td>Other (Specify)</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/occupation-cs"/>
+  <version value="0.9.0"/>
+  <name value="OccupationCS"/>
+  <title value="Ethiopia Occupation CodeSystem"/>
+  <status value="active"/>
+  <date value="2026-06-16T19:20:25+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="CodeSystem representing the occupation categories used in Ethiopia"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="emp"/>
+    <display value="Employeed"/>
+  </concept>
+  <concept>
+    <code value="Unemp"/>
+    <display value="Unemployed"/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other (Specify)"/>
+  </concept>
+</CodeSystem>

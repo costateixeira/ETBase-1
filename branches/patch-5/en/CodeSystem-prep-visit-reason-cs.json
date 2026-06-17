@@ -1,0 +1,55 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "prep-visit-reason-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem prep-visit-reason-cs</b></p><a name=\"prep-visit-reason-cs\"> </a><a name=\"hcprep-visit-reason-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/prep-visit-reason-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">first-prep-counselling<a name=\"prep-visit-reason-cs-first-prep-counselling\"> </a></td><td>First time counselling on PrEP</td></tr><tr><td style=\"white-space:nowrap\">prep-followup<a name=\"prep-visit-reason-cs-prep-followup\"> </a></td><td>Follow-up appointment for PrEP</td></tr><tr><td style=\"white-space:nowrap\">restart-prep<a name=\"prep-visit-reason-cs-restart-prep\"> </a></td><td>Restarting PrEP</td></tr><tr><td style=\"white-space:nowrap\">pep-counselling<a name=\"prep-visit-reason-cs-pep-counselling\"> </a></td><td>Counselling on PEP</td></tr><tr><td style=\"white-space:nowrap\">unscheduled-side-effects<a name=\"prep-visit-reason-cs-unscheduled-side-effects\"> </a></td><td>Unscheduled visit for side effects and adverse events</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/prep-visit-reason-cs",
+  "version" : "0.9.0",
+  "name" : "PrepVisitReasonCS",
+  "title" : "PrEP Visit Reason CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Codes representing reasons for PrEP/PEP visits.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "first-prep-counselling",
+    "display" : "First time counselling on PrEP"
+  },
+  {
+    "code" : "prep-followup",
+    "display" : "Follow-up appointment for PrEP"
+  },
+  {
+    "code" : "restart-prep",
+    "display" : "Restarting PrEP"
+  },
+  {
+    "code" : "pep-counselling",
+    "display" : "Counselling on PEP"
+  },
+  {
+    "code" : "unscheduled-side-effects",
+    "display" : "Unscheduled visit for side effects and adverse events"
+  }]
+}

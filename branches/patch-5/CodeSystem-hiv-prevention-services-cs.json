@@ -1,0 +1,66 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "hiv-prevention-services-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hiv-prevention-services-cs</b></p><a name=\"hiv-prevention-services-cs\"> </a><a name=\"hchiv-prevention-services-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-prevention-services-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">condoms<a name=\"hiv-prevention-services-cs-condoms\"> </a></td><td>Offer male and female condoms and condom-compatible lubricants</td></tr><tr><td style=\"white-space:nowrap\">prep<a name=\"hiv-prevention-services-cs-prep\"> </a></td><td>Offer pre-exposure prophylaxis (PrEP) for people at substantial ongoing risk of HIV infection</td></tr><tr><td style=\"white-space:nowrap\">pep<a name=\"hiv-prevention-services-cs-pep\"> </a></td><td>Offer post-exposure prophylaxis (PEP) following suspected exposure</td></tr><tr><td style=\"white-space:nowrap\">vmmc<a name=\"hiv-prevention-services-cs-vmmc\"> </a></td><td>Voluntary medical male circumcision (VMMC)</td></tr><tr><td style=\"white-space:nowrap\">harm-reduction<a name=\"hiv-prevention-services-cs-harm-reduction\"> </a></td><td>Harm reduction for people who inject drugs</td></tr><tr><td style=\"white-space:nowrap\">behavioural<a name=\"hiv-prevention-services-cs-behavioural\"> </a></td><td>Behavioural interventions to support risk reduction, particularly for people with HIV and members of key populations</td></tr><tr><td style=\"white-space:nowrap\">partner-testing<a name=\"hiv-prevention-services-cs-partner-testing\"> </a></td><td>HIV testing for partners and biological children</td></tr><tr><td style=\"white-space:nowrap\">key-population<a name=\"hiv-prevention-services-cs-key-population\"> </a></td><td>HIV testing for partners and social contacts of people from key populations, where appropriate</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/hiv-prevention-services-cs",
+  "version" : "0.9.0",
+  "name" : "HIVPreventionServicesCS",
+  "title" : "HIV Prevention Services and Referrals CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Prevention services offered and referrals provided",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "condoms",
+    "display" : "Offer male and female condoms and condom-compatible lubricants"
+  },
+  {
+    "code" : "prep",
+    "display" : "Offer pre-exposure prophylaxis (PrEP) for people at substantial ongoing risk of HIV infection"
+  },
+  {
+    "code" : "pep",
+    "display" : "Offer post-exposure prophylaxis (PEP) following suspected exposure"
+  },
+  {
+    "code" : "vmmc",
+    "display" : "Voluntary medical male circumcision (VMMC)"
+  },
+  {
+    "code" : "harm-reduction",
+    "display" : "Harm reduction for people who inject drugs"
+  },
+  {
+    "code" : "behavioural",
+    "display" : "Behavioural interventions to support risk reduction, particularly for people with HIV and members of key populations"
+  },
+  {
+    "code" : "partner-testing",
+    "display" : "HIV testing for partners and biological children"
+  },
+  {
+    "code" : "key-population",
+    "display" : "HIV testing for partners and social contacts of people from key populations, where appropriate"
+  }]
+}

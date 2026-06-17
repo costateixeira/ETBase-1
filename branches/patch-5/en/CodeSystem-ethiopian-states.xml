@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ethiopian-states"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ethiopian-states</b></p><a name="ethiopian-states"> </a><a name="hcethiopian-states"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/ethiopian-states</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">OR<a name="ethiopian-states-OR"> </a></td><td>Oromia</td></tr><tr><td style="white-space:nowrap">AM<a name="ethiopian-states-AM"> </a></td><td>Amhara</td></tr><tr><td style="white-space:nowrap">TI<a name="ethiopian-states-TI"> </a></td><td>Tigray</td></tr><tr><td style="white-space:nowrap">SO<a name="ethiopian-states-SO"> </a></td><td>Somali</td></tr><tr><td style="white-space:nowrap">AF<a name="ethiopian-states-AF"> </a></td><td>Afar</td></tr><tr><td style="white-space:nowrap">SD<a name="ethiopian-states-SD"> </a></td><td>Sidama</td></tr><tr><td style="white-space:nowrap">SE<a name="ethiopian-states-SE"> </a></td><td>South Ethiopia</td></tr><tr><td style="white-space:nowrap">SW<a name="ethiopian-states-SW"> </a></td><td>Southwest Ethiopia</td></tr><tr><td style="white-space:nowrap">AA<a name="ethiopian-states-AA"> </a></td><td>Addis Ababa</td></tr><tr><td style="white-space:nowrap">DD<a name="ethiopian-states-DD"> </a></td><td>Dire Dawa</td></tr><tr><td style="white-space:nowrap">GA<a name="ethiopian-states-GA"> </a></td><td>Gambella</td></tr><tr><td style="white-space:nowrap">BG<a name="ethiopian-states-BG"> </a></td><td>Benishangul Gumuz</td></tr><tr><td style="white-space:nowrap">HA<a name="ethiopian-states-HA"> </a></td><td>Harari</td></tr><tr><td style="white-space:nowrap">CE<a name="ethiopian-states-CE"> </a></td><td>Central Ethiopia</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+  <version value="0.9.0"/>
+  <name value="EthiopiaStateCS"/>
+  <title value="Ethiopia State / Region CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Administrative states and city administrations of Ethiopia"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="14"/>
+  <concept>
+    <code value="OR"/>
+    <display value="Oromia"/>
+  </concept>
+  <concept>
+    <code value="AM"/>
+    <display value="Amhara"/>
+  </concept>
+  <concept>
+    <code value="TI"/>
+    <display value="Tigray"/>
+  </concept>
+  <concept>
+    <code value="SO"/>
+    <display value="Somali"/>
+  </concept>
+  <concept>
+    <code value="AF"/>
+    <display value="Afar"/>
+  </concept>
+  <concept>
+    <code value="SD"/>
+    <display value="Sidama"/>
+  </concept>
+  <concept>
+    <code value="SE"/>
+    <display value="South Ethiopia"/>
+  </concept>
+  <concept>
+    <code value="SW"/>
+    <display value="Southwest Ethiopia"/>
+  </concept>
+  <concept>
+    <code value="AA"/>
+    <display value="Addis Ababa"/>
+  </concept>
+  <concept>
+    <code value="DD"/>
+    <display value="Dire Dawa"/>
+  </concept>
+  <concept>
+    <code value="GA"/>
+    <display value="Gambella"/>
+  </concept>
+  <concept>
+    <code value="BG"/>
+    <display value="Benishangul Gumuz"/>
+  </concept>
+  <concept>
+    <code value="HA"/>
+    <display value="Harari"/>
+  </concept>
+  <concept>
+    <code value="CE"/>
+    <display value="Central Ethiopia"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "partner-risk-category-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet partner-risk-category-vs</b></p><a name=\"partner-risk-category-vs\"> </a><a name=\"hcpartner-risk-category-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-partner-risk-category-cs.html\"><code>http://fhir.et/core/CodeSystem/partner-risk-category-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.9.0</span></li></ul></div>"
+  },
+  "url" : "http://fhir.et/core/ValueSet/partner-risk-category-vs",
+  "version" : "0.9.0",
+  "name" : "PartnerRiskCategoryVS",
+  "title" : "Partner High Risk Category ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.et/core/CodeSystem/partner-risk-category-cs"
+    }]
+  }
+}

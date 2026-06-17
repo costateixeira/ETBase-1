@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="hiv-exposure-ways-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem hiv-exposure-ways-cs</b></p><a name="hiv-exposure-ways-cs"> </a><a name="hchiv-exposure-ways-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-exposure-ways-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">sexual<a name="hiv-exposure-ways-cs-sexual"> </a></td><td>Sexual exposure</td></tr><tr><td style="white-space:nowrap">injecting-drugs<a name="hiv-exposure-ways-cs-injecting-drugs"> </a></td><td>Injected drugs</td></tr><tr><td style="white-space:nowrap">mother-to-child<a name="hiv-exposure-ways-cs-mother-to-child"> </a></td><td>Mother-to-child transmission</td></tr><tr><td style="white-space:nowrap">blood-transfusion<a name="hiv-exposure-ways-cs-blood-transfusion"> </a></td><td>Received blood or blood product transfusion or transplant</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/hiv-exposure-ways-cs"/>
+  <version value="0.9.0"/>
+  <name value="HIVExposureWaysCS"/>
+  <title value="HIV Exposure Ways CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Codes representing possible HIV exposure routes"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="sexual"/>
+    <display value="Sexual exposure"/>
+  </concept>
+  <concept>
+    <code value="injecting-drugs"/>
+    <display value="Injected drugs"/>
+  </concept>
+  <concept>
+    <code value="mother-to-child"/>
+    <display value="Mother-to-child transmission"/>
+  </concept>
+  <concept>
+    <code value="blood-transfusion"/>
+    <display value="Received blood or blood product transfusion or transplant"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,42 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "prep-visit-interval-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem prep-visit-interval-cs</b></p><a name=\"prep-visit-interval-cs\"> </a><a name=\"hcprep-visit-interval-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/prep-visit-interval-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">two-month<a name=\"prep-visit-interval-cs-two-month\"> </a></td><td>2-month PrEP visit</td></tr><tr><td style=\"white-space:nowrap\">three-month<a name=\"prep-visit-interval-cs-three-month\"> </a></td><td>3-month PrEP visit</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/prep-visit-interval-cs",
+  "version" : "0.9.0",
+  "name" : "PrepVisitIntervalCS",
+  "title" : "PrEP Visit Interval CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Represents scheduled PrEP visit intervals.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "two-month",
+    "display" : "2-month PrEP visit"
+  },
+  {
+    "code" : "three-month",
+    "display" : "3-month PrEP visit"
+  }]
+}

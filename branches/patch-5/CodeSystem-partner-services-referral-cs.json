@@ -1,0 +1,42 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "partner-services-referral-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem partner-services-referral-cs</b></p><a name=\"partner-services-referral-cs\"> </a><a name=\"hcpartner-services-referral-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/partner-services-referral-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Partner-or-contact-of-index-case<a name=\"partner-services-referral-cs-Partner-or-contact-of-index-case\"> </a></td><td>Partner or contact of an index case</td></tr><tr><td style=\"white-space:nowrap\">Partner-or-contact-of-HIV-testing-client-non-index-case<a name=\"partner-services-referral-cs-Partner-or-contact-of-HIV-testing-client-non-index-case\"> </a></td><td>Partner or contact of an HIV testing client (non-index case)</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/partner-services-referral-cs",
+  "version" : "0.9.0",
+  "name" : "PartnerServicesReferralCS",
+  "title" : "Partner Services Referral Codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Codes for referral through partner services",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "Partner-or-contact-of-index-case",
+    "display" : "Partner or contact of an index case"
+  },
+  {
+    "code" : "Partner-or-contact-of-HIV-testing-client-non-index-case",
+    "display" : "Partner or contact of an HIV testing client (non-index case)"
+  }]
+}

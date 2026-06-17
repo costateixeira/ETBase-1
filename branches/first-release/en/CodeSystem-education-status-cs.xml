@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="education-status-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem education-status-cs</b></p><a name="education-status-cs"> </a><a name="hceducation-status-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/education-status-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">noedun<a name="education-status-cs-noedun"> </a></td><td>No formal education</td></tr><tr><td style="white-space:nowrap">canReadWrite<a name="education-status-cs-canReadWrite"> </a></td><td>Can read and write</td></tr><tr><td style="white-space:nowrap">primary<a name="education-status-cs-primary"> </a></td><td>Primary school</td></tr><tr><td style="white-space:nowrap">secondary<a name="education-status-cs-secondary"> </a></td><td>Secondary school</td></tr><tr><td style="white-space:nowrap">higher<a name="education-status-cs-higher"> </a></td><td>Higher education</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/education-status-cs"/>
+  <version value="0.9.0"/>
+  <name value="EducationStatusCS"/>
+  <title value="Ethiopia Education Status CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-17T09:00:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="CodeSystem representing the educational status categories used in Ethiopia"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="noedun"/>
+    <display value="No formal education"/>
+  </concept>
+  <concept>
+    <code value="canReadWrite"/>
+    <display value="Can read and write"/>
+  </concept>
+  <concept>
+    <code value="primary"/>
+    <display value="Primary school"/>
+  </concept>
+  <concept>
+    <code value="secondary"/>
+    <display value="Secondary school"/>
+  </concept>
+  <concept>
+    <code value="higher"/>
+    <display value="Higher education"/>
+  </concept>
+</CodeSystem>

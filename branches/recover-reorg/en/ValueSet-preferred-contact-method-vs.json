@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "preferred-contact-method-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet preferred-contact-method-vs</b></p><a name=\"preferred-contact-method-vs\"> </a><a name=\"hcpreferred-contact-method-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-prefered-contact-cs.html\"><code>http://fhir.et/core/CodeSystem/preferedcontact</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.9.0</span></li></ul></div>"
+  },
+  "url" : "http://fhir.et/core/ValueSet/preferred-contact-method-vs",
+  "version" : "0.9.0",
+  "name" : "PreferredContactMethodVS",
+  "title" : "Preferred Contact Method Value Set",
+  "status" : "active",
+  "date" : "2026-06-16T15:24:47+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.et/core/CodeSystem/preferedcontact"
+    }]
+  }
+}

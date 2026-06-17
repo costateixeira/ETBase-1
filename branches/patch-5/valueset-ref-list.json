@@ -1,0 +1,641 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.et/core/ValueSet/EthiopiaStateVS",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "EthiopiaStateVS",
+    "title" : "Ethiopia State / Region ValueSet",
+    "description" : "Allowed list of Ethiopian states and city administrations.",
+    "systems" : ["http://fhir.et/core/CodeSystem/ethiopian-states"],
+    "uses" : {
+    },
+    "StructureDefinition-ETPatient.html" : "Ethiopian patient profile"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/chlamydia-trachomatis-test-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "ChlamydiaTrachomatisTestTypeVS",
+    "title" : "Chlamydia trachomatis Test Type Value Set",
+    "description" : "Allowed values for Chlamydia trachomatis test types",
+    "systems" : ["http://fhir.et/core/CodeSystem/chlamydia-trachomatis-test-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-chlamydia-trachomatis-test-type-observation.html" : "Chlamydia trachomatis Test Type Observation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/community-entry-point-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "CommunityEntryPointValueSet",
+    "title" : "community Entry Point ValueSet",
+    "description" : "ValueSet for community entry points",
+    "systems" : ["http://fhir.et/core/CodeSystem/community-entry-point-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-community-entry-point.html" : "Community Entry Point"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/counselling-provided-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "CounsellingProvidedVS",
+    "title" : "Counselling Provided ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/counselling-provided-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-counselling-provided.html" : "Counselling Provided"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/education-status-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "EducationStatusVS",
+    "title" : "Ethiopia Education Status ValueSet",
+    "description" : "ValueSet containing all education status codes used in Ethiopia",
+    "systems" : ["http://fhir.et/core/CodeSystem/education-status-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ETPatient.html" : "Ethiopian patient profile"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/exposure-source-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "ExposureSourceVS",
+    "title" : "Source of Exposure ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/exposure-source-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-exposure-source-observation.html" : "ExposureSourceObservation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/facility-entry-point-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "FacilityEntryPointVS",
+    "title" : "Facility Entry Point ValueSet",
+    "description" : "ValueSet for facility entry points",
+    "systems" : ["http://fhir.et/core/CodeSystem/facility-entry-point-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-facility-entry-point.html" : "Facility Entry Point"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/follow-up-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "FollowUpTypeVS",
+    "title" : "Follow-Up Types",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/follow-up-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-follow-up-type-observation.html" : "Type of Follow-Up"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/gender-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "ETGenderVS",
+    "title" : "Ethiopian Patient Gender values",
+    "description" : "Patient Gender....",
+    "systems" : ["http://hl7.org/fhir/administrative-gender"],
+    "uses" : {
+    },
+    "StructureDefinition-ETPatient.html" : "Ethiopian patient profile"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/gonorrhoea-specimen-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "GonorrhoeaSpecimenTypeVS",
+    "title" : "Gonorrhoea Specimen Type",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/gonorrhoea-specimen-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-gonorrhoea-testing-observation.html" : "Gonorrhoea Testing and Treatment"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/gonorrhoea-test-result-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "GonorrhoeaTestResultVS",
+    "title" : "Gonorrhoea Test Result",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/gonorrhoea-test-result-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-gonorrhoea-testing-observation.html" : "Gonorrhoea Testing and Treatment"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-adherence-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "AdherenceVS",
+    "title" : "ART Adherence Value Set",
+    "description" : "Value set for documenting ART adherence",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-adherence-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-adherence.html" : "HIVAdherenceObservation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-assay-number-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVAssayNumberVS",
+    "title" : "HIV Assay Number ValueSet",
+    "description" : "Permitted assay numbers in HIV testing strategy",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-assay-number-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-assay-number-observation.html" : "HIV Assay Number"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-assay-result-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVAssayResultVS",
+    "title" : "HIV Assay Result ValueSet",
+    "description" : "Allowed HIV assay results",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-assay-result-cs"]
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-condition-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVConditionVS",
+    "title" : "HIV Condition Value Set",
+    "description" : "Value set representing HIV-related conditions and statuses",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-condition-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-condition.html" : "HIVCondition"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-exposure-ways-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVExposureWaysVS",
+    "title" : "Ways of HIV Exposure",
+    "description" : "Ways in which the client was exposed to HIV",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-exposure-ways-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-exposure-observation.html" : "HIV Exposure Ways Observation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-prevention-services-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVPreventionServicesVS",
+    "title" : "HIV Prevention Services and Referrals ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-prevention-services-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-prevention-services.html" : "Prevention Services Offered and Referrals"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-self-test-result-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVSelfTestResultVS",
+    "title" : "HIV Self-test Result ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-self-test-result-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-self-test-result.html" : "HIV Self-test Result"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-serotype-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVSerotypeVS",
+    "title" : "HIV Serotype ValueSet",
+    "description" : "HIV serotype classification",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-serotype-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-serotype-observation.html" : "HIV Serotype"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-status-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVStatusVS",
+    "title" : null,
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-status-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-partner-hiv-status.html" : "Partner HIV Status",
+    "StructureDefinition-hiv-status.html" : "HIVStatusObservation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-test-result-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVTestResultVS",
+    "title" : null,
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-test-result-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-test-result-observation.html" : "HIVTestResultObservation",
+    "StructureDefinition-partner-hiv-test-result.html" : "PartnerHIVTestResultObservation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-test-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVTestTypeVS",
+    "title" : "HIV Test Type ValueSet",
+    "description" : "Permitted HIV test types",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-test-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-test-type-observation.html" : "HIV Test Type"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-testing-entry-point-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVTestingEntryPointVS",
+    "title" : "HIV Testing Entry Point ValueSet",
+    "description" : "ValueSet of HIV Testing Service entry points",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-testing-entry-point-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-testing-encounter.html" : "HIV Testing Services Encounter"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-testing-reason-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVTestingReasonVS",
+    "title" : "HIV Testing Reason ValueSet",
+    "description" : "Reasons for HIV testing",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-testing-reason-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-testing-encounter.html" : "HIV Testing Services Encounter"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hiv-transmission-route-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HIVTransmissionRouteVS",
+    "title" : null,
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/hiv-transmission-route-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-transmission-route.html" : "HIVTransmissionRouteObservation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hsv-test-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HSVTestTypeVS",
+    "title" : "Herpes Simplex Virus Test Type Value Set",
+    "description" : "Allowed values for Herpes simplex virus (HSV) test types",
+    "systems" : ["http://fhir.et/core/CodeSystem/hsv-test-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hsv-test-type-observation.html" : "Herpes Simplex Virus (HSV) Test Type Observation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/hts-service-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "HTSServiceVS",
+    "title" : "HTS Service Types ValueSet",
+    "description" : "Value set for HTS service delivery types.",
+    "systems" : ["http://fhir.et/core/CodeSystem/hts-service-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-hts-request.html" : "HIVTestingServiceRequest"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/ipv-enquiry-result-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "IPVEnquiryResultVS",
+    "title" : "IPV Enquiry Result ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/ipv-enquiry-result-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ipv-enquiry-result.html" : "IPV Enquiry Result"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/key-population-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "KeyPopulationTypeVS",
+    "title" : "Key Population Type ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/key-population-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-key-population-type.html" : "Key Population Member Type"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/marital-status-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "ETMaritalStatusVS",
+    "title" : "Ethiopian Patient Marital Status values",
+    "description" : "Patient Marital Status....",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"],
+    "uses" : {
+    },
+    "StructureDefinition-ETPatient.html" : "Ethiopian patient profile"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/mycoplasma-genitalium-test-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "MycoplasmaGenitaliumTestTypeVS",
+    "title" : "Mycoplasma genitalium Test Type Value Set",
+    "description" : "Allowed values for Mycoplasma genitalium test types",
+    "systems" : ["http://fhir.et/core/CodeSystem/mycoplasma-genitalium-test-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-mycoplasma-genitalium-test-type-observation.html" : "Mycoplasma genitalium Test Type Observation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/neisseria-gonorrhoeae-test-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "NeisseriaGonorrhoeaeTestTypeVS",
+    "title" : "Neisseria gonorrhoeae Test Type Value Set",
+    "description" : "Allowed values for Neisseria gonorrhoeae test types",
+    "systems" : ["http://fhir.et/core/CodeSystem/neisseria-gonorrhoeae-test-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-neisseria-gonorrhoeae-test-type-observation.html" : "Neisseria gonorrhoeae Test Type Observation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/occupation-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "OccupationVS",
+    "title" : "Ethiopia Occupation ValueSet",
+    "description" : "ValueSet containing all occupation codes used in Ethiopia",
+    "systems" : ["http://fhir.et/core/CodeSystem/occupation-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-ETPatient.html" : "Ethiopian patient profile"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/other-clinical-services-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "OtherClinicalServicesVS",
+    "title" : "Other Clinical Services Offered ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/other-clinical-services-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-other-clinical-services.html" : "Other Clinical Services Offered"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/other-support-services-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "OtherSupportServicesVS",
+    "title" : "Other Support Services ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/other-support-services-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-other-support-services.html" : "Other Support Services"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/partner-contact-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "PartnerContactTypeVS",
+    "title" : "Partner Contact Type ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/partner-contact-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-hiv-partner-contact.html" : "HIV Partner / Contact Person"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/partner-risk-category-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "PartnerRiskCategoryVS",
+    "title" : "Partner High Risk Category ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/partner-risk-category-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-partner-risk-category.html" : "Partner High Risk Population Category"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/partner-services-referral-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "PartnerServicesReferralVS",
+    "title" : "Partner Services Referral ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/partner-services-referral-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-partner-services-referral.html" : "Referred through partner services"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/preferred-contact-method-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "PreferredContactMethodVS",
+    "title" : "Preferred Contact Method Value Set",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/prefered-contact-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-preferred-contact-method.html" : "Preferred Contact Method"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/prep-dosing-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "PrEPDosingTypeVS",
+    "title" : "PrEP Dosing Type ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/prep-dosing-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-prep-dosing-type.html" : "PrEPDosingType"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/prep-visit-interval-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "PrepVisitIntervalVS",
+    "title" : "PrEP Visit Interval ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/prep-visit-interval-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-prep-visit-observation.html" : "PrEP Visit Observation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/prep-visit-reason-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "PrepVisitReasonVS",
+    "title" : "PrEP Visit Reason ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/prep-visit-reason-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-prep-encounter.html" : "PrEP Encounter",
+    "StructureDefinition-prep-visit-reason.html" : "Reason for PrEP Visit"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/srh-integrated-services-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "SRHIntegratedServicesVS",
+    "title" : "Sexual and Reproductive Health Integrated Services ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/srh-integrated-services-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-srh-integrated-services.html" : "Sexual and Reproductive Health Integrated Services"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/sti-result-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "STIResultVS",
+    "title" : "STI Test Result ValueSet",
+    "description" : "Value set for STI test results",
+    "systems" : ["http://fhir.et/core/CodeSystem/sti-result-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-sti-result-observation.html" : "STI Test Result Observation",
+    "StructureDefinition-confirmatory-sti-test-result-observation.html" : "Confirmatory STI Test Result Observation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/sti-syndrome-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "STISyndromeVS",
+    "title" : "Syndrome/STI Diagnosed ValueSet",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/sti-syndrome-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-sti-syndrome-observation.html" : "Syndrome/STI Diagnosed"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/sti-test-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "STITestTypeVS",
+    "title" : "STI Tested For",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/sti-test-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-sti-testing-observation.html" : "STI Testing and Diagnosis"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/syphilis-confirmatory-test-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "SyphilisConfirmatoryTestTypeVS",
+    "title" : "Confirmatory Syphilis Test Type ValueSet",
+    "description" : "Value set for confirmatory syphilis test types",
+    "systems" : ["http://fhir.et/core/CodeSystem/syphilis-confirmatory-test-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-confirmatory-syphilis-test-observation.html" : "Confirmatory Syphilis Test Observation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/syphilis-test-result-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "SyphilisTestResultVS",
+    "title" : "Syphilis Test Result",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/syphilis-test-result-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-syphilis-testing-treatment-observation.html" : "Syphilis Testing and Treatment"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/syphilis-test-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "SyphilisTestTypeVS",
+    "title" : "Syphilis Test Type Value Set",
+    "description" : "Allowed syphilis test type values",
+    "systems" : ["http://fhir.et/core/CodeSystem/syphilis-test-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-syphilis-test-type-observation.html" : "Syphilis Test Type Observation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/trichomonas-vaginalis-test-type-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "TrichomonasVaginalisTestTypeVS",
+    "title" : "Trichomonas vaginalis Test Type Value Set",
+    "description" : "Allowed values for Trichomonas vaginalis test types",
+    "systems" : ["http://fhir.et/core/CodeSystem/trichomonas-vaginalis-test-type-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-trichomonas-vaginalis-test-type-observation.html" : "Trichomonas vaginalis Test Type Observation"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/vmmc-adverse-event-severity-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "VMMCAdverseEventSeverityVS",
+    "title" : "VMMC Adverse Event Severity",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/vmmc-adverse-event-severity-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-vmmc-adverse-event-observation.html" : "VMMC Adverse Events"
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/vmmc-adverse-event-timing-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "VMMCAdverseEventTimingVS",
+    "title" : "Timing of VMMC Adverse Event",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/vmmc-adverse-event-timing-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-vmmc-adverse-event-observation.html" : "VMMC Adverse Events"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0131",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "Hl7VSContactRole2",
+    "title" : "hl7VS-contactRole2",
+    "description" : "Concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Built on the updated code system.  Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+    "oids" : ["2.16.840.1.113883.21.69"],
+    "sources" : ["2.16.840.1.113883.21.69"],
+    "uses" : {
+    },
+    "StructureDefinition-HIVPatient.html" : "HIV Program Patient"
+  }]
+}

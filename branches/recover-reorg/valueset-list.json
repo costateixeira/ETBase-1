@@ -1,0 +1,57 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.et/core/ValueSet/EthiopiaStateVS",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "EthiopiaStateVS",
+    "title" : "Ethiopia State / Region ValueSet",
+    "description" : "Allowed list of Ethiopian states and city administrations.",
+    "systems" : ["http://fhir.et/core/CodeSystem/ethiopian-states"]
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/education-status-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "EducationStatusVS",
+    "title" : "Ethiopia Education Status ValueSet",
+    "description" : "ValueSet containing all education status codes used in Ethiopia",
+    "systems" : ["http://fhir.et/core/CodeSystem/education-status"]
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/gender-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "ETGenderVS",
+    "title" : "Ethiopian Patient Gender values",
+    "description" : "Patient Gender....",
+    "systems" : ["http://hl7.org/fhir/administrative-gender"]
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/marital-status-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "ETMaritalStatusVS",
+    "title" : "Ethiopian Patient Marital Status values",
+    "description" : "Patient Marital Status....",
+    "systems" : ["http://hl7.org/fhir/administrative-maritalstatur",
+    "http://hl7.org/fhir/administrative-maritalstatus"]
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/occupation-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "OccupationVS",
+    "title" : "Ethiopia Occupation ValueSet",
+    "description" : "ValueSet containing all occupation codes used in Ethiopia",
+    "systems" : ["http://fhir.et/CodeSystem/occupation"]
+  },
+  {
+    "url" : "http://fhir.et/core/ValueSet/preferred-contact-method-vs",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "PreferredContactMethodVS",
+    "title" : "Preferred Contact Method Value Set",
+    "description" : "",
+    "systems" : ["http://fhir.et/core/CodeSystem/preferedcontact"]
+  }]
+}

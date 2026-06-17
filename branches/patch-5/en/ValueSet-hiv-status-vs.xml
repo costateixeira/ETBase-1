@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="hiv-status-vs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet hiv-status-vs</b></p><a name="hiv-status-vs"> </a><a name="hchiv-status-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-hiv-status-cs.html"><code>http://fhir.et/core/CodeSystem/hiv-status-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.9.0</span></li></ul></div>
+  </text>
+  <url value="http://fhir.et/core/ValueSet/hiv-status-vs"/>
+  <version value="0.9.0"/>
+  <name value="HIVStatusVS"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://fhir.et/core/CodeSystem/hiv-status-cs"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,74 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "et-observation-code-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem et-observation-code-cs</b></p><a name=\"et-observation-code-cs\"> </a><a name=\"hcet-observation-code-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/et-observation-code-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">adolescent-girl<a name=\"et-observation-code-cs-adolescent-girl\"> </a></td><td>Adolescent girl indicator</td></tr><tr><td style=\"white-space:nowrap\">young-woman<a name=\"et-observation-code-cs-young-woman\"> </a></td><td>Young woman indicator</td></tr><tr><td style=\"white-space:nowrap\">hiv-client-informed<a name=\"et-observation-code-cs-hiv-client-informed\"> </a></td><td>Client informed of HIV test result</td></tr><tr><td style=\"white-space:nowrap\">hiv-self-test-history<a name=\"et-observation-code-cs-hiv-self-test-history\"> </a></td><td>History of HIV self-testing</td></tr><tr><td style=\"white-space:nowrap\">hiv-self-test-result<a name=\"et-observation-code-cs-hiv-self-test-result\"> </a></td><td>HIV self-test result</td></tr><tr><td style=\"white-space:nowrap\">suspected-hiv-exposure<a name=\"et-observation-code-cs-suspected-hiv-exposure\"> </a></td><td>Suspected HIV exposure</td></tr><tr><td style=\"white-space:nowrap\">key-population-membership<a name=\"et-observation-code-cs-key-population-membership\"> </a></td><td>Key population membership</td></tr><tr><td style=\"white-space:nowrap\">key-population-type<a name=\"et-observation-code-cs-key-population-type\"> </a></td><td>Key population member type</td></tr><tr><td style=\"white-space:nowrap\">partner-risk-category<a name=\"et-observation-code-cs-partner-risk-category\"> </a></td><td>Partner high-risk population category</td></tr><tr><td style=\"white-space:nowrap\">partner-hiv-status<a name=\"et-observation-code-cs-partner-hiv-status\"> </a></td><td>Partner HIV status</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/et-observation-code-cs",
+  "version" : "0.9.0",
+  "name" : "ETObservationCodeCS",
+  "title" : "Ethiopia Observation Code CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Interim local Observation.code concepts for Ethiopia-specific observations that currently lack a correct or tx-resolvable LOINC code. These SHOULD be mapped to proper LOINC codes when available (see REMEDIATION-REPORT.md).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 10,
+  "concept" : [{
+    "code" : "adolescent-girl",
+    "display" : "Adolescent girl indicator"
+  },
+  {
+    "code" : "young-woman",
+    "display" : "Young woman indicator"
+  },
+  {
+    "code" : "hiv-client-informed",
+    "display" : "Client informed of HIV test result"
+  },
+  {
+    "code" : "hiv-self-test-history",
+    "display" : "History of HIV self-testing"
+  },
+  {
+    "code" : "hiv-self-test-result",
+    "display" : "HIV self-test result"
+  },
+  {
+    "code" : "suspected-hiv-exposure",
+    "display" : "Suspected HIV exposure"
+  },
+  {
+    "code" : "key-population-membership",
+    "display" : "Key population membership"
+  },
+  {
+    "code" : "key-population-type",
+    "display" : "Key population member type"
+  },
+  {
+    "code" : "partner-risk-category",
+    "display" : "Partner high-risk population category"
+  },
+  {
+    "code" : "partner-hiv-status",
+    "display" : "Partner HIV status"
+  }]
+}

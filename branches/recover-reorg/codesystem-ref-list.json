@@ -1,0 +1,47 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.et/core/CodeSystem/education-status",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "EducationStatusCS",
+    "title" : "Ethiopia Education Status CodeSystem",
+    "description" : "CodeSystem representing the educational status categories used in Ethiopia",
+    "uses" : {
+    },
+    "ValueSet-education-status-vs.html" : "Ethiopia Education Status ValueSet"
+  },
+  {
+    "url" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "EthiopiaStateCS",
+    "title" : "Ethiopia State / Region CodeSystem",
+    "description" : "Administrative states and city administrations of Ethiopia",
+    "uses" : {
+    },
+    "ValueSet-EthiopiaStateVS.html" : "Ethiopia State / Region ValueSet"
+  },
+  {
+    "url" : "http://fhir.et/core/CodeSystem/preferedcontact",
+    "version" : "0.9.0",
+    "status" : "active",
+    "name" : "ContactPointSystemCS",
+    "title" : "Prefered contact CodeSystem",
+    "description" : "CodeSystem representing the Prefered Contact",
+    "uses" : {
+    },
+    "ValueSet-preferred-contact-method-vs.html" : "Preferred Contact Method Value Set"
+  },
+  {
+    "url" : "http://hl7.org/fhir/administrative-gender",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2"],
+    "uses" : {
+    },
+    "ValueSet-gender-vs.html" : "Ethiopian Patient Gender values"
+  }]
+}

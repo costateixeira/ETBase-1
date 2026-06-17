@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/facility-entry-point-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "facility-entry-point-cs"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem facility-entry-point-cs</b></p><a name=\"facility-entry-point-cs\"> </a><a name=\"hcfacility-entry-point-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/facility-entry-point-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Provider-initiated-tested<a name=\"facility-entry-point-cs-Provider-initiated-tested\"> </a></td><td>Provider-initiated tested in a clinic or emergency facility</td></tr><tr><td style=\"white-space:nowrap\">ANC-clinic<a name=\"facility-entry-point-cs-ANC-clinic\"> </a></td><td>Antenatal care clinic</td></tr><tr><td style=\"white-space:nowrap\">Voluntary-counselling-testing-within<a name=\"facility-entry-point-cs-Voluntary-counselling-testing-within\"> </a></td><td>Voluntary counselling and testing (within a health facility setting)</td></tr><tr><td style=\"white-space:nowrap\">FP-clinic<a name=\"facility-entry-point-cs-FP-clinic\"> </a></td><td>Family planning clinic</td></tr><tr><td style=\"white-space:nowrap\">Other-facility-level-testing<a name=\"facility-entry-point-cs-Other-facility-level-testing\"> </a></td><td>Other facility-level testing</td></tr><tr><td style=\"white-space:nowrap\">TB-clinic<a name=\"facility-entry-point-cs-TB-clinic\"> </a></td><td>Tuberculosis (TB) clinic</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/facility-entry-point-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "FacilityEntryPointCS"] ; # 
+  fhir:title [ fhir:v "HIV Testing for facility entry point CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-16T12:37:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Defines entry points for facility entry point"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Provider-initiated-tested" ] ;
+     fhir:display [ fhir:v "Provider-initiated tested in a clinic or emergency facility" ]
+  ] [
+     fhir:code [ fhir:v "ANC-clinic" ] ;
+     fhir:display [ fhir:v "Antenatal care clinic" ]
+  ] [
+     fhir:code [ fhir:v "Voluntary-counselling-testing-within" ] ;
+     fhir:display [ fhir:v "Voluntary counselling and testing (within a health facility setting)" ]
+  ] [
+     fhir:code [ fhir:v "FP-clinic" ] ;
+     fhir:display [ fhir:v "Family planning clinic" ]
+  ] [
+     fhir:code [ fhir:v "Other-facility-level-testing" ] ;
+     fhir:display [ fhir:v "Other facility-level testing" ]
+  ] [
+     fhir:code [ fhir:v "TB-clinic" ] ;
+     fhir:display [ fhir:v "Tuberculosis (TB) clinic" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

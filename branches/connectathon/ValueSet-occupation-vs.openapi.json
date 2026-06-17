@@ -1,0 +1,63 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Ethiopia Occupation ValueSet Schema API",
+    "description": "JSON Schema for Ethiopia Occupation ValueSet ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-occupation-vs.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-occupation-vs",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-occupation-vs.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-occupation-vs",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-occupation-vs.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-occupation-vs": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://fhir.et/core/ValueSet-occupation-vs.schema.json",
+        "title": "Ethiopia Occupation ValueSet Schema",
+        "description": "JSON Schema for Ethiopia Occupation ValueSet ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+        "type": "object",
+        "required": [
+          "system",
+          "code"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "system": {
+            "type": "string",
+            "const": "http://fhir.et/core/CodeSystem/occupation"
+          },
+          "code": {
+            "type": "string",
+            "enum": [
+              "emp",
+              "Unemp",
+              "other"
+            ]
+          }
+        },
+        "narrative": "This schema validates Coding-shaped objects for the Ethiopia Occupation ValueSet ValueSet. Each value must be an object with 'system' (CodeSystem URI) and 'code' (fragment after '#') properties. Display values are available at http://fhir.et/core/ValueSet-occupation-vs.displays.json. The canonical IRI for a code can be reconstructed as system + '#' + code. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://fhir.et/core/ValueSet-occupation-vs.displays.json",
+        "fhir:valueSet": "http://fhir.et/core/ValueSet/occupation-vs",
+        "fhir:version": "0.9.0",
+        "fhir:expansionTimestamp": "2026-06-17T04:43:09+00:00"
+      }
+    }
+  }
+}

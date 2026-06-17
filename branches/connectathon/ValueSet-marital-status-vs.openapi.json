@@ -1,0 +1,64 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Ethiopian Patient Marital Status values Schema API",
+    "description": "JSON Schema for Ethiopian Patient Marital Status values ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-marital-status-vs.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-marital-status-vs",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-marital-status-vs.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-marital-status-vs",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-marital-status-vs.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-marital-status-vs": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://fhir.et/core/ValueSet-marital-status-vs.schema.json",
+        "title": "Ethiopian Patient Marital Status values Schema",
+        "description": "JSON Schema for Ethiopian Patient Marital Status values ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+        "type": "object",
+        "required": [
+          "system",
+          "code"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "system": {
+            "type": "string",
+            "const": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+          },
+          "code": {
+            "type": "string",
+            "enum": [
+              "D",
+              "M",
+              "W",
+              "U"
+            ]
+          }
+        },
+        "narrative": "This schema validates Coding-shaped objects for the Ethiopian Patient Marital Status values ValueSet. Each value must be an object with 'system' (CodeSystem URI) and 'code' (fragment after '#') properties. Display values are available at http://fhir.et/core/ValueSet-marital-status-vs.displays.json. The canonical IRI for a code can be reconstructed as system + '#' + code. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://fhir.et/core/ValueSet-marital-status-vs.displays.json",
+        "fhir:valueSet": "http://fhir.et/core/ValueSet/marital-status-vs",
+        "fhir:version": "0.9.0",
+        "fhir:expansionTimestamp": "2026-06-17T04:43:09+00:00"
+      }
+    }
+  }
+}

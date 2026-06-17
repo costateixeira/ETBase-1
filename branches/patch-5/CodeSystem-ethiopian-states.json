@@ -1,0 +1,90 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ethiopian-states",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ethiopian-states</b></p><a name=\"ethiopian-states\"> </a><a name=\"hcethiopian-states\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/ethiopian-states</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">OR<a name=\"ethiopian-states-OR\"> </a></td><td>Oromia</td></tr><tr><td style=\"white-space:nowrap\">AM<a name=\"ethiopian-states-AM\"> </a></td><td>Amhara</td></tr><tr><td style=\"white-space:nowrap\">TI<a name=\"ethiopian-states-TI\"> </a></td><td>Tigray</td></tr><tr><td style=\"white-space:nowrap\">SO<a name=\"ethiopian-states-SO\"> </a></td><td>Somali</td></tr><tr><td style=\"white-space:nowrap\">AF<a name=\"ethiopian-states-AF\"> </a></td><td>Afar</td></tr><tr><td style=\"white-space:nowrap\">SD<a name=\"ethiopian-states-SD\"> </a></td><td>Sidama</td></tr><tr><td style=\"white-space:nowrap\">SE<a name=\"ethiopian-states-SE\"> </a></td><td>South Ethiopia</td></tr><tr><td style=\"white-space:nowrap\">SW<a name=\"ethiopian-states-SW\"> </a></td><td>Southwest Ethiopia</td></tr><tr><td style=\"white-space:nowrap\">AA<a name=\"ethiopian-states-AA\"> </a></td><td>Addis Ababa</td></tr><tr><td style=\"white-space:nowrap\">DD<a name=\"ethiopian-states-DD\"> </a></td><td>Dire Dawa</td></tr><tr><td style=\"white-space:nowrap\">GA<a name=\"ethiopian-states-GA\"> </a></td><td>Gambella</td></tr><tr><td style=\"white-space:nowrap\">BG<a name=\"ethiopian-states-BG\"> </a></td><td>Benishangul Gumuz</td></tr><tr><td style=\"white-space:nowrap\">HA<a name=\"ethiopian-states-HA\"> </a></td><td>Harari</td></tr><tr><td style=\"white-space:nowrap\">CE<a name=\"ethiopian-states-CE\"> </a></td><td>Central Ethiopia</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+  "version" : "0.9.0",
+  "name" : "EthiopiaStateCS",
+  "title" : "Ethiopia State / Region CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Administrative states and city administrations of Ethiopia",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 14,
+  "concept" : [{
+    "code" : "OR",
+    "display" : "Oromia"
+  },
+  {
+    "code" : "AM",
+    "display" : "Amhara"
+  },
+  {
+    "code" : "TI",
+    "display" : "Tigray"
+  },
+  {
+    "code" : "SO",
+    "display" : "Somali"
+  },
+  {
+    "code" : "AF",
+    "display" : "Afar"
+  },
+  {
+    "code" : "SD",
+    "display" : "Sidama"
+  },
+  {
+    "code" : "SE",
+    "display" : "South Ethiopia"
+  },
+  {
+    "code" : "SW",
+    "display" : "Southwest Ethiopia"
+  },
+  {
+    "code" : "AA",
+    "display" : "Addis Ababa"
+  },
+  {
+    "code" : "DD",
+    "display" : "Dire Dawa"
+  },
+  {
+    "code" : "GA",
+    "display" : "Gambella"
+  },
+  {
+    "code" : "BG",
+    "display" : "Benishangul Gumuz"
+  },
+  {
+    "code" : "HA",
+    "display" : "Harari"
+  },
+  {
+    "code" : "CE",
+    "display" : "Central Ethiopia"
+  }]
+}

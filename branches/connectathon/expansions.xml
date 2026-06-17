@@ -1,0 +1,2561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="b55c0d1e-9714-4f5d-b51c-f62660498789"/>
+  <meta>
+    <lastUpdated value="2026-06-17T04:40:34.997+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/EthiopiaStateVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-ethiopian-states.html">codesystem Ethiopia State / Region CodeSystem v0.9.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/core/CodeSystem/ethiopian-states|0.9.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 14 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-OR"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-OR">OR</a>
+                </td>
+                <td>Oromia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;OR&quot;, &quot;display&quot;: &quot;Oromia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;OR&quot;&gt;&lt;display value=&quot;Oromia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-AM"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-AM">AM</a>
+                </td>
+                <td>Amhara</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AM&quot;, &quot;display&quot;: &quot;Amhara&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AM&quot;&gt;&lt;display value=&quot;Amhara&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-TI"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-TI">TI</a>
+                </td>
+                <td>Tigray</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;TI&quot;, &quot;display&quot;: &quot;Tigray&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;TI&quot;&gt;&lt;display value=&quot;Tigray&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-SO"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-SO">SO</a>
+                </td>
+                <td>Somali</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SO&quot;, &quot;display&quot;: &quot;Somali&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SO&quot;&gt;&lt;display value=&quot;Somali&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-AF"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-AF">AF</a>
+                </td>
+                <td>Afar</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AF&quot;, &quot;display&quot;: &quot;Afar&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AF&quot;&gt;&lt;display value=&quot;Afar&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-SD"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-SD">SD</a>
+                </td>
+                <td>Sidama</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SD&quot;, &quot;display&quot;: &quot;Sidama&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SD&quot;&gt;&lt;display value=&quot;Sidama&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-SE"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-SE">SE</a>
+                </td>
+                <td>South Ethiopia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SE&quot;, &quot;display&quot;: &quot;South Ethiopia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SE&quot;&gt;&lt;display value=&quot;South Ethiopia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-SW"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-SW">SW</a>
+                </td>
+                <td>Southwest Ethiopia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SW&quot;, &quot;display&quot;: &quot;Southwest Ethiopia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SW&quot;&gt;&lt;display value=&quot;Southwest Ethiopia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-AA"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-AA">AA</a>
+                </td>
+                <td>Addis Ababa</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AA&quot;, &quot;display&quot;: &quot;Addis Ababa&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AA&quot;&gt;&lt;display value=&quot;Addis Ababa&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-DD"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-DD">DD</a>
+                </td>
+                <td>Dire Dawa</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;DD&quot;, &quot;display&quot;: &quot;Dire Dawa&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;DD&quot;&gt;&lt;display value=&quot;Dire Dawa&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-GA"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-GA">GA</a>
+                </td>
+                <td>Gambella</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;GA&quot;, &quot;display&quot;: &quot;Gambella&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;GA&quot;&gt;&lt;display value=&quot;Gambella&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-BG"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-BG">BG</a>
+                </td>
+                <td>Benishangul Gumuz</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;BG&quot;, &quot;display&quot;: &quot;Benishangul Gumuz&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;BG&quot;&gt;&lt;display value=&quot;Benishangul Gumuz&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-HA"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-HA">HA</a>
+                </td>
+                <td>Harari</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;HA&quot;, &quot;display&quot;: &quot;Harari&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;HA&quot;&gt;&lt;display value=&quot;Harari&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-CE"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-CE">CE</a>
+                </td>
+                <td>Central Ethiopia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;CE&quot;, &quot;display&quot;: &quot;Central Ethiopia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;CE&quot;&gt;&lt;display value=&quot;Central Ethiopia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/EthiopiaStateVS"/>
+        <version value="0.9.0"/>
+        <name value="EthiopiaStateVS"/>
+        <title value="Ethiopia State / Region ValueSet"/>
+        <status value="active"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:b2650789-4c79-472c-9a5d-6170345facb0"/>
+          <timestamp value="2026-06-17T04:43:09+00:00"/>
+          <total value="14"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/core/CodeSystem/ethiopian-states|0.9.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="OR"/>
+            <display value="Oromia"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="AM"/>
+            <display value="Amhara"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="TI"/>
+            <display value="Tigray"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="SO"/>
+            <display value="Somali"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="AF"/>
+            <display value="Afar"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="SD"/>
+            <display value="Sidama"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="SE"/>
+            <display value="South Ethiopia"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="SW"/>
+            <display value="Southwest Ethiopia"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="AA"/>
+            <display value="Addis Ababa"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="DD"/>
+            <display value="Dire Dawa"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="GA"/>
+            <display value="Gambella"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="BG"/>
+            <display value="Benishangul Gumuz"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="HA"/>
+            <display value="Harari"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="CE"/>
+            <display value="Central Ethiopia"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/EthiopiaStateVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-ethiopian-states.html">codesystem Ethiopia State / Region CodeSystem v0.9.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/core/CodeSystem/ethiopian-states|0.9.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 14 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-OR"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-OR">OR</a>
+                </td>
+                <td>Oromia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;OR&quot;, &quot;display&quot;: &quot;Oromia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;OR&quot;&gt;&lt;display value=&quot;Oromia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-AM"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-AM">AM</a>
+                </td>
+                <td>Amhara</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AM&quot;, &quot;display&quot;: &quot;Amhara&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AM&quot;&gt;&lt;display value=&quot;Amhara&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-TI"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-TI">TI</a>
+                </td>
+                <td>Tigray</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;TI&quot;, &quot;display&quot;: &quot;Tigray&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;TI&quot;&gt;&lt;display value=&quot;Tigray&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-SO"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-SO">SO</a>
+                </td>
+                <td>Somali</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SO&quot;, &quot;display&quot;: &quot;Somali&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SO&quot;&gt;&lt;display value=&quot;Somali&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-AF"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-AF">AF</a>
+                </td>
+                <td>Afar</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AF&quot;, &quot;display&quot;: &quot;Afar&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AF&quot;&gt;&lt;display value=&quot;Afar&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-SD"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-SD">SD</a>
+                </td>
+                <td>Sidama</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SD&quot;, &quot;display&quot;: &quot;Sidama&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SD&quot;&gt;&lt;display value=&quot;Sidama&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-SE"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-SE">SE</a>
+                </td>
+                <td>South Ethiopia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SE&quot;, &quot;display&quot;: &quot;South Ethiopia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SE&quot;&gt;&lt;display value=&quot;South Ethiopia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-SW"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-SW">SW</a>
+                </td>
+                <td>Southwest Ethiopia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;SW&quot;, &quot;display&quot;: &quot;Southwest Ethiopia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;SW&quot;&gt;&lt;display value=&quot;Southwest Ethiopia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-AA"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-AA">AA</a>
+                </td>
+                <td>Addis Ababa</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;AA&quot;, &quot;display&quot;: &quot;Addis Ababa&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;AA&quot;&gt;&lt;display value=&quot;Addis Ababa&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-DD"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-DD">DD</a>
+                </td>
+                <td>Dire Dawa</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;DD&quot;, &quot;display&quot;: &quot;Dire Dawa&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;DD&quot;&gt;&lt;display value=&quot;Dire Dawa&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-GA"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-GA">GA</a>
+                </td>
+                <td>Gambella</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;GA&quot;, &quot;display&quot;: &quot;Gambella&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;GA&quot;&gt;&lt;display value=&quot;Gambella&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-BG"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-BG">BG</a>
+                </td>
+                <td>Benishangul Gumuz</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;BG&quot;, &quot;display&quot;: &quot;Benishangul Gumuz&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;BG&quot;&gt;&lt;display value=&quot;Benishangul Gumuz&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-HA"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-HA">HA</a>
+                </td>
+                <td>Harari</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;HA&quot;, &quot;display&quot;: &quot;Harari&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;HA&quot;&gt;&lt;display value=&quot;Harari&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/ethiopian-states-CE"> </a>
+                  <code>http://fhir.et/core/CodeSystem/ethiopian-states</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-ethiopian-states.html#ethiopian-states-CE">CE</a>
+                </td>
+                <td>Central Ethiopia</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;CE&quot;, &quot;display&quot;: &quot;Central Ethiopia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/ethiopian-states&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;CE&quot;&gt;&lt;display value=&quot;Central Ethiopia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/EthiopiaStateVS"/>
+        <version value="0.9.0"/>
+        <name value="EthiopiaStateVS"/>
+        <title value="Ethiopia State / Region ValueSet"/>
+        <status value="active"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:b2650789-4c79-472c-9a5d-6170345facb0"/>
+          <timestamp value="2026-06-17T04:43:09+00:00"/>
+          <total value="14"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/core/CodeSystem/ethiopian-states|0.9.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="OR"/>
+            <display value="Oromia"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="AM"/>
+            <display value="Amhara"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="TI"/>
+            <display value="Tigray"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="SO"/>
+            <display value="Somali"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="AF"/>
+            <display value="Afar"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="SD"/>
+            <display value="Sidama"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="SE"/>
+            <display value="South Ethiopia"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="SW"/>
+            <display value="Southwest Ethiopia"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="AA"/>
+            <display value="Addis Ababa"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="DD"/>
+            <display value="Dire Dawa"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="GA"/>
+            <display value="Gambella"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="BG"/>
+            <display value="Benishangul Gumuz"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="HA"/>
+            <display value="Harari"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/ethiopian-states"/>
+            <code value="CE"/>
+            <display value="Central Ethiopia"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/education-status-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-education-status-cs.html">codesystem Ethiopia Education Status CodeSystem v0.9.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/core/CodeSystem/education-status-cs|0.9.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/education-status-cs-noedun"> </a>
+                  <code>http://fhir.et/core/CodeSystem/education-status-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-education-status-cs.html#education-status-cs-noedun">noedun</a>
+                </td>
+                <td>No formal education</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;noedun&quot;, &quot;display&quot;: &quot;No formal education&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;noedun&quot;&gt;&lt;display value=&quot;No formal education&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/education-status-cs-canReadWrite"> </a>
+                  <code>http://fhir.et/core/CodeSystem/education-status-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-education-status-cs.html#education-status-cs-canReadWrite">canReadWrite</a>
+                </td>
+                <td>Can read and write</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;canReadWrite&quot;, &quot;display&quot;: &quot;Can read and write&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;canReadWrite&quot;&gt;&lt;display value=&quot;Can read and write&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/education-status-cs-primary"> </a>
+                  <code>http://fhir.et/core/CodeSystem/education-status-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-education-status-cs.html#education-status-cs-primary">primary</a>
+                </td>
+                <td>Primary school</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;primary&quot;, &quot;display&quot;: &quot;Primary school&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;primary&quot;&gt;&lt;display value=&quot;Primary school&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/education-status-cs-secondary"> </a>
+                  <code>http://fhir.et/core/CodeSystem/education-status-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-education-status-cs.html#education-status-cs-secondary">secondary</a>
+                </td>
+                <td>Secondary school</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;secondary&quot;, &quot;display&quot;: &quot;Secondary school&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;secondary&quot;&gt;&lt;display value=&quot;Secondary school&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/education-status-cs-higher"> </a>
+                  <code>http://fhir.et/core/CodeSystem/education-status-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-education-status-cs.html#education-status-cs-higher">higher</a>
+                </td>
+                <td>Higher education</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;higher&quot;, &quot;display&quot;: &quot;Higher education&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;higher&quot;&gt;&lt;display value=&quot;Higher education&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/education-status-vs"/>
+        <version value="0.9.0"/>
+        <name value="EducationStatusVS"/>
+        <title value="Ethiopia Education Status ValueSet"/>
+        <status value="active"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:f0e7e022-0baa-414a-a73e-a7c063d40b7a"/>
+          <timestamp value="2026-06-17T04:43:09+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/core/CodeSystem/education-status-cs|0.9.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/education-status-cs"/>
+            <code value="noedun"/>
+            <display value="No formal education"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/education-status-cs"/>
+            <code value="canReadWrite"/>
+            <display value="Can read and write"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/education-status-cs"/>
+            <code value="primary"/>
+            <display value="Primary school"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/education-status-cs"/>
+            <code value="secondary"/>
+            <display value="Secondary school"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/education-status-cs"/>
+            <code value="higher"/>
+            <display value="Higher education"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/education-status-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-education-status-cs.html">codesystem Ethiopia Education Status CodeSystem v0.9.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/core/CodeSystem/education-status-cs|0.9.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/education-status-cs-noedun"> </a>
+                  <code>http://fhir.et/core/CodeSystem/education-status-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-education-status-cs.html#education-status-cs-noedun">noedun</a>
+                </td>
+                <td>No formal education</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;noedun&quot;, &quot;display&quot;: &quot;No formal education&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;noedun&quot;&gt;&lt;display value=&quot;No formal education&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/education-status-cs-canReadWrite"> </a>
+                  <code>http://fhir.et/core/CodeSystem/education-status-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-education-status-cs.html#education-status-cs-canReadWrite">canReadWrite</a>
+                </td>
+                <td>Can read and write</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;canReadWrite&quot;, &quot;display&quot;: &quot;Can read and write&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;canReadWrite&quot;&gt;&lt;display value=&quot;Can read and write&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/education-status-cs-primary"> </a>
+                  <code>http://fhir.et/core/CodeSystem/education-status-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-education-status-cs.html#education-status-cs-primary">primary</a>
+                </td>
+                <td>Primary school</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;primary&quot;, &quot;display&quot;: &quot;Primary school&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;primary&quot;&gt;&lt;display value=&quot;Primary school&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/education-status-cs-secondary"> </a>
+                  <code>http://fhir.et/core/CodeSystem/education-status-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-education-status-cs.html#education-status-cs-secondary">secondary</a>
+                </td>
+                <td>Secondary school</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;secondary&quot;, &quot;display&quot;: &quot;Secondary school&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;secondary&quot;&gt;&lt;display value=&quot;Secondary school&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/education-status-cs-higher"> </a>
+                  <code>http://fhir.et/core/CodeSystem/education-status-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-education-status-cs.html#education-status-cs-higher">higher</a>
+                </td>
+                <td>Higher education</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;higher&quot;, &quot;display&quot;: &quot;Higher education&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/education-status-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;higher&quot;&gt;&lt;display value=&quot;Higher education&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/education-status-vs"/>
+        <version value="0.9.0"/>
+        <name value="EducationStatusVS"/>
+        <title value="Ethiopia Education Status ValueSet"/>
+        <status value="active"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:f0e7e022-0baa-414a-a73e-a7c063d40b7a"/>
+          <timestamp value="2026-06-17T04:43:09+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/core/CodeSystem/education-status-cs|0.9.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/education-status-cs"/>
+            <code value="noedun"/>
+            <display value="No formal education"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/education-status-cs"/>
+            <code value="canReadWrite"/>
+            <display value="Can read and write"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/education-status-cs"/>
+            <code value="primary"/>
+            <display value="Primary school"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/education-status-cs"/>
+            <code value="secondary"/>
+            <display value="Secondary school"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/education-status-cs"/>
+            <code value="higher"/>
+            <display value="Higher education"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/gender-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.org/fhir/administrative-gender|4.0.1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/administrative-gender-male"> </a>
+                  <code>http://hl7.org/fhir/administrative-gender</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a>
+                </td>
+                <td>Male</td>
+                <td>Male.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/administrative-gender-female"> </a>
+                  <code>http://hl7.org/fhir/administrative-gender</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a>
+                </td>
+                <td>Female</td>
+                <td>Female.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/gender-vs"/>
+        <version value="0.9.0"/>
+        <name value="ETGenderVS"/>
+        <title value="Ethiopian Patient Gender values"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:22c2f7d9-fd0f-460b-9971-fe7c86f546be"/>
+          <timestamp value="2026-06-17T04:43:09+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/administrative-gender|4.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="male"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="female"/>
+            <display value="Female"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/gender-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.org/fhir/administrative-gender|4.0.1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/administrative-gender-male"> </a>
+                  <code>http://hl7.org/fhir/administrative-gender</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-male">male</a>
+                </td>
+                <td>Male</td>
+                <td>Male.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;male&quot;, &quot;display&quot;: &quot;Male&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;male&quot;&gt;&lt;display value=&quot;Male&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/administrative-gender-female"> </a>
+                  <code>http://hl7.org/fhir/administrative-gender</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html#administrative-gender-female">female</a>
+                </td>
+                <td>Female</td>
+                <td>Female.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/administrative-gender&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;female&quot;, &quot;display&quot;: &quot;Female&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/administrative-gender&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;female&quot;&gt;&lt;display value=&quot;Female&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/gender-vs"/>
+        <version value="0.9.0"/>
+        <name value="ETGenderVS"/>
+        <title value="Ethiopian Patient Gender values"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:22c2f7d9-fd0f-460b-9971-fe7c86f546be"/>
+          <timestamp value="2026-06-17T04:43:09+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/administrative-gender|4.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="male"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="female"/>
+            <display value="Female"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/marital-status-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-MaritalStatus.html">codesystem MaritalStatus v4.0.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-D"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-D">D</a>
+                </td>
+                <td>Divorced</td>
+                <td>
+                  <div>
+                    <p>Marriage contract has been declared dissolved and inactive</p>
+
+                  </div>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;D&quot;, &quot;display&quot;: &quot;Divorced&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;4.0.0&quot;&gt;&lt;code value=&quot;D&quot;&gt;&lt;display value=&quot;Divorced&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-M"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-M">M</a>
+                </td>
+                <td>Married</td>
+                <td>
+                  <div>
+                    <p>A current marriage contract is active</p>
+
+                  </div>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;M&quot;, &quot;display&quot;: &quot;Married&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;4.0.0&quot;&gt;&lt;code value=&quot;M&quot;&gt;&lt;display value=&quot;Married&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-W"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-W">W</a>
+                </td>
+                <td>Widowed</td>
+                <td>
+                  <div>
+                    <p>The spouse has died</p>
+
+                  </div>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;W&quot;, &quot;display&quot;: &quot;Widowed&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;4.0.0&quot;&gt;&lt;code value=&quot;W&quot;&gt;&lt;display value=&quot;Widowed&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-U"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-U">U</a>
+                </td>
+                <td>Unmarried</td>
+                <td>
+                  <div>
+                    <p>Currently not in a marriage contract.</p>
+
+                  </div>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;U&quot;, &quot;display&quot;: &quot;Unmarried&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;4.0.0&quot;&gt;&lt;code value=&quot;U&quot;&gt;&lt;display value=&quot;Unmarried&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/marital-status-vs"/>
+        <version value="0.9.0"/>
+        <name value="ETMaritalStatusVS"/>
+        <title value="Ethiopian Patient Marital Status values"/>
+        <status value="active"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5754535c-1436-45b0-99ac-5c564fe75c21"/>
+          <timestamp value="2026-06-17T04:43:09+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus|4.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="D"/>
+            <display value="Divorced"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="M"/>
+            <display value="Married"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="W"/>
+            <display value="Widowed"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="U"/>
+            <display value="Unmarried"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/marital-status-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-MaritalStatus.html">codesystem MaritalStatus v4.0.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus|4.0.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-D"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-D">D</a>
+                </td>
+                <td>Divorced</td>
+                <td>
+                  <div>
+                    <p>Marriage contract has been declared dissolved and inactive</p>
+
+                  </div>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;D&quot;, &quot;display&quot;: &quot;Divorced&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;4.0.0&quot;&gt;&lt;code value=&quot;D&quot;&gt;&lt;display value=&quot;Divorced&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-M"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-M">M</a>
+                </td>
+                <td>Married</td>
+                <td>
+                  <div>
+                    <p>A current marriage contract is active</p>
+
+                  </div>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;M&quot;, &quot;display&quot;: &quot;Married&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;4.0.0&quot;&gt;&lt;code value=&quot;M&quot;&gt;&lt;display value=&quot;Married&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-W"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-W">W</a>
+                </td>
+                <td>Widowed</td>
+                <td>
+                  <div>
+                    <p>The spouse has died</p>
+
+                  </div>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;W&quot;, &quot;display&quot;: &quot;Widowed&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;4.0.0&quot;&gt;&lt;code value=&quot;W&quot;&gt;&lt;display value=&quot;Widowed&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v3-MaritalStatus-U"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-U">U</a>
+                </td>
+                <td>Unmarried</td>
+                <td>
+                  <div>
+                    <p>Currently not in a marriage contract.</p>
+
+                  </div>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;, &quot;version&quot;: &quot;4.0.0&quot;, &quot;code&quot;: &quot;U&quot;, &quot;display&quot;: &quot;Unmarried&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;&gt;&lt;version value=&quot;4.0.0&quot;&gt;&lt;code value=&quot;U&quot;&gt;&lt;display value=&quot;Unmarried&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/marital-status-vs"/>
+        <version value="0.9.0"/>
+        <name value="ETMaritalStatusVS"/>
+        <title value="Ethiopian Patient Marital Status values"/>
+        <status value="active"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5754535c-1436-45b0-99ac-5c564fe75c21"/>
+          <timestamp value="2026-06-17T04:43:09+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus|4.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="D"/>
+            <display value="Divorced"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="M"/>
+            <display value="Married"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="W"/>
+            <display value="Widowed"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="U"/>
+            <display value="Unmarried"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/occupation-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-occupation.html">codesystem Ethiopia Occupation CodeSystem v0.9.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/core/CodeSystem/occupation|0.9.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/occupation-emp"> </a>
+                  <code>http://fhir.et/core/CodeSystem/occupation</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-occupation.html#occupation-emp">emp</a>
+                </td>
+                <td>Employed</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/occupation&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;emp&quot;, &quot;display&quot;: &quot;Employed&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/occupation&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;emp&quot;&gt;&lt;display value=&quot;Employed&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/occupation-Unemp"> </a>
+                  <code>http://fhir.et/core/CodeSystem/occupation</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-occupation.html#occupation-Unemp">Unemp</a>
+                </td>
+                <td>Unemployed</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/occupation&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;Unemp&quot;, &quot;display&quot;: &quot;Unemployed&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/occupation&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;Unemp&quot;&gt;&lt;display value=&quot;Unemployed&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/occupation-other"> </a>
+                  <code>http://fhir.et/core/CodeSystem/occupation</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-occupation.html#occupation-other">other</a>
+                </td>
+                <td>Other (Specify)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/occupation&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other (Specify)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/occupation&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other (Specify)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/occupation-vs"/>
+        <version value="0.9.0"/>
+        <name value="OccupationVS"/>
+        <title value="Ethiopia Occupation ValueSet"/>
+        <status value="active"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:d012d321-514e-4b2e-8931-25d6688a29ab"/>
+          <timestamp value="2026-06-17T04:43:09+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/core/CodeSystem/occupation|0.9.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/occupation"/>
+            <code value="emp"/>
+            <display value="Employed"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/occupation"/>
+            <code value="Unemp"/>
+            <display value="Unemployed"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/occupation"/>
+            <code value="other"/>
+            <display value="Other (Specify)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/occupation-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-occupation.html">codesystem Ethiopia Occupation CodeSystem v0.9.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/core/CodeSystem/occupation|0.9.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/occupation-emp"> </a>
+                  <code>http://fhir.et/core/CodeSystem/occupation</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-occupation.html#occupation-emp">emp</a>
+                </td>
+                <td>Employed</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/occupation&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;emp&quot;, &quot;display&quot;: &quot;Employed&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/occupation&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;emp&quot;&gt;&lt;display value=&quot;Employed&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/occupation-Unemp"> </a>
+                  <code>http://fhir.et/core/CodeSystem/occupation</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-occupation.html#occupation-Unemp">Unemp</a>
+                </td>
+                <td>Unemployed</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/occupation&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;Unemp&quot;, &quot;display&quot;: &quot;Unemployed&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/occupation&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;Unemp&quot;&gt;&lt;display value=&quot;Unemployed&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/occupation-other"> </a>
+                  <code>http://fhir.et/core/CodeSystem/occupation</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-occupation.html#occupation-other">other</a>
+                </td>
+                <td>Other (Specify)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/occupation&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other (Specify)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/occupation&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other (Specify)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/occupation-vs"/>
+        <version value="0.9.0"/>
+        <name value="OccupationVS"/>
+        <title value="Ethiopia Occupation ValueSet"/>
+        <status value="active"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:d012d321-514e-4b2e-8931-25d6688a29ab"/>
+          <timestamp value="2026-06-17T04:43:09+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/core/CodeSystem/occupation|0.9.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/occupation"/>
+            <code value="emp"/>
+            <display value="Employed"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/occupation"/>
+            <code value="Unemp"/>
+            <display value="Unemployed"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/occupation"/>
+            <code value="other"/>
+            <display value="Other (Specify)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/preferred-contact-method-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-prefered-contact-cs.html">codesystem Prefered contact CodeSystem v0.9.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/core/CodeSystem/prefered-contact-cs|0.9.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/prefered-contact-cs-sms"> </a>
+                  <code>http://fhir.et/core/CodeSystem/prefered-contact-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-prefered-contact-cs.html#prefered-contact-cs-sms">sms</a>
+                </td>
+                <td>SMS</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;sms&quot;, &quot;display&quot;: &quot;SMS&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;sms&quot;&gt;&lt;display value=&quot;SMS&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/prefered-contact-cs-phone"> </a>
+                  <code>http://fhir.et/core/CodeSystem/prefered-contact-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-prefered-contact-cs.html#prefered-contact-cs-phone">phone</a>
+                </td>
+                <td>Phone</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;phone&quot;, &quot;display&quot;: &quot;Phone&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;phone&quot;&gt;&lt;display value=&quot;Phone&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/prefered-contact-cs-email"> </a>
+                  <code>http://fhir.et/core/CodeSystem/prefered-contact-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-prefered-contact-cs.html#prefered-contact-cs-email">email</a>
+                </td>
+                <td>email</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;email&quot;, &quot;display&quot;: &quot;email&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;email&quot;&gt;&lt;display value=&quot;email&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/preferred-contact-method-vs"/>
+        <version value="0.9.0"/>
+        <name value="PreferredContactMethodVS"/>
+        <title value="Preferred Contact Method Value Set"/>
+        <status value="active"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:07ebf104-2f70-44f6-8cba-4a88190a9595"/>
+          <timestamp value="2026-06-17T04:43:15+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/core/CodeSystem/prefered-contact-cs|0.9.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/prefered-contact-cs"/>
+            <code value="sms"/>
+            <display value="SMS"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/prefered-contact-cs"/>
+            <code value="phone"/>
+            <display value="Phone"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/prefered-contact-cs"/>
+            <code value="email"/>
+            <display value="email"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://fhir.et/core/ValueSet/preferred-contact-method-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-prefered-contact-cs.html">codesystem Prefered contact CodeSystem v0.9.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://fhir.et/core/CodeSystem/prefered-contact-cs|0.9.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/prefered-contact-cs-sms"> </a>
+                  <code>http://fhir.et/core/CodeSystem/prefered-contact-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-prefered-contact-cs.html#prefered-contact-cs-sms">sms</a>
+                </td>
+                <td>SMS</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;sms&quot;, &quot;display&quot;: &quot;SMS&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;sms&quot;&gt;&lt;display value=&quot;SMS&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/prefered-contact-cs-phone"> </a>
+                  <code>http://fhir.et/core/CodeSystem/prefered-contact-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-prefered-contact-cs.html#prefered-contact-cs-phone">phone</a>
+                </td>
+                <td>Phone</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;phone&quot;, &quot;display&quot;: &quot;Phone&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;phone&quot;&gt;&lt;display value=&quot;Phone&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://fhir.et/core/CodeSystem/prefered-contact-cs-email"> </a>
+                  <code>http://fhir.et/core/CodeSystem/prefered-contact-cs</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-prefered-contact-cs.html#prefered-contact-cs-email">email</a>
+                </td>
+                <td>email</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;, &quot;version&quot;: &quot;0.9.0&quot;, &quot;code&quot;: &quot;email&quot;, &quot;display&quot;: &quot;email&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://fhir.et/core/CodeSystem/prefered-contact-cs&quot;&gt;&lt;version value=&quot;0.9.0&quot;&gt;&lt;code value=&quot;email&quot;&gt;&lt;display value=&quot;email&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://fhir.et/core/ValueSet/preferred-contact-method-vs"/>
+        <version value="0.9.0"/>
+        <name value="PreferredContactMethodVS"/>
+        <title value="Preferred Contact Method Value Set"/>
+        <status value="active"/>
+        <date value="2026-06-17T04:40:34+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="231"/>
+            <display value="Ethiopia (ETH)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:07ebf104-2f70-44f6-8cba-4a88190a9595"/>
+          <timestamp value="2026-06-17T04:43:15+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://fhir.et/core/CodeSystem/prefered-contact-cs|0.9.0"/>
+          </parameter>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/prefered-contact-cs"/>
+            <code value="sms"/>
+            <display value="SMS"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/prefered-contact-cs"/>
+            <code value="phone"/>
+            <display value="Phone"/>
+          </contains>
+          <contains>
+            <system value="http://fhir.et/core/CodeSystem/prefered-contact-cs"/>
+            <code value="email"/>
+            <display value="email"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

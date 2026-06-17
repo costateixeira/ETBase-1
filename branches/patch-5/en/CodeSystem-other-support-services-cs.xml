@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="other-support-services-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem other-support-services-cs</b></p><a name="other-support-services-cs"> </a><a name="hcother-support-services-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/other-support-services-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">mental-health<a name="other-support-services-cs-mental-health"> </a></td><td>Mental health services</td></tr><tr><td style="white-space:nowrap">psychosocial<a name="other-support-services-cs-psychosocial"> </a></td><td>Psychosocial counselling, support and treatment adherence counselling</td></tr><tr><td style="white-space:nowrap">disclosure<a name="other-support-services-cs-disclosure"> </a></td><td>Support for disclosure and partner services</td></tr><tr><td style="white-space:nowrap">legal-social<a name="other-support-services-cs-legal-social"> </a></td><td>Legal and social services</td></tr><tr><td style="white-space:nowrap">gbv<a name="other-support-services-cs-gbv"> </a></td><td>Services for responding to violence against women</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/other-support-services-cs"/>
+  <version value="0.9.0"/>
+  <name value="OtherSupportServicesCS"/>
+  <title value="Other Support Services CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Support services provided to the client"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="mental-health"/>
+    <display value="Mental health services"/>
+  </concept>
+  <concept>
+    <code value="psychosocial"/>
+    <display value="Psychosocial counselling, support and treatment adherence counselling"/>
+  </concept>
+  <concept>
+    <code value="disclosure"/>
+    <display value="Support for disclosure and partner services"/>
+  </concept>
+  <concept>
+    <code value="legal-social"/>
+    <display value="Legal and social services"/>
+  </concept>
+  <concept>
+    <code value="gbv"/>
+    <display value="Services for responding to violence against women"/>
+  </concept>
+</CodeSystem>

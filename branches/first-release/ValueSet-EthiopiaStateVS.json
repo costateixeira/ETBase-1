@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "EthiopiaStateVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet EthiopiaStateVS</b></p><a name=\"EthiopiaStateVS\"> </a><a name=\"hcEthiopiaStateVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-ethiopian-states.html\"><code>http://fhir.et/core/CodeSystem/ethiopian-states</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.9.0</span></li></ul></div>"
+  },
+  "url" : "http://fhir.et/core/ValueSet/EthiopiaStateVS",
+  "version" : "0.9.0",
+  "name" : "EthiopiaStateVS",
+  "title" : "Ethiopia State / Region ValueSet",
+  "status" : "active",
+  "date" : "2026-06-17T09:00:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Allowed list of Ethiopian states and city administrations.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.et/core/CodeSystem/ethiopian-states"
+    }]
+  }
+}

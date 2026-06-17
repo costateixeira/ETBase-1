@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/prep-visit-reason-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "prep-visit-reason-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem prep-visit-reason-cs</b></p><a name=\"prep-visit-reason-cs\"> </a><a name=\"hcprep-visit-reason-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/prep-visit-reason-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">first-prep-counselling<a name=\"prep-visit-reason-cs-first-prep-counselling\"> </a></td><td>First time counselling on PrEP</td></tr><tr><td style=\"white-space:nowrap\">prep-followup<a name=\"prep-visit-reason-cs-prep-followup\"> </a></td><td>Follow-up appointment for PrEP</td></tr><tr><td style=\"white-space:nowrap\">restart-prep<a name=\"prep-visit-reason-cs-restart-prep\"> </a></td><td>Restarting PrEP</td></tr><tr><td style=\"white-space:nowrap\">pep-counselling<a name=\"prep-visit-reason-cs-pep-counselling\"> </a></td><td>Counselling on PEP</td></tr><tr><td style=\"white-space:nowrap\">unscheduled-side-effects<a name=\"prep-visit-reason-cs-unscheduled-side-effects\"> </a></td><td>Unscheduled visit for side effects and adverse events</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/prep-visit-reason-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "PrepVisitReasonCS"] ; # 
+  fhir:title [ fhir:v "PrEP Visit Reason CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-16T12:37:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes representing reasons for PrEP/PEP visits."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "first-prep-counselling" ] ;
+     fhir:display [ fhir:v "First time counselling on PrEP" ]
+  ] [
+     fhir:code [ fhir:v "prep-followup" ] ;
+     fhir:display [ fhir:v "Follow-up appointment for PrEP" ]
+  ] [
+     fhir:code [ fhir:v "restart-prep" ] ;
+     fhir:display [ fhir:v "Restarting PrEP" ]
+  ] [
+     fhir:code [ fhir:v "pep-counselling" ] ;
+     fhir:display [ fhir:v "Counselling on PEP" ]
+  ] [
+     fhir:code [ fhir:v "unscheduled-side-effects" ] ;
+     fhir:display [ fhir:v "Unscheduled visit for side effects and adverse events" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

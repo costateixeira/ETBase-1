@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "facility-entry-point-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet facility-entry-point-vs</b></p><a name=\"facility-entry-point-vs\"> </a><a name=\"hcfacility-entry-point-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-facility-entry-point-cs.html\"><code>http://fhir.et/core/CodeSystem/facility-entry-point-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.9.0</span></li></ul></div>"
+  },
+  "url" : "http://fhir.et/core/ValueSet/facility-entry-point-vs",
+  "version" : "0.9.0",
+  "name" : "FacilityEntryPointVS",
+  "title" : "Facility Entry Point ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "ValueSet for facility entry points",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.et/core/CodeSystem/facility-entry-point-cs"
+    }]
+  }
+}

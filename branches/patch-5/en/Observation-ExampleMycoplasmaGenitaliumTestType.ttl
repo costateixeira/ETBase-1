@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/Observation/ExampleMycoplasmaGenitaliumTestType> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExampleMycoplasmaGenitaliumTestType"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.et/core/StructureDefinition/mycoplasma-genitalium-test-type-observation"^^xsd:anyURI ;
+       fhir:link <http://fhir.et/core/StructureDefinition/mycoplasma-genitalium-test-type-observation>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation ExampleMycoplasmaGenitaliumTestType</b></p><a name=\"ExampleMycoplasmaGenitaliumTestType\"> </a><a name=\"hcExampleMycoplasmaGenitaliumTestType\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mycoplasma-genitalium-test-type-observation.html\">Mycoplasma genitalium Test Type Observation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:\">Mycoplasma genitalium test type</span></p><p><b>subject</b>: <a href=\"http://hl7.org/fhir/uv/cql/STU1/Patient-example.html\">Alana Asdf  (no stated gender), DoB: 1993-06-14</a></p><p><b>value</b>: <span title=\"Codes:{http://fhir.et/core/CodeSystem/mycoplasma-genitalium-test-type-cs other}\">Other</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://fhir.et/core/CodeSystem/observation-component-specify-cs other-specify}\">Other test type (specify)</span></p><p><b>value</b>: Experimental multiplex assay</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://fhir.et/core/CodeSystem/observation-component-specify-cs other-sti-test-specify}\">Other STI test type (specify)</span></p><p><b>value</b>: Custom STI molecular panel</p></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:text [ fhir:v "Mycoplasma genitalium test type" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://fhir.et/core/Patient/example> ;
+     fhir:reference [ fhir:v "Patient/example" ]
+  ] ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://fhir.et/core/CodeSystem/mycoplasma-genitalium-test-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "other" ] ;
+       fhir:display [ fhir:v "Other" ]
+     ] )
+  ] ; # 
+  fhir:component ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://fhir.et/core/CodeSystem/observation-component-specify-cs"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "other-specify" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "Experimental multiplex assay"
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://fhir.et/core/CodeSystem/observation-component-specify-cs"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "other-sti-test-specify" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "Custom STI molecular panel"
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

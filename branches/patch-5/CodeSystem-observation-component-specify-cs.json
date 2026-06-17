@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "observation-component-specify-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem observation-component-specify-cs</b></p><a name=\"observation-component-specify-cs\"> </a><a name=\"hcobservation-component-specify-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/observation-component-specify-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">other-specify<a name=\"observation-component-specify-cs-other-specify\"> </a></td><td>Other test type (specify)</td></tr><tr><td style=\"white-space:nowrap\">poc-test-specify<a name=\"observation-component-specify-cs-poc-test-specify\"> </a></td><td>Point-of-care test type (specify)</td></tr><tr><td style=\"white-space:nowrap\">other-sti-test-specify<a name=\"observation-component-specify-cs-other-sti-test-specify\"> </a></td><td>Other STI test type (specify)</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/observation-component-specify-cs",
+  "version" : "0.9.0",
+  "name" : "ObservationComponentSpecifyCS",
+  "title" : "Observation Component Specify CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Codes identifying free-text 'specify' Observation.component slices (e.g. other / point-of-care test type), used as the slice discriminator value.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "other-specify",
+    "display" : "Other test type (specify)"
+  },
+  {
+    "code" : "poc-test-specify",
+    "display" : "Point-of-care test type (specify)"
+  },
+  {
+    "code" : "other-sti-test-specify",
+    "display" : "Other STI test type (specify)"
+  }]
+}

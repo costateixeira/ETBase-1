@@ -1,0 +1,65 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/exposure-source-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "exposure-source-cs"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem exposure-source-cs</b></p><a name=\"exposure-source-cs\"> </a><a name=\"hcexposure-source-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/exposure-source-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">exposure-source<a name=\"exposure-source-cs-exposure-source\"> </a></td><td>Source of exposure</td></tr><tr><td style=\"white-space:nowrap\">needle-injury<a name=\"exposure-source-cs-needle-injury\"> </a></td><td>Needle injury</td></tr><tr><td style=\"white-space:nowrap\">sharp-skin-injury<a name=\"exposure-source-cs-sharp-skin-injury\"> </a></td><td>Skin injury with sharps</td></tr><tr><td style=\"white-space:nowrap\">blood-product-splash<a name=\"exposure-source-cs-blood-product-splash\"> </a></td><td>Blood and products splash</td></tr><tr><td style=\"white-space:nowrap\">infectious-body-fluids<a name=\"exposure-source-cs-infectious-body-fluids\"> </a></td><td>Potentially infectious body fluids</td></tr><tr><td style=\"white-space:nowrap\">rape<a name=\"exposure-source-cs-rape\"> </a></td><td>Rape</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"exposure-source-cs-other\"> </a></td><td>Other</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/exposure-source-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "ExposureSourceCS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-16T12:37:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "exposure-source" ] ;
+     fhir:display [ fhir:v "Source of exposure" ]
+  ] [
+     fhir:code [ fhir:v "needle-injury" ] ;
+     fhir:display [ fhir:v "Needle injury" ]
+  ] [
+     fhir:code [ fhir:v "sharp-skin-injury" ] ;
+     fhir:display [ fhir:v "Skin injury with sharps" ]
+  ] [
+     fhir:code [ fhir:v "blood-product-splash" ] ;
+     fhir:display [ fhir:v "Blood and products splash" ]
+  ] [
+     fhir:code [ fhir:v "infectious-body-fluids" ] ;
+     fhir:display [ fhir:v "Potentially infectious body fluids" ]
+  ] [
+     fhir:code [ fhir:v "rape" ] ;
+     fhir:display [ fhir:v "Rape" ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="syphilis-test-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem syphilis-test-type-cs</b></p><a name="syphilis-test-type-cs"> </a><a name="hcsyphilis-test-type-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/syphilis-test-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">treponemal<a name="syphilis-test-type-cs-treponemal"> </a></td><td>Treponemal</td></tr><tr><td style="white-space:nowrap">non-treponemal<a name="syphilis-test-type-cs-non-treponemal"> </a></td><td>Non-treponemal</td></tr><tr><td style="white-space:nowrap">poc-test<a name="syphilis-test-type-cs-poc-test"> </a></td><td>POC Test</td></tr><tr><td style="white-space:nowrap">naat<a name="syphilis-test-type-cs-naat"> </a></td><td>NAAT</td></tr><tr><td style="white-space:nowrap">other<a name="syphilis-test-type-cs-other"> </a></td><td>Other</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/syphilis-test-type-cs"/>
+  <version value="0.9.0"/>
+  <name value="SyphilisTestTypeCS"/>
+  <title value="Syphilis Test Type Code System"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Codes for syphilis test types"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="treponemal"/>
+    <display value="Treponemal"/>
+  </concept>
+  <concept>
+    <code value="non-treponemal"/>
+    <display value="Non-treponemal"/>
+  </concept>
+  <concept>
+    <code value="poc-test"/>
+    <display value="POC Test"/>
+  </concept>
+  <concept>
+    <code value="naat"/>
+    <display value="NAAT"/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+  </concept>
+</CodeSystem>

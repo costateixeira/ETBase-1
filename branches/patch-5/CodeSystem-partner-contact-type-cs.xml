@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="partner-contact-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem partner-contact-type-cs</b></p><a name="partner-contact-type-cs"> </a><a name="hcpartner-contact-type-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/partner-contact-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">biological-child<a name="partner-contact-type-cs-biological-child"> </a></td><td>Biological children</td></tr><tr><td style="white-space:nowrap">sibling<a name="partner-contact-type-cs-sibling"> </a></td><td>Siblings</td></tr><tr><td style="white-space:nowrap">parent<a name="partner-contact-type-cs-parent"> </a></td><td>Parent</td></tr><tr><td style="white-space:nowrap">drug-injecting-partner<a name="partner-contact-type-cs-drug-injecting-partner"> </a></td><td>Drug-injecting partner</td></tr><tr><td style="white-space:nowrap">sexual-partner<a name="partner-contact-type-cs-sexual-partner"> </a></td><td>Sexual partner</td></tr><tr><td style="white-space:nowrap">social-contact<a name="partner-contact-type-cs-social-contact"> </a></td><td>Social contact</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/partner-contact-type-cs"/>
+  <version value="0.9.0"/>
+  <name value="PartnerContactTypeCS"/>
+  <title value="Partner Contact Type Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Types of contacts or partners for partner services"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="biological-child"/>
+    <display value="Biological children"/>
+  </concept>
+  <concept>
+    <code value="sibling"/>
+    <display value="Siblings"/>
+  </concept>
+  <concept>
+    <code value="parent"/>
+    <display value="Parent"/>
+  </concept>
+  <concept>
+    <code value="drug-injecting-partner"/>
+    <display value="Drug-injecting partner"/>
+  </concept>
+  <concept>
+    <code value="sexual-partner"/>
+    <display value="Sexual partner"/>
+  </concept>
+  <concept>
+    <code value="social-contact"/>
+    <display value="Social contact"/>
+  </concept>
+</CodeSystem>

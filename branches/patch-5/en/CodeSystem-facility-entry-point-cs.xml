@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="facility-entry-point-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem facility-entry-point-cs</b></p><a name="facility-entry-point-cs"> </a><a name="hcfacility-entry-point-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/facility-entry-point-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Provider-initiated-tested<a name="facility-entry-point-cs-Provider-initiated-tested"> </a></td><td>Provider-initiated tested in a clinic or emergency facility</td></tr><tr><td style="white-space:nowrap">ANC-clinic<a name="facility-entry-point-cs-ANC-clinic"> </a></td><td>Antenatal care clinic</td></tr><tr><td style="white-space:nowrap">Voluntary-counselling-testing-within<a name="facility-entry-point-cs-Voluntary-counselling-testing-within"> </a></td><td>Voluntary counselling and testing (within a health facility setting)</td></tr><tr><td style="white-space:nowrap">FP-clinic<a name="facility-entry-point-cs-FP-clinic"> </a></td><td>Family planning clinic</td></tr><tr><td style="white-space:nowrap">Other-facility-level-testing<a name="facility-entry-point-cs-Other-facility-level-testing"> </a></td><td>Other facility-level testing</td></tr><tr><td style="white-space:nowrap">TB-clinic<a name="facility-entry-point-cs-TB-clinic"> </a></td><td>Tuberculosis (TB) clinic</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/facility-entry-point-cs"/>
+  <version value="0.9.0"/>
+  <name value="FacilityEntryPointCS"/>
+  <title value="HIV Testing for facility entry point CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Defines entry points for facility entry point"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="Provider-initiated-tested"/>
+    <display value="Provider-initiated tested in a clinic or emergency facility"/>
+  </concept>
+  <concept>
+    <code value="ANC-clinic"/>
+    <display value="Antenatal care clinic"/>
+  </concept>
+  <concept>
+    <code value="Voluntary-counselling-testing-within"/>
+    <display value="Voluntary counselling and testing (within a health facility setting)"/>
+  </concept>
+  <concept>
+    <code value="FP-clinic"/>
+    <display value="Family planning clinic"/>
+  </concept>
+  <concept>
+    <code value="Other-facility-level-testing"/>
+    <display value="Other facility-level testing"/>
+  </concept>
+  <concept>
+    <code value="TB-clinic"/>
+    <display value="Tuberculosis (TB) clinic"/>
+  </concept>
+</CodeSystem>

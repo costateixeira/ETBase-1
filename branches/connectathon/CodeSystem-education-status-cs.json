@@ -1,0 +1,54 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "education-status-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem education-status-cs</b></p><a name=\"education-status-cs\"> </a><a name=\"hceducation-status-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/education-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">noedun<a name=\"education-status-cs-noedun\"> </a></td><td>No formal education</td></tr><tr><td style=\"white-space:nowrap\">canReadWrite<a name=\"education-status-cs-canReadWrite\"> </a></td><td>Can read and write</td></tr><tr><td style=\"white-space:nowrap\">primary<a name=\"education-status-cs-primary\"> </a></td><td>Primary school</td></tr><tr><td style=\"white-space:nowrap\">secondary<a name=\"education-status-cs-secondary\"> </a></td><td>Secondary school</td></tr><tr><td style=\"white-space:nowrap\">higher<a name=\"education-status-cs-higher\"> </a></td><td>Higher education</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/education-status-cs",
+  "version" : "0.9.0",
+  "name" : "EducationStatusCS",
+  "title" : "Ethiopia Education Status CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-17T04:40:34+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "CodeSystem representing the educational status categories used in Ethiopia",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "noedun",
+    "display" : "No formal education"
+  },
+  {
+    "code" : "canReadWrite",
+    "display" : "Can read and write"
+  },
+  {
+    "code" : "primary",
+    "display" : "Primary school"
+  },
+  {
+    "code" : "secondary",
+    "display" : "Secondary school"
+  },
+  {
+    "code" : "higher",
+    "display" : "Higher education"
+  }]
+}

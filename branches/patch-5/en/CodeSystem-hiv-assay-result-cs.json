@@ -1,0 +1,47 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "hiv-assay-result-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hiv-assay-result-cs</b></p><a name=\"hiv-assay-result-cs\"> </a><a name=\"hchiv-assay-result-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-assay-result-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">reactive<a name=\"hiv-assay-result-cs-reactive\"> </a></td><td>Reactive</td></tr><tr><td style=\"white-space:nowrap\">non-reactive<a name=\"hiv-assay-result-cs-non-reactive\"> </a></td><td>Non-reactive</td></tr><tr><td style=\"white-space:nowrap\">invalid<a name=\"hiv-assay-result-cs-invalid\"> </a></td><td>Invalid</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/hiv-assay-result-cs",
+  "version" : "0.9.0",
+  "name" : "HIVAssayResultCS",
+  "title" : "HIV Assay Result CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Result of HIV assay",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "reactive",
+    "display" : "Reactive"
+  },
+  {
+    "code" : "non-reactive",
+    "display" : "Non-reactive"
+  },
+  {
+    "code" : "invalid",
+    "display" : "Invalid"
+  }]
+}

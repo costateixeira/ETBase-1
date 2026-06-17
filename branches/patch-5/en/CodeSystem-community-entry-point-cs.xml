@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="community-entry-point-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem community-entry-point-cs</b></p><a name="community-entry-point-cs"> </a><a name="hccommunity-entry-point-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/community-entry-point-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Mobile-testing<a name="community-entry-point-cs-Mobile-testing"> </a></td><td>Mobile testing (e.g. through vans or temporary testing facilities)</td></tr><tr><td style="white-space:nowrap">Voluntary-counselling<a name="community-entry-point-cs-Voluntary-counselling"> </a></td><td>Voluntary counselling and testing centres (not within a health facility setting)</td></tr><tr><td style="white-space:nowrap">Other-community-based-testing<a name="community-entry-point-cs-Other-community-based-testing"> </a></td><td>Other community-based testing</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/community-entry-point-cs"/>
+  <version value="0.9.0"/>
+  <name value="CommunityEntryPointCS"/>
+  <title value="HIV Testing for community entry point CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Defines entry points for community entry point"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="Mobile-testing"/>
+    <display value="Mobile testing (e.g. through vans or temporary testing facilities)"/>
+  </concept>
+  <concept>
+    <code value="Voluntary-counselling"/>
+    <display value="Voluntary counselling and testing centres (not within a health facility setting)"/>
+  </concept>
+  <concept>
+    <code value="Other-community-based-testing"/>
+    <display value="Other community-based testing"/>
+  </concept>
+</CodeSystem>

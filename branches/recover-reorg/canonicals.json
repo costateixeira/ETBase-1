@@ -1,0 +1,189 @@
+[{
+  "id" : "facility-entry-point",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/StructureDefinition/facility-entry-point",
+  "version" : "0.9.0",
+  "name" : "FacilityEntryPoint"
+},
+{
+  "id" : "education-status-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/education-status",
+  "version" : "0.9.0",
+  "name" : "EducationStatusCS"
+},
+{
+  "id" : "ethiopian-states",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/ethiopian-states",
+  "version" : "0.9.0",
+  "name" : "EthiopiaStateCS"
+},
+{
+  "id" : "occupation-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/occupation",
+  "version" : "0.9.0",
+  "name" : "OccupationCS"
+},
+{
+  "id" : "prefered-contact-cs",
+  "type" : "CodeSystem",
+  "url" : "http://fhir.et/core/CodeSystem/preferedcontact",
+  "version" : "0.9.0",
+  "name" : "ContactPointSystemCS"
+},
+{
+  "id" : "et.fhir.core",
+  "type" : "ImplementationGuide",
+  "url" : "http://fhir.et/core/ImplementationGuide/et.fhir.core",
+  "version" : "0.9.0",
+  "name" : "ETBase"
+},
+{
+  "id" : "ETPatient",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/ETPatient",
+  "version" : "0.9.0",
+  "name" : "ETPatient"
+},
+{
+  "id" : "address-kebele",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/address-kebele",
+  "version" : "0.9.0",
+  "name" : "AddressKebeleExtension"
+},
+{
+  "id" : "address-ketenagott",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/address-ketenagott",
+  "version" : "0.9.0",
+  "name" : "AddressKetenaGottExtension"
+},
+{
+  "id" : "address-zone",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/address-zone",
+  "version" : "0.9.0",
+  "name" : "AddressZoneExtension"
+},
+{
+  "id" : "created-date",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/created-date",
+  "version" : "0.9.0",
+  "name" : "CreatedDateExtension"
+},
+{
+  "id" : "dob-estimated",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/dob-estimated",
+  "version" : "0.9.0",
+  "name" : "DoBEstimated"
+},
+{
+  "id" : "education-status-extension",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/education-status-extension",
+  "version" : "0.9.0",
+  "name" : "EducationStatusExtension"
+},
+{
+  "id" : "ethiopian-mfr-location",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/ethiopian-mfr-location",
+  "version" : "0.9.0",
+  "name" : "EthiopianMfrLocation"
+},
+{
+  "id" : "ethiopian-mfr-organization",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/ethiopian-mfr-organization",
+  "version" : "0.9.0",
+  "name" : "EthiopianMfrOrganization"
+},
+{
+  "id" : "ethiopian-mfr-organization-affiliation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/ethiopian-mfr-organization-affiliation",
+  "version" : "0.9.0",
+  "name" : "EthiopianMfrOrganizationAffiliation"
+},
+{
+  "id" : "grandfathers-family-name",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/grandfathers-family-name",
+  "version" : "0.9.0",
+  "name" : "GrandfathersName"
+},
+{
+  "id" : "occupation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/occupation",
+  "version" : "0.9.0",
+  "name" : "Occupation"
+},
+{
+  "id" : "preferred-contact-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/preferred-contact-method",
+  "version" : "0.9.0",
+  "name" : "PreferredContactMethod"
+},
+{
+  "id" : "reporting-hierarchy-extension",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/reporting-hierarchy-extension",
+  "version" : "0.9.0",
+  "name" : "ReportingHierarchyExtension"
+},
+{
+  "id" : "reporting-hierarchy-id-extension",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.et/core/StructureDefinition/reporting-hierarchy-id-extension",
+  "version" : "0.9.0",
+  "name" : "ReportingHierarchyIdExtension"
+},
+{
+  "id" : "EthiopiaStateVS",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/EthiopiaStateVS",
+  "version" : "0.9.0",
+  "name" : "EthiopiaStateVS"
+},
+{
+  "id" : "education-status-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/education-status-vs",
+  "version" : "0.9.0",
+  "name" : "EducationStatusVS"
+},
+{
+  "id" : "gender-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/gender-vs",
+  "version" : "0.9.0",
+  "name" : "ETGenderVS"
+},
+{
+  "id" : "marital-status-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/marital-status-vs",
+  "version" : "0.9.0",
+  "name" : "ETMaritalStatusVS"
+},
+{
+  "id" : "occupation-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/occupation-vs",
+  "version" : "0.9.0",
+  "name" : "OccupationVS"
+},
+{
+  "id" : "preferred-contact-method-vs",
+  "type" : "ValueSet",
+  "url" : "http://fhir.et/core/ValueSet/preferred-contact-method-vs",
+  "version" : "0.9.0",
+  "name" : "PreferredContactMethodVS"
+}]

@@ -1,0 +1,59 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "partner-contact-type-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem partner-contact-type-cs</b></p><a name=\"partner-contact-type-cs\"> </a><a name=\"hcpartner-contact-type-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/partner-contact-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">biological-child<a name=\"partner-contact-type-cs-biological-child\"> </a></td><td>Biological children</td></tr><tr><td style=\"white-space:nowrap\">sibling<a name=\"partner-contact-type-cs-sibling\"> </a></td><td>Siblings</td></tr><tr><td style=\"white-space:nowrap\">parent<a name=\"partner-contact-type-cs-parent\"> </a></td><td>Parent</td></tr><tr><td style=\"white-space:nowrap\">drug-injecting-partner<a name=\"partner-contact-type-cs-drug-injecting-partner\"> </a></td><td>Drug-injecting partner</td></tr><tr><td style=\"white-space:nowrap\">sexual-partner<a name=\"partner-contact-type-cs-sexual-partner\"> </a></td><td>Sexual partner</td></tr><tr><td style=\"white-space:nowrap\">social-contact<a name=\"partner-contact-type-cs-social-contact\"> </a></td><td>Social contact</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/partner-contact-type-cs",
+  "version" : "0.9.0",
+  "name" : "PartnerContactTypeCS",
+  "title" : "Partner Contact Type Codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Types of contacts or partners for partner services",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "biological-child",
+    "display" : "Biological children"
+  },
+  {
+    "code" : "sibling",
+    "display" : "Siblings"
+  },
+  {
+    "code" : "parent",
+    "display" : "Parent"
+  },
+  {
+    "code" : "drug-injecting-partner",
+    "display" : "Drug-injecting partner"
+  },
+  {
+    "code" : "sexual-partner",
+    "display" : "Sexual partner"
+  },
+  {
+    "code" : "social-contact",
+    "display" : "Social contact"
+  }]
+}

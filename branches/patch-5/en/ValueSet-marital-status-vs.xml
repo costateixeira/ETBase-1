@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="marital-status-vs"/>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet marital-status-vs</b></p><a name="marital-status-vs"> </a><a name="hcmarital-status-vs"> </a><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-MaritalStatus.html"><code>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</code></a><span title="Version is not explicitly stated, which means it is fixed to 3.0.0, the version found through the package references"> version &#x1F4E6;3.0.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-D">D</a></td><td>Divorced</td><td>Marriage contract has been declared dissolved and inactive</td></tr><tr><td><a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-M">M</a></td><td>Married</td><td>A current marriage contract is active</td></tr><tr><td><a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-W">W</a></td><td>Widowed</td><td>The spouse has died</td></tr><tr><td><a href="http://terminology.hl7.org/6.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-U">U</a></td><td>unmarried</td><td>Currently not in a marriage contract.</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://fhir.et/core/ValueSet/marital-status-vs"/>
+  <version value="0.9.0"/>
+  <name value="ETMaritalStatusVS"/>
+  <title value="Ethiopian Patient Marital Status values"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Patient Marital Status...."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+      <concept>
+        <code value="D"/>
+        <display value="Divorced"/>
+      </concept>
+      <concept>
+        <code value="M"/>
+        <display value="Married"/>
+      </concept>
+      <concept>
+        <code value="W"/>
+        <display value="Widowed"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="unmarried"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

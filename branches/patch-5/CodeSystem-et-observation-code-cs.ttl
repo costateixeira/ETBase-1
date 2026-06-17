@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/et-observation-code-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "et-observation-code-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem et-observation-code-cs</b></p><a name=\"et-observation-code-cs\"> </a><a name=\"hcet-observation-code-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/et-observation-code-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">adolescent-girl<a name=\"et-observation-code-cs-adolescent-girl\"> </a></td><td>Adolescent girl indicator</td></tr><tr><td style=\"white-space:nowrap\">young-woman<a name=\"et-observation-code-cs-young-woman\"> </a></td><td>Young woman indicator</td></tr><tr><td style=\"white-space:nowrap\">hiv-client-informed<a name=\"et-observation-code-cs-hiv-client-informed\"> </a></td><td>Client informed of HIV test result</td></tr><tr><td style=\"white-space:nowrap\">hiv-self-test-history<a name=\"et-observation-code-cs-hiv-self-test-history\"> </a></td><td>History of HIV self-testing</td></tr><tr><td style=\"white-space:nowrap\">hiv-self-test-result<a name=\"et-observation-code-cs-hiv-self-test-result\"> </a></td><td>HIV self-test result</td></tr><tr><td style=\"white-space:nowrap\">suspected-hiv-exposure<a name=\"et-observation-code-cs-suspected-hiv-exposure\"> </a></td><td>Suspected HIV exposure</td></tr><tr><td style=\"white-space:nowrap\">key-population-membership<a name=\"et-observation-code-cs-key-population-membership\"> </a></td><td>Key population membership</td></tr><tr><td style=\"white-space:nowrap\">key-population-type<a name=\"et-observation-code-cs-key-population-type\"> </a></td><td>Key population member type</td></tr><tr><td style=\"white-space:nowrap\">partner-risk-category<a name=\"et-observation-code-cs-partner-risk-category\"> </a></td><td>Partner high-risk population category</td></tr><tr><td style=\"white-space:nowrap\">partner-hiv-status<a name=\"et-observation-code-cs-partner-hiv-status\"> </a></td><td>Partner HIV status</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/et-observation-code-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "ETObservationCodeCS"] ; # 
+  fhir:title [ fhir:v "Ethiopia Observation Code CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-16T12:37:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Interim local Observation.code concepts for Ethiopia-specific observations that currently lack a correct or tx-resolvable LOINC code. These SHOULD be mapped to proper LOINC codes when available (see REMEDIATION-REPORT.md)."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "10"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "adolescent-girl" ] ;
+     fhir:display [ fhir:v "Adolescent girl indicator" ]
+  ] [
+     fhir:code [ fhir:v "young-woman" ] ;
+     fhir:display [ fhir:v "Young woman indicator" ]
+  ] [
+     fhir:code [ fhir:v "hiv-client-informed" ] ;
+     fhir:display [ fhir:v "Client informed of HIV test result" ]
+  ] [
+     fhir:code [ fhir:v "hiv-self-test-history" ] ;
+     fhir:display [ fhir:v "History of HIV self-testing" ]
+  ] [
+     fhir:code [ fhir:v "hiv-self-test-result" ] ;
+     fhir:display [ fhir:v "HIV self-test result" ]
+  ] [
+     fhir:code [ fhir:v "suspected-hiv-exposure" ] ;
+     fhir:display [ fhir:v "Suspected HIV exposure" ]
+  ] [
+     fhir:code [ fhir:v "key-population-membership" ] ;
+     fhir:display [ fhir:v "Key population membership" ]
+  ] [
+     fhir:code [ fhir:v "key-population-type" ] ;
+     fhir:display [ fhir:v "Key population member type" ]
+  ] [
+     fhir:code [ fhir:v "partner-risk-category" ] ;
+     fhir:display [ fhir:v "Partner high-risk population category" ]
+  ] [
+     fhir:code [ fhir:v "partner-hiv-status" ] ;
+     fhir:display [ fhir:v "Partner HIV status" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

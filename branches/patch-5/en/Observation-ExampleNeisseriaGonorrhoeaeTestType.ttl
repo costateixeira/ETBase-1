@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/Observation/ExampleNeisseriaGonorrhoeaeTestType> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExampleNeisseriaGonorrhoeaeTestType"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://fhir.et/core/StructureDefinition/neisseria-gonorrhoeae-test-type-observation"^^xsd:anyURI ;
+       fhir:link <http://fhir.et/core/StructureDefinition/neisseria-gonorrhoeae-test-type-observation>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation ExampleNeisseriaGonorrhoeaeTestType</b></p><a name=\"ExampleNeisseriaGonorrhoeaeTestType\"> </a><a name=\"hcExampleNeisseriaGonorrhoeaeTestType\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-neisseria-gonorrhoeae-test-type-observation.html\">Neisseria gonorrhoeae Test Type Observation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:\">Neisseria gonorrhoeae test type</span></p><p><b>subject</b>: <a href=\"http://hl7.org/fhir/uv/cql/STU1/Patient-example.html\">Alana Asdf  (no stated gender), DoB: 1993-06-14</a></p><p><b>value</b>: <span title=\"Codes:{http://fhir.et/core/CodeSystem/neisseria-gonorrhoeae-test-type-cs poc-test}\">POC Test</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://fhir.et/core/CodeSystem/observation-component-specify-cs poc-test-specify}\">Point-of-care test type (specify)</span></p><p><b>value</b>: GeneXpert CT/NG</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://fhir.et/core/CodeSystem/observation-component-specify-cs other-specify}\">Other test type (specify)</span></p><p><b>value</b>: Experimental assay</p></blockquote></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:text [ fhir:v "Neisseria gonorrhoeae test type" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://fhir.et/core/Patient/example> ;
+     fhir:reference [ fhir:v "Patient/example" ]
+  ] ; # 
+  fhir:value [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://fhir.et/core/CodeSystem/neisseria-gonorrhoeae-test-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "poc-test" ] ;
+       fhir:display [ fhir:v "POC Test" ]
+     ] )
+  ] ; # 
+  fhir:component ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://fhir.et/core/CodeSystem/observation-component-specify-cs"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "poc-test-specify" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "GeneXpert CT/NG"
+     ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://fhir.et/core/CodeSystem/observation-component-specify-cs"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "other-specify" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "Experimental assay"
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

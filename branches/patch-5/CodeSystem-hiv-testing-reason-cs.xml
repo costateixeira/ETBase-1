@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="hiv-testing-reason-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem hiv-testing-reason-cs</b></p><a name="hiv-testing-reason-cs"> </a><a name="hchiv-testing-reason-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-testing-reason-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">First-time-HIV-test<a name="hiv-testing-reason-cs-First-time-HIV-test"> </a></td><td>First-time HIV test</td></tr><tr><td style="white-space:nowrap">Retesting-for-HIV<a name="hiv-testing-reason-cs-Retesting-for-HIV"> </a></td><td>Retesting for HIV</td></tr><tr><td style="white-space:nowrap">verfication-on-discordant<a name="hiv-testing-reason-cs-verfication-on-discordant"> </a></td><td>Verification when discordant results happen</td></tr><tr><td style="white-space:nowrap">Retesting-for-confirmation-before-ART-initiation<a name="hiv-testing-reason-cs-Retesting-for-confirmation-before-ART-initiation"> </a></td><td>Retesting for confirmation before ART initiation</td></tr><tr><td style="white-space:nowrap">Confirmation-for-reactive-HIVST-result<a name="hiv-testing-reason-cs-Confirmation-for-reactive-HIVST-result"> </a></td><td>Confirmation for reactive HIVST result</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/hiv-testing-reason-cs"/>
+  <version value="0.9.0"/>
+  <name value="HIVTestingReasonCS"/>
+  <title value="HIV Testing Reason CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="First-time-HIV-test"/>
+    <display value="First-time HIV test"/>
+  </concept>
+  <concept>
+    <code value="Retesting-for-HIV"/>
+    <display value="Retesting for HIV"/>
+  </concept>
+  <concept>
+    <code value="verfication-on-discordant"/>
+    <display value="Verification when discordant results happen"/>
+  </concept>
+  <concept>
+    <code value="Retesting-for-confirmation-before-ART-initiation"/>
+    <display value="Retesting for confirmation before ART initiation"/>
+  </concept>
+  <concept>
+    <code value="Confirmation-for-reactive-HIVST-result"/>
+    <display value="Confirmation for reactive HIVST result"/>
+  </concept>
+</CodeSystem>

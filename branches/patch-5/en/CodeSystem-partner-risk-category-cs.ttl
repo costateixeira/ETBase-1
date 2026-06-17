@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/partner-risk-category-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "partner-risk-category-cs"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem partner-risk-category-cs</b></p><a name=\"partner-risk-category-cs\"> </a><a name=\"hcpartner-risk-category-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/partner-risk-category-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sex-worker<a name=\"partner-risk-category-cs-sex-worker\"> </a></td><td>Client's partner is a sex worker</td></tr><tr><td style=\"white-space:nowrap\">pwid<a name=\"partner-risk-category-cs-pwid\"> </a></td><td>Client's partner is a person who injects drugs</td></tr><tr><td style=\"white-space:nowrap\">prison<a name=\"partner-risk-category-cs-prison\"> </a></td><td>Client's partner lives in a prison or other closed setting</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/partner-risk-category-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "PartnerRiskCategoryCS"] ; # 
+  fhir:title [ fhir:v "Partner High Risk Category Codes"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-16T12:37:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "sex-worker" ] ;
+     fhir:display [ fhir:v "Client's partner is a sex worker" ]
+  ] [
+     fhir:code [ fhir:v "pwid" ] ;
+     fhir:display [ fhir:v "Client's partner is a person who injects drugs" ]
+  ] [
+     fhir:code [ fhir:v "prison" ] ;
+     fhir:display [ fhir:v "Client's partner lives in a prison or other closed setting" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "prefered-contact-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem prefered-contact-cs</b></p><a name=\"prefered-contact-cs\"> </a><a name=\"hcprefered-contact-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/prefered-contact-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sms<a name=\"prefered-contact-cs-sms\"> </a></td><td>SMS</td></tr><tr><td style=\"white-space:nowrap\">phone<a name=\"prefered-contact-cs-phone\"> </a></td><td>Phone</td></tr><tr><td style=\"white-space:nowrap\">email<a name=\"prefered-contact-cs-email\"> </a></td><td>email</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/prefered-contact-cs",
+  "version" : "0.9.0",
+  "name" : "ContactPointSystemCS",
+  "title" : "Prefered contact CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "CodeSystem representing the Prefered Contact",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "sms",
+    "display" : "SMS"
+  },
+  {
+    "code" : "phone",
+    "display" : "Phone"
+  },
+  {
+    "code" : "email",
+    "display" : "email"
+  }]
+}

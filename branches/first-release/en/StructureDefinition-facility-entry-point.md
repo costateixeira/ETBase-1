@@ -1,0 +1,101 @@
+# Facility Entry Point - Ethiopia Base Implementation Guide v0.9.0
+
+## Extension: Facility Entry Point 
+
+Point of entry within a health facility through which a client accessed services during an encounter.
+
+**Context of Use**
+
+**Usage info**
+
+**Usages:**
+
+* This Extension is not used by any profiles in this Specification
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/et.fhir.core|current/StructureDefinition/StructureDefinition-facility-entry-point.json)
+
+### Formal Views of Extension Content
+
+ [Description Differentials, Snapshots, and other representations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](../StructureDefinition-facility-entry-point.csv), [Excel](../StructureDefinition-facility-entry-point.xlsx), [Schematron](../StructureDefinition-facility-entry-point.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "facility-entry-point",
+  "url" : "http://fhir.et/core/StructureDefinition/facility-entry-point",
+  "version" : "0.9.0",
+  "name" : "FacilityEntryPoint",
+  "title" : "Facility Entry Point",
+  "status" : "active",
+  "date" : "2026-06-17T09:00:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Point of entry within a health facility through which a client accessed services during an encounter.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "complex-type",
+  "abstract" : false,
+  "context" : [{
+    "type" : "element",
+    "expression" : "Encounter"
+  }],
+  "type" : "Extension",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension",
+      "short" : "Facility Entry Point",
+      "definition" : "Point of entry within a health facility through which a client accessed services during an encounter."
+    },
+    {
+      "id" : "Extension.extension",
+      "path" : "Extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "fixedUri" : "http://fhir.et/core/StructureDefinition/facility-entry-point"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://fhir.et/ValueSet/facility-entry-point-vs"
+      }
+    }]
+  }
+}
+
+```

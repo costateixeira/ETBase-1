@@ -1,0 +1,53 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "gonorrhoea-specimen-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem gonorrhoea-specimen-type-cs</b></p><a name=\"gonorrhoea-specimen-type-cs\"> </a><a name=\"hcgonorrhoea-specimen-type-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/gonorrhoea-specimen-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">BLOOD<a name=\"gonorrhoea-specimen-type-cs-BLOOD\"> </a></td><td>Blood</td></tr><tr><td style=\"white-space:nowrap\">CERVICAL_VAGINAL<a name=\"gonorrhoea-specimen-type-cs-CERVICAL_VAGINAL\"> </a></td><td>Cervical or vaginal swab</td></tr><tr><td style=\"white-space:nowrap\">URETHRAL_PENILE<a name=\"gonorrhoea-specimen-type-cs-URETHRAL_PENILE\"> </a></td><td>Urethral or penile swab</td></tr><tr><td style=\"white-space:nowrap\">RECTAL<a name=\"gonorrhoea-specimen-type-cs-RECTAL\"> </a></td><td>Rectal swab</td></tr><tr><td style=\"white-space:nowrap\">OTHER<a name=\"gonorrhoea-specimen-type-cs-OTHER\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/gonorrhoea-specimen-type-cs",
+  "version" : "0.9.0",
+  "name" : "GonorrhoeaSpecimenTypeCS",
+  "title" : "Gonorrhoea Specimen Types",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "BLOOD",
+    "display" : "Blood"
+  },
+  {
+    "code" : "CERVICAL_VAGINAL",
+    "display" : "Cervical or vaginal swab"
+  },
+  {
+    "code" : "URETHRAL_PENILE",
+    "display" : "Urethral or penile swab"
+  },
+  {
+    "code" : "RECTAL",
+    "display" : "Rectal swab"
+  },
+  {
+    "code" : "OTHER",
+    "display" : "Other"
+  }]
+}

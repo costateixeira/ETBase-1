@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@base": "http://fhir.et/core/ValueSet-preferred-contact-method-vs.jsonld",
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "fhir:CodeSystem": {
+      "@type": "@id"
+    },
+    "cs": "http://fhir.et/core/CodeSystem-prefered-contact-cs"
+  },
+  "@id": "http://fhir.et/core/ValueSet-preferred-contact-method-vs.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-06-17T04:44:01.293100Z",
+  "@graph": [
+    {
+      "id": "#sms",
+      "name": "SMS"
+    },
+    {
+      "id": "#phone",
+      "name": "Phone"
+    },
+    {
+      "id": "#email",
+      "name": "email"
+    }
+  ],
+  "fhir:CodeSystem": "cs"
+}

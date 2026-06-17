@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ExampleTrichomonasVaginalisTestType"/>
+  <meta>
+    <profile value="http://fhir.et/core/StructureDefinition/trichomonas-vaginalis-test-type-observation"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation ExampleTrichomonasVaginalisTestType</b></p><a name="ExampleTrichomonasVaginalisTestType"> </a><a name="hcExampleTrichomonasVaginalisTestType"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-trichomonas-vaginalis-test-type-observation.html">Trichomonas vaginalis Test Type Observation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:">Trichomonas vaginalis test type</span></p><p><b>subject</b>: <a href="http://hl7.org/fhir/uv/cql/STU1/Patient-example.html">Alana Asdf  (no stated gender), DoB: 1993-06-14</a></p><p><b>value</b>: <span title="Codes:{http://fhir.et/core/CodeSystem/trichomonas-vaginalis-test-type-cs poc-test}">POC Test</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://fhir.et/core/CodeSystem/observation-component-specify-cs poc-test-specify}">Point-of-care test type (specify)</span></p><p><b>value</b>: OSOM Trichomonas Rapid Test</p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://fhir.et/core/CodeSystem/observation-component-specify-cs other-specify}">Other test type (specify)</span></p><p><b>value</b>: Experimental wet mount assay</p></blockquote></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <text value="Trichomonas vaginalis test type"/>
+  </code>
+  <subject>
+    <reference value="Patient/example"/>
+  </subject>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://fhir.et/core/CodeSystem/trichomonas-vaginalis-test-type-cs"/>
+      <code value="poc-test"/>
+      <display value="POC Test"/>
+    </coding>
+  </valueCodeableConcept>
+  <component>
+    <code>
+      <coding>
+        <system value="http://fhir.et/core/CodeSystem/observation-component-specify-cs"/>
+        <code value="poc-test-specify"/>
+      </coding>
+    </code>
+    <valueString value="OSOM Trichomonas Rapid Test"/>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://fhir.et/core/CodeSystem/observation-component-specify-cs"/>
+        <code value="other-specify"/>
+      </coding>
+    </code>
+    <valueString value="Experimental wet mount assay"/>
+  </component>
+</Observation>

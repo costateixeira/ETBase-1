@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "hiv-testing-reason-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet hiv-testing-reason-vs</b></p><a name=\"hiv-testing-reason-vs\"> </a><a name=\"hchiv-testing-reason-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-hiv-testing-reason-cs.html\"><code>http://fhir.et/core/CodeSystem/hiv-testing-reason-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.9.0</span></li></ul></div>"
+  },
+  "url" : "http://fhir.et/core/ValueSet/hiv-testing-reason-vs",
+  "version" : "0.9.0",
+  "name" : "HIVTestingReasonVS",
+  "title" : "HIV Testing Reason ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Reasons for HIV testing",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.et/core/CodeSystem/hiv-testing-reason-cs"
+    }]
+  }
+}

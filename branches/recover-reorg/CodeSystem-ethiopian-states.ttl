@@ -1,0 +1,85 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/ethiopian-states> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ethiopian-states"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ethiopian-states</b></p><a name=\"ethiopian-states\"> </a><a name=\"hcethiopian-states\"> </a><p>This  code system <code>http://fhir.et/core/CodeSystem/ethiopian-states</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">OR<a name=\"ethiopian-states-OR\"> </a></td><td>Oromia</td></tr><tr><td style=\"white-space:nowrap\">AM<a name=\"ethiopian-states-AM\"> </a></td><td>Amhara</td></tr><tr><td style=\"white-space:nowrap\">TI<a name=\"ethiopian-states-TI\"> </a></td><td>Tigray</td></tr><tr><td style=\"white-space:nowrap\">SO<a name=\"ethiopian-states-SO\"> </a></td><td>Somali</td></tr><tr><td style=\"white-space:nowrap\">AF<a name=\"ethiopian-states-AF\"> </a></td><td>Afar</td></tr><tr><td style=\"white-space:nowrap\">SD<a name=\"ethiopian-states-SD\"> </a></td><td>Sidama</td></tr><tr><td style=\"white-space:nowrap\">SE<a name=\"ethiopian-states-SE\"> </a></td><td>South Ethiopia</td></tr><tr><td style=\"white-space:nowrap\">SW<a name=\"ethiopian-states-SW\"> </a></td><td>Southwest Ethiopia</td></tr><tr><td style=\"white-space:nowrap\">AA<a name=\"ethiopian-states-AA\"> </a></td><td>Addis Ababa</td></tr><tr><td style=\"white-space:nowrap\">DD<a name=\"ethiopian-states-DD\"> </a></td><td>Dire Dawa</td></tr><tr><td style=\"white-space:nowrap\">GA<a name=\"ethiopian-states-GA\"> </a></td><td>Gambella</td></tr><tr><td style=\"white-space:nowrap\">BG<a name=\"ethiopian-states-BG\"> </a></td><td>Benishangul Gumuz</td></tr><tr><td style=\"white-space:nowrap\">HA<a name=\"ethiopian-states-HA\"> </a></td><td>Harari</td></tr><tr><td style=\"white-space:nowrap\">CE<a name=\"ethiopian-states-CE\"> </a></td><td>Central Ethiopia</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/ethiopian-states"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "EthiopiaStateCS"] ; # 
+  fhir:title [ fhir:v "Ethiopia State / Region CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2026-06-16T15:24:47+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Administrative states and city administrations of Ethiopia"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "14"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "OR" ] ;
+     fhir:display [ fhir:v "Oromia" ]
+  ] [
+     fhir:code [ fhir:v "AM" ] ;
+     fhir:display [ fhir:v "Amhara" ]
+  ] [
+     fhir:code [ fhir:v "TI" ] ;
+     fhir:display [ fhir:v "Tigray" ]
+  ] [
+     fhir:code [ fhir:v "SO" ] ;
+     fhir:display [ fhir:v "Somali" ]
+  ] [
+     fhir:code [ fhir:v "AF" ] ;
+     fhir:display [ fhir:v "Afar" ]
+  ] [
+     fhir:code [ fhir:v "SD" ] ;
+     fhir:display [ fhir:v "Sidama" ]
+  ] [
+     fhir:code [ fhir:v "SE" ] ;
+     fhir:display [ fhir:v "South Ethiopia" ]
+  ] [
+     fhir:code [ fhir:v "SW" ] ;
+     fhir:display [ fhir:v "Southwest Ethiopia" ]
+  ] [
+     fhir:code [ fhir:v "AA" ] ;
+     fhir:display [ fhir:v "Addis Ababa" ]
+  ] [
+     fhir:code [ fhir:v "DD" ] ;
+     fhir:display [ fhir:v "Dire Dawa" ]
+  ] [
+     fhir:code [ fhir:v "GA" ] ;
+     fhir:display [ fhir:v "Gambella" ]
+  ] [
+     fhir:code [ fhir:v "BG" ] ;
+     fhir:display [ fhir:v "Benishangul Gumuz" ]
+  ] [
+     fhir:code [ fhir:v "HA" ] ;
+     fhir:display [ fhir:v "Harari" ]
+  ] [
+     fhir:code [ fhir:v "CE" ] ;
+     fhir:display [ fhir:v "Central Ethiopia" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,774 @@
+ETBase : Validation Results
+=========================================
+
+err = 0, warn = 288, info = 20
+$--
+Generated $--. FHIR version $-- for et.fhir.core#$-- (canonical = http://fhir.et/core)
+ Build Errors : 7 / 90 / 0
+ /work/fsh-generated/resources/CodeSystem-chlamydia-trachomatis-test-type-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-community-entry-point-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-counselling-provided-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-education-status-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-et-observation-code-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-ethiopian-states : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-exposure-source-cs : 0 / 2 / 1
+ /work/fsh-generated/resources/CodeSystem-facility-entry-point-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-follow-up-type-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-gonorrhoea-specimen-type-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-gonorrhoea-test-result-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-adherence-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-assay-number-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-assay-result-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-condition-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-exposure-ways-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-prevention-services-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-self-test-result-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-serotype-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-status-cs : 0 / 2 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-test-result-cs : 0 / 2 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-test-type-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-testing-entry-point-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-testing-reason-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-hiv-transmission-route-cs : 0 / 2 / 1
+ /work/fsh-generated/resources/CodeSystem-hsv-test-type-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-hts-service-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-ipv-enquiry-result-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-key-population-type-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-mycoplasma-genitalium-test-type-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-neisseria-gonorrhoeae-test-type-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-observation-component-specify-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-occupation-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-other-clinical-services-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-other-support-services-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-partner-contact-type-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-partner-hiv-status-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-partner-risk-category-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-partner-services-referral-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-prefered-contact-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-prep-dosing-type-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-prep-visit-interval-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-prep-visit-reason-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-srh-integrated-services-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-sti-result-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-sti-syndrome-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-sti-test-type-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-syphilis-confirmatory-test-type-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-syphilis-test-result-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-syphilis-test-type-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-trichomonas-vaginalis-test-type-cs : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-vmmc-adverse-event-severity-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-vmmc-adverse-event-timing-cs : 0 / 1 / 1
+ /work/fsh-generated/resources/ImplementationGuide-et.fhir.core : 0 / 5 / 1
+ /work/fsh-generated/resources/Observation-ExampleChlamydiaTrachomatisTestType : 0 / 2 / 1
+ /work/fsh-generated/resources/Observation-ExampleHSVTestType : 0 / 2 / 1
+ /work/fsh-generated/resources/Observation-ExampleMycoplasmaGenitaliumTestType : 0 / 2 / 1
+ /work/fsh-generated/resources/Observation-ExampleNeisseriaGonorrhoeaeTestType : 0 / 2 / 1
+ /work/fsh-generated/resources/Observation-ExampleSyphilisTestType : 0 / 2 / 1
+ /work/fsh-generated/resources/Observation-ExampleTrichomonasVaginalisTestType : 0 / 2 / 1
+ /work/fsh-generated/resources/Patient-ETpatientEx : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-ETPatient : 0 / 2 / 5
+ /work/fsh-generated/resources/StructureDefinition-FPFollowUpMsgConsent : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-HIVPatient : 0 / 2 / 3
+ /work/fsh-generated/resources/StructureDefinition-address-kebele : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-address-ketenagott : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-address-zone : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-adolescent-girl-indicator : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-art-start-date : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-cachment-area : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-chlamydia-trachomatis-test-type-observation : 0 / 0 / 3
+ /work/fsh-generated/resources/StructureDefinition-community-entry-point : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-confirmatory-sti-test-result-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-confirmatory-syphilis-test-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-confirmed-site : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-consent-to-be-contacted : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-counselling-provided : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-created-date : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-currently-on-prep : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-dob-estimated : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-education-status-extension : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-ethiopian-mfr-location : 0 / 5 / 1
+ /work/fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization : 0 / 8 / 1
+ /work/fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization-affiliation : 0 / 3 / 1
+ /work/fsh-generated/resources/StructureDefinition-expected-delivery-date : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-exposure-source-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-facility-entry-point : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-follow-up-type-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-gestational-age-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-gonorrhoea-testing-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-grandfathers-family-name : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-adherence : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-art-medication-request : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-assay-number-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-careplan : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-cd4 : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-client-informed-observation : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-condition : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-consent : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-diagnosis-date : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-diagnosis-facility-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-encounter : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-exposure-datetime : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-exposure-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-first-positive-test-date : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-followup-appointment : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-hts-request : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-lab-report : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-library : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-measure : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-partner-contact : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-positive-confirmed-date : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-positive-confirmed-site : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-prevention-services : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-retest-risk-assessment : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-self-test-history : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-self-test-result : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-serotype-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-status : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-test-conducted-boolean : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-test-ordered-boolean : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-test-result : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-test-result-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-test-sent-date : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-test-type-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-testing-encounter : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hiv-transmission-route : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-hsv-test-type-observation : 0 / 0 / 3
+ /work/fsh-generated/resources/StructureDefinition-infant-breastfeeding-status : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-ipv-clinical-enquiry : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-ipv-enquiry-result : 0 / 1 / 3
+ /work/fsh-generated/resources/StructureDefinition-key-population-membership : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-key-population-type : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-mycoplasma-genitalium-test-type-observation : 0 / 0 / 3
+ /work/fsh-generated/resources/StructureDefinition-neisseria-gonorrhoeae-test-type-observation : 0 / 0 / 3
+ /work/fsh-generated/resources/StructureDefinition-occupation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-offered-vps-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-other-clinical-services : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-other-support-services : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-contacts-count : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-hiv-status : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-hiv-test-conducted : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-hiv-test-date : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-hiv-test-ordered : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-hiv-test-result : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-notification-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-on-art : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-risk-category : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-services-accepted : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-services-offered : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-services-referral : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-partner-viral-suppression : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-preferred-contact-method : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-pregnancy-status-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-prep-dosing-type : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-prep-encounter : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-prep-visit-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-prep-visit-reason : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-reporting-hierarchy-extension : 0 / 4 / 1
+ /work/fsh-generated/resources/StructureDefinition-reporting-hierarchy-id-extension : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-srh-integrated-services : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-sti-result-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-sti-syndrome-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-sti-testing-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-suspected-hiv-exposure : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-suspected-hiv-exposure-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-syphilis-test-type-observation : 0 / 0 / 3
+ /work/fsh-generated/resources/StructureDefinition-syphilis-testing-treatment-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-trichomonas-vaginalis-test-type-observation : 0 / 0 / 3
+ /work/fsh-generated/resources/StructureDefinition-vmmc-adverse-event-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-vmmc-procedure-date-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-vmmc-procedure-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-young-woman-indicator : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-EthiopiaStateVS : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-chlamydia-trachomatis-test-type-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-community-entry-point-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-counselling-provided-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-education-status-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-exposure-source-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-facility-entry-point-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-follow-up-type-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-gender-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-gonorrhoea-specimen-type-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-gonorrhoea-test-result-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-adherence-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-assay-number-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-assay-result-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-condition-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-exposure-ways-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-prevention-services-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-self-test-result-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-serotype-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-status-vs : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-test-result-vs : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-test-type-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-testing-entry-point-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-testing-reason-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-hiv-transmission-route-vs : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-hsv-test-type-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-hts-service-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-ipv-enquiry-result-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-key-population-type-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-marital-status-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-mycoplasma-genitalium-test-type-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-neisseria-gonorrhoeae-test-type-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-occupation-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-other-clinical-services-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-other-support-services-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-partner-contact-type-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-partner-risk-category-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-partner-services-referral-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-preferred-contact-method-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-prep-dosing-type-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-prep-visit-interval-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-prep-visit-reason-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-srh-integrated-services-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-sti-result-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-sti-syndrome-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-sti-test-type-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-syphilis-confirmatory-test-type-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-syphilis-test-result-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-syphilis-test-type-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-trichomonas-vaginalis-test-type-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-vmmc-adverse-event-severity-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-vmmc-adverse-event-timing-vs : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/currently-on-prep.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ethiopian-mfr-organization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ethiopian-mfr-organization-affiliation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/exposure-source-observation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-self-test-result.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-testing-encounter.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-art-medication-request.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-adherence.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-cd4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-careplan.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-condition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-consent.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-encounter.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-exposure-datetime.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-followup-appointment.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-lab-report.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-library.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-measure.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-positive-confirmed-date.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-positive-confirmed-site.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-status.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-test-result.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-test-result-observation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-hts-request.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/hiv-transmission-route.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-hiv-test-conducted.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-hiv-test-date.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-hiv-test-ordered.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-hiv-test-result.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-on-art.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/partner-viral-suppression.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/prep-dosing-type.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/community-entry-point.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/confirmed-site.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/facility-entry-point.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/prep-visit-reason.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/reporting-hierarchy-extension.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/counselling-provided-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/follow-up-type-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/gonorrhoea-specimen-type-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/gonorrhoea-test-result-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/hiv-prevention-services-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/hiv-self-test-result-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/hiv-status-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/hiv-test-result-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/hiv-transmission-route-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/ipv-enquiry-result-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/key-population-type-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/other-clinical-services-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/other-support-services-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/partner-contact-type-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/partner-risk-category-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/partner-services-referral-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/prep-dosing-type-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/prep-visit-interval-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/prep-visit-reason-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/preferred-contact-method-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/sti-test-type-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/srh-integrated-services-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/exposure-source-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/sti-syndrome-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/syphilis-test-result-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/vmmc-adverse-event-timing-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/vmmc-adverse-event-severity-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/exposure-source-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/follow-up-type-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/gonorrhoea-specimen-type-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/gonorrhoea-test-result-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/hiv-self-test-result-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/hiv-testing-reason-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/hiv-status-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/hiv-test-result-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/hiv-transmission-route-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/key-population-type-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/partner-hiv-status-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/partner-risk-category-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/prep-dosing-type-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/sti-test-type-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/sti-syndrome-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/syphilis-test-result-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/vmmc-adverse-event-timing-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/vmmc-adverse-event-severity-cs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/ExampleChlamydiaTrachomatisTestType.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/ExampleHSVTestType.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/ExampleMycoplasmaGenitaliumTestType.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/ExampleNeisseriaGonorrhoeaeTestType.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/ExampleSyphilisTestType.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/ExampleTrichomonasVaginalisTestType.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 297, column 8: The link 'package.tgz' for "IG Package" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 305, column 8: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 306, column 8: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 308, column 9: The link 'definitions.ttl.zip' for "TTL" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 322, column 8: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 323, column 8: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 324, column 8: The link 'examples.ttl.zip' for "TTL" cannot be resolved
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-chlamydia-trachomatis-test-type-cs.json ==
+== fsh-generated/resources/CodeSystem-community-entry-point-cs.json ==
+== fsh-generated/resources/CodeSystem-counselling-provided-cs.json ==
+== fsh-generated/resources/CodeSystem-education-status-cs.json ==
+== fsh-generated/resources/CodeSystem-et-observation-code-cs.json ==
+== fsh-generated/resources/CodeSystem-ethiopian-states.json ==
+== fsh-generated/resources/CodeSystem-exposure-source-cs.json ==
+WARNING: CodeSystem/exposure-source-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+WARNING: CodeSystem/exposure-source-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-facility-entry-point-cs.json ==
+== fsh-generated/resources/CodeSystem-follow-up-type-cs.json ==
+WARNING: CodeSystem/follow-up-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-gonorrhoea-specimen-type-cs.json ==
+WARNING: CodeSystem/gonorrhoea-specimen-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-gonorrhoea-test-result-cs.json ==
+WARNING: CodeSystem/gonorrhoea-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-adherence-cs.json ==
+== fsh-generated/resources/CodeSystem-hiv-assay-number-cs.json ==
+== fsh-generated/resources/CodeSystem-hiv-assay-result-cs.json ==
+== fsh-generated/resources/CodeSystem-hiv-condition-cs.json ==
+== fsh-generated/resources/CodeSystem-hiv-exposure-ways-cs.json ==
+== fsh-generated/resources/CodeSystem-hiv-prevention-services-cs.json ==
+== fsh-generated/resources/CodeSystem-hiv-self-test-result-cs.json ==
+WARNING: CodeSystem/hiv-self-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-serotype-cs.json ==
+== fsh-generated/resources/CodeSystem-hiv-status-cs.json ==
+WARNING: CodeSystem/hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+WARNING: CodeSystem/hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-test-result-cs.json ==
+WARNING: CodeSystem/hiv-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+WARNING: CodeSystem/hiv-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-test-type-cs.json ==
+== fsh-generated/resources/CodeSystem-hiv-testing-entry-point-cs.json ==
+== fsh-generated/resources/CodeSystem-hiv-testing-reason-cs.json ==
+WARNING: CodeSystem/hiv-testing-reason-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hiv-transmission-route-cs.json ==
+WARNING: CodeSystem/hiv-transmission-route-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
+WARNING: CodeSystem/hiv-transmission-route-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-hsv-test-type-cs.json ==
+== fsh-generated/resources/CodeSystem-hts-service-cs.json ==
+== fsh-generated/resources/CodeSystem-ipv-enquiry-result-cs.json ==
+== fsh-generated/resources/CodeSystem-key-population-type-cs.json ==
+WARNING: CodeSystem/key-population-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-mycoplasma-genitalium-test-type-cs.json ==
+== fsh-generated/resources/CodeSystem-neisseria-gonorrhoeae-test-type-cs.json ==
+== fsh-generated/resources/CodeSystem-observation-component-specify-cs.json ==
+== fsh-generated/resources/CodeSystem-occupation-cs.json ==
+== fsh-generated/resources/CodeSystem-other-clinical-services-cs.json ==
+== fsh-generated/resources/CodeSystem-other-support-services-cs.json ==
+== fsh-generated/resources/CodeSystem-partner-contact-type-cs.json ==
+== fsh-generated/resources/CodeSystem-partner-hiv-status-cs.json ==
+WARNING: CodeSystem/partner-hiv-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-partner-risk-category-cs.json ==
+WARNING: CodeSystem/partner-risk-category-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-partner-services-referral-cs.json ==
+== fsh-generated/resources/CodeSystem-prefered-contact-cs.json ==
+== fsh-generated/resources/CodeSystem-prep-dosing-type-cs.json ==
+WARNING: CodeSystem/prep-dosing-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-prep-visit-interval-cs.json ==
+== fsh-generated/resources/CodeSystem-prep-visit-reason-cs.json ==
+== fsh-generated/resources/CodeSystem-srh-integrated-services-cs.json ==
+== fsh-generated/resources/CodeSystem-sti-result-cs.json ==
+== fsh-generated/resources/CodeSystem-sti-syndrome-cs.json ==
+WARNING: CodeSystem/sti-syndrome-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-sti-test-type-cs.json ==
+WARNING: CodeSystem/sti-test-type-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-syphilis-confirmatory-test-type-cs.json ==
+== fsh-generated/resources/CodeSystem-syphilis-test-result-cs.json ==
+WARNING: CodeSystem/syphilis-test-result-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-syphilis-test-type-cs.json ==
+== fsh-generated/resources/CodeSystem-trichomonas-vaginalis-test-type-cs.json ==
+== fsh-generated/resources/CodeSystem-vmmc-adverse-event-severity-cs.json ==
+WARNING: CodeSystem/vmmc-adverse-event-severity-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-vmmc-adverse-event-timing-cs.json ==
+WARNING: CodeSystem/vmmc-adverse-event-timing-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-et.fhir.core.json ==
+WARNING: ImplementationGuide/et.fhir.core: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent appropriate version is 7.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/et.fhir.core: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.3.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/et.fhir.core: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.uv.cql#1.0.0 released on 2024-05-31, but the most recent appropriate version is 2.0.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/et.fhir.core: ImplementationGuide.dependsOn[4]: The ImplementationGuide uses package hl7.fhir.uv.sdc#3.0.0 released on 2022-03-08, but the most recent appropriate version is 4.0.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/et.fhir.core: ImplementationGuide.dependsOn[7]: The ImplementationGuide uses package smart.who.int.base#0.1.0 released on 2024-09-20, but the most recent appropriate version is 0.2.0. This reference is getting old and the more recent version should be considered
+== fsh-generated/resources/Observation-ExampleChlamydiaTrachomatisTestType.json ==
+WARNING: Observation/ExampleChlamydiaTrachomatisTestType: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ExampleChlamydiaTrachomatisTestType: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ExampleHSVTestType.json ==
+WARNING: Observation/ExampleHSVTestType: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ExampleHSVTestType: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ExampleMycoplasmaGenitaliumTestType.json ==
+WARNING: Observation/ExampleMycoplasmaGenitaliumTestType: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ExampleMycoplasmaGenitaliumTestType: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ExampleNeisseriaGonorrhoeaeTestType.json ==
+WARNING: Observation/ExampleNeisseriaGonorrhoeaeTestType: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ExampleNeisseriaGonorrhoeaeTestType: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ExampleSyphilisTestType.json ==
+WARNING: Observation/ExampleSyphilisTestType: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ExampleSyphilisTestType: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ExampleTrichomonasVaginalisTestType.json ==
+WARNING: Observation/ExampleTrichomonasVaginalisTestType: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ExampleTrichomonasVaginalisTestType: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Patient-ETpatientEx.json ==
+WARNING: Patient/ETpatientEx: Patient.identifier[0].system: No definition could be found for URL value 'http://id.gov.et/nationalidentifier'
+WARNING: Patient/ETpatientEx: Patient.identifier[1].system: No definition could be found for URL value 'http://moh.gov.et/emr'
+== fsh-generated/resources/StructureDefinition-ETPatient.json ==
+WARNING: StructureDefinition/ETPatient: StructureDefinition.snapshot.element[58].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 1.0.0 (from hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family' to 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family|5.1.0'
+WARNING: StructureDefinition/ETPatient: StructureDefinition.differential.element[17].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 1.0.0 (from hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family' to 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family|5.1.0'
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.differential.element[20].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.snapshot.element[65].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-FPFollowUpMsgConsent.json ==
+WARNING: StructureDefinition/FPFollowUpMsgConsent: StructureDefinition.context[0]: Review the extension type for FPFollowUpMsgConsent: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/FPFollowUpMsgConsent'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-HIVPatient.json ==
+WARNING: StructureDefinition/HIVPatient: StructureDefinition.snapshot.element[71].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 1.0.0 (from hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family' to 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family|5.1.0'
+INFORMATION: StructureDefinition/HIVPatient: StructureDefinition.snapshot.element[25].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/HIVPatient: StructureDefinition.snapshot.element[78].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/HIVPatient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-address-kebele.json ==
+== fsh-generated/resources/StructureDefinition-address-ketenagott.json ==
+== fsh-generated/resources/StructureDefinition-address-zone.json ==
+== fsh-generated/resources/StructureDefinition-adolescent-girl-indicator.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/adolescent-girl-indicator'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-art-start-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/art-start-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-cachment-area.json ==
+WARNING: StructureDefinition/cachment-area: StructureDefinition.context[0]: Review the extension type for cachment-area: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/cachment-area'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-chlamydia-trachomatis-test-type-observation.json ==
+INFORMATION: StructureDefinition/chlamydia-trachomatis-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/chlamydia-trachomatis-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-community-entry-point.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/community-entry-point'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-confirmatory-sti-test-result-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/confirmatory-sti-test-result-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-confirmatory-syphilis-test-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/confirmatory-syphilis-test-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-confirmed-site.json ==
+WARNING: StructureDefinition/confirmed-site: StructureDefinition.context[0]: Review the extension type for confirmed-site: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/confirmed-site'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-consent-to-be-contacted.json ==
+WARNING: StructureDefinition/consent-to-be-contacted: StructureDefinition.context[0]: Review the extension type for consent-to-be-contacted: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/consent-to-be-contacted'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-counselling-provided.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/counselling-provided'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-created-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/created-date'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-currently-on-prep.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/currently-on-prep'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-dob-estimated.json ==
+== fsh-generated/resources/StructureDefinition-education-status-extension.json ==
+WARNING: StructureDefinition/education-status-extension: StructureDefinition.context[0]: Review the extension type for education-status-extension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-ethiopian-mfr-location.json ==
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.snapshot.element[46].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/FacilityType'
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.snapshot.element[49].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/location-physical-type'
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.differential.element[21].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/FacilityType'
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.differential.element[24].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/location-physical-type'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/ethiopian-mfr-location'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization.json ==
+WARNING: EthiopianMfrOrganization.telecom.telecom.Organization.contact.telecom.use: Binding https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use could not be located
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.snapshot.element[46].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.snapshot.element[54].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.snapshot.element[62].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.differential.element[17].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/ethiopian-mfr-organization'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization-affiliation.json ==
+WARNING: StructureDefinition/ethiopian-mfr-organization-affiliation: StructureDefinition.snapshot.element[15].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/OrganizationAffiliationRole'
+WARNING: StructureDefinition/ethiopian-mfr-organization-affiliation: StructureDefinition.differential.element[5].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/OrganizationAffiliationRole'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/ethiopian-mfr-organization-affiliation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-expected-delivery-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/expected-delivery-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-exposure-source-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/exposure-source-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-facility-entry-point.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/facility-entry-point'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-follow-up-type-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/follow-up-type-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-gestational-age-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/gestational-age-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-gonorrhoea-testing-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/gonorrhoea-testing-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-grandfathers-family-name.json ==
+== fsh-generated/resources/StructureDefinition-hiv-adherence.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-adherence'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-art-medication-request.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-art-medication-request'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-assay-number-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-assay-number-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-careplan.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-careplan'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-cd4.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-cd4'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-client-informed-observation.json ==
+WARNING: StructureDefinition/hiv-client-informed-observation: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-client-informed-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-condition.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-condition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-consent.json ==
+WARNING: StructureDefinition/hiv-consent: StructureDefinition.snapshot.element[46].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.1.0', found versions: 3.0.0 (from hl7.terminology#5.5.0), 3.1.0 (from hl7.terminology.r4#6.1.0). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse' to 'http://terminology.hl7.org/ValueSet/v3-PurposeOfUse|3.1.0'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-consent'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-diagnosis-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-diagnosis-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-diagnosis-facility-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-diagnosis-facility-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-encounter.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-encounter'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-exposure-datetime.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-exposure-datetime'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-exposure-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-exposure-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-first-positive-test-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-first-positive-test-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-followup-appointment.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-followup-appointment'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-hts-request.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-hts-request'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-lab-report.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-lab-report'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-library.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-library'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-measure.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-measure'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-partner-contact.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-partner-contact'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-positive-confirmed-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-positive-confirmed-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-positive-confirmed-site.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-positive-confirmed-site'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-prevention-services.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-prevention-services'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-retest-risk-assessment.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-retest-risk-assessment'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-self-test-history.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-self-test-history'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-self-test-result.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-self-test-result'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-serotype-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-serotype-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-status.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-status'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-conducted-boolean.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-test-conducted-boolean'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-ordered-boolean.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-test-ordered-boolean'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-result.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-test-result'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-result-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-test-result-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-sent-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-test-sent-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-test-type-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-test-type-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-testing-encounter.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-testing-encounter'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hiv-transmission-route.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/hiv-transmission-route'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-hsv-test-type-observation.json ==
+INFORMATION: StructureDefinition/hsv-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/hsv-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-infant-breastfeeding-status.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/infant-breastfeeding-status'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ipv-clinical-enquiry.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/ipv-clinical-enquiry'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ipv-enquiry-result.json ==
+INFORMATION: StructureDefinition/ipv-enquiry-result: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ipv-enquiry-result: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/ipv-enquiry-result'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-key-population-membership.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/key-population-membership'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-key-population-type.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/key-population-type'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-mycoplasma-genitalium-test-type-observation.json ==
+INFORMATION: StructureDefinition/mycoplasma-genitalium-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/mycoplasma-genitalium-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-neisseria-gonorrhoeae-test-type-observation.json ==
+INFORMATION: StructureDefinition/neisseria-gonorrhoeae-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/neisseria-gonorrhoeae-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-occupation.json ==
+WARNING: StructureDefinition/occupation: StructureDefinition.context[0]: Review the extension type for occupation: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-offered-vps-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/offered-vps-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-other-clinical-services.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/other-clinical-services'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-other-support-services.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/other-support-services'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-contacts-count.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-contacts-count'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-hiv-status.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-hiv-status'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-hiv-test-conducted.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-hiv-test-conducted'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-hiv-test-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-hiv-test-date'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-hiv-test-ordered.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-hiv-test-ordered'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-hiv-test-result.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-hiv-test-result'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-notification-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-notification-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-on-art.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-on-art'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-risk-category.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-risk-category'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-services-accepted.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-services-accepted'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-services-offered.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-services-offered'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-partner-services-referral.json ==
+WARNING: StructureDefinition/partner-services-referral: StructureDefinition.context[0]: Review the extension type for partner-services-referral: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-services-referral'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-partner-viral-suppression.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/partner-viral-suppression'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-preferred-contact-method.json ==
+WARNING: StructureDefinition/preferred-contact-method: StructureDefinition.context[0]: Review the extension type for preferred-contact-method: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/preferred-contact-method'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-pregnancy-status-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/pregnancy-status-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-prep-dosing-type.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/prep-dosing-type'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-prep-encounter.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/prep-encounter'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-prep-visit-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/prep-visit-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-prep-visit-reason.json ==
+WARNING: StructureDefinition/prep-visit-reason: StructureDefinition.context[0]: Review the extension type for prep-visit-reason: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/prep-visit-reason'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-reporting-hierarchy-extension.json ==
+WARNING: StructureDefinition/reporting-hierarchy-extension: StructureDefinition.snapshot.element[7].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/ReportingHierarchy'
+WARNING: StructureDefinition/reporting-hierarchy-extension: StructureDefinition.differential.element[4].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/ReportingHierarchy'
+WARNING: StructureDefinition/reporting-hierarchy-extension: StructureDefinition.context[0]: Review the extension type for reporting-hierarchy-extension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/reporting-hierarchy-extension'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-reporting-hierarchy-id-extension.json ==
+WARNING: StructureDefinition/reporting-hierarchy-id-extension: StructureDefinition.context[0]: Review the extension type for reporting-hierarchy-id-extension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/reporting-hierarchy-id-extension'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-srh-integrated-services.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/srh-integrated-services'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-sti-result-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/sti-result-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-sti-syndrome-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/sti-syndrome-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-sti-testing-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/sti-testing-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-suspected-hiv-exposure.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/suspected-hiv-exposure'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-suspected-hiv-exposure-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/suspected-hiv-exposure-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-syphilis-test-type-observation.json ==
+INFORMATION: StructureDefinition/syphilis-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/syphilis-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-syphilis-testing-treatment-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/syphilis-testing-treatment-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-trichomonas-vaginalis-test-type-observation.json ==
+INFORMATION: StructureDefinition/trichomonas-vaginalis-test-type-observation: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/trichomonas-vaginalis-test-type-observation: StructureDefinition.snapshot.element[45].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-vmmc-adverse-event-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/vmmc-adverse-event-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-vmmc-procedure-date-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/vmmc-procedure-date-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-vmmc-procedure-observation.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/vmmc-procedure-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-young-woman-indicator.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/young-woman-indicator'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-EthiopiaStateVS.json ==
+== fsh-generated/resources/ValueSet-chlamydia-trachomatis-test-type-vs.json ==
+== fsh-generated/resources/ValueSet-community-entry-point-vs.json ==
+== fsh-generated/resources/ValueSet-counselling-provided-vs.json ==
+WARNING: ValueSet/counselling-provided-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-education-status-vs.json ==
+== fsh-generated/resources/ValueSet-exposure-source-vs.json ==
+WARNING: ValueSet/exposure-source-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-facility-entry-point-vs.json ==
+== fsh-generated/resources/ValueSet-follow-up-type-vs.json ==
+WARNING: ValueSet/follow-up-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-gender-vs.json ==
+== fsh-generated/resources/ValueSet-gonorrhoea-specimen-type-vs.json ==
+WARNING: ValueSet/gonorrhoea-specimen-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-gonorrhoea-test-result-vs.json ==
+WARNING: ValueSet/gonorrhoea-test-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-adherence-vs.json ==
+== fsh-generated/resources/ValueSet-hiv-assay-number-vs.json ==
+== fsh-generated/resources/ValueSet-hiv-assay-result-vs.json ==
+== fsh-generated/resources/ValueSet-hiv-condition-vs.json ==
+== fsh-generated/resources/ValueSet-hiv-exposure-ways-vs.json ==
+== fsh-generated/resources/ValueSet-hiv-prevention-services-vs.json ==
+WARNING: ValueSet/hiv-prevention-services-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-self-test-result-vs.json ==
+WARNING: ValueSet/hiv-self-test-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-serotype-vs.json ==
+== fsh-generated/resources/ValueSet-hiv-status-vs.json ==
+WARNING: ValueSet/hiv-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/hiv-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-test-result-vs.json ==
+WARNING: ValueSet/hiv-test-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/hiv-test-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hiv-test-type-vs.json ==
+== fsh-generated/resources/ValueSet-hiv-testing-entry-point-vs.json ==
+== fsh-generated/resources/ValueSet-hiv-testing-reason-vs.json ==
+== fsh-generated/resources/ValueSet-hiv-transmission-route-vs.json ==
+WARNING: ValueSet/hiv-transmission-route-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
+WARNING: ValueSet/hiv-transmission-route-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-hsv-test-type-vs.json ==
+== fsh-generated/resources/ValueSet-hts-service-vs.json ==
+== fsh-generated/resources/ValueSet-ipv-enquiry-result-vs.json ==
+WARNING: ValueSet/ipv-enquiry-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-key-population-type-vs.json ==
+WARNING: ValueSet/key-population-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-marital-status-vs.json ==
+== fsh-generated/resources/ValueSet-mycoplasma-genitalium-test-type-vs.json ==
+== fsh-generated/resources/ValueSet-neisseria-gonorrhoeae-test-type-vs.json ==
+== fsh-generated/resources/ValueSet-occupation-vs.json ==
+== fsh-generated/resources/ValueSet-other-clinical-services-vs.json ==
+WARNING: ValueSet/other-clinical-services-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-other-support-services-vs.json ==
+WARNING: ValueSet/other-support-services-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-partner-contact-type-vs.json ==
+WARNING: ValueSet/partner-contact-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-partner-risk-category-vs.json ==
+WARNING: ValueSet/partner-risk-category-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-partner-services-referral-vs.json ==
+WARNING: ValueSet/partner-services-referral-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-preferred-contact-method-vs.json ==
+WARNING: ValueSet/preferred-contact-method-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-prep-dosing-type-vs.json ==
+WARNING: ValueSet/prep-dosing-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-prep-visit-interval-vs.json ==
+WARNING: ValueSet/prep-visit-interval-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-prep-visit-reason-vs.json ==
+WARNING: ValueSet/prep-visit-reason-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-srh-integrated-services-vs.json ==
+WARNING: ValueSet/srh-integrated-services-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-sti-result-vs.json ==
+== fsh-generated/resources/ValueSet-sti-syndrome-vs.json ==
+WARNING: ValueSet/sti-syndrome-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-sti-test-type-vs.json ==
+WARNING: ValueSet/sti-test-type-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-syphilis-confirmatory-test-type-vs.json ==
+== fsh-generated/resources/ValueSet-syphilis-test-result-vs.json ==
+WARNING: ValueSet/syphilis-test-result-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-syphilis-test-type-vs.json ==
+== fsh-generated/resources/ValueSet-trichomonas-vaginalis-test-type-vs.json ==
+== fsh-generated/resources/ValueSet-vmmc-adverse-event-severity-vs.json ==
+WARNING: ValueSet/vmmc-adverse-event-severity-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-vmmc-adverse-event-timing-vs.json ==
+WARNING: ValueSet/vmmc-adverse-event-timing-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present

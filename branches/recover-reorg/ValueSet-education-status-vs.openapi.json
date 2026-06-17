@@ -1,0 +1,65 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Ethiopia Education Status ValueSet Schema API",
+    "description": "JSON Schema for Ethiopia Education Status ValueSet ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/ValueSet-education-status-vs.schema.json": {
+      "get": {
+        "summary": "JSON Schema definition for the enumeration ValueSet-education-status-vs",
+        "description": "This endpoint serves the JSON Schema definition for the enumeration ValueSet-education-status-vs.",
+        "responses": {
+          "200": {
+            "description": "The JSON Schema for ValueSet-education-status-vs",
+            "content": {
+              "application/schema+json": {
+                "schema": {
+                  "$ref": "./ValueSet-education-status-vs.schema.json"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ValueSet-education-status-vs": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "http://fhir.et/core/ValueSet-education-status-vs.schema.json",
+        "title": "Ethiopia Education Status ValueSet Schema",
+        "description": "JSON Schema for Ethiopia Education Status ValueSet ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+        "type": "object",
+        "required": [
+          "system",
+          "code"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "system": {
+            "type": "string",
+            "const": "http://fhir.et/core/CodeSystem/education-status"
+          },
+          "code": {
+            "type": "string",
+            "enum": [
+              "noedun",
+              "canReadWrite",
+              "primary",
+              "secondary",
+              "higher"
+            ]
+          }
+        },
+        "narrative": "This schema validates Coding-shaped objects for the Ethiopia Education Status ValueSet ValueSet. Each value must be an object with 'system' (CodeSystem URI) and 'code' (fragment after '#') properties. Display values are available at http://fhir.et/core/ValueSet-education-status-vs.displays.json. The canonical IRI for a code can be reconstructed as system + '#' + code. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+        "fhir:displays": "http://fhir.et/core/ValueSet-education-status-vs.displays.json",
+        "fhir:valueSet": "http://fhir.et/core/ValueSet/education-status-vs",
+        "fhir:version": "0.9.0",
+        "fhir:expansionTimestamp": "2026-06-16T15:26:59+00:00"
+      }
+    }
+  }
+}

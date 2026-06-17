@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="preferred-contact-method-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet preferred-contact-method-vs</b></p><a name="preferred-contact-method-vs"> </a><a name="hcpreferred-contact-method-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-prefered-contact-cs.html"><code>http://fhir.et/core/CodeSystem/preferedcontact</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.9.0</span></li></ul></div>
+  </text>
+  <url value="http://fhir.et/core/ValueSet/preferred-contact-method-vs"/>
+  <version value="0.9.0"/>
+  <name value="PreferredContactMethodVS"/>
+  <title value="Preferred Contact Method Value Set"/>
+  <status value="active"/>
+  <date value="2026-06-16T15:24:47+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://fhir.et/core/CodeSystem/preferedcontact"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,102 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/hiv-condition-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hiv-condition-cs"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hiv-condition-cs</b></p><a name=\"hiv-condition-cs\"> </a><a name=\"hchiv-condition-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-condition-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">hiv-positive<a name=\"hiv-condition-cs-hiv-positive\"> </a></td><td>HIV Positive</td><td>Confirmed HIV infection</td></tr><tr><td style=\"white-space:nowrap\">hiv-negative<a name=\"hiv-condition-cs-hiv-negative\"> </a></td><td>HIV Negative</td><td>Confirmed HIV negative status</td></tr><tr><td style=\"white-space:nowrap\">hiv-exposed<a name=\"hiv-condition-cs-hiv-exposed\"> </a></td><td>HIV Exposed</td><td>Person exposed to HIV</td></tr><tr><td style=\"white-space:nowrap\">acute-hiv-infection<a name=\"hiv-condition-cs-acute-hiv-infection\"> </a></td><td>Acute HIV Infection</td><td>Acute or primary HIV infection</td></tr><tr><td style=\"white-space:nowrap\">advanced-hiv-disease<a name=\"hiv-condition-cs-advanced-hiv-disease\"> </a></td><td>Advanced HIV Disease</td><td>Advanced HIV disease according to WHO criteria</td></tr><tr><td style=\"white-space:nowrap\">aids<a name=\"hiv-condition-cs-aids\"> </a></td><td>AIDS</td><td>Acquired Immunodeficiency Syndrome</td></tr><tr><td style=\"white-space:nowrap\">art-eligible<a name=\"hiv-condition-cs-art-eligible\"> </a></td><td>Eligible for ART</td><td>Client meets criteria for ART initiation</td></tr><tr><td style=\"white-space:nowrap\">on-art<a name=\"hiv-condition-cs-on-art\"> </a></td><td>On ART</td><td>Client currently receiving antiretroviral therapy</td></tr><tr><td style=\"white-space:nowrap\">art-interrupted<a name=\"hiv-condition-cs-art-interrupted\"> </a></td><td>ART Interrupted</td><td>ART treatment interrupted</td></tr><tr><td style=\"white-space:nowrap\">lost-to-followup<a name=\"hiv-condition-cs-lost-to-followup\"> </a></td><td>Lost to Follow-up</td><td>Client missed care and follow-up requirements</td></tr><tr><td style=\"white-space:nowrap\">transferred-in<a name=\"hiv-condition-cs-transferred-in\"> </a></td><td>Transferred In</td><td>Client transferred from another facility</td></tr><tr><td style=\"white-space:nowrap\">transferred-out<a name=\"hiv-condition-cs-transferred-out\"> </a></td><td>Transferred Out</td><td>Client transferred to another facility</td></tr><tr><td style=\"white-space:nowrap\">deceased<a name=\"hiv-condition-cs-deceased\"> </a></td><td>Deceased</td><td>Client died</td></tr><tr><td style=\"white-space:nowrap\">unknown-status<a name=\"hiv-condition-cs-unknown-status\"> </a></td><td>Unknown HIV Status</td><td>HIV status is not known</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/hiv-condition-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "HIVConditionCS"] ; # 
+  fhir:title [ fhir:v "HIV Condition Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-16T12:37:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Clinical HIV-related conditions and diagnoses"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "14"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "hiv-positive" ] ;
+     fhir:display [ fhir:v "HIV Positive" ] ;
+     fhir:definition [ fhir:v "Confirmed HIV infection" ]
+  ] [
+     fhir:code [ fhir:v "hiv-negative" ] ;
+     fhir:display [ fhir:v "HIV Negative" ] ;
+     fhir:definition [ fhir:v "Confirmed HIV negative status" ]
+  ] [
+     fhir:code [ fhir:v "hiv-exposed" ] ;
+     fhir:display [ fhir:v "HIV Exposed" ] ;
+     fhir:definition [ fhir:v "Person exposed to HIV" ]
+  ] [
+     fhir:code [ fhir:v "acute-hiv-infection" ] ;
+     fhir:display [ fhir:v "Acute HIV Infection" ] ;
+     fhir:definition [ fhir:v "Acute or primary HIV infection" ]
+  ] [
+     fhir:code [ fhir:v "advanced-hiv-disease" ] ;
+     fhir:display [ fhir:v "Advanced HIV Disease" ] ;
+     fhir:definition [ fhir:v "Advanced HIV disease according to WHO criteria" ]
+  ] [
+     fhir:code [ fhir:v "aids" ] ;
+     fhir:display [ fhir:v "AIDS" ] ;
+     fhir:definition [ fhir:v "Acquired Immunodeficiency Syndrome" ]
+  ] [
+     fhir:code [ fhir:v "art-eligible" ] ;
+     fhir:display [ fhir:v "Eligible for ART" ] ;
+     fhir:definition [ fhir:v "Client meets criteria for ART initiation" ]
+  ] [
+     fhir:code [ fhir:v "on-art" ] ;
+     fhir:display [ fhir:v "On ART" ] ;
+     fhir:definition [ fhir:v "Client currently receiving antiretroviral therapy" ]
+  ] [
+     fhir:code [ fhir:v "art-interrupted" ] ;
+     fhir:display [ fhir:v "ART Interrupted" ] ;
+     fhir:definition [ fhir:v "ART treatment interrupted" ]
+  ] [
+     fhir:code [ fhir:v "lost-to-followup" ] ;
+     fhir:display [ fhir:v "Lost to Follow-up" ] ;
+     fhir:definition [ fhir:v "Client missed care and follow-up requirements" ]
+  ] [
+     fhir:code [ fhir:v "transferred-in" ] ;
+     fhir:display [ fhir:v "Transferred In" ] ;
+     fhir:definition [ fhir:v "Client transferred from another facility" ]
+  ] [
+     fhir:code [ fhir:v "transferred-out" ] ;
+     fhir:display [ fhir:v "Transferred Out" ] ;
+     fhir:definition [ fhir:v "Client transferred to another facility" ]
+  ] [
+     fhir:code [ fhir:v "deceased" ] ;
+     fhir:display [ fhir:v "Deceased" ] ;
+     fhir:definition [ fhir:v "Client died" ]
+  ] [
+     fhir:code [ fhir:v "unknown-status" ] ;
+     fhir:display [ fhir:v "Unknown HIV Status" ] ;
+     fhir:definition [ fhir:v "HIV status is not known" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

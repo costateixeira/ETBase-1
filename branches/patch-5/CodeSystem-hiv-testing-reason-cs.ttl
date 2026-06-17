@@ -1,0 +1,59 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/hiv-testing-reason-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hiv-testing-reason-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hiv-testing-reason-cs</b></p><a name=\"hiv-testing-reason-cs\"> </a><a name=\"hchiv-testing-reason-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-testing-reason-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">First-time-HIV-test<a name=\"hiv-testing-reason-cs-First-time-HIV-test\"> </a></td><td>First-time HIV test</td></tr><tr><td style=\"white-space:nowrap\">Retesting-for-HIV<a name=\"hiv-testing-reason-cs-Retesting-for-HIV\"> </a></td><td>Retesting for HIV</td></tr><tr><td style=\"white-space:nowrap\">verfication-on-discordant<a name=\"hiv-testing-reason-cs-verfication-on-discordant\"> </a></td><td>Verification when discordant results happen</td></tr><tr><td style=\"white-space:nowrap\">Retesting-for-confirmation-before-ART-initiation<a name=\"hiv-testing-reason-cs-Retesting-for-confirmation-before-ART-initiation\"> </a></td><td>Retesting for confirmation before ART initiation</td></tr><tr><td style=\"white-space:nowrap\">Confirmation-for-reactive-HIVST-result<a name=\"hiv-testing-reason-cs-Confirmation-for-reactive-HIVST-result\"> </a></td><td>Confirmation for reactive HIVST result</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/hiv-testing-reason-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "HIVTestingReasonCS"] ; # 
+  fhir:title [ fhir:v "HIV Testing Reason CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-16T12:37:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "First-time-HIV-test" ] ;
+     fhir:display [ fhir:v "First-time HIV test" ]
+  ] [
+     fhir:code [ fhir:v "Retesting-for-HIV" ] ;
+     fhir:display [ fhir:v "Retesting for HIV" ]
+  ] [
+     fhir:code [ fhir:v "verfication-on-discordant" ] ;
+     fhir:display [ fhir:v "Verification when discordant results happen" ]
+  ] [
+     fhir:code [ fhir:v "Retesting-for-confirmation-before-ART-initiation" ] ;
+     fhir:display [ fhir:v "Retesting for confirmation before ART initiation" ]
+  ] [
+     fhir:code [ fhir:v "Confirmation-for-reactive-HIVST-result" ] ;
+     fhir:display [ fhir:v "Confirmation for reactive HIVST result" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

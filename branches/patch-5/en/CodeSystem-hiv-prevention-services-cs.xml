@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="hiv-prevention-services-cs"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem hiv-prevention-services-cs</b></p><a name="hiv-prevention-services-cs"> </a><a name="hchiv-prevention-services-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-prevention-services-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">condoms<a name="hiv-prevention-services-cs-condoms"> </a></td><td>Offer male and female condoms and condom-compatible lubricants</td></tr><tr><td style="white-space:nowrap">prep<a name="hiv-prevention-services-cs-prep"> </a></td><td>Offer pre-exposure prophylaxis (PrEP) for people at substantial ongoing risk of HIV infection</td></tr><tr><td style="white-space:nowrap">pep<a name="hiv-prevention-services-cs-pep"> </a></td><td>Offer post-exposure prophylaxis (PEP) following suspected exposure</td></tr><tr><td style="white-space:nowrap">vmmc<a name="hiv-prevention-services-cs-vmmc"> </a></td><td>Voluntary medical male circumcision (VMMC)</td></tr><tr><td style="white-space:nowrap">harm-reduction<a name="hiv-prevention-services-cs-harm-reduction"> </a></td><td>Harm reduction for people who inject drugs</td></tr><tr><td style="white-space:nowrap">behavioural<a name="hiv-prevention-services-cs-behavioural"> </a></td><td>Behavioural interventions to support risk reduction, particularly for people with HIV and members of key populations</td></tr><tr><td style="white-space:nowrap">partner-testing<a name="hiv-prevention-services-cs-partner-testing"> </a></td><td>HIV testing for partners and biological children</td></tr><tr><td style="white-space:nowrap">key-population<a name="hiv-prevention-services-cs-key-population"> </a></td><td>HIV testing for partners and social contacts of people from key populations, where appropriate</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/hiv-prevention-services-cs"/>
+  <version value="0.9.0"/>
+  <name value="HIVPreventionServicesCS"/>
+  <title value="HIV Prevention Services and Referrals CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Prevention services offered and referrals provided"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <concept>
+    <code value="condoms"/>
+    <display value="Offer male and female condoms and condom-compatible lubricants"/>
+  </concept>
+  <concept>
+    <code value="prep"/>
+    <display value="Offer pre-exposure prophylaxis (PrEP) for people at substantial ongoing risk of HIV infection"/>
+  </concept>
+  <concept>
+    <code value="pep"/>
+    <display value="Offer post-exposure prophylaxis (PEP) following suspected exposure"/>
+  </concept>
+  <concept>
+    <code value="vmmc"/>
+    <display value="Voluntary medical male circumcision (VMMC)"/>
+  </concept>
+  <concept>
+    <code value="harm-reduction"/>
+    <display value="Harm reduction for people who inject drugs"/>
+  </concept>
+  <concept>
+    <code value="behavioural"/>
+    <display value="Behavioural interventions to support risk reduction, particularly for people with HIV and members of key populations"/>
+  </concept>
+  <concept>
+    <code value="partner-testing"/>
+    <display value="HIV testing for partners and biological children"/>
+  </concept>
+  <concept>
+    <code value="key-population"/>
+    <display value="HIV testing for partners and social contacts of people from key populations, where appropriate"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,73 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/hiv-adherence-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hiv-adherence-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hiv-adherence-cs</b></p><a name=\"hiv-adherence-cs\"> </a><a name=\"hchiv-adherence-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-adherence-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">good<a name=\"hiv-adherence-cs-good\"> </a></td><td>Good adherence</td><td>Client took &gt;=95% of prescribed doses</td></tr><tr><td style=\"white-space:nowrap\">fair<a name=\"hiv-adherence-cs-fair\"> </a></td><td>Fair adherence</td><td>Client took 85%–94% of prescribed doses</td></tr><tr><td style=\"white-space:nowrap\">poor<a name=\"hiv-adherence-cs-poor\"> </a></td><td>Poor adherence</td><td>Client took &lt;85% of prescribed doses</td></tr><tr><td style=\"white-space:nowrap\">missed-dose<a name=\"hiv-adherence-cs-missed-dose\"> </a></td><td>Missed dose</td><td>Client missed one or more doses</td></tr><tr><td style=\"white-space:nowrap\">interrupted<a name=\"hiv-adherence-cs-interrupted\"> </a></td><td>Treatment interrupted</td><td>Treatment was interrupted for a defined period</td></tr><tr><td style=\"white-space:nowrap\">not-assessed<a name=\"hiv-adherence-cs-not-assessed\"> </a></td><td>Not assessed</td><td>Adherence was not assessed during the visit</td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"hiv-adherence-cs-unknown\"> </a></td><td>Unknown</td><td>Adherence status is unknown</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/hiv-adherence-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "HIVAdherenceCS"] ; # 
+  fhir:title [ fhir:v "HIV ART Adherence Code System"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-16T12:37:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes representing the client's adherence to ART treatment"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "good" ] ;
+     fhir:display [ fhir:v "Good adherence" ] ;
+     fhir:definition [ fhir:v "Client took >=95% of prescribed doses" ]
+  ] [
+     fhir:code [ fhir:v "fair" ] ;
+     fhir:display [ fhir:v "Fair adherence" ] ;
+     fhir:definition [ fhir:v "Client took 85%–94% of prescribed doses" ]
+  ] [
+     fhir:code [ fhir:v "poor" ] ;
+     fhir:display [ fhir:v "Poor adherence" ] ;
+     fhir:definition [ fhir:v "Client took <85% of prescribed doses" ]
+  ] [
+     fhir:code [ fhir:v "missed-dose" ] ;
+     fhir:display [ fhir:v "Missed dose" ] ;
+     fhir:definition [ fhir:v "Client missed one or more doses" ]
+  ] [
+     fhir:code [ fhir:v "interrupted" ] ;
+     fhir:display [ fhir:v "Treatment interrupted" ] ;
+     fhir:definition [ fhir:v "Treatment was interrupted for a defined period" ]
+  ] [
+     fhir:code [ fhir:v "not-assessed" ] ;
+     fhir:display [ fhir:v "Not assessed" ] ;
+     fhir:definition [ fhir:v "Adherence was not assessed during the visit" ]
+  ] [
+     fhir:code [ fhir:v "unknown" ] ;
+     fhir:display [ fhir:v "Unknown" ] ;
+     fhir:definition [ fhir:v "Adherence status is unknown" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

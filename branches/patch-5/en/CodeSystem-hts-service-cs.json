@@ -1,0 +1,55 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "hts-service-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hts-service-cs</b></p><a name=\"hts-service-cs\"> </a><a name=\"hchts-service-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hts-service-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">facility-based<a name=\"hts-service-cs-facility-based\"> </a></td><td>Facility-based HTS</td></tr><tr><td style=\"white-space:nowrap\">community-based<a name=\"hts-service-cs-community-based\"> </a></td><td>Community-based HTS</td></tr><tr><td style=\"white-space:nowrap\">index-testing<a name=\"hts-service-cs-index-testing\"> </a></td><td>Index client testing</td></tr><tr><td style=\"white-space:nowrap\">self-testing<a name=\"hts-service-cs-self-testing\"> </a></td><td>HIV self-testing</td></tr><tr><td style=\"white-space:nowrap\">pmtct-hts<a name=\"hts-service-cs-pmtct-hts\"> </a></td><td>PMTCT HTS</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/hts-service-cs",
+  "version" : "0.9.0",
+  "name" : "HTSServiceCS",
+  "title" : "HTS Service CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Codes for HIV Testing Services (HTS) service types.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "facility-based",
+    "display" : "Facility-based HTS"
+  },
+  {
+    "code" : "community-based",
+    "display" : "Community-based HTS"
+  },
+  {
+    "code" : "index-testing",
+    "display" : "Index client testing"
+  },
+  {
+    "code" : "self-testing",
+    "display" : "HIV self-testing"
+  },
+  {
+    "code" : "pmtct-hts",
+    "display" : "PMTCT HTS"
+  }]
+}

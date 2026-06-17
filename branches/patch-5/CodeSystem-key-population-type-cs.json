@@ -1,0 +1,65 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "key-population-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem key-population-type-cs</b></p><a name=\"key-population-type-cs\"> </a><a name=\"hckey-population-type-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/key-population-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">sex-worker<a name=\"key-population-type-cs-sex-worker\"> </a></td><td>Sex worker</td></tr><tr><td style=\"white-space:nowrap\">pwid<a name=\"key-population-type-cs-pwid\"> </a></td><td>People who inject drugs</td></tr><tr><td style=\"white-space:nowrap\">prisoner<a name=\"key-population-type-cs-prisoner\"> </a></td><td>Prisoner</td></tr><tr><td style=\"white-space:nowrap\">widowed<a name=\"key-population-type-cs-widowed\"> </a></td><td>Client is widowed</td></tr><tr><td style=\"white-space:nowrap\">divorced<a name=\"key-population-type-cs-divorced\"> </a></td><td>Client is divorced</td></tr><tr><td style=\"white-space:nowrap\">truckdriver<a name=\"key-population-type-cs-truckdriver\"> </a></td><td>Long distance truck drivers</td></tr><tr><td style=\"white-space:nowrap\">Dailylabourer<a name=\"key-population-type-cs-Dailylabourer\"> </a></td><td>Daily labourers</td></tr><tr><td style=\"white-space:nowrap\">humanitarinsettings<a name=\"key-population-type-cs-humanitarinsettings\"> </a></td><td>People in humanitarina settigns</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/key-population-type-cs",
+  "version" : "0.9.0",
+  "name" : "KeyPopulationTypeCS",
+  "title" : "Key Population Type Codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "concept" : [{
+    "code" : "sex-worker",
+    "display" : "Sex worker"
+  },
+  {
+    "code" : "pwid",
+    "display" : "People who inject drugs"
+  },
+  {
+    "code" : "prisoner",
+    "display" : "Prisoner"
+  },
+  {
+    "code" : "widowed",
+    "display" : "Client is widowed"
+  },
+  {
+    "code" : "divorced",
+    "display" : "Client is divorced"
+  },
+  {
+    "code" : "truckdriver",
+    "display" : "Long distance truck drivers"
+  },
+  {
+    "code" : "Dailylabourer",
+    "display" : "Daily labourers"
+  },
+  {
+    "code" : "humanitarinsettings",
+    "display" : "People in humanitarina settigns"
+  }]
+}

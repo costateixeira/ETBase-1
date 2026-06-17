@@ -1,0 +1,7 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://fhir.et/core/ValueSet/EthiopiaStateVS,0.9.0,active,,EthiopiaStateVS,Ethiopia State / Region ValueSet,"Allowed list of Ethiopian states and city administrations.",,"Internal"
+http://fhir.et/core/ValueSet/education-status-vs,0.9.0,active,,EducationStatusVS,Ethiopia Education Status ValueSet,"ValueSet containing all education status codes used in Ethiopia",,"Internal"
+http://fhir.et/core/ValueSet/gender-vs,0.9.0,active,,ETGenderVS,Ethiopian Patient Gender values,"Patient Gender....",,"hl7.fhir.r4.core"
+http://fhir.et/core/ValueSet/marital-status-vs,0.9.0,active,,ETMaritalStatusVS,Ethiopian Patient Marital Status values,"Patient Marital Status....",,"THO (V3)"
+http://fhir.et/core/ValueSet/occupation-vs,0.9.0,active,,OccupationVS,Ethiopia Occupation ValueSet,"ValueSet containing all occupation codes used in Ethiopia",,"Internal"
+http://fhir.et/core/ValueSet/preferred-contact-method-vs,0.9.0,active,,PreferredContactMethodVS,Preferred Contact Method Value Set,"Methods by which a person prefers to be contacted, drawn from the ContactPointSystem code system.",,"Internal"

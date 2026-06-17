@@ -1,0 +1,5 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://fhir.et/core/CodeSystem/education-status,0.9.0,active,,EducationStatusCS,Ethiopia Education Status CodeSystem,"CodeSystem representing the educational status categories used in Ethiopia","ValueSet/education-status-vs"
+http://fhir.et/core/CodeSystem/ethiopian-states,0.9.0,active,,EthiopiaStateCS,Ethiopia State / Region CodeSystem,"Administrative states and city administrations of Ethiopia","ValueSet/EthiopiaStateVS"
+http://fhir.et/core/CodeSystem/preferedcontact,0.9.0,active,,ContactPointSystemCS,Prefered contact CodeSystem,"CodeSystem representing the Prefered Contact","ValueSet/preferred-contact-method-vs"
+http://hl7.org/fhir/administrative-gender,4.0.1,active,"2.16.840.1.113883.4.642.4.2",AdministrativeGender,AdministrativeGender,"The gender of a person used for administrative purposes.","ValueSet/gender-vs"

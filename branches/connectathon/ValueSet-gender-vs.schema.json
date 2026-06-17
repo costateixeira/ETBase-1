@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.et/core/ValueSet-gender-vs.schema.json",
+  "title": "Ethiopian Patient Gender values Schema",
+  "description": "JSON Schema for Ethiopian Patient Gender values ValueSet codes. Values are represented as Coding objects with 'system' and 'code' properties.",
+  "type": "object",
+  "required": [
+    "system",
+    "code"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "system": {
+      "type": "string",
+      "const": "http://hl7.org/fhir/administrative-gender"
+    },
+    "code": {
+      "type": "string",
+      "enum": [
+        "male",
+        "female"
+      ]
+    }
+  },
+  "narrative": "This schema validates Coding-shaped objects for the Ethiopian Patient Gender values ValueSet. Each value must be an object with 'system' (CodeSystem URI) and 'code' (fragment after '#') properties. Display values are available at http://fhir.et/core/ValueSet-gender-vs.displays.json. The canonical IRI for a code can be reconstructed as system + '#' + code. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://fhir.et/core/ValueSet-gender-vs.displays.json",
+  "fhir:valueSet": "http://fhir.et/core/ValueSet/gender-vs",
+  "fhir:version": "0.9.0",
+  "fhir:expansionTimestamp": "2026-06-17T04:43:09+00:00"
+}

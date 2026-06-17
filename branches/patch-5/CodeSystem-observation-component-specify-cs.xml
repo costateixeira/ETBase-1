@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="observation-component-specify-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem observation-component-specify-cs</b></p><a name="observation-component-specify-cs"> </a><a name="hcobservation-component-specify-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/observation-component-specify-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">other-specify<a name="observation-component-specify-cs-other-specify"> </a></td><td>Other test type (specify)</td></tr><tr><td style="white-space:nowrap">poc-test-specify<a name="observation-component-specify-cs-poc-test-specify"> </a></td><td>Point-of-care test type (specify)</td></tr><tr><td style="white-space:nowrap">other-sti-test-specify<a name="observation-component-specify-cs-other-sti-test-specify"> </a></td><td>Other STI test type (specify)</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/observation-component-specify-cs"/>
+  <version value="0.9.0"/>
+  <name value="ObservationComponentSpecifyCS"/>
+  <title value="Observation Component Specify CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Codes identifying free-text 'specify' Observation.component slices (e.g. other / point-of-care test type), used as the slice discriminator value."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="other-specify"/>
+    <display value="Other test type (specify)"/>
+  </concept>
+  <concept>
+    <code value="poc-test-specify"/>
+    <display value="Point-of-care test type (specify)"/>
+  </concept>
+  <concept>
+    <code value="other-sti-test-specify"/>
+    <display value="Other STI test type (specify)"/>
+  </concept>
+</CodeSystem>

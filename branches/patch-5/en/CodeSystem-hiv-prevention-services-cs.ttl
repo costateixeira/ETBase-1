@@ -1,0 +1,70 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/hiv-prevention-services-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hiv-prevention-services-cs"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hiv-prevention-services-cs</b></p><a name=\"hiv-prevention-services-cs\"> </a><a name=\"hchiv-prevention-services-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/hiv-prevention-services-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">condoms<a name=\"hiv-prevention-services-cs-condoms\"> </a></td><td>Offer male and female condoms and condom-compatible lubricants</td></tr><tr><td style=\"white-space:nowrap\">prep<a name=\"hiv-prevention-services-cs-prep\"> </a></td><td>Offer pre-exposure prophylaxis (PrEP) for people at substantial ongoing risk of HIV infection</td></tr><tr><td style=\"white-space:nowrap\">pep<a name=\"hiv-prevention-services-cs-pep\"> </a></td><td>Offer post-exposure prophylaxis (PEP) following suspected exposure</td></tr><tr><td style=\"white-space:nowrap\">vmmc<a name=\"hiv-prevention-services-cs-vmmc\"> </a></td><td>Voluntary medical male circumcision (VMMC)</td></tr><tr><td style=\"white-space:nowrap\">harm-reduction<a name=\"hiv-prevention-services-cs-harm-reduction\"> </a></td><td>Harm reduction for people who inject drugs</td></tr><tr><td style=\"white-space:nowrap\">behavioural<a name=\"hiv-prevention-services-cs-behavioural\"> </a></td><td>Behavioural interventions to support risk reduction, particularly for people with HIV and members of key populations</td></tr><tr><td style=\"white-space:nowrap\">partner-testing<a name=\"hiv-prevention-services-cs-partner-testing\"> </a></td><td>HIV testing for partners and biological children</td></tr><tr><td style=\"white-space:nowrap\">key-population<a name=\"hiv-prevention-services-cs-key-population\"> </a></td><td>HIV testing for partners and social contacts of people from key populations, where appropriate</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/hiv-prevention-services-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "HIVPreventionServicesCS"] ; # 
+  fhir:title [ fhir:v "HIV Prevention Services and Referrals CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-16T12:37:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Prevention services offered and referrals provided"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "8"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "condoms" ] ;
+     fhir:display [ fhir:v "Offer male and female condoms and condom-compatible lubricants" ]
+  ] [
+     fhir:code [ fhir:v "prep" ] ;
+     fhir:display [ fhir:v "Offer pre-exposure prophylaxis (PrEP) for people at substantial ongoing risk of HIV infection" ]
+  ] [
+     fhir:code [ fhir:v "pep" ] ;
+     fhir:display [ fhir:v "Offer post-exposure prophylaxis (PEP) following suspected exposure" ]
+  ] [
+     fhir:code [ fhir:v "vmmc" ] ;
+     fhir:display [ fhir:v "Voluntary medical male circumcision (VMMC)" ]
+  ] [
+     fhir:code [ fhir:v "harm-reduction" ] ;
+     fhir:display [ fhir:v "Harm reduction for people who inject drugs" ]
+  ] [
+     fhir:code [ fhir:v "behavioural" ] ;
+     fhir:display [ fhir:v "Behavioural interventions to support risk reduction, particularly for people with HIV and members of key populations" ]
+  ] [
+     fhir:code [ fhir:v "partner-testing" ] ;
+     fhir:display [ fhir:v "HIV testing for partners and biological children" ]
+  ] [
+     fhir:code [ fhir:v "key-population" ] ;
+     fhir:display [ fhir:v "HIV testing for partners and social contacts of people from key populations, where appropriate" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,55 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "other-support-services-cs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem other-support-services-cs</b></p><a name=\"other-support-services-cs\"> </a><a name=\"hcother-support-services-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/other-support-services-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">mental-health<a name=\"other-support-services-cs-mental-health\"> </a></td><td>Mental health services</td></tr><tr><td style=\"white-space:nowrap\">psychosocial<a name=\"other-support-services-cs-psychosocial\"> </a></td><td>Psychosocial counselling, support and treatment adherence counselling</td></tr><tr><td style=\"white-space:nowrap\">disclosure<a name=\"other-support-services-cs-disclosure\"> </a></td><td>Support for disclosure and partner services</td></tr><tr><td style=\"white-space:nowrap\">legal-social<a name=\"other-support-services-cs-legal-social\"> </a></td><td>Legal and social services</td></tr><tr><td style=\"white-space:nowrap\">gbv<a name=\"other-support-services-cs-gbv\"> </a></td><td>Services for responding to violence against women</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/other-support-services-cs",
+  "version" : "0.9.0",
+  "name" : "OtherSupportServicesCS",
+  "title" : "Other Support Services CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Support services provided to the client",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "mental-health",
+    "display" : "Mental health services"
+  },
+  {
+    "code" : "psychosocial",
+    "display" : "Psychosocial counselling, support and treatment adherence counselling"
+  },
+  {
+    "code" : "disclosure",
+    "display" : "Support for disclosure and partner services"
+  },
+  {
+    "code" : "legal-social",
+    "display" : "Legal and social services"
+  },
+  {
+    "code" : "gbv",
+    "display" : "Services for responding to violence against women"
+  }]
+}

@@ -1,0 +1,396 @@
+ETBase : Validation Results
+=========================================
+
+err = 17, warn = 66, info = 10
+IG Publisher Version: 2.2.9
+Generated Tue Jun 16 15:27:54 UTC 2026. FHIR version 4.0.1 for et.fhir.core#0.9.0 (canonical = http://fhir.et/core)
+ Build Errors : 238 / 8 / 0
+ /work/fsh-generated/resources/CodeSystem-education-status-cs : 3 / 2 / 2
+ /work/fsh-generated/resources/CodeSystem-ethiopian-states : 0 / 2 / 2
+ /work/fsh-generated/resources/CodeSystem-occupation-cs : 3 / 2 / 2
+ /work/fsh-generated/resources/CodeSystem-prefered-contact-cs : 3 / 2 / 2
+ /work/fsh-generated/resources/ImplementationGuide-et.fhir.core : 0 / 5 / 1
+ /work/fsh-generated/resources/Patient-ETpatientEx : 4 / 6 / 1
+ /work/fsh-generated/resources/StructureDefinition-ETPatient : 0 / 2 / 5
+ /work/fsh-generated/resources/StructureDefinition-address-kebele : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-address-ketenagott : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-address-zone : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-created-date : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-dob-estimated : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-education-status-extension : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-ethiopian-mfr-location : 0 / 5 / 1
+ /work/fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization : 0 / 8 / 1
+ /work/fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization-affiliation : 0 / 3 / 1
+ /work/fsh-generated/resources/StructureDefinition-facility-entry-point : 2 / 3 / 1
+ /work/fsh-generated/resources/StructureDefinition-grandfathers-family-name : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-occupation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-preferred-contact-method : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-reporting-hierarchy-extension : 0 / 4 / 1
+ /work/fsh-generated/resources/StructureDefinition-reporting-hierarchy-id-extension : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-EthiopiaStateVS : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-education-status-vs : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-gender-vs : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-marital-status-vs : 2 / 3 / 3
+ /work/fsh-generated/resources/ValueSet-occupation-vs : 0 / 4 / 1
+ /work/fsh-generated/resources/ValueSet-preferred-contact-method-vs : 0 / 2 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ethiopian-mfr-organization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ethiopian-mfr-organization-affiliation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/facility-entry-point.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/reporting-hierarchy-extension.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/preferred-contact-method-vs.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: en/CodeSystem-education-status-cs-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-education-status-cs.change.history.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-education-status-cs.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-education-status-cs.json.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-education-status-cs.ttl.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-education-status-cs.xml.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-ethiopian-states-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-ethiopian-states.change.history.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-ethiopian-states.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-ethiopian-states.json.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-ethiopian-states.ttl.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-ethiopian-states.xml.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-occupation-cs-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-occupation-cs.change.history.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-occupation-cs.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-occupation-cs.json.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-occupation-cs.ttl.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-occupation-cs.xml.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-prefered-contact-cs-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-prefered-contact-cs.change.history.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-prefered-contact-cs.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-prefered-contact-cs.json.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-prefered-contact-cs.ttl.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/CodeSystem-prefered-contact-cs.xml.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/Patient-ETpatientEx.change.history.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/Patient-ETpatientEx.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/Patient-ETpatientEx.json.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/Patient-ETpatientEx.ttl.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/Patient-ETpatientEx.xml.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ETPatient-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ETPatient-examples.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ETPatient-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ETPatient-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ETPatient.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ETPatient.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ETPatient.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ETPatient.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ETPatient.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-kebele-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-kebele-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-kebele-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-kebele.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-kebele.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-kebele.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-kebele.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-kebele.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-ketenagott-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-ketenagott-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-ketenagott-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-ketenagott.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-ketenagott.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-ketenagott.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-ketenagott.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-ketenagott.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-zone-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-zone-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-zone-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-zone.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-zone.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-zone.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-zone.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-address-zone.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-created-date-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-created-date-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-created-date-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-created-date.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-created-date.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-created-date.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-created-date.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-created-date.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-dob-estimated-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-dob-estimated-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-dob-estimated-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-dob-estimated.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-dob-estimated.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-dob-estimated.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-dob-estimated.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-dob-estimated.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-education-status-extension-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-education-status-extension-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-education-status-extension-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-education-status-extension.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-education-status-extension.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-education-status-extension.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-education-status-extension.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-education-status-extension.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-location-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-location-examples.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-location-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-location-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-location.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-location.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-location.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-location.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-location.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-affiliation-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-affiliation-examples.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-affiliation-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-affiliation-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-affiliation.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-affiliation.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-affiliation.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-affiliation.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-affiliation.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-examples.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-ethiopian-mfr-organization.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-facility-entry-point-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-facility-entry-point-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-facility-entry-point-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-facility-entry-point.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-facility-entry-point.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-facility-entry-point.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-facility-entry-point.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-facility-entry-point.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-grandfathers-family-name-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-grandfathers-family-name-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-grandfathers-family-name-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-grandfathers-family-name.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-grandfathers-family-name.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-grandfathers-family-name.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-grandfathers-family-name.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-grandfathers-family-name.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-occupation-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-occupation-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-occupation-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-occupation.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-occupation.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-occupation.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-occupation.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-occupation.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-preferred-contact-method-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-preferred-contact-method-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-preferred-contact-method-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-preferred-contact-method.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-preferred-contact-method.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-preferred-contact-method.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-preferred-contact-method.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-preferred-contact-method.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-extension-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-extension-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-extension-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-extension.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-extension.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-extension.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-extension.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-extension.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-id-extension-definitions.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-id-extension-mappings.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-id-extension-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-id-extension.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-id-extension.profile.history.html#/html/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-id-extension.profile.json.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-id-extension.profile.ttl.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/StructureDefinition-reporting-hierarchy-id-extension.profile.xml.html#/html/body/div/div/div/a/img at Line 68, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-EthiopiaStateVS-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-EthiopiaStateVS.change.history.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-EthiopiaStateVS.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-EthiopiaStateVS.json.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-EthiopiaStateVS.ttl.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-EthiopiaStateVS.xml.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-education-status-vs-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-education-status-vs.change.history.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-education-status-vs.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-education-status-vs.json.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-education-status-vs.ttl.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-education-status-vs.xml.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-gender-vs-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-gender-vs.change.history.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-gender-vs.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-gender-vs.json.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-gender-vs.ttl.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-gender-vs.xml.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-marital-status-vs-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-marital-status-vs.change.history.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-marital-status-vs.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-marital-status-vs.json.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-marital-status-vs.ttl.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-marital-status-vs.xml.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-occupation-vs-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-occupation-vs.change.history.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-occupation-vs.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-occupation-vs.json.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-occupation-vs.ttl.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-occupation-vs.xml.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-preferred-contact-method-vs-testing.html#/html/body/div/div/div/a/img at Line 64, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-preferred-contact-method-vs.change.history.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-preferred-contact-method-vs.html#/html/body/div/div/div/a/img at Line 63, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-preferred-contact-method-vs.json.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-preferred-contact-method-vs.ttl.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/ValueSet-preferred-contact-method-vs.xml.html#/html/body/div/div/div/a/img at Line 66, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/adapting.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/artifacts.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+WARNING: /work/output/en/business-processes.html: Illegal HTML: illegal html element: nark (insert content here</mark>.)
+ERROR: en/business-processes.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/business-requirements.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/changes.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/codings.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/concepts.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/dak-api.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/data-models-and-exchange.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/decision-logic.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/dependencies.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/deployment.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/dictionary.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 300, column 8: The link 'package.tgz' for "IG Package" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 308, column 8: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 309, column 8: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 311, column 9: The link 'definitions.ttl.zip' for "TTL" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 325, column 8: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 326, column 8: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 327, column 8: The link 'examples.ttl.zip' for "TTL" cannot be resolved
+ERROR: en/functional-requirements.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/index.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/indicators-measures.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/indicators.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/indices.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/license.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/maps.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/non-functional-requirements.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/personas.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/reference-implementations.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/references.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/scenarios.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/security-privacy.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/sequence-diagrams.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/system-actors.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/test-data.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/testing.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/toc.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/transactions.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+ERROR: en/trust_domain.html#/html/body/div/div/div/a/img at Line 62, column 15: The image source 'assets/images/logo-transp.png' cannot be resolved
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-education-status-cs.json ==
+ERROR: CodeSystem.where(url = 'http://fhir.et/core/CodeSystem/education-status'): Conformance resource /work/fsh-generated/resources/CodeSystem-education-status-cs.json - the canonical URL (http://fhir.et/core/CodeSystem/education-status-cs) does not match the URL (http://fhir.et/core/CodeSystem/education-status). Use the special-url parameter if you really mean for it not to match
+ERROR: CodeSystem.url: Resource id/url mismatch: education-status-cs/http://fhir.et/core/CodeSystem/education-status
+INFORMATION: CodeSystem/education-status-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/education-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/education-status-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+ERROR: /work/fsh-generated/resources/CodeSystem-education-status-cs: URL Mismatch http://fhir.et/core/CodeSystem/education-status-cs vs http://fhir.et/core/CodeSystem/education-status
+== fsh-generated/resources/CodeSystem-ethiopian-states.json ==
+INFORMATION: CodeSystem/ethiopian-states: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/ethiopian-states: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/ethiopian-states: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-occupation-cs.json ==
+ERROR: CodeSystem.where(url = 'http://fhir.et/core/CodeSystem/occupation'): Conformance resource /work/fsh-generated/resources/CodeSystem-occupation-cs.json - the canonical URL (http://fhir.et/core/CodeSystem/occupation-cs) does not match the URL (http://fhir.et/core/CodeSystem/occupation). Use the special-url parameter if you really mean for it not to match
+ERROR: CodeSystem.url: Resource id/url mismatch: occupation-cs/http://fhir.et/core/CodeSystem/occupation
+INFORMATION: CodeSystem/occupation-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/occupation-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/occupation-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+ERROR: /work/fsh-generated/resources/CodeSystem-occupation-cs: URL Mismatch http://fhir.et/core/CodeSystem/occupation-cs vs http://fhir.et/core/CodeSystem/occupation
+== fsh-generated/resources/CodeSystem-prefered-contact-cs.json ==
+ERROR: CodeSystem.where(url = 'http://fhir.et/core/CodeSystem/preferedcontact'): Conformance resource /work/fsh-generated/resources/CodeSystem-prefered-contact-cs.json - the canonical URL (http://fhir.et/core/CodeSystem/prefered-contact-cs) does not match the URL (http://fhir.et/core/CodeSystem/preferedcontact). Use the special-url parameter if you really mean for it not to match
+ERROR: CodeSystem.url: Resource id/url mismatch: prefered-contact-cs/http://fhir.et/core/CodeSystem/preferedcontact
+INFORMATION: CodeSystem/prefered-contact-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/prefered-contact-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/prefered-contact-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+ERROR: /work/fsh-generated/resources/CodeSystem-prefered-contact-cs: URL Mismatch http://fhir.et/core/CodeSystem/prefered-contact-cs vs http://fhir.et/core/CodeSystem/preferedcontact
+== fsh-generated/resources/ImplementationGuide-et.fhir.core.json ==
+WARNING: ImplementationGuide/et.fhir.core: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent appropriate version is 7.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/et.fhir.core: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.3.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/et.fhir.core: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.uv.cql#1.0.0 released on 2024-05-31, but the most recent appropriate version is 2.0.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/et.fhir.core: ImplementationGuide.dependsOn[4]: The ImplementationGuide uses package hl7.fhir.uv.sdc#3.0.0 released on 2022-03-08, but the most recent appropriate version is 4.0.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/et.fhir.core: ImplementationGuide.dependsOn[7]: The ImplementationGuide uses package smart.who.int.base#0.1.0 released on 2024-09-20, but the most recent appropriate version is 0.2.0. This reference is getting old and the more recent version should be considered
+== fsh-generated/resources/Patient-ETpatientEx.json ==
+ERROR: Patient/ETpatientEx: Patient.identifier[0]: Slicing cannot be evaluated: Could not match discriminator (system) for slice Patient.identifier:healthID in profile http://fhir.et/core/StructureDefinition/ETPatient|0.9.0 - the discriminator [system] does not have fixed value, binding or existence assertions
+ERROR: Patient/ETpatientEx: Patient.identifier[1]: Slicing cannot be evaluated: Could not match discriminator (system) for slice Patient.identifier:healthID in profile http://fhir.et/core/StructureDefinition/ETPatient|0.9.0 - the discriminator [system] does not have fixed value, binding or existence assertions
+WARNING: Patient/ETpatientEx: Patient.extension[0].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://fhir.et/CodeSystem/education-status' could not be found, so the code cannot be validated
+WARNING: Patient/ETpatientEx: Patient.extension[0].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://fhir.et/CodeSystem/education-status' could not be found, so the code cannot be validated
+ERROR: Patient/ETpatientEx: Patient.extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'Ethiopia Education Status ValueSet' (http://fhir.et/core/ValueSet/education-status-vs|0.9.0), and a coding from this value set is required) (codes = http://fhir.et/CodeSystem/education-status#secondary)
+WARNING: Patient/ETpatientEx: Patient.extension[1].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://fhir.et/CodeSystem/occupation' could not be found, so the code cannot be validated
+WARNING: Patient/ETpatientEx: Patient.extension[1].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://fhir.et/CodeSystem/occupation' could not be found, so the code cannot be validated
+WARNING: Patient/ETpatientEx: Patient.identifier[0].system: No definition could be found for URL value 'http://id.gov.et/nationalidentifier'
+WARNING: Patient/ETpatientEx: Patient.identifier[1].system: No definition could be found for URL value 'http://moh.gov.et/emr'
+ERROR: Patient/ETpatientEx: Patient.maritalStatus: None of the codings provided are in the value set 'Ethiopian Patient Marital Status values' (http://fhir.et/core/ValueSet/marital-status-vs|0.9.0), and a coding from this value set is required) (codes = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus#M)
+== fsh-generated/resources/StructureDefinition-ETPatient.json ==
+WARNING: StructureDefinition/ETPatient: StructureDefinition.snapshot.element[50].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 1.0.0 (from hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family' to 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family|5.1.0'
+WARNING: StructureDefinition/ETPatient: StructureDefinition.differential.element[15].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 1.0.0 (from hl7.fhir.uv.extensions.r4#1.0.0), 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family' to 'http://hl7.org/fhir/StructureDefinition/humanname-fathers-family|5.1.0'
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.differential.element[6].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.differential.element[18].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.snapshot.element[21].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+INFORMATION: StructureDefinition/ETPatient: StructureDefinition.snapshot.element[57].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+== fsh-generated/resources/StructureDefinition-address-kebele.json ==
+== fsh-generated/resources/StructureDefinition-address-ketenagott.json ==
+== fsh-generated/resources/StructureDefinition-address-zone.json ==
+== fsh-generated/resources/StructureDefinition-created-date.json ==
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/created-date'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-dob-estimated.json ==
+== fsh-generated/resources/StructureDefinition-education-status-extension.json ==
+WARNING: StructureDefinition/education-status-extension: StructureDefinition.context[0]: Review the extension type for education-status-extension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-ethiopian-mfr-location.json ==
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.snapshot.element[46].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/FacilityType'
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.snapshot.element[49].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/location-physical-type'
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.differential.element[21].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/FacilityType'
+WARNING: StructureDefinition/ethiopian-mfr-location: StructureDefinition.differential.element[24].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/location-physical-type'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/ethiopian-mfr-location'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization.json ==
+WARNING: EthiopianMfrOrganization.telecom.telecom.Organization.contact.telecom.use: Binding https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use could not be located
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.snapshot.element[46].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.snapshot.element[54].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.snapshot.element[62].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition/ethiopian-mfr-organization: StructureDefinition.differential.element[17].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/ethiopian-mfr-organization'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ethiopian-mfr-organization-affiliation.json ==
+WARNING: StructureDefinition/ethiopian-mfr-organization-affiliation: StructureDefinition.snapshot.element[15].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/OrganizationAffiliationRole'
+WARNING: StructureDefinition/ethiopian-mfr-organization-affiliation: StructureDefinition.differential.element[5].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/OrganizationAffiliationRole'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/ethiopian-mfr-organization-affiliation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-facility-entry-point.json ==
+ERROR: StructureDefinition.where(url = 'http://fhir.et/StructureDefinition/facility-entry-point'): Conformance resource /work/fsh-generated/resources/StructureDefinition-facility-entry-point.json - the canonical URL (http://fhir.et/core/StructureDefinition/facility-entry-point) does not match the URL (http://fhir.et/StructureDefinition/facility-entry-point). Use the special-url parameter if you really mean for it not to match
+WARNING: StructureDefinition/facility-entry-point: StructureDefinition.snapshot.element[4].binding.valueSet: A definition could not be found for Canonical URL 'http://fhir.et/ValueSet/facility-entry-point-vs'
+WARNING: StructureDefinition/facility-entry-point: StructureDefinition.differential.element[3].binding.valueSet: A definition could not be found for Canonical URL 'http://fhir.et/ValueSet/facility-entry-point-vs'
+WARNING: StructureDefinition.where(url = 'http://fhir.et/StructureDefinition/facility-entry-point'): The Implementation Guide contains no examples for this extension
+ERROR: /work/fsh-generated/resources/StructureDefinition-facility-entry-point: URL Mismatch http://fhir.et/core/StructureDefinition/facility-entry-point vs http://fhir.et/StructureDefinition/facility-entry-point
+== fsh-generated/resources/StructureDefinition-grandfathers-family-name.json ==
+== fsh-generated/resources/StructureDefinition-occupation.json ==
+WARNING: StructureDefinition/occupation: StructureDefinition.context[0]: Review the extension type for occupation: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated/resources/StructureDefinition-preferred-contact-method.json ==
+WARNING: StructureDefinition/preferred-contact-method: StructureDefinition.context[0]: Review the extension type for preferred-contact-method: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/preferred-contact-method'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-reporting-hierarchy-extension.json ==
+WARNING: StructureDefinition/reporting-hierarchy-extension: StructureDefinition.snapshot.element[7].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/ReportingHierarchy'
+WARNING: StructureDefinition/reporting-hierarchy-extension: StructureDefinition.differential.element[4].binding.valueSet: A definition could not be found for Canonical URL 'https://fhir-mfr.moh.gov.et/fhir/ValueSet/ReportingHierarchy'
+WARNING: StructureDefinition/reporting-hierarchy-extension: StructureDefinition.context[0]: Review the extension type for reporting-hierarchy-extension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/reporting-hierarchy-extension'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-reporting-hierarchy-id-extension.json ==
+WARNING: StructureDefinition/reporting-hierarchy-id-extension: StructureDefinition.context[0]: Review the extension type for reporting-hierarchy-id-extension: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://fhir.et/core/StructureDefinition/reporting-hierarchy-id-extension'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/ValueSet-EthiopiaStateVS.json ==
+WARNING: ValueSet/EthiopiaStateVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-education-status-vs.json ==
+WARNING: ValueSet/education-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-gender-vs.json ==
+== fsh-generated/resources/ValueSet-marital-status-vs.json ==
+ERROR: ValueSet/marital-status-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://hl7.org/fhir/administrative-maritalstatus'
+ERROR: ValueSet/marital-status-vs: ValueSet.compose.include[1].system: No definition could be found for URL value 'http://hl7.org/fhir/administrative-maritalstatur'
+INFORMATION: ValueSet/marital-status-vs: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://hl7.org/fhir/administrative-maritalstatus' is not known, and no terminology service supports it
+INFORMATION: ValueSet/marital-status-vs: ValueSet.compose.include[1].concept[0]: A definition for CodeSystem 'http://hl7.org/fhir/administrative-maritalstatur' could not be found, so the code cannot be validated
+WARNING: ValueSet/marital-status-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'marital-status-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.org/fhir/administrative-maritalstatus' could not be found, so the value set cannot be expanded
+== fsh-generated/resources/ValueSet-occupation-vs.json ==
+WARNING: ValueSet/occupation-vs: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://fhir.et/CodeSystem/occupation'
+WARNING: ValueSet/occupation-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'occupation-vs'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://fhir.et/CodeSystem/occupation' could not be found, so the value set cannot be expanded
+== fsh-generated/resources/ValueSet-preferred-contact-method-vs.json ==
+WARNING: ValueSet/preferred-contact-method-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet/preferred-contact-method-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.description is mandatory, but it is not present

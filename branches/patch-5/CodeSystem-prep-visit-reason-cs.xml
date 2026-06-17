@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="prep-visit-reason-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem prep-visit-reason-cs</b></p><a name="prep-visit-reason-cs"> </a><a name="hcprep-visit-reason-cs"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/prep-visit-reason-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">first-prep-counselling<a name="prep-visit-reason-cs-first-prep-counselling"> </a></td><td>First time counselling on PrEP</td></tr><tr><td style="white-space:nowrap">prep-followup<a name="prep-visit-reason-cs-prep-followup"> </a></td><td>Follow-up appointment for PrEP</td></tr><tr><td style="white-space:nowrap">restart-prep<a name="prep-visit-reason-cs-restart-prep"> </a></td><td>Restarting PrEP</td></tr><tr><td style="white-space:nowrap">pep-counselling<a name="prep-visit-reason-cs-pep-counselling"> </a></td><td>Counselling on PEP</td></tr><tr><td style="white-space:nowrap">unscheduled-side-effects<a name="prep-visit-reason-cs-unscheduled-side-effects"> </a></td><td>Unscheduled visit for side effects and adverse events</td></tr></table></div>
+  </text>
+  <url value="http://fhir.et/core/CodeSystem/prep-visit-reason-cs"/>
+  <version value="0.9.0"/>
+  <name value="PrepVisitReasonCS"/>
+  <title value="PrEP Visit Reason CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-16T12:37:08+00:00"/>
+  <publisher value="MOH Ethiopia"/>
+  <contact>
+    <name value="MOH Ethiopia"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://moh.gov.et"/>
+    </telecom>
+  </contact>
+  <description value="Codes representing reasons for PrEP/PEP visits."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="231"/>
+      <display value="Ethiopia (ETH)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="first-prep-counselling"/>
+    <display value="First time counselling on PrEP"/>
+  </concept>
+  <concept>
+    <code value="prep-followup"/>
+    <display value="Follow-up appointment for PrEP"/>
+  </concept>
+  <concept>
+    <code value="restart-prep"/>
+    <display value="Restarting PrEP"/>
+  </concept>
+  <concept>
+    <code value="pep-counselling"/>
+    <display value="Counselling on PEP"/>
+  </concept>
+  <concept>
+    <code value="unscheduled-side-effects"/>
+    <display value="Unscheduled visit for side effects and adverse events"/>
+  </concept>
+</CodeSystem>

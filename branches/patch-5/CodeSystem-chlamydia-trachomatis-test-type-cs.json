@@ -1,0 +1,54 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "chlamydia-trachomatis-test-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem chlamydia-trachomatis-test-type-cs</b></p><a name=\"chlamydia-trachomatis-test-type-cs\"> </a><a name=\"hcchlamydia-trachomatis-test-type-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/chlamydia-trachomatis-test-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">naat<a name=\"chlamydia-trachomatis-test-type-cs-naat\"> </a></td><td>NAAT</td></tr><tr><td style=\"white-space:nowrap\">poc-test<a name=\"chlamydia-trachomatis-test-type-cs-poc-test\"> </a></td><td>POC Test</td></tr><tr><td style=\"white-space:nowrap\">culture<a name=\"chlamydia-trachomatis-test-type-cs-culture\"> </a></td><td>Culture</td></tr><tr><td style=\"white-space:nowrap\">elisa<a name=\"chlamydia-trachomatis-test-type-cs-elisa\"> </a></td><td>ELISA</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"chlamydia-trachomatis-test-type-cs-other\"> </a></td><td>Other</td></tr></table></div>"
+  },
+  "url" : "http://fhir.et/core/CodeSystem/chlamydia-trachomatis-test-type-cs",
+  "version" : "0.9.0",
+  "name" : "ChlamydiaTrachomatisTestTypeCS",
+  "title" : "Chlamydia trachomatis Test Type Code System",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-16T12:37:08+00:00",
+  "publisher" : "MOH Ethiopia",
+  "contact" : [{
+    "name" : "MOH Ethiopia",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://moh.gov.et"
+    }]
+  }],
+  "description" : "Codes for Chlamydia trachomatis test types",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "231",
+      "display" : "Ethiopia (ETH)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "naat",
+    "display" : "NAAT"
+  },
+  {
+    "code" : "poc-test",
+    "display" : "POC Test"
+  },
+  {
+    "code" : "culture",
+    "display" : "Culture"
+  },
+  {
+    "code" : "elisa",
+    "display" : "ELISA"
+  },
+  {
+    "code" : "other",
+    "display" : "Other"
+  }]
+}

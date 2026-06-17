@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.et/core/CodeSystem/observation-component-specify-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "observation-component-specify-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem observation-component-specify-cs</b></p><a name=\"observation-component-specify-cs\"> </a><a name=\"hcobservation-component-specify-cs\"> </a><p>This case-sensitive code system <code>http://fhir.et/core/CodeSystem/observation-component-specify-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">other-specify<a name=\"observation-component-specify-cs-other-specify\"> </a></td><td>Other test type (specify)</td></tr><tr><td style=\"white-space:nowrap\">poc-test-specify<a name=\"observation-component-specify-cs-poc-test-specify\"> </a></td><td>Point-of-care test type (specify)</td></tr><tr><td style=\"white-space:nowrap\">other-sti-test-specify<a name=\"observation-component-specify-cs-other-sti-test-specify\"> </a></td><td>Other STI test type (specify)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.et/core/CodeSystem/observation-component-specify-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "ObservationComponentSpecifyCS"] ; # 
+  fhir:title [ fhir:v "Observation Component Specify CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-16T12:37:08+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Ethiopia"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Ethiopia" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://moh.gov.et" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes identifying free-text 'specify' Observation.component slices (e.g. other / point-of-care test type), used as the slice discriminator value."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "231" ] ;
+       fhir:display [ fhir:v "Ethiopia (ETH)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "other-specify" ] ;
+     fhir:display [ fhir:v "Other test type (specify)" ]
+  ] [
+     fhir:code [ fhir:v "poc-test-specify" ] ;
+     fhir:display [ fhir:v "Point-of-care test type (specify)" ]
+  ] [
+     fhir:code [ fhir:v "other-sti-test-specify" ] ;
+     fhir:display [ fhir:v "Other STI test type (specify)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
